@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    {{ partial "usertracker.html" .}}
+    {{ partial "head/moviehead.html" .}}
+    <link rel="stylesheet" href="{{.Site.BaseURL}}/style/scss/pages/app-page.css"> 
+<body>
+
+  {{partial "header/nav.html" .}}
+
+<div class="app">
+    <div class="container">
+    
+        <img class="logo" src="{{.Site.BaseURL}}images/android.svg">
+        
+        <h1> 
+            Make browsing up to 50% faster and more private while utilizing your full device screen without the web browser status bar or other elements 
+        </h1>
+    
+        <h2>
+            Installation Instructions
+        </h2>
+
+        <ol>
+            <li>Load Flexnet.ga in the Chrome Web Browser.</li>
+            <li>Tap the 3 dots from the top right corner.</li>
+            <li>Select "Add to Home screen" from the available options.</li>
+            <li>Chrome will open a prompt and you will be able to add FLEXNET app icon to your home screen. Launch the app once to ensure the install completes successfully.</li>
+        </ol>
+
+    </div>
+
+    {{ partial "footer/footer.html" .}}
+    {{ partial "footer/moviescripts.html" .}}
+</div>
+</body>
+</html>

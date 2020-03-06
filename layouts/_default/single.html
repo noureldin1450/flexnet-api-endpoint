@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    
+    <head>
+        {{ partial "usertracker.html" .}}
+        {{ partial "head/moviehead.html" .}}
+        <link rel="stylesheet" href="{{.Site.BaseURL}}/style/scss/pages/app-page.css">
+    </head>
+    
+    {{partial "header/nav.html" .}}
+
+    <div class="container">
+        {{ partial "movie/report.html" .}}
+    </div>
+
+    <main class="animated fadeIn">
+
+        <section class="info">
+
+            <div class="container">
+
+                <div class="trailer">
+                    {{ partial "youtubeplayer.html" . }}
+                </div>
+
+                <div class="movie-info">
+                    <div class="content">
+                        <h1>
+                            {{.Title}}
+                            (<a href="{{.Site.BaseURL}}years/{{.Params.year}}">{{.Params.year}}</a>)
+                        </h1>
+
+                        <div class="duration">
+                            <span>{{.Params.duration}}</span>
+                        </div>
+
+                        <div class="rating">
+                            <span>{{.Params.rating}}</span><span class="rating-num">/10</span>
+                        </div>
+
+                        <div class="tags">
+                            {{ range .Params.tags}}
+                            <a href="/tags/{{. | urlize}}/">{{.}}</a>
+                            {{end}}
+                        </div>
+
+                        <div class="stars">
+                            <span>Stars: </span>
+                            {{ range .Params.stars}}
+                            <a href="/stars/{{. | urlize}}/">{{.}}</a>,
+                            {{end}}
+                        </div>
+
+                        <div class="story">
+                            <p>
+                                {{.Params.story}}
+                            </p>
+                            <a href="https://www.imdb.com/title/{{.Params.imdbId}}" title="IMDB" class="imdb"
+                                target="_blank">IMDB</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- this is the code for sharing the movie url -->
+        {{ partial "sharing.html" . }}
+        <!-- this is movie player -->
+        <section class="movie">
+            <div class="container">
+                <h2>📽 Movie 📽</h2>
+
+                <div>
+                    <iframe width="560" height="500" src="https://1movietv.com/playstream/{{ .Params.imdbid }}"
+                        frameborder=”0″ scrolling=”no” allowfullscreen=”allowfullscreen”
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- this is movies like what you watch now -->
+        <!--
+                <div class="ads">
+                    {{ partial "ads/ad.html" . }}
+                </div>
+            -->
+        <div class="container">
+            {{ partial "movie/related.html" . }}
+        </div>
+        <!--
+                <div class="ads">
+                    {{ partial "ads/ad.html" . }}
+                </div>
+           -->
+    </main>
+
+    {{ partial "footer/footer.html" .}}
+    {{ partial "footer/moviescripts.html" .}}
+
+</body>
+
+</html>

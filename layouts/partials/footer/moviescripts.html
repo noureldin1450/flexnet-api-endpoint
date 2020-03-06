@@ -1,0 +1,35 @@
+<!---- jquery Code ---->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+       
+
+<script>
+    //feedback link for report
+    const userfeedback = document.getElementById("userfeedback");
+    document.getElementById("userfeedback").value= "somthing is wrong in {{.URL}} movie name is {{.Params.Title}}";
+
+    //copy btn
+    const url = document.URL;
+    const input = document.getElementById("share");
+    document.getElementById("share").value= url;
+    const btncopy = document.getElementById("copy-btn");
+
+    btncopy.onclick = function(){
+
+        input.select();
+
+        document.execCommand("Copy");
+    }
+
+</script>
+
+
+<!-- notifacation ads 
+    <script src="https://cdn-server.top/p/wl.js?pub=243867&ga=g"></script>
+-->
+<script>
+
+</script>
+
+    <!-- main js -->
+    <script src="{{.Site.BaseURL}}js/main.js"></script>
+

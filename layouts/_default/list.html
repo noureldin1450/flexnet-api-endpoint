@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        {{ partial "usertracker.html" .}}
+        {{ partial "head/listhead.html" .}}
+    </head>
+
+    <body>
+
+        {{partial "header/nav.html" .}}
+
+        <main>
+            <section id="movies" class="movies">
+
+                <div class="container">
+                    {{ if .Content}}
+                        {{.Content}}
+                    {{else}}
+                        <h2 class="main-title list-page-title">{{.Title}} MOVIES 🎟
+                        </h2>
+                    {{end}}    
+                </div>
+                        
+                <ul class="movie-list home-list animated fadeIn">
+    
+                    <div class="container">
+                        {{ range .Paginator.Pages }}
+                            {{ partial "movies-list.html" . }}
+                        {{end}}
+                    </div>
+
+                </ul>
+                
+            </section>
+
+            <!--
+                <div class="ads">
+                    {{ partial "ads/ad.html" . }}
+                </div>
+            -->    
+        </main>
+        
+        {{ partial "pagination.html" . }}
+
+        {{ partial "footer/footer.html" .}}
+
+        {{ partial "footer/scripts.html" .}}
+        
+    </body>
+</html>

@@ -1,0 +1,27 @@
+---
+title: "Zombieland"
+slug: "Zombieland 2009"
+
+date: 2009-10-02
+draft: false
+
+moviecover: "https://m.media-amazon.com/images/M/MV5BMTU5MDg0NTQ1N15BMl5BanBnXkFtZTcwMjA4Mjg3Mg@@._V1_UY268_CR5,0,182,268_AL_.jpg"
+
+trailer: "https://www.youtube.com/embed/Fjq4uVvSw1g"
+
+year: "2009"
+
+duration: "1h 28min "
+
+rating: "7.6"
+
+tags: ["Horror","Adventure","Comedy"]
+
+stars: ["Jesse Eisenberg","Emma Stone","Woody Harrelson"]
+
+story: "A shy student trying to reach his family in Ohio, a gun-toting tough guy trying to find the last Twinkie, and a pair of sisters trying to get to an amusement park join forces to travel across a zombie-filled America. "
+
+imdbId: "tt1156398"
+---
+
+{{< movie url= "https://vidstream.to/embed/LAsJoxDvnC/?vclid=32678436729fe90512f5eecc6f80fa35a5d23f2c2b3ac50ae8b5887enAAAUcSPaUAlAUEMPrNfhBPNlPwOZMPNNANBUlUAUMbOAUAlAUERSLfEtPPUPDsgzAGdvAUAd">}}

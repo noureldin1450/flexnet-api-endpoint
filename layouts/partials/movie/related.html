@@ -1,0 +1,47 @@
+
+{{ $related := .Site.RegularPages.Related . | first 5 }}
+
+{{ with $related }}
+
+<div class="related">
+    <section id="movies" class="movies">
+
+            <div class="container">
+            <h2 class="main-title">You May Also Like</h2>
+
+            </div>
+
+            <ul class="movie-list home-list">
+                    <div class="container">
+                        {{ range . | first 10 }}
+                            <li>
+                                <div class="item">
+                                <div class="poster" style="
+                                background: url({{.Params.moviecover}}) center no-repeat;
+                                background-size: cover;
+                                ">
+                                <div class="content">
+                                    <a href="{{.URL}}">
+                                        <div class="rating">
+                                            <div class="rotat">🌟</div> {{.Params.rating}}<span>/10</span>
+                                        </div>
+                                    </a>                
+                                </div>
+                            </div>
+                            <div class="movie-name"> 
+                                <h2 class="title"> {{.Title}} </h2>
+                            </div>
+                        </div>                  
+                    </li>
+                    {{end}}        
+                </div>
+             </ul>
+    </section>
+    
+    </div>
+    
+{{ end }}
+
+
+
+

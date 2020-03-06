@@ -1,0 +1,62 @@
+/* movies page code */
+.movie-list{
+    li{
+        display: inline-block;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+
+        &:last-child{
+            margin: 0px;
+        }
+    }
+
+    @include tap{
+        text-align: center;
+    }
+}
+/* end movies page code */
+
+.movies{
+        //This is the style of the small movies at the end of the site
+        .home-list{
+            .item{
+                width: 160px;
+                height: 230px;
+                text-align: center;
+                box-shadow: none;
+                margin: 1rem 0px;
+    
+                .poster{
+                    border-radius: 5px;
+                }
+    
+                .content{
+                    height: auto;
+    
+                    a{
+                        width: 100%;
+                        height: 230px;
+                        background: rgba(0,0,0,0.4);    
+                        border-radius: 5px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+    
+                .title{
+                    display: block;
+                    font-size: .8rem;
+                    color: $main-color;
+                    padding: .2rem;
+                }
+    
+                .movie-Rating{
+                    width: 160px;
+                    display: none;
+                }
+    
+            }
+        }
+}

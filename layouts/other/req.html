@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    {{ partial "usertracker.html" .}}
+    {{ partial "head/moviehead.html" .}}
+    <link rel="stylesheet" href="{{.Site.BaseURL}}/style/scss/pages/req-page.css"> 
+<body>
+
+  {{partial "header/nav.html" .}}
+
+<div class="req">
+    <div class="container">
+        <h1>Movies Request</h1>
+
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfUT4ZR3xV7ipf0Nbekv0h-FEPMn_Ka4cjheErarO_-0jS4sA/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+</div>
+
+    
+    {{ partial "footer/footer.html" .}}
+    {{ partial "footer/moviescripts.html" .}}
+</div>
+</body>
+</html>

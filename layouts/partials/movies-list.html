@@ -1,0 +1,25 @@
+<li>
+    <div class="item">
+
+    <div class="poster" style="
+    background: url({{.Params.moviecover}}) center no-repeat;
+    background-size: cover;
+    ">
+
+        <div class="content">
+            
+            <a href="{{.URL}}">
+                <div class="rating">
+                    <div class="rotat">🌟</div> {{.Params.rating}}<span>/10</span>
+                </div>
+            </a>                
+        </div>
+
+    </div>
+
+    <div class="movie-name"> 
+        <h2 class="title"> {{.Title}} </h2>
+    </div>
+
+    </div>        
+</li>

@@ -1,0 +1,74 @@
+
+/*
+    GLOBAL STYLES
+*/
+
+.container{
+    width: 90% !important;
+    margin: auto;
+}
+
+.related{
+    .movies{
+        padding: 0px !important;
+    }
+}
+
+.main-title{
+    color: $pry-color;
+    padding: 0 0 2rem 0px;
+    text-transform: capitalize;
+    
+    a{
+        color: $main-color;
+        text-decoration: underline;
+        font-size: 1.2rem;
+        float: right;
+
+        @include tap{
+            float: none;
+            display: block;
+        }
+    }
+
+    @include tap{
+        text-align: center;
+        padding: 2rem 0px;
+    }
+
+    
+    @include mobile{
+        padding: 4rem 0px;
+    }
+
+}
+
+/* header slider dots code */
+.active{
+    opacity: 1;
+}
+.owl-dot{
+    @include tap{
+        display: none !important;
+    }
+}
+.owl-dot span{
+    background: $main-color !important;
+    opacity: .2;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: $main-color !important;
+    opacity: .8;
+}
+.owl-next span,
+.owl-prev span{
+    background: #B24296 !important;
+    padding: 0px 1.5rem !important;
+    color:white !important;
+    font-size: 1.4rem !important;
+    border-radius: 3px;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+    background: none !important;
+}
+/* header slider dots code */

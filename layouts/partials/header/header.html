@@ -1,0 +1,31 @@
+<header>
+  <div class="container">
+
+    <div class="content">
+      <div class="live-stream">
+        <h1 class="main-title">flexnet cinema Movies 🎟️</h1>
+
+
+        <ul>
+          {{ with .Site.GetPage "/movies" }}
+          {{ range .Pages | first 2 | shuffle }}
+          <li>
+            <iframe src="{{ .Params.trailer }}" frameborder="0"
+              allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+
+            <div class="btn">
+              <a href="{{.URL}}">Watch It Now</a>
+            </div>
+          </li>
+          {{end}}
+          {{end}}
+        </ul>
+
+
+
+      </div>
+    </div>
+
+  </div>
+</header>

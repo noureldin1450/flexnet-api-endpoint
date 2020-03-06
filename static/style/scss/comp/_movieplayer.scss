@@ -1,0 +1,33 @@
+/* main movie code */
+.movie{
+    text-align: center;
+    clear: both;
+    padding-bottom: 2rem; 
+
+    @include small-mobile{
+        padding: 0rem;
+    }
+
+    .container{
+        width: 95%;
+
+        h2{
+            color: $pry-color;
+            padding: 2rem 0px 1rem 0px;
+
+            @include mobile{
+                font-size: 1rem;
+            }
+        }
+    }
+
+    iframe{
+        width: 90%;
+        box-shadow: 2px 2px 25px #b2429694;
+        border-radius: 5px;
+
+        @include laptop{
+            width: 100%;
+        }
+    }
+}

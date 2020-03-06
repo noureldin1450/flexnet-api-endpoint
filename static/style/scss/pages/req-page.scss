@@ -1,0 +1,19 @@
+@import '../helpers/var';
+@import '../helpers/responsive';
+
+.req{
+    text-align: center;
+
+    h1{
+        color: $main-color;
+        padding: 1rem 0px;
+    }
+    iframe{
+        padding-bottom: 1rem;
+        width: 700px;
+
+        @include tap{
+            width: 100%;
+        }
+    }
+}

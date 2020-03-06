@@ -1,0 +1,31 @@
+
+//Var
+@import '../helpers/var';
+//RESPONSIVE
+@import '../helpers/responsive';
+//RESET
+@import '../helpers/reset';
+//Global
+@import '../helpers/global';
+//animation
+@import '../helpers/animation';
+
+//main style
+//Nav
+@import '../layout/nav';
+//Ads
+@import '../comp/ads';
+//Movies slider
+@import '../comp/moviesslider';
+//Movies list
+@import '../comp/movieslist';
+//movieinfo
+@import '../comp/movieinfo';
+//report
+@import '../comp/report';
+//share banner
+@import '../comp/share';
+//movie player
+@import '../comp/movieplayer';
+//Footer
+@import '../layout/footer';

@@ -1,0 +1,76 @@
+/* navbar code */
+nav{
+    background: $main-color;
+    
+    @include tap{
+        height: 60px;
+        text-align: center;
+    }
+    .logo{
+        max-width: 120px;
+        @include tap{
+            display: block;
+            padding-top: .5rem;
+            float: left;
+        }
+    }
+
+    li{
+        display: inline-block;
+        a{
+            font-size: 1.8rem;
+            font-weight: 600;
+        }
+    }
+    .ham{
+        float: right;
+        display: none;
+        padding: .7rem;
+        cursor: pointer;
+
+        @include tap{
+            display: block;
+        }
+
+        img{
+            width: 160%;
+        }
+    }
+    .navigation{
+        float: right;
+
+        @include tap{
+            display: none;
+            padding: 1rem 0px;
+            width: 100%;
+            background: $main-color;
+            margin-bottom: 1rem;
+        }
+
+        li{
+            padding: 0rem 1rem;
+            padding-top: .5rem;
+
+            @include tap{
+                display: block;
+                padding: .4rem 0px;
+            }
+
+            &:last-child{
+                padding-right: 0px;
+            }
+            a{
+                font-size: 1.3rem;
+                font-weight: 600;
+
+                @include mobile{
+                    font-size: 1.2rem;
+                }
+                @include small-mobile{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+/* end navbar code */

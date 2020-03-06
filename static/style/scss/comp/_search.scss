@@ -1,0 +1,64 @@
+//search
+.search{
+    display: block;
+    background: $white-color;
+    border-radius: 500px;
+    width: 40%;
+    margin-left: 10rem;
+    margin: 0rem auto 3rem auto;
+    box-shadow: 2px 2px 20px #b2429680;
+
+    @include small-laptop{
+        width: 90%;
+    }
+    @include tap{
+        margin: 2rem auto 0px auto;
+    }
+    @include mobile{
+        background: none;
+        box-shadow: none;
+    }
+
+    input,
+    button{
+        font-size: 1rem;
+    }
+    input{
+        width: 60%;
+        border: none;
+        border-radius: 500px;
+        font-weight: 800;
+        color: $main-color;
+        padding: .5rem 1rem;
+        font-family: $mainfont;
+        text-transform: capitalize;
+
+        @include mobile{
+            width: 90%;
+            box-shadow: 2px 2px 20px #b2429680;
+            background: $white-color;
+            margin: .5rem 0px;
+        }
+
+    }
+    
+    button{
+        float: right;
+        border: none;
+        padding: .4rem 1rem;
+        background: $main-color;
+        border-radius: 500px;
+        cursor: pointer;
+
+        @include mobile{
+            width: 96%;
+            float: none;
+            padding: .3rem 0px;
+            font-size: .9rem;
+        }
+
+        h3{
+            font-family: $mainfont;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+<!--Search-->
+<div class="search animated fadeIn">
+
+    <input list="movies-names" id="moviename" name="search" type="text" placeholder="Movie Name" onkeydown="keyCode(event)" required>
+    
+    <button onclick="search()">
+        <!--<img src="{{.Site.BaseURL}}imges/search.svg">-->
+        <h3>Search</h3>
+    </button>
+    
+    <datalist id="movies-names">
+        {{ with .Site.GetPage "/movies" }}
+        {{ range .Pages }}
+            <option value="{{.Params.slug}}">
+        {{end}}
+        {{end}}
+    </datalist>
+    
+</div>

@@ -18,7 +18,7 @@ collections:
       - {label: "Publish Date", name: "date", widget: "string"}
       - {label: "moviecover", name: "moviecover", widget: "string"}
       - {label: "trailer", name: "trailer", widget: "string"}
-      - {label: "year", name: "year", widget: "string"}
+      - {label: "year", name: "year", widget: "string", default: "{{year}}"}
       - {label: "duration", name: "duration", widget: "string"}
       - {label: "rating", name: "rating", widget: "string"}
       - {label: "tags", name: "tags", widget: "list"}

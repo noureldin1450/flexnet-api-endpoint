@@ -1,107 +1,108 @@
-        <!--
+<!--
             Website End 
         -->
 
-        <!---- JS and JQ Codes ---->
+<!---- JS and JQ Codes ---->
 
-        
-        <!--[if lt IE 9]>
+
+<!--[if lt IE 9]>
             <script src="js/html5shiv.min.js"></script>
         <![endif]-->
-        
-        <!---- jquery Code ---->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
-        
-  
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
-                <!-- movies slider -->
-        <script>
-            $('.movies-slider').owlCarousel({
-    loop: false,
-  	items: 1,
-  	dots: false,
-  	autoplay: false,
-  	autoplaySpeed: 1000,
-  	autoplayTimeout: 3500,
-    autoplayHoverPause:true,
-  	nav: true,
-    responsive:{
-        0:{
-            items:1
-        },
-        500:{
-            items:2
-        },
-        600:{
-            items:3
-        },
-        800:{
-            items:4
-        },
-        1000:{
-            items:5
-        },
-        1400:{
-            items: 7
-        },
-        1700:{
-            items:8
-        },
-        2000:{
-            items:10
+<!---- jquery Code ---->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<!-- movies slider -->
+<script>
+    $('.movies-slider').owlCarousel({
+        loop: false,
+        items: 1,
+        dots: false,
+        autoplay: false,
+        autoplaySpeed: 1000,
+        autoplayTimeout: 3500,
+        autoplayHoverPause: true,
+        nav: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            500: {
+                items: 2
+            },
+            600: {
+                items: 3
+            },
+            800: {
+                items: 4
+            },
+            1000: {
+                items: 5
+            },
+            1400: {
+                items: 7
+            },
+            1700: {
+                items: 8
+            },
+            2000: {
+                items: 10
+            }
+        }
+    });
+
+</script>
+
+<script>
+
+    function search() {
+
+        var path = "{{.Site.BaseURL}}movies/";
+
+        var moveName = document.getElementById("moviename").value;
+
+        var moveName = moveName.replace(/\s/g, '-');
+
+        var moveName = moveName.toLowerCase();
+
+        var url = path + moveName;
+
+        //window.open(path+moveName);
+
+        window.location = url;
+
+    }
+
+    function keyCode(event) {
+
+        const enter = event.keyCode;
+
+        if (enter == 13) {
+            search();
         }
     }
-});
 
-        </script>
+</script>
 
-        <script>
-
-            function search(){
-
-                var path = "{{.Site.BaseURL}}movies/";
-
-                var moveName = document.getElementById("moviename").value;
-
-                var moveName = moveName.replace(/\s/g,'-'); 
-                                
-                var moveName = moveName.toLowerCase(); 
-
-                var url = path+moveName;
-                
-                //window.open(path+moveName);
-
-                window.location = url;
-
-            }
-
-            function keyCode(event){
-
-                const enter = event.keyCode;
-
-                if(enter == 13){
-                    search();
-                }
-            }
-
-        </script>
-
-        <!-- notifacation ads 
+<!-- notifacation ads 
             <script src="https://cdn-server.top/p/wl.js?pub=243867&ga=g"></script>
         -->
-        
-       <script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
+
+
+<script>
+    if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+            if (!user) {
+                window.netlifyIdentity.on("login", () => {
+                    document.location.href = "/admin/";
+                });
+            }
         });
-      }
-    });
-  }
+    }
 </script>
- 
-        <!-- main js -->
-        <script src="{{.Site.BaseURL}}js/main.js"></script>
+
+<!-- main js -->
+<script src="{{.Site.BaseURL}}js/main.js"></script>

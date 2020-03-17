@@ -1,4 +1,81 @@
 ---
 label: Movie
 hide_body: true
-fields: []
+fields:
+- name: rating
+  type: text
+  config:
+    required: true
+  label: Rating
+  description: 'Ex: 9.9'
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+  description: Movie Name
+- name: date
+  type: number
+  label: Date
+  description: 'Ex: 2009'
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+    required: false
+- name: slug
+  type: text
+  config:
+    required: true
+  label: Slug
+  description: Movie-Name Movie-Year
+- name: moviecover
+  type: text
+  config:
+    required: false
+  label: Moviecover
+  description: Movie Cover
+- name: trailer
+  type: text
+  config:
+    required: false
+  label: trailer
+  description: ad or trailer
+- name: year
+  type: text
+  config:
+    required: false
+  label: year
+  description: 'Ex: 2009'
+- name: duration
+  type: text
+  config:
+    required: false
+  label: duration
+  description: 1h 40min
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
+  description: horrer , comedy
+- name: stars
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: stars
+  description: stars
+- name: story
+  type: text
+  config:
+    required: false
+  label: story
+  description: story
+- name: imdbid
+  type: text
+  config:
+    required: false
+  label: imdbid

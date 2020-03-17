@@ -79,3 +79,5 @@ fields:
   config:
     required: false
   label: imdbid
+pages:
+- content/movies/jojo-rabbit.md

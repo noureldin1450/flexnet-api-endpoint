@@ -43,6 +43,7 @@ fields:
     required: false
   label: trailer
   description: ad or trailer
+  default: https://www.youtube.com/embed/
 - name: year
   type: text
   config:

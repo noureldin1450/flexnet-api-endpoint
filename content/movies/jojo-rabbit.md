@@ -1,6 +1,5 @@
 +++
 date = 2019
-draft = true
 duration = "1h 48min"
 imdbid = "tt2584384"
 moviecover = "https://m.media-amazon.com/images/M/MV5BZjU0Yzk2MzEtMjAzYy00MzY0LTg2YmItM2RkNzdkY2ZhN2JkXkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_UX182_CR0,0,182,268_AL_.jpg"

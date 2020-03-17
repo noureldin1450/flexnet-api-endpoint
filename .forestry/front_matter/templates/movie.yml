@@ -2,48 +2,34 @@
 label: Movie
 hide_body: true
 fields:
-- name: rating
-  type: text
-  config:
-    required: true
-  label: Rating
-  description: 'Ex: 9.9 | تقيم الفيلم'
 - name: title
   type: text
   config:
     required: true
   label: Title
   description: Movie Name | اسم الفيلم
-- name: date
-  type: number
-  label: Date
-  description: 'Ex: 2009 | تاريخ اصدار الفيلم'
-  default: 0
-  required: true
-  config:
-    min: 
-    max: 
-    step: 
-    required: false
 - name: slug
   type: text
   config:
     required: true
   label: Slug
   description: Movie-Name Movie-Year | اسم الفيلم و تاريخ اصداره
-- name: moviecover
+- name: rating
   type: text
   config:
-    required: false
-  label: Moviecover
-  description: Movie Cover | بوستر الفيلم
-- name: trailer
-  type: text
+    required: true
+  label: Rating
+  description: 'Ex: 9.9 | تقيم الفيلم'
+- name: date
+  type: datetime
+  label: date
+  description: 'Ex: 2009 | تاريخ اصدار الفيلم'
   config:
     required: false
-  label: trailer
-  description: trailer | اعلان الفيلم
-  default: https://www.youtube.com/embed/
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
 - name: year
   type: text
   config:
@@ -69,6 +55,12 @@ fields:
     max: 
   label: stars
   description: stars | ابطال الفيلم
+- name: moviecover
+  type: text
+  config:
+    required: false
+  label: Moviecover
+  description: Movie Cover | بوستر الفيلم
 - name: story
   type: text
   config:
@@ -81,6 +73,13 @@ fields:
     required: false
   label: imdbid
   description: 'Ex: tt2584384'
+- name: trailer
+  type: text
+  config:
+    required: false
+  label: trailer
+  description: trailer | اعلان الفيلم
+  default: https://www.youtube.com/embed/
 pages:
 - content/movies/bloodshot.md
 - content/movies/jojo-rabbit.md

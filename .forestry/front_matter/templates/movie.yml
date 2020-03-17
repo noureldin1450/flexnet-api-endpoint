@@ -82,6 +82,7 @@ fields:
   description: trailer | اعلان الفيلم
   default: https://www.youtube.com/embed/
 pages:
+- content/movies/birds-of-prey-and-the-fantabulous-emancipation-of-one-harley-quinn-2020.md
 - content/movies/bloodshot.md
 - content/movies/escape-from-pretoria.md
 - content/movies/jojo-rabbit.md

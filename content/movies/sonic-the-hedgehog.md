@@ -8,7 +8,7 @@ slug = "Sonic the Hedgehog 2020"
 stars = ["Jim Carrey", "James Marsden", "Ben Schwartz"]
 story = "After discovering a small, blue, fast hedgehog, a small-town police officer must help it defeat an evil genius who wants to do experiments on it."
 tags = ["Action", "Adventure", "Comedy"]
-title = "Sonic the Hedgehog 2020"
+title = "Sonic the Hedgehog "
 trailer = "https://www.youtube.com/embed/4mW9FE5ILJs"
 year = "2020"
 

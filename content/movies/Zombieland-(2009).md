@@ -11,7 +11,6 @@ tags:
 - Horror
 - Adventure
 - Comedy
-- other
 stars:
 - Jesse Eisenberg
 - Emma Stone

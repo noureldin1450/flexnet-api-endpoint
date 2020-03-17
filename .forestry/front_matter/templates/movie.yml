@@ -30,7 +30,7 @@ fields:
     time_format: 
     display_utc: false
   default: now
-  hidden: true
+  hidden: false
 - name: year
   type: text
   config:

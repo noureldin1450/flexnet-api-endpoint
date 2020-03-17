@@ -7,7 +7,7 @@ fields:
   config:
     required: true
   label: Title
-  description: Movie Name | اسم الفيلم
+  description: Movie Name | اسم الفيلم و التاريخ
 - name: slug
   type: text
   config:

@@ -7,17 +7,17 @@ fields:
   config:
     required: true
   label: Rating
-  description: 'Ex: 9.9'
+  description: 'Ex: 9.9 | تقيم الفيلم'
 - name: title
   type: text
   config:
     required: true
   label: Title
-  description: Movie Name
+  description: Movie Name | اسم الفيلم
 - name: date
   type: number
   label: Date
-  description: 'Ex: 2009'
+  description: 'Ex: 2009 | تاريخ اصدار الفيلم'
   default: 0
   required: true
   config:
@@ -30,37 +30,37 @@ fields:
   config:
     required: true
   label: Slug
-  description: Movie-Name Movie-Year
+  description: Movie-Name Movie-Year | اسم الفيلم و تاريخ اصداره
 - name: moviecover
   type: text
   config:
     required: false
   label: Moviecover
-  description: Movie Cover
+  description: Movie Cover | بوستر الفيلم
 - name: trailer
   type: text
   config:
     required: false
   label: trailer
-  description: ad or trailer
+  description: trailer | اعلان الفيلم
   default: https://www.youtube.com/embed/
 - name: year
   type: text
   config:
     required: false
   label: year
-  description: 'Ex: 2009'
+  description: 'Ex: 2009 | تاريخ اصدار الفيلم'
 - name: duration
   type: text
   config:
     required: false
   label: duration
-  description: 1h 40min
+  description: 1h 40min | مده الفيلم
 - name: tags
   type: tag_list
   default: []
   label: tags
-  description: horrer , comedy
+  description: 'Ex: Comedy, Drama, War|  نوع الفيلم'
 - name: stars
   type: list
   config:
@@ -68,18 +68,19 @@ fields:
     min: 
     max: 
   label: stars
-  description: stars
+  description: stars | ابطال الفيلم
 - name: story
   type: text
   config:
     required: false
   label: story
-  description: story
+  description: story | قصه الفيلم
 - name: imdbid
   type: text
   config:
     required: false
   label: imdbid
+  description: 'Ex: tt2584384'
 pages:
 - content/movies/jojo-rabbit.md
 - content/movies/spider-man-homecoming.md

@@ -8,7 +8,7 @@ slug = "Spider Man Homecoming 2017"
 stars = ["Tom Holland", "Michael Keaton", "Robert Downey Jr"]
 story = "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City."
 tags = ["Action", "Adventure", "Sci-Fi"]
-title = "Spider-Man: Homecoming"
+title = "Spider-Man: Homecoming 2017"
 trailer = "https://www.youtube.com/embed/n9DwoQ7HWvI"
 year = "2017"
 

@@ -8,7 +8,7 @@ slug = "Birds of Prey And the Fantabulous Emancipation of One Harley Quinn 2020"
 stars = ["Mary Elizabeth Winstead", "Rosie Perez", "Margot Robbie"]
 story = "After splitting with the Joker, Harley Quinn joins superheroes Black Canary, Huntress and Renee Montoya to save a young girl from an evil crime lord."
 tags = ["Action", "Adventure", "Crime"]
-title = "Birds of Prey: And the Fantabulous Emancipation of One Harley Quinn 2020"
+title = "Birds of Prey: And the Fantabulous Emancipation of One Harley Quinn "
 trailer = "https://www.youtube.com/embed/D0MapbII0Bk"
 year = "2020"
 

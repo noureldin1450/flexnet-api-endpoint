@@ -8,7 +8,7 @@ slug = "Jumanji The Next Level 2019"
 stars = ["Kevin Hart", "Jack Black", "Dwayne Johnson"]
 story = "In Jumanji: The Next Level, the gang is back but the game has changed. As they return to rescue one of their own, the players will have to brave parts unknown from arid deserts to snowy mountains, to escape the world's most dangerous game."
 tags = ["Action", "Adventure", "Comedy "]
-title = "Jumanji: The Next Level 2019"
+title = "Jumanji: The Next Level "
 trailer = "https://www.youtube.com/embed/rBxcF-r9Ibs"
 year = "2019"
 

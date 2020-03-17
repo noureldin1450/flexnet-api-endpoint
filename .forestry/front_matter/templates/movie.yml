@@ -23,14 +23,13 @@ fields:
 - name: date
   type: datetime
   label: date
-  description: 'Ex: 2009 | تاريخ اصدار الفيلم'
   config:
     required: false
     date_format: 
     time_format: 
     display_utc: false
   default: now
-  hidden: false
+  hidden: true
 - name: year
   type: text
   config:

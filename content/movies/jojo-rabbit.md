@@ -8,7 +8,7 @@ slug = "Jojo Rabbit 2019"
 stars = ["Thomasin McKenzie", "Scarlett Johansson", "Roman Griffin Davis"]
 story = " A young boy in Hitler's army finds out his mother is hiding a Jewish girl in their home. "
 tags = ["Comedy", "Drama", "War"]
-title = "Jojo Rabbit"
+title = "Jojo Rabbit 2019"
 trailer = "https://www.youtube.com/embed/TxJt02r91L4"
 year = "2019"
 

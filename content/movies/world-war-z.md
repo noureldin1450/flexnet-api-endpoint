@@ -8,7 +8,7 @@ slug = "World War Z 2013"
 stars = ["Daniella Kertesz", "Mireille Enos", "Brad Pitt"]
 story = "Former United Nations employee Gerry Lane traverses the world in a race against time to stop a zombie pandemic that is toppling armies and governments and threatens to destroy humanity itself."
 tags = ["Action", "Adventure", "Horror"]
-title = "World War Z"
+title = "World War Z 2013"
 trailer = "https://www.youtube.com/embed/Md6Dvxdr0AQ"
 year = "2013"
 

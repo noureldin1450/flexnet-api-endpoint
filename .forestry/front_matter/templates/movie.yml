@@ -82,6 +82,7 @@ fields:
   label: imdbid
   description: 'Ex: tt2584384'
 pages:
+- content/movies/bloodshot.md
 - content/movies/jojo-rabbit.md
 - content/movies/spider-man-homecoming.md
 - content/movies/world-war-z.md

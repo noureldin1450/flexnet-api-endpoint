@@ -8,7 +8,7 @@ slug = "Escape from Pretoria 2020"
 stars = ["Ian Hart", "Daniel Webber", "Daniel Radcliffe"]
 story = "Based on the real-life prison break of two political captives, Escape From Pretoria is a race-against-time thriller set in the tumultuous apartheid days of South Africa."
 tags = ["Thriller"]
-title = "Escape from Pretoria 2020"
+title = "Escape from Pretoria "
 trailer = "https://www.youtube.com/embed/R_GFMbq4JPo"
 year = "2020"
 

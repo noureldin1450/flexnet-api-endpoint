@@ -27,7 +27,7 @@
 
             <div class="owl-carousel owl-theme movies-slider" style="display: block;">
                 {{ with .Site.GetPage "/movies" }}
-                {{ range first 10 .Pages.ByPublishDate }}
+                {{ range first 10 .Pages.ByPublishDate.Reverse }}
                 {{ partial "list.html" . }}
                 {{end}}
                 {{end}}

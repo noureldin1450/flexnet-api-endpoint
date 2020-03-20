@@ -55,12 +55,6 @@ fields:
     max: 
   label: stars
   description: stars | ابطال الفيلم
-- name: moviecover
-  type: text
-  config:
-    required: false
-  label: Moviecover
-  description: Movie Cover | بوستر الفيلم
 - name: story
   type: text
   config:
@@ -73,6 +67,12 @@ fields:
     required: false
   label: imdbid
   description: 'Ex: tt2584384'
+- name: moviecover
+  type: text
+  config:
+    required: false
+  label: Moviecover
+  description: Movie Cover | بوستر الفيلم
 - name: trailer
   type: text
   config:

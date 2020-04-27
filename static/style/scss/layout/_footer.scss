@@ -2,17 +2,14 @@
 footer{
     background: $main-color;
     width: 100%;
-    padding: 4rem 0px;
+    padding: 2rem 0px;
     text-align: center;
-
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 
-
     .whoami{
-        
         h1{
             font-size: 3rem;
         }
@@ -30,41 +27,10 @@ footer{
         }
     }
 
-    .alltags{
-        padding-top: 3rem;
-
-        li{
-            display: inline-block;
-            padding-right: 3rem;
-
-            @include mobile{
-                padding-right: .6rem;
-                font-size: .9rem;
-            }
-
-            &:last-child{
-                padding-right: 0px;
-            }
-            a{
-                display: block;
-            }
-        }
-    }
-
     p{
         padding-top: 3rem;
         text-transform: capitalize;
         font-weight: 800;
-    }
-}
-.footer-tags{
-    margin-top: .5rem;
-
-    span,a{
-        color: $white-color;
-    }
-    span{
-        font-weight: 600;
     }
 }
 /* end footer code */

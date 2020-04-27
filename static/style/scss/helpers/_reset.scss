@@ -1,12 +1,11 @@
-
-
 //Website Reset And Fix
-*{
+* {
     padding: 0;
     margin: 0;
     line-height: 1.5em;
 }
-html,body{
+html,
+body {
     padding: 0;
     margin: 0;
     font-size: 1rem;
@@ -14,16 +13,44 @@ html,body{
     background: #eee;
     color: $black-color;
 }
-ul,li{
+ul,
+li {
     list-style: none;
 }
 //Adding colors
-h1,h2,h3,h4,p,a{
+h1,
+h2,
+h3,
+h4,
+p,
+a {
     color: $white-color;
 }
-a{
+a {
     text-decoration: none;
 }
-img{
-    width: 100%;   
+img {
+    width: 100%;
+}
+
+// some global styling
+
+// the buy me a coffe link styles
+.bmc-button img {
+    width: 1.7rem;
+    margin-bottom: 1px !important;
+    box-shadow: none !important;
+    border: none !important;
+    vertical-align: middle !important;
+}
+
+.bmc-button {
+    line-height: 36px !important;
+    display: inline-flex !important;
+    color: $black-color;
+    background-color: $white-color;
+    border-radius: 3px !important;
+    padding: .5rem 1rem;
+    font-size: 1rem !important;
+    margin: 1rem auto 0px auto !important;
 }

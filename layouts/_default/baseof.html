@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--HEAD-->
+<head>
+    <!--head code-->
+    {{ partial "head/head.html" .}}
+    <!-- adding custome code -->
+    {{ block "head" . }}
+        <!----Adding Style---->
+        <link rel="stylesheet" href="{{.Site.BaseURL}}style/scss/pages/homepage.css">
+    {{end}}
+</head>
+
+<body>
+    <!--NAV-->
+    {{partial "header/nav.html" .}}
+    <!--header-->
+    {{ partial "header/header.html" .}}
+    <!--search-->
+    {{ partial "header/search.html" . }}
+
+    <main class="animated fadeIn">
+        <!--start slider movies code for the movies at the top -->
+        <section id="movies" class="movies">
+
+            <div class="container">
+                <h2 class="main-title">FLEXNET NEW MOVIES 🎟️ <a href="{{.Site.BaseURL}}movies">View More »</a></h2>
+            </div>
+
+            <div class="owl-carousel owl-theme movies-slider" style="display: block;">
+                {{ with .Site.GetPage "/movies" }}
+                {{ range first 10 .Pages.ByPublishDate.Reverse }}
+                {{ partial "list.html" . }}
+                {{end}}
+                {{end}}
+            </div>
+
+            <!--start slider for top rated movies -->
+
+            <div class="container">
+                <h2 class="main-title">FLEXNET TOP RATED MOVIES 🌟 <a href="{{.Site.BaseURL}}movies">View More »</a>
+                </h2>
+            </div>
+
+            <div class="owl-carousel owl-theme movies-slider" style="display: block;">
+                {{ with .Site.GetPage "/movies" }}
+                {{ range first 20 (.Pages.ByParam "rating").Reverse }}
+                <!--adding the movies slider-->
+                {{ partial "list.html" . }}
+                {{end}}
+                {{end}}
+            </div>
+
+        </section>
+
+        <!--/end slider movies code for the movies at the top -->
+
+        <!-- start main movies code for the movies at the end -->
+
+        <section id="movies" class="movies">
+
+            <div class="container">
+                {{ if .Content}}
+                {{.Content}}
+                {{else}}
+                <h2 class="main-title">FLEXNET LATEST MOVIES 🔥 <a href="{{.Site.BaseURL}}movies">View More »</a></h2>
+                {{end}}
+            </div>
+
+            <ul class="movie-list home-list">
+                <div class="container">
+                    {{ with .Site.GetPage "/movies" }}
+                    {{ range .Pages | first 30 }}
+                    {{ partial "movies-list.html" . }}
+                    {{end}}
+                    {{end}}
+                </div>
+            </ul>
+
+        </section>
+        <!--/end main movies code for the movies at the end -->
+    </main>
+    <!--Site footer code-->
+    {{ partial "footer/footer.html" .}}
+    <!--google tracker-->
+    {{ partial "usertracker.html" .}}
+    <!--Site scripts-->
+    {{ partial "footer/scripts.html" .}}
+</body>
+
+</html>

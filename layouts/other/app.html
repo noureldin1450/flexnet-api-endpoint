@@ -1,12 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-    {{ partial "usertracker.html" .}}
+{{ define "head" }}
     {{ partial "head/moviehead.html" .}}
     <link rel="stylesheet" href="{{.Site.BaseURL}}/style/scss/pages/app-page.css"> 
-<body>
+{{end}}
 
-  {{partial "header/nav.html" .}}
-
+{{ define "main" }}
 <div class="app">
     <div class="container">
     
@@ -29,8 +26,9 @@
 
     </div>
 
-    {{ partial "footer/footer.html" .}}
-    {{ partial "footer/moviescripts.html" .}}
 </div>
-</body>
-</html>
+{{end}}
+
+{{ define "scripts" }}
+    {{ partial "footer/moviescripts.html" .}}
+{{end}}

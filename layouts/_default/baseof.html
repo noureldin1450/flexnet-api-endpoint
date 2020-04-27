@@ -15,6 +15,11 @@
 <body>
     <!--NAV-->
     {{partial "header/nav.html" .}}
+
+    {{ block "main" . }}
+    {{end}}
+
+
     <!--header-->
     {{ partial "header/header.html" .}}
     <!--search-->
@@ -81,12 +86,18 @@
         </section>
         <!--/end main movies code for the movies at the end -->
     </main>
+
+
     <!--Site footer code-->
     {{ partial "footer/footer.html" .}}
-    <!--google tracker-->
-    {{ partial "usertracker.html" .}}
+
+
+
+    {{ block "scripts" . }}
+    {{end}}
     <!--Site scripts-->
     {{ partial "footer/scripts.html" .}}
+    
 </body>
 
 </html>

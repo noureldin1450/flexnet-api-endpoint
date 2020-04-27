@@ -1,16 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<body>
-    
-    <head>
-        {{ partial "usertracker.html" .}}
+
+
+
+
+{{ define "head" }}
         {{ partial "head/moviehead.html" .}}
         <link rel="stylesheet" href="{{.Site.BaseURL}}/style/scss/pages/app-page.css">
-    </head>
-    
-    {{partial "header/nav.html" .}}
+{{end}}
 
+{{ define "main" }}
     <div class="container">
         {{ partial "movie/report.html" .}}
     </div>
@@ -91,10 +89,8 @@
             {{ partial "movie/related.html" . }}
         </div>
     </main>
+{{end}}
 
-    {{ partial "footer/footer.html" .}}
+{{ define "scripts" }}
     {{ partial "footer/moviescripts.html" .}}
-
-</body>
-
-</html>
+{{end}}

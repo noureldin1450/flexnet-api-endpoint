@@ -1,46 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
+{{ define "head" }}
+{{ partial "head/listhead.html" .}}
+{{end}}
 
-    <head>
-        {{ partial "usertracker.html" .}}
-        {{ partial "head/listhead.html" .}}
-    </head>
+{{ define "main" }}
 
-    <body>
+<main>
+    <section id="movies" class="movies">
 
-        {{partial "header/nav.html" .}}
+        <div class="container">
+            {{ if .Content}}
+            {{.Content}}
+            {{else}}
+            <h2 class="main-title list-page-title">{{.Title}} MOVIES 🎟
+            </h2>
+            {{end}}
+        </div>
 
-        <main>
-            <section id="movies" class="movies">
+        <ul class="movie-list home-list animated fadeIn">
 
-                <div class="container">
-                    {{ if .Content}}
-                        {{.Content}}
-                    {{else}}
-                        <h2 class="main-title list-page-title">{{.Title}} MOVIES 🎟
-                        </h2>
-                    {{end}}    
-                </div>
-                        
-                <ul class="movie-list home-list animated fadeIn">
-    
-                    <div class="container">
-                        {{ range .Paginator.Pages }}
-                            {{ partial "movies-list.html" . }}
-                        {{end}}
-                    </div>
+            <div class="container">
+                {{ range .Paginator.Pages }}
+                {{ partial "movies-list.html" . }}
+                {{end}}
+            </div>
 
-                </ul>
-                
-            </section>
+        </ul>
 
-        </main>
-        
-        {{ partial "pagination.html" . }}
+    </section>
 
-        {{ partial "footer/footer.html" .}}
+</main>
+{{ partial "pagination.html" . }}
 
-        {{ partial "footer/scripts.html" .}}
-        
-    </body>
-</html>
+{{end}}
+
+{{ define "scripts" }}
+
+{{end}}

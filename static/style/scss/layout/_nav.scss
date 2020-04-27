@@ -1,11 +1,12 @@
 /* navbar code */
 nav{
+    padding: .3rem 0px;
     background: $main-color;
-    
     @include tap{
         height: 60px;
         text-align: center;
     }
+
     .logo{
         max-width: 120px;
         @include tap{
@@ -18,22 +19,24 @@ nav{
     li{
         display: inline-block;
         a{
-            font-size: 1.8rem;
+            font-size: 1.7rem;
             font-weight: 600;
         }
     }
+    
     .ham{
         float: right;
         display: none;
         padding: .7rem;
         cursor: pointer;
-
+        color: $white-color;
         @include tap{
             display: block;
         }
 
-        img{
-            width: 160%;
+        ion-icon{
+            font-size: 2.5rem;
+            color: $white-color;
         }
     }
     .navigation{
@@ -48,7 +51,7 @@ nav{
         }
 
         li{
-            padding: 0rem 1rem;
+            padding: 0rem .7rem;
             padding-top: .5rem;
 
             @include tap{
@@ -60,7 +63,7 @@ nav{
                 padding-right: 0px;
             }
             a{
-                font-size: 1.3rem;
+                font-size: 1.2rem;
                 font-weight: 600;
 
                 @include mobile{

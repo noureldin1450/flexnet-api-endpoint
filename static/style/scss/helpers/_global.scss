@@ -2,53 +2,60 @@
     GLOBAL STYLES
 */
 
-.container{
+.container {
     width: 90% !important;
     margin: auto;
 }
 
-.related{
-    .movies{
+.related {
+    .movies {
         padding: 0px !important;
     }
 }
 
-.main-title{
+.main-title {
     color: $black-color;
     padding: 0 0 1rem 0px;
     text-transform: capitalize;
-    
+
     .star,
-    .film{
+    .film,
+    .more {
         color: $main-color;
         font-size: 1.8rem;
     }
+    .more {
+        font-size: 1.4rem;
+        padding-left: .5rem;
+    }
 
-    a{
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         color: $main-color;
-        text-decoration: underline;
         font-size: 1.2rem;
         float: right;
+        text-decoration: underline;
+        text-decoration-style: double;
 
-        @include tap{
+        @include tap {
             float: none;
             display: block;
         }
     }
 
-    @include tap{
+    @include tap {
         text-align: center;
         padding: 2rem 0px;
     }
 
-    
-    @include mobile{
+    @include mobile {
         padding: 4rem 0px;
     }
-
 }
 //the default of all icons color
-ion-icon{
+ion-icon {
     color: $white-color;
 }
 
@@ -67,10 +74,10 @@ ion-icon{
     color: $black-color;
     background-color: $white-color;
     border-radius: 3px !important;
-    padding: .5rem 1rem;
+    padding: 0.5rem 1rem;
     font-size: 1rem !important;
     margin: 1rem auto 0px auto !important;
 }
-.swiper-container{
+.swiper-container {
     margin-bottom: 2rem;
 }

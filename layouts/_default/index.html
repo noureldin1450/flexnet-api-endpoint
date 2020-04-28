@@ -12,7 +12,7 @@
     <section id="movies" class="movies">
 
         <div class="container">
-            <h2 class="main-title">FLEXNET NEW MOVIES <ion-icon name="film" class="film"></ion-icon> <a href="{{.Site.BaseURL}}movies">View More »</a></h2>
+            <h2 class="main-title">FLEXNET NEW MOVIES <ion-icon name="film" class="film"></ion-icon> <a href="{{.Site.BaseURL}}movies">View More <ion-icon name="play-forward" class="more"></ion-icon></a></h2>
         </div>
 
         <div class="swiper-container">
@@ -28,7 +28,7 @@
         <!--start slider for top rated movies -->
 
         <div class="container">
-            <h2 class="main-title">FLEXNET TOP RATED MOVIES <ion-icon name="star" class="star"></ion-icon> <a href="{{.Site.BaseURL}}movies">View More »</a>
+            <h2 class="main-title">FLEXNET TOP RATED MOVIES <ion-icon name="star" class="star"></ion-icon> <a href="{{.Site.BaseURL}}movies">View More <ion-icon name="play-forward" class="more"></ion-icon></a>
             </h2>
         </div>
 
@@ -55,7 +55,7 @@
             {{ if .Content}}
             {{.Content}}
             {{else}}
-            <h2 class="main-title">FLEXNET LATEST MOVIES 🔥 <a href="{{.Site.BaseURL}}movies">View More »</a></h2>
+            <h2 class="main-title">FLEXNET LATEST MOVIES 🔥 <a href="{{.Site.BaseURL}}movies">View More <ion-icon name="play-forward" class="more"></ion-icon></a></h2>
             {{end}}
         </div>
 

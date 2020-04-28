@@ -1,4 +1,3 @@
-
 /*
     GLOBAL STYLES
 */
@@ -15,7 +14,7 @@
 }
 
 .main-title{
-    color: $pry-color;
+    color: $black-color;
     padding: 0 0 2rem 0px;
     text-transform: capitalize;
     
@@ -42,33 +41,27 @@
     }
 
 }
+//the default of all icons color
+ion-icon{
+    color: $white-color;
+}
 
-/* header slider dots code */
-.active{
-    opacity: 1;
+// the buy me a coffe link styles
+.bmc-button img {
+    width: 1.7rem;
+    margin-bottom: 1px !important;
+    box-shadow: none !important;
+    border: none !important;
+    vertical-align: middle !important;
 }
-.owl-dot{
-    @include tap{
-        display: none !important;
-    }
+
+.bmc-button {
+    line-height: 36px !important;
+    display: inline-flex !important;
+    color: $black-color;
+    background-color: $white-color;
+    border-radius: 3px !important;
+    padding: .5rem 1rem;
+    font-size: 1rem !important;
+    margin: 1rem auto 0px auto !important;
 }
-.owl-dot span{
-    background: $main-color !important;
-    opacity: .2;
-}
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-    background: $main-color !important;
-    opacity: .8;
-}
-.owl-next span,
-.owl-prev span{
-    background: #B24296 !important;
-    padding: 0px 1.5rem !important;
-    color:white !important;
-    font-size: 1.4rem !important;
-    border-radius: 3px;
-}
-.owl-theme .owl-nav [class*="owl-"]:hover {
-    background: none !important;
-}
-/* header slider dots code */

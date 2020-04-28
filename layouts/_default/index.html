@@ -12,31 +12,35 @@
     <section id="movies" class="movies">
 
         <div class="container">
-            <h2 class="main-title">FLEXNET NEW MOVIES 🎟️ <a href="{{.Site.BaseURL}}movies">View More »</a></h2>
+            <h2 class="main-title">FLEXNET NEW MOVIES <ion-icon name="film" class="film"></ion-icon> <a href="{{.Site.BaseURL}}movies">View More »</a></h2>
         </div>
 
-        <div class="owl-carousel owl-theme movies-slider" style="display: block;">
-            {{ with .Site.GetPage "/movies" }}
-            {{ range first 10 .Pages.ByPublishDate.Reverse }}
-            {{ partial "list.html" . }}
-            {{end}}
-            {{end}}
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                {{ with .Site.GetPage "/movies" }}
+                {{ range first 10 .Pages.ByPublishDate.Reverse }}
+                {{ partial "list.html" . }}
+                {{end}}
+                {{end}}
+            </div>
         </div>
 
         <!--start slider for top rated movies -->
 
         <div class="container">
-            <h2 class="main-title">FLEXNET TOP RATED MOVIES 🌟 <a href="{{.Site.BaseURL}}movies">View More »</a>
+            <h2 class="main-title">FLEXNET TOP RATED MOVIES <ion-icon name="star" class="star"></ion-icon> <a href="{{.Site.BaseURL}}movies">View More »</a>
             </h2>
         </div>
 
-        <div class="owl-carousel owl-theme movies-slider" style="display: block;">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
             {{ with .Site.GetPage "/movies" }}
             {{ range first 20 (.Pages.ByParam "rating").Reverse }}
             <!--adding the movies slider-->
             {{ partial "list.html" . }}
             {{end}}
             {{end}}
+        </div>
         </div>
 
     </section>

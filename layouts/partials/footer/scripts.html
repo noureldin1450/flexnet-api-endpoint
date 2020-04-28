@@ -12,48 +12,36 @@
 <!---- jquery Code ---->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<!-- adding swiper from the cdn -->
+<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
 
 <!-- movies slider -->
 <script>
-    $('.movies-slider').owlCarousel({
-        loop: false,
-        items: 1,
-        dots: false,
-        autoplay: false,
-        autoplaySpeed: 1000,
-        autoplayTimeout: 3500,
-        autoplayHoverPause: true,
-        nav: true,
-        responsive: {
-            0: {
-                items: 1
-            },
-            500: {
-                items: 2
-            },
-            600: {
-                items: 3
-            },
-            800: {
-                items: 4
-            },
-            1000: {
-                items: 5
-            },
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 6,
+        spaceBetween: 10,
+        freeMode: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        breakpoints: {
             1400: {
-                items: 7
+                slidesPerView: 7,
+                spaceBetween: 20,
             },
-            1700: {
-                items: 8
+            1000:{
+                slidesPerView: 5.3,
             },
-            2000: {
-                items: 10
+            900:{
+                slidesPerView: 4.5,
             }
-        }
-    });
-
+        },
+            // pagination: {
+            //     el: '.swiper-pagination',
+            //     clickable: true,
+            // },
+        });
 </script>
 
 <script>
@@ -87,32 +75,15 @@
 
 </script>
 
-<!-- notifacation ads 
-            <script src="https://cdn-server.top/p/wl.js?pub=243867&ga=g"></script>
-        -->
-
-
-<script>
-    if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", user => {
-            if (!user) {
-                window.netlifyIdentity.on("login", () => {
-                    document.location.href = "/admin/";
-                });
-            }
-        });
-    }
-</script>
-
 <!--google tracker-->
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146859399-3"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'UA-146859399-3');
+    gtag('config', 'UA-146859399-3');
 </script>
 
 

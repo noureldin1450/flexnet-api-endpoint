@@ -15,9 +15,15 @@
 
 .main-title{
     color: $black-color;
-    padding: 0 0 2rem 0px;
+    padding: 0 0 1rem 0px;
     text-transform: capitalize;
     
+    .star,
+    .film{
+        color: $main-color;
+        font-size: 1.8rem;
+    }
+
     a{
         color: $main-color;
         text-decoration: underline;
@@ -64,4 +70,7 @@ ion-icon{
     padding: .5rem 1rem;
     font-size: 1rem !important;
     margin: 1rem auto 0px auto !important;
+}
+.swiper-container{
+    margin-bottom: 2rem;
 }

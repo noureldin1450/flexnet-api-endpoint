@@ -1,58 +1,61 @@
-<div class="item">
+<!-- Swiper -->
 
-    <div class="poster" style="
-    background: url({{.Params.moviecover}}) center no-repeat;
-    background-size: cover;
-    ">
+        <div class="swiper-slide">
+            <div class="item">
+                <div class="poster" style="
+                    background: url({{.Params.moviecover}}) center no-repeat;
+                    background-size: cover;
+                ">
 
-        <div class="content">
-            
-            <a href="{{.URL}}">
+                    <div class="content">
 
-                <h3 class="title"> {{.Title}} </h3>
+                        <a href="{{.URL}}">
 
-                <div class="movie-hover-info">
+                            <h3 class="title"> {{.Title}} </h3>
 
-                    <div class="container">
+                            <div class="movie-hover-info">
 
-                        <h2 class="movie-name">
-                            {{.Title}}
-                            
-                            <span class="year">
-                                ({{.Params.year}})
-                            </span>
-                        </h2>
-                        
-                        <div class="rating">
-                           {{.Params.rating}}<span>/10</span>
-                        </div>
-                        
-                        <div class="duration">
-                            {{.Params.duration}}
-                        </div>
-                            
+                                <div class="container">
 
-                        <div class="tags">
-                            {{ range .Params.tags}}
-                                <span href="">{{.}}</span>
-                            {{end}}
-                        </div>
+                                    <h2 class="movie-name">
+                                        {{.Title}}
+
+                                        <span class="year">
+                                            ({{.Params.year}})
+                                        </span>
+                                    </h2>
+
+                                    <div class="rating">
+                                        {{.Params.rating}}<span>/10</span>
+                                    </div>
+
+                                    <div class="duration">
+                                        {{.Params.duration}}
+                                    </div>
+
+
+                                    <div class="tags">
+                                        {{ range .Params.tags}}
+                                        <span href="">{{.}}</span>
+                                        {{end}}
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                        </a>
 
                     </div>
 
                 </div>
 
-    
-            </a>
+                <div class="movie-Rating">
+                    <div class="rating">
+                        <div class="rotat"><ion-icon name="star"></ion-icon></div> {{.Params.rating}}<span class="outof">/10</span>
+                    </div>
+                </div>
 
+            </div>
         </div>
-
-    </div>
-
-    <div class="movie-Rating"> 
-        <div class="rating">
-            <div class="rotat">🌟</div> {{.Params.rating}}<span class="outof">/10</span>
-        </div>
-    </div>
-
-</div> 

@@ -12,7 +12,7 @@
     <section id="movies" class="movies">
 
         <div class="container">
-            <h2 class="main-title">FLEXNET NEW MOVIES <ion-icon name="film" class="film"></ion-icon> <a href="{{.Site.BaseURL}}movies">View More <ion-icon name="play-forward" class="more"></ion-icon></a></h2>
+            <h2 class="main-title">FlexNet NEW MOVIES <ion-icon name="film" class="film"></ion-icon> <a href="{{.Site.BaseURL}}movies">View More <ion-icon name="play-forward" class="more"></ion-icon></a></h2>
         </div>
 
         <div class="swiper-container">
@@ -28,7 +28,7 @@
         <!--start slider for top rated movies -->
 
         <div class="container">
-            <h2 class="main-title">FLEXNET TOP RATED MOVIES <ion-icon name="star" class="star"></ion-icon> <a href="{{.Site.BaseURL}}movies">View More <ion-icon name="play-forward" class="more"></ion-icon></a>
+            <h2 class="main-title">FlexNet TOP RATED MOVIES <ion-icon name="star" class="star"></ion-icon> <a href="{{.Site.BaseURL}}movies">View More <ion-icon name="play-forward" class="more"></ion-icon></a>
             </h2>
         </div>
 
@@ -55,7 +55,7 @@
             {{ if .Content}}
             {{.Content}}
             {{else}}
-            <h2 class="main-title">FLEXNET LATEST MOVIES 🔥 <a href="{{.Site.BaseURL}}movies">View More <ion-icon name="play-forward" class="more"></ion-icon></a></h2>
+            <h2 class="main-title">FlexNet LATEST MOVIES  <ion-icon name="film" class="film"></ion-icon> <a href="{{.Site.BaseURL}}movies">View More <ion-icon name="play-forward" class="more"></ion-icon></a></h2>
             {{end}}
         </div>
 
@@ -71,6 +71,51 @@
 
     </section>
     <!--/end main movies code for the movies at the end -->
+    <section class="container">
+
+       <h2 class="main-title">FlexNet Movies Categories  <ion-icon name="file-tray-full" class="film"></ion-icon></a></h2>
+
+
+        <ul class="alltags">
+
+            <li>
+                <a href="{{.Site.BaseURL}}tags/action/">Action</a>
+                <a href="{{.Site.BaseURL}}tags/drama/">Drama</a>
+                <a href="{{.Site.BaseURL}}tags/adventure/">Adventure</a>
+                <a href="{{.Site.BaseURL}}tags/comedy/">Comedy</a>
+                <a href="{{.Site.BaseURL}}tags/animation/">Animation</a>
+                <a href="{{.Site.BaseURL}}tags/sci-fi/">Sci-Fi</a>
+            </li>
+
+            <li>
+                <a href="{{.Site.BaseURL}}tags/crime/">Crime</a>
+                <a href="{{.Site.BaseURL}}tags/fantasy/">Fantasy</a>
+                <a href="{{.Site.BaseURL}}tags/thriller/">Thriller</a>
+                <a href="{{.Site.BaseURL}}tags/family/">Family</a>
+                <a href="{{.Site.BaseURL}}tags/romance/">Romance</a>
+                <a href="{{.Site.BaseURL}}tags/mystery/">Mystery</a>
+            </li>
+
+            <li>
+                <a href="{{.Site.BaseURL}}tags/sport/">Sport</a>
+                <a href="{{.Site.BaseURL}}tags/horror/">Horror</a>
+                <a href="{{.Site.BaseURL}}tags/war/">War</a>
+                <a href="{{.Site.BaseURL}}tags/history/">History</a>
+                <a href="{{.Site.BaseURL}}tags/reality-tv/">Reality-TV</a>
+                <a href="{{.Site.BaseURL}}tags/western/">Western</a>
+            </li>
+
+            <li style="padding: 0px;">
+                <a href="{{.Site.BaseURL}}tags/game-show/">Game-Show</a>
+                <a href="{{.Site.BaseURL}}tags/documentary/">Documentary</a>
+                <a href="{{.Site.BaseURL}}tags/music/">Music</a>
+                <a href="{{.Site.BaseURL}}tags/biography/">Biography</a>
+            </li>
+
+        </ul>
+
+
+    </section>
 </main>
 
 {{end}}

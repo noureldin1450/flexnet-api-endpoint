@@ -81,3 +81,23 @@ ion-icon {
 .swiper-container {
     margin-bottom: 2rem;
 }
+.alltags{
+    li{
+        display: inline-block;
+        width: 23%;
+        @include tap{
+            text-align: center;
+            width: 45%;
+        }
+
+        a{
+            color: $main-color;
+            text-decoration: underline;
+            display: block;
+            font-weight: 900;
+            padding-bottom: .5rem;
+            font-size: 1.2rem;
+            
+        }
+    }
+}

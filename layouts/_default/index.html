@@ -11,9 +11,9 @@
     <!--start slider movies code for the movies at the top -->
     <section id="movies" class="movies">
 
-        <div class="container">
-            <h2 class="main-title">FlexNet NEW MOVIES <ion-icon name="film" class="film"></ion-icon> <a href="{{.Site.BaseURL}}movies">View More <ion-icon name="play-forward" class="more"></ion-icon></a></h2>
-        </div>
+
+        {{ partial "main-title.html" (dict "Text" "FlexNet Latest Movies" "Icon" "film" "Route" "movies" ) }}
+
 
         <div class="swiper-container">
             <div class="swiper-wrapper">
@@ -26,21 +26,17 @@
         </div>
 
         <!--start slider for top rated movies -->
-
-        <div class="container">
-            <h2 class="main-title">FlexNet TOP RATED MOVIES <ion-icon name="star" class="star"></ion-icon> <a href="{{.Site.BaseURL}}movies">View More <ion-icon name="play-forward" class="more"></ion-icon></a>
-            </h2>
-        </div>
+        {{ partial "main-title.html" (dict "Text" "FlexNet Top Rated Movies" "Icon" "star" "Route" "movies" ) }}
 
         <div class="swiper-container">
             <div class="swiper-wrapper">
-            {{ with .Site.GetPage "/movies" }}
-            {{ range first 20 (.Pages.ByParam "rating").Reverse }}
-            <!--adding the movies slider-->
-            {{ partial "list.html" . }}
-            {{end}}
-            {{end}}
-        </div>
+                {{ with .Site.GetPage "/movies" }}
+                {{ range first 20 (.Pages.ByParam "rating").Reverse }}
+                <!--adding the movies slider-->
+                {{ partial "list.html" . }}
+                {{end}}
+                {{end}}
+            </div>
         </div>
 
     </section>
@@ -51,13 +47,7 @@
 
     <section id="movies" class="movies">
 
-        <div class="container">
-            {{ if .Content}}
-            {{.Content}}
-            {{else}}
-            <h2 class="main-title">FlexNet LATEST MOVIES  <ion-icon name="film" class="film"></ion-icon> <a href="{{.Site.BaseURL}}movies">View More <ion-icon name="play-forward" class="more"></ion-icon></a></h2>
-            {{end}}
-        </div>
+        {{ partial "main-title.html" (dict "Text" "FlexNet Latest Movies" "Icon" "film" "Route" "movies" ) }}
 
         <ul class="movie-list home-list">
             <div class="container">
@@ -73,7 +63,8 @@
     <!--/end main movies code for the movies at the end -->
     <section class="container">
 
-       <h2 class="main-title">FlexNet Movies Categories  <ion-icon name="file-tray-full" class="film"></ion-icon></a></h2>
+        <h2 class="main-title">FlexNet Movies Categories <ion-icon name="file-tray-full" class="film"></ion-icon></a>
+        </h2>
 
 
         <ul class="alltags">

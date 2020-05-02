@@ -15,6 +15,14 @@
             </h2>
             {{end}}
         </div>
+        {{ $title := .Title }}
+        
+        {{ if not (in ($title | string) "movies")  }}
+            {{ partial "main-title.html" (dict "Text" " $title Movies " "Icon" "film" ) }}
+        {{end}}
+
+
+
 
         <ul class="movie-list home-list animated fadeIn">
 

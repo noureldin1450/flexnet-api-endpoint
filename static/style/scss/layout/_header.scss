@@ -2,7 +2,7 @@
 
 header {
   width: 100%;
-  height: 550px;
+  margin-bottom: 3rem;
 
   @include tap {
     height: 100vh;
@@ -96,7 +96,7 @@ header {
     }
 
     iframe {
-      height: 360px;
+      height: 290px;
       width: 100%;
       border-radius: 10px;
       box-shadow: 2px 2px 25px #b2429694;

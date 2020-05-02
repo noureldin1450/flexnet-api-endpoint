@@ -1,0 +1,14 @@
+<div class="container">
+    <h2 class="main-title">
+        <span class="main-title__text">
+            {{ .Text }}
+            <ion-icon name="{{.Icon}}" class="{{.Icon}}"></ion-icon>
+        </span>
+        {{ if .Route }}
+            <a href="{{.Site.BaseURL}}{{.Route}}">
+                View More
+                <ion-icon name="play-forward" class="more"></ion-icon>
+            </a>
+        {{end}}
+    </h2>
+</div>

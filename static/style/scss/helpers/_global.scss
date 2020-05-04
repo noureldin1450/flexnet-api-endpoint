@@ -15,7 +15,7 @@
 
 .main-title {
     color: $black-color;
-    padding: 0 0 3rem 0px;
+    padding: 0 0 4rem 0px;
     text-transform: capitalize;
 
     &__text {
@@ -23,17 +23,18 @@
         float: left;
         align-items: center;
 
-        @include tap{
+        @include tap {
             float: none;
             justify-content: center;
             text-align: center;
         }
 
-        ion-icon{
-            padding-left: .5rem;
+        ion-icon {
+            padding-left: 0.5rem;
         }
     }
 
+    .file-tray-full,
     .star,
     .film,
     .more {
@@ -94,6 +95,10 @@ ion-icon {
     font-size: 1rem !important;
     margin: 1rem auto 0px auto !important;
 }
+//adding some speaces for the card shadow
+.swiper-wrapper {
+    padding: 1rem 0px;
+}
 .swiper-container {
     margin-bottom: 2rem;
     clear: both;
@@ -116,4 +121,11 @@ ion-icon {
             font-size: 1.2rem;
         }
     }
+}
+.list-title {
+    padding: 1rem 0px;
+}
+.list-page-title {
+    padding: 2rem 0px;
+    text-transform: capitalize !important;
 }

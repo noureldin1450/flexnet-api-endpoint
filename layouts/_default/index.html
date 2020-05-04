@@ -18,7 +18,7 @@
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 {{ with .Site.GetPage "/movies" }}
-                {{ range first 10 .Pages.ByPublishDate.Reverse }}
+                {{ range first 7 .Pages.ByPublishDate.Reverse }}
                 {{ partial "list.html" . }}
                 {{end}}
                 {{end}}
@@ -31,7 +31,7 @@
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 {{ with .Site.GetPage "/movies" }}
-                {{ range first 20 (.Pages.ByParam "rating").Reverse }}
+                {{ range first 7 (.Pages.ByParam "rating").Reverse }}
                 <!--adding the movies slider-->
                 {{ partial "list.html" . }}
                 {{end}}
@@ -45,14 +45,14 @@
 
     <!-- start main movies code for the movies at the end -->
 
-    <section id="movies" class="movies">
+    <section id="movies" class="movies" style="padding: 0 !important;">
 
         {{ partial "main-title.html" (dict "Text" "FlexNet Latest Movies" "Icon" "film" "Route" "movies" ) }}
 
         <ul class="movie-list home-list">
             <div class="container">
                 {{ with .Site.GetPage "/movies" }}
-                {{ range .Pages | first 30 }}
+                {{ range .Pages | first 18 }}
                 {{ partial "movies-list.html" . }}
                 {{end}}
                 {{end}}
@@ -61,11 +61,8 @@
 
     </section>
     <!--/end main movies code for the movies at the end -->
+    {{ partial "main-title.html" (dict "Text" "FlexNet Movies Categories"  "Icon" "file-tray-full" ) }}
     <section class="container">
-
-        <h2 class="main-title">FlexNet Movies Categories <ion-icon name="file-tray-full" class="film"></ion-icon></a>
-        </h2>
-
 
         <ul class="alltags">
 

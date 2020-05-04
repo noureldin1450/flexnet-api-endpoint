@@ -7,22 +7,29 @@
 <main>
     <section id="movies" class="movies">
 
-        <div class="container">
-            {{ if .Content}}
-            {{.Content}}
-            {{else}}
-            <h2 class="main-title list-page-title">{{.Title}} MOVIES 🎟
-            </h2>
-            {{end}}
-        </div>
-        {{ $title := .Title }}
-        
-        {{ if not (in ($title | string) "movies")  }}
-            {{ partial "main-title.html" (dict "Text" " $title Movies " "Icon" "film" ) }}
+        {{ if not (in (.Permalink  | string) "movies")  }}
+            <div class="container">
+                <h2 class="main-title list-page-title">
+                    <span class="main-title__text">
+                        {{ .Title }} Movies
+                        <ion-icon name="film" class="film"></ion-icon>
+                    </span>
+                </h2>
+            </div>
         {{end}}
-
-
-
+        <br>
+        {{ if (in (.Permalink  | string) "movies")  }}
+            <div class="container">
+                <h2 class="main-title list-page-title">
+                    <span class="main-title__text">
+                        Latest Movies
+                        <ion-icon name="film" class="film"></ion-icon>
+                    </span>
+                </h2>
+            </div>
+        {{end}}
+        <br>
+        
 
         <ul class="movie-list home-list animated fadeIn">
 

@@ -12,8 +12,8 @@
         width: 95%;
 
         h2{
-            color: $pry-color;
-            padding: 2rem 0px 1rem 0px;
+            color: $black-color;
+            padding: 2rem 0px 0rem 0px;
 
             @include mobile{
                 font-size: 1rem;
@@ -23,12 +23,13 @@
             color: $main-color;
             font-weight: 600;
             margin-bottom: .5rem;
+            padding: .5rem 0px;
         }
     }
 
     iframe{
         width: 90%;
-        box-shadow: 2px 2px 25px #b2429694;
+        box-shadow: 0px 0px 15px rgba(43, 43, 43, 0.22);
         border-radius: 5px;
 
         @include laptop{

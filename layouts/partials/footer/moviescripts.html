@@ -9,14 +9,12 @@
 
     //copy btn
     const url = document.URL;
-    const input = document.getElementById("share");
     document.getElementById("share").value= url;
     const btncopy = document.getElementById("copy-btn");
 
-    btncopy.onclick = function(){
-
+    function copy(){
+        const input = document.getElementById("share");
         input.select();
-
         document.execCommand("Copy");
     }
 

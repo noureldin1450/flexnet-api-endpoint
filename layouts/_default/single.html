@@ -44,9 +44,9 @@
                         </div>
 
                         <div class="stars">
-                            <span>Stars: </span>
+                            <span class="stars__headline">Stars: </span>
                             {{ range .Params.stars}}
-                            <a href="/stars/{{. | urlize}}/">{{.}}</a>,
+                            <a href="/stars/{{. | urlize}}/">{{.}}<span>, </span></a>
                             {{end}}
                         </div>
 
@@ -68,8 +68,8 @@
         <!-- this is movie player -->
         <section class="movie">
             <div class="container">
-                <h2>📽 Movie 📽</h2>
-                <p style="color: #bd2e2e;">
+                <h2> The Movie </h2>
+                <p>
                     if the movie didn't work try to change servers or come back later
                     <br>
                     إذا لم يعمل الفيلم ، فحاول تغيير الخوادم أو عد لاحقًا
@@ -91,5 +91,5 @@
 {{end}}
 
 {{ define "scripts" }}
-    {{ partial "footer/moviescripts.html" .}}
+    {{ partial "footer/moviescripts.html" . }}
 {{end}}

@@ -2,13 +2,32 @@
     <div class="container">
         
         <!-- main title for the movie -->
-        <h1>💛 Like "{{.Title}}"? Share it with your friends and family 💛</h1>
+        <h1><span><ion-icon name="heart"></ion-icon></span> Like "{{.Title}}"? Share it with your friends and family <span><ion-icon name="heart"></ion-icon></span></h1>
     
                 <!-- input for the url -->
-        <input class="share-url" id="share" alt="Click to copy" title="Click to copy" type="text" value="" readonly="readonly">
+        <input class="share-url" id="share" alt="Click to copy" title="Click to copy" type="text" value="{{.Permalink}}" readonly="readonly">
 
         <!-- url copy btn -->
-        <button id="copy-btn">COPY</button>
+        <button onclick="copy()" id="copy-btn">COPY</button>
+        <div class="share-icons"> 
+
+            <span id="facebook">
+                <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{.Permalink}}">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+            </span>
+            <span id="whatsapp">
+                <a target="_blank" href="https://web.whatsapp.com/send?text={{.Permalink}}">
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                </a>
+            </span>
+            <span id="twitter">
+                <a target="_blank" href="https://twitter.com/intent/tweet?url={{.Permalink}}">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+            </span>
+
+        </div>
 
     </div>
 </div>

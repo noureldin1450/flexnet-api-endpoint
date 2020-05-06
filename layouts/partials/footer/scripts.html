@@ -122,6 +122,21 @@
     gtag('config', 'UA-146859399-3');
 </script>
 
+<script>
+if('serviceWorker' in navigator){
+    navigator.serviceWorker.register("/sw.js")
+    .then(function(){
+        console.log("sw reg");
+    });
+}
+</script>
+<script>
+$("#minu").click(function (e) { 
+    e.preventDefault();
+    $("#navigation").toggle();
+});
+</script>
+
 
 <!-- main js -->
 <script src="{{.Site.BaseURL}}js/main.js"></script>

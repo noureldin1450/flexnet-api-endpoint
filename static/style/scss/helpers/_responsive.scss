@@ -10,6 +10,7 @@ $largtap: 760px;
 $tap:  708px;
 $mobile:  550px;
 $small-mobile:  480px;
+$super-small-mobile:  365px;
 
 @mixin lg-screens{
     @media (max-width: #{$lg-screens}) {
@@ -48,6 +49,11 @@ $small-mobile:  480px;
 }
 @mixin small-mobile {
     @media (max-width: #{$small-mobile}) {
+        @content;
+    }
+}
+@mixin super-small-mobile {
+    @media (max-width: #{$super-small-mobile}) {
         @content;
     }
 }

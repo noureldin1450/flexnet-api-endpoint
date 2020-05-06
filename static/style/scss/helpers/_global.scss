@@ -18,19 +18,31 @@
     padding: 0 0 4rem 0px;
     text-transform: capitalize;
 
+    @include tap {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
     &__text {
         display: flex;
-        float: left;
         align-items: center;
+        clear: both;
 
         @include tap {
-            float: none;
             justify-content: center;
             text-align: center;
         }
 
         ion-icon {
             padding-left: 0.5rem;
+
+            @include super-small-mobile{
+                display: none;
+            }
         }
     }
 

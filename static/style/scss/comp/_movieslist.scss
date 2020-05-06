@@ -48,6 +48,10 @@
                 font-size: 2.5rem;
                 opacity: .8;
                 padding-bottom: 1rem;
+
+                @include super-small-mobile{
+                    font-size: 1.8rem;
+                }
             }
 
             .content a,

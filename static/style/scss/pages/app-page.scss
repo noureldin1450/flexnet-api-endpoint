@@ -1,44 +1,66 @@
-@import '../helpers/var';
-@import '../helpers/responsive';
+//Var
+@import "../helpers/var";
+//RESPONSIVE
+@import "../helpers/responsive";
+//RESET
+@import "../helpers/reset";
+//Global
+@import "../helpers/global";
+//animation
+@import "../helpers/animation";
 
-.container{
-    @include tap{
+//main style
+//Nav
+@import "../layout/nav";
+//Footer
+@import "../layout/footer";
+
+.app {
+    display: block;
+    clear: both;
+    text-align: center;
+}
+
+.android {
+    margin-top: 3rem;
+    font-size: 9rem;
+    height: 150px;
+    ion-icon {
+        color: #f95959 !important;
+    }
+}
+.container {
+    @include tap {
         width: 90%;
     }
 }
-.app{
-    @include mobile{
+.app {
+    @include mobile {
         text-align: center;
     }
-    .logo{
-        width: 20%;
-        border-radius: 5px;
-        margin-top: 2rem;
-
-        @include tap{
-            width: 100%;
-        }
-    }
-    h1,h2{
+    h1,
+    h2 {
         color: $pry-color;
     }
-    h1{
+    h1 {
         margin: auto;
         padding: 2rem 0px;
 
-        @include tap{
+        @include tap {
             font-size: 1.3rem;
         }
     }
-    ol,h2,h1{
+    ol,
+    h2,
+    h1 {
         margin: auto;
     }
-    h2{
+    h2 {
         padding-bottom: 1rem;
     }
-    ol{
+    ol {
         margin: 0px auto 2rem auto;
-        li{
+        li {
             list-style: decimal;
             list-style-position: outside;
             list-style-position: inside;

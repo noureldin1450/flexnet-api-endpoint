@@ -57,6 +57,11 @@
            color: $white-color;
            display: inline-block;
         }
+        #twitter{
+            ion-icon{
+                padding-right: 0px;
+            }
+        }
     }
     button{
         border: none;

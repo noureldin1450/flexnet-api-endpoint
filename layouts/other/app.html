@@ -1,12 +1,18 @@
+
+
+
+
 {{ define "head" }}
-    <link rel="stylesheet" href="{{.Site.BaseURL}}/style/scss/pages/app-page.css"> 
+    <link rel="stylesheet" href="{{.Site.BaseURL}}style/scss/pages/app-page.css"> 
 {{end}}
 
 {{ define "main" }}
 <div class="app">
     <div class="container">
     
-        <img class="logo" src="{{.Site.BaseURL}}images/android.svg">
+        <div class="android">
+            <ion-icon name="logo-android"></ion-icon>
+        </div>
         
         <h1> 
             Make browsing up to 50% faster and more private while utilizing your full device screen without the web browser status bar or other elements 

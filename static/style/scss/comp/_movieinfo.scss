@@ -127,6 +127,9 @@
                         display: block;
                     }
                 }
+                @include mobile{
+                    padding-top: 1rem;
+                }
 
                 span {
                     &:nth-last-of-type(2) {

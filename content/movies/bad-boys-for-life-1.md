@@ -1,19 +1,19 @@
 +++
 date = 2020-04-27T08:47:11Z
-duration = "2h 4min"
-imdbid = "tt1502397"
-moviecover = "https://m.media-amazon.com/images/M/MV5BMWU0MGYwZWQtMzcwYS00NWVhLTlkZTAtYWVjOTYwZTBhZTBiXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg"
-rating = "6.8"
-server2 = "https://moshahda.online/embed-v6or660ltid5-640x360.html"
+duration = "1h 43min"
+imdbid = "tt6199572"
+moviecover = "https://m.media-amazon.com/images/M/MV5BZTVmMDU3MjctMmUxNi00NzI3LWI1NGMtMmY5MjE0MGVlMzAwXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_UX182_CR0,0,182,268_AL_.jpg"
+rating = "5.5"
+server2 = ""
 server3 = ""
 server4 = ""
 server5 = ""
-slug = "Capone  2020"
-stars = ["Vanessa Hudgens", "Martin Lawrence", "Will Smith"]
-story = " Miami detectives Mike Lowrey and Marcus Burnett must face off against a mother-and-son pair of drug lords who wreak vengeful havoc on their city. "
-tags = ["Action", "Comedy", "Crime"]
+slug = "Capone 2020"
+stars = [" Al Sapienza", "Linda Cardellini", "Tom Hardy"]
+story = " The 47-year old Al Capone, after 10 years in prison, starts suffering from dementia and comes to be haunted by his violent past. "
+tags = ["Comedy", "Drama", "Biography"]
 title = "Capone "
-trailer = "https://www.youtube.com/embed/jKCj3XuPG8M"
+trailer = "https://www.youtube.com/embed/2J5OE16C_zY"
 year = "2020"
 
 +++

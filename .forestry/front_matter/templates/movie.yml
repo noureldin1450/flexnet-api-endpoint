@@ -80,6 +80,26 @@ fields:
   label: trailer
   description: trailer | اعلان الفيلم
   default: https://www.youtube.com/embed/
+- name: server2
+  type: text
+  config:
+    required: false
+  label: server 2 source
+- name: server3
+  type: text
+  config:
+    required: false
+  label: server 3 source
+- name: server4
+  type: text
+  config:
+    required: false
+  label: server 4 source
+- name: server5
+  type: text
+  config:
+    required: false
+  label: server 5 source
 pages:
 - content/movies/after.md
 - content/movies/always-be-my-maybe.md

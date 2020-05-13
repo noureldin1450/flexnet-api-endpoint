@@ -12,4 +12,9 @@ title = "Bloodshot"
 trailer = "https://www.youtube.com/embed/vOUVVDWdXbo"
 year = "2020"
 
+server2 = "https://moshahda.online/embed-iuy89xwujk9j-640x360.html"
+server3 = "https://www.fembed.com/v/d6n46txj5qw7l82"
+server4 = "https://upvid.host/embed-a8em34blazvl.html"
+server5 = "https://gounlimited.to/embed-2ddgi7mvk6d4.html"
+
 +++

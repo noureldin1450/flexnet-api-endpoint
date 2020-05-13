@@ -1,39 +1,56 @@
 /* main movie code */
-.movie{
+.movie {
     text-align: center;
     clear: both;
-    padding-bottom: 2rem; 
+    padding-bottom: 2rem;
 
-    @include small-mobile{
+    @include small-mobile {
         padding: 0rem;
     }
 
-    .container{
+    .container {
         width: 95%;
 
-        h2{
-            color: $black-color;
-            padding: 2rem 0px 0rem 0px;
-
-            @include mobile{
-                font-size: 1rem;
-            }
-        }
-        p{
+        p {
+            margin-top: 2rem;
             color: $main-color;
             font-weight: 600;
-            margin-bottom: .5rem;
-            padding: .5rem 0px;
+            margin-bottom: 0.5rem;
+            padding: 0.5rem 0px;
+        }
+        .servers {
+            ul {
+                margin-bottom: 1.5rem;
+
+                .active {
+                    background: $main-color !important;
+                    color: $white-color !important;
+                }
+
+                li {
+                    cursor: pointer;
+                    display: inline-block;
+                    border: 2.5px solid $main-color;
+                    padding: 0.1rem 1rem;
+                    color: $main-color;
+                    margin-right: 0.4rem;
+                    border-radius: 5px;
+                    font-weight: 800;
+                    &:last-of-type {
+                        margin: 0px;
+                    }
+                }
+            }
         }
     }
 
-    iframe{
-        width: 100%;
+    iframe {
+        width: 90%;
         box-shadow: 0px 0px 15px rgba(43, 43, 43, 0.22);
         border-radius: 5px;
         height: 400px;
 
-        @include laptop{
+        @include laptop {
             width: 100%;
         }
     }

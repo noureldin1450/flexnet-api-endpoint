@@ -1,94 +1,141 @@
-
-
-
-
-
 {{ define "head" }}
-        <link rel="stylesheet" href="{{.Site.BaseURL}}/style/scss/pages/moviepage.css">                                        
+<link rel="stylesheet" href="{{.Site.BaseURL}}/style/scss/pages/moviepage.css">
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 {{end}}
 
 {{ define "main" }}
-    <!-- <div class="container">
+<!-- <div class="container">
         {{ partial "movie/report.html" .}}
     </div> -->
 
-    <main class="animated fadeIn">
+<main class="animated fadeIn">
 
-        <section class="info">
+    <section class="info">
 
-            <div class="container">
+        <div class="container">
 
-                <div class="trailer">
-                    {{ partial "youtubeplayer.html" . }}
-                </div>
+            <div class="trailer">
+                {{ partial "youtubeplayer.html" . }}
+            </div>
 
-                <div class="movie-info">
-                    <div class="content">
-                        <h1>
-                            {{.Title}}
-                            (<a href="{{.Site.BaseURL}}years/{{.Params.year}}">{{.Params.year}}</a>)
-                        </h1>
+            <div class="movie-info">
+                <div class="content">
+                    <h1>
+                        {{.Title}}
+                        (<a href="{{.Site.BaseURL}}years/{{.Params.year}}">{{.Params.year}}</a>)
+                    </h1>
 
-                        <div class="duration">
-                            <span>{{.Params.duration}}</span>
-                        </div>
-
-                        <div class="rating">
-                            <span>{{.Params.rating}}</span><span class="rating-num">/10</span>
-                        </div>
-
-                        <div class="tags">
-                            {{ range .Params.tags}}
-                            <a href="/tags/{{. | urlize}}/">{{.}}</a>
-                            {{end}}
-                        </div>
-
-                        <div class="stars">
-                            <span class="stars__headline">Stars: </span>
-                            {{ range .Params.stars}}
-                            <a href="/stars/{{. | urlize}}/">{{.}}<span>, </span></a>
-                            {{end}}
-                        </div>
-
-                        <div class="story">
-                            <p>
-                                {{.Params.story}}
-                            </p>
-                            <a href="https://www.imdb.com/title/{{.Params.imdbId}}" title="IMDB" class="imdb"
-                                target="_blank">IMDB</a>
-                        </div>
-
+                    <div class="duration">
+                        <span>{{.Params.duration}}</span>
                     </div>
+
+                    <div class="rating">
+                        <span>{{.Params.rating}}</span><span class="rating-num">/10</span>
+                    </div>
+
+                    <div class="tags">
+                        {{ range .Params.tags}}
+                        <a href="/tags/{{. | urlize}}/">{{.}}</a>
+                        {{end}}
+                    </div>
+
+                    <div class="stars">
+                        <span class="stars__headline">Stars: </span>
+                        {{ range .Params.stars}}
+                        <a href="/stars/{{. | urlize}}/">{{.}}<span>, </span></a>
+                        {{end}}
+                    </div>
+
+                    <div class="story">
+                        <p>
+                            {{.Params.story}}
+                        </p>
+                        <a href="https://www.imdb.com/title/{{.Params.imdbId}}" title="IMDB" class="imdb"
+                            target="_blank">IMDB</a>
+                    </div>
+
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- this is the code for sharing the movie url -->
-        {{ partial "sharing.html" . }}
-        <!-- this is movie player -->
-        <section class="movie">
-            <div class="container">
-                <h2> The Movie </h2>
-                <p>
-                    if the movie didn't work try to change servers or come back later
-                    <br>
-                    إذا لم يعمل الفيلم ، فحاول تغيير الخوادم أو عد لاحقًا
-                </p>
+    <!-- this is the code for sharing the movie url -->
+    {{ partial "sharing.html" . }}
+    <!-- this is movie player -->
+    <section class="movie">
+        <div class="container">
+            <p>
+                if the movie didn't work try to change servers or come back later
+                <br>
+                إذا لم يعمل الفيلم ، فحاول تغيير الخوادم أو عد لاحقًا
+            </p>
+
+            <div x-data="{ server: 1 }">
+                <div class="servers">
+                    <ul>
+                    <li :class="{ 'active': server == 1  }" @click="server = 1">Server 1</li>
+                    {{ if .Params.server2 }}
+                        <li :class="{ 'active': server == 2  }" @click="server = 2">Server 2</li>
+                    {{end}}
+                    {{ if .Params.server3 }}
+                        <li :class="{ 'active': server == 3  }" @click="server = 3">Server 3</li>
+                    {{end}}
+                    {{ if .Params.server4 }}
+                        <li :class="{ 'active': server == 4  }" @click="server = 4">Server 4</li>
+                    {{end}}
+                    {{ if .Params.server5 }}
+                        <li :class="{ 'active': server == 5  }" @click="server = 5">Server 5</li>
+                    {{end}}
+                    </ul>
+                </div>
+
                 <div>
-                    <iframe width="560" height="500" src="https://1movietv.com/playstream/{{ .Params.imdbid }}"
+                    <iframe class="animated fadeIn" x-show="server == 1 " width="560" height="500" src="https://1movietv.com/playstream/{{ .Params.imdbid }}"
                         frameborder=”0″ scrolling=”no” allowfullscreen=”allowfullscreen”
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
+
+                    {{ if .Params.server2 }}
+                    <iframe class="animated fadeIn" x-show="server == 2 " width="560" height="500" src="{{.Params.server2}}"
+                    frameborder=”0″ scrolling=”no” allowfullscreen=”allowfullscreen”
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                    </iframe>
+                    {{end}}
+                    {{ if .Params.server3 }}
+                    <iframe class="animated fadeIn" x-show="server == 3 " width="560" height="500" src="{{.Params.server3}}"
+                    frameborder=”0″ scrolling=”no” allowfullscreen=”allowfullscreen”
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                    </iframe>
+                    {{end}}
+                    {{ if .Params.server4 }}
+                    <iframe class="animated fadeIn" x-show="server == 4 " width="560" height="500" src="{{.Params.server4}}"
+                    frameborder=”0″ scrolling=”no” allowfullscreen=”allowfullscreen”
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                    </iframe>
+                    {{end}}
+                    {{ if .Params.server5 }}
+                    <iframe class="animated fadeIn" x-show="server == 5 " width="560" height="500" src="{{.Params.server5}}"
+                    frameborder=”0″ scrolling=”no” allowfullscreen=”allowfullscreen”
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                    </iframe>
+                    {{end}}
+
                 </div>
             </div>
-        </section>
+
+        </div>
+    </section>
 
 
-        <!-- this is movies like what you watch now -->
-            {{ partial "movie/related.html" . }}
-    </main>
+    <!-- this is movies like what you watch now -->
+    {{ partial "movie/related.html" . }}
+</main>
 {{end}}
 
 {{ define "scripts" }}
-    {{ partial "footer/moviescripts.html" . }}
+{{ partial "footer/moviescripts.html" . }}
 {{end}}

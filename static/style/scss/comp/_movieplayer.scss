@@ -19,6 +19,8 @@
             padding: 0.5rem 0px;
         }
         .servers {
+            width: 100% !important;
+
             ul {
                 margin-bottom: 1.5rem;
 
@@ -36,6 +38,13 @@
                     margin-right: 0.4rem;
                     border-radius: 5px;
                     font-weight: 800;
+                    @include mobile {
+                        display: block;
+                        margin: .5rem 0px;
+                    }
+                    @include tap {
+                        padding: 0.1rem 0.4rem;
+                    }
                     &:last-of-type {
                         margin: 0px;
                     }

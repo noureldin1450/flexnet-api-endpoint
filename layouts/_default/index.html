@@ -62,21 +62,7 @@
     </section>
     <!--/end main movies code for the movies at the end -->
     {{ partial "main-title.html" (dict "Text" "FlexNet Movies Categories"  "Icon" "file-tray-full" ) }}
-
     {{ partial "categories.html" . }}
-
-    <!-- <section class="container" id="tags">
-        <ul class="alltags">
-            <li>
-                {{ with .Site.GetPage "/tags" }}
-                    {{ range .Pages | shuffle }}
-                        <a href="{{.Site.BaseURL}}tags/action/">Action</a>
-                    {{end}}
-                {{end}}
-            </li>
-        </ul>
-    </section> -->
-
 </main>
 
 {{end}}

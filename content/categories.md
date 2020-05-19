@@ -1,6 +1,8 @@
 ---
 title: Categories 
-draft: false 
+draft: false
+type: "other"
+layout: ""
 ---
 
 

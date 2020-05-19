@@ -111,6 +111,7 @@
 
 </script>
 
+{{if not ( in (.Site.BaseURL | string) "localhost" )}}
 <!--google tracker-->
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146859399-3"></script>
@@ -121,6 +122,7 @@
 
     gtag('config', 'UA-146859399-3');
 </script>
+{{end}}
 
 <script>
 if('serviceWorker' in navigator){
@@ -136,8 +138,9 @@ $("#minu").click(function (e) {
     $("#navigation").toggle();
 });
 </script>
-
-{{ partial "footer/ad.html" . }}
+{{if not ( in (.Site.BaseURL | string) "localhost" )}}
+    {{ partial "footer/ad.html" . }}
+{{end}}
 
 <!-- main js -->
 <script src="{{.Site.BaseURL}}js/main.js"></script>

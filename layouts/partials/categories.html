@@ -1,0 +1,11 @@
+<section class="container" id="tags">
+    <ul class="alltags">
+        <li>
+            {{ with .Site.GetPage "/tags" }}
+                {{ range .Pages | shuffle }}
+                    <a href="{{.URL}}">{{.Title}}</a>
+                {{end}}
+            {{end}}
+        </li>
+    </ul>
+</section>

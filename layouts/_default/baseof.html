@@ -2,9 +2,12 @@
 <html lang="en">
 
 <!--HEAD-->
+
 <head>
-    <!--head code-->
-    {{ partial "head/head.html" .}}
+    {{ block "head-code" . }}
+        <!--head code-->
+        {{ partial "head/head.html" .}}
+    {{end}}
     <!-- adding custome code -->
     {{ block "head" . }}
         <!----Adding Style---->

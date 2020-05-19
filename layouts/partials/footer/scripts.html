@@ -135,7 +135,7 @@ if('serviceWorker' in navigator){
 <script>
 $("#minu").click(function (e) { 
     e.preventDefault();
-    $("#navigation").toggle();
+    $("#navigation").slideToggle(900);
 });
 </script>
 {{if not ( in (.Site.BaseURL | string) "localhost" )}}

@@ -1,6 +1,7 @@
 /* pagination code */
 
 #extra-btns{
+    display: flex;
     @include super-small-mobile{
         display: none;
     }

@@ -1,8 +1,6 @@
 ---
-title: Categories 
-draft: false
+draft: False 
+rating: "0"
 type: "other"
-layout: ""
+layout: "categories"
 ---
-
-

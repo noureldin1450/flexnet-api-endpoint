@@ -1,0 +1,12 @@
+{{ define "head" }}
+<link rel="stylesheet" href="{{.Site.BaseURL}}style/scss/pages/categories-page.css">
+{{end}}
+
+{{ define "main" }}
+<div class="content">
+    {{ partial "main-title.html" (dict "Text" "FlexNet Movies Categories"  "Icon" "file-tray-full" ) }}
+    {{ partial "categories.html" . }}
+</div>
+{{end}}
+{{ define "scripts" }}
+{{end}}

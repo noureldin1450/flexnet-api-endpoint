@@ -1,9 +1,22 @@
 {{ define "head" }}
 <!----Adding Style---->
+{{ if (in (.Permalink  | string) "categories")  }}
+<link rel="stylesheet" href="{{.Site.BaseURL}}style/scss/pages/categories-page.css">   
+{{else}}
 <link rel="stylesheet" href="{{.Site.BaseURL}}style/scss/pages/listpage.css">
 {{end}}
 
+{{end}}
+
 {{ define "main" }}
+
+
+{{ if (in (.Permalink  | string) "categories")  }}
+    <div class="content">
+        {{ partial "main-title.html" (dict "Text" "FlexNet Movies Categories"  "Icon" "file-tray-full" ) }}
+        {{ partial "categories.html" . }}
+    </div>
+{{else}}
 
 <main>
     <section id="movies" class="movies">
@@ -43,6 +56,8 @@
     </section>
 
 </main>
+{{end}}
+
 {{ partial "pagination.html" . }}
 
 {{end}}

@@ -70,57 +70,75 @@
                 إذا لم يعمل الفيلم ، فحاول تغيير الخوادم أو عد لاحقًا
             </p>
 
+            {{ if .Params.server1 }}
             <div x-data="{ server: 1 }">
+            {{ else if .Params.server2 }}
+            <div x-data="{ server: 2 }">
+            {{else}}
+            <div x-data="{ server: 1 }">
+            {{end}}
                 <div class="servers">
                     <ul>
-                    <li :class="{ 'active': server == 1  }" @click="server = 1">Server 1</li>
-                    {{ if .Params.server2 }}
+                        {{ if .Params.server1 }}
+                        <li :class="{ 'active': server == 1  }" @click="server = 1">Server 1</li>
+                        {{else}}
+                        <li :class="{ 'active': server == 1  }" @click="server = 1">Server 1</li>
+                        {{end}}
+                        {{ if .Params.server2 }}
                         <li :class="{ 'active': server == 2  }" @click="server = 2">Server 2</li>
-                    {{end}}
-                    {{ if .Params.server3 }}
+                        {{end}}
+                        {{ if .Params.server3 }}
                         <li :class="{ 'active': server == 3  }" @click="server = 3">Server 3</li>
-                    {{end}}
-                    {{ if .Params.server4 }}
+                        {{end}}
+                        {{ if .Params.server4 }}
                         <li :class="{ 'active': server == 4  }" @click="server = 4">Server 4</li>
-                    {{end}}
-                    {{ if .Params.server5 }}
+                        {{end}}
+                        {{ if .Params.server5 }}
                         <li :class="{ 'active': server == 5  }" @click="server = 5">Server 5</li>
-                    {{end}}
+                        {{end}}
                     </ul>
                 </div>
                 <!--site i freams-->
                 <div>
-                    <iframe class="animated fadeIn" x-show="server == 1 " width="560" height="500" src="https://1movietv.com/playstream/{{ .Params.imdbid }}"
+                    {{ if .Params.server1 }}
+                    <iframe class="animated fadeIn" x-show="server == 1 " width="560" height="500" src="{{.Params.server1}}"
                         frameborder=”0″ scrolling=”no” allowfullscreen=”allowfullscreen”
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                        </iframe>
+                    {{else}}
+                        <iframe class=" animated fadeIn" x-show="server == 1 " width="560" height="500"
+                        src="https://1movietv.com/playstream/{{ .Params.imdbid }}" frameborder=”0″ scrolling=”no”
+                        allowfullscreen=”allowfullscreen”
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
+                    {{end}}
 
                     {{ if .Params.server2 }}
-                    <iframe class="animated fadeIn" x-show="server == 2 " width="560" height="500" src="{{.Params.server2}}"
-                    frameborder=”0″ scrolling=”no” allowfullscreen=”allowfullscreen”
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen>
+                    <iframe class="animated fadeIn" x-show="server == 2 " width="560" height="500"
+                        src="{{.Params.server2}}" frameborder=”0″ scrolling=”no” allowfullscreen=”allowfullscreen”
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                     </iframe>
                     {{end}}
+
                     {{ if .Params.server3 }}
-                    <iframe class="animated fadeIn" x-show="server == 3 " width="560" height="500" src="{{.Params.server3}}"
-                    frameborder=”0″ scrolling=”no” allowfullscreen=”allowfullscreen”
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen>
+                    <iframe class="animated fadeIn" x-show="server == 3 " width="560" height="500"
+                        src="{{.Params.server3}}" frameborder=”0″ scrolling=”no” allowfullscreen=”allowfullscreen”
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                     </iframe>
                     {{end}}
+
                     {{ if .Params.server4 }}
-                    <iframe class="animated fadeIn" x-show="server == 4 " width="560" height="500" src="{{.Params.server4}}"
-                    frameborder=”0″ scrolling=”no” allowfullscreen=”allowfullscreen”
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen>
+                    <iframe class="animated fadeIn" x-show="server == 4 " width="560" height="500"
+                        src="{{.Params.server4}}" frameborder=”0″ scrolling=”no” allowfullscreen=”allowfullscreen”
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                     </iframe>
                     {{end}}
+
                     {{ if .Params.server5 }}
-                    <iframe class="animated fadeIn" x-show="server == 5 " width="560" height="500" src="{{.Params.server5}}"
-                    frameborder=”0″ scrolling=”no” allowfullscreen=”allowfullscreen”
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen>
+                    <iframe class="animated fadeIn" x-show="server == 5 " width="560" height="500"
+                        src="{{.Params.server5}}" frameborder=”0″ scrolling=”no” allowfullscreen=”allowfullscreen”
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                     </iframe>
                     {{end}}
 

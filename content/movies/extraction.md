@@ -6,7 +6,7 @@ moviecover = "https://m.media-amazon.com/images/M/MV5BMDJiNzUwYzEtNmQ2Yy00NWE4LW
 rating = "6.9"
 server1 = "https://e.dardarkom.online/mv/890018"
 server2 = "https://embed.mystream.to/e2puio30mmyh"
-server3 = "src=\"https://vidshare.tv/embed-q0mxvgg808z0.html\""
+server3 = "https://vidshare.tv/embed-q0mxvgg808z0.html"
 server4 = "https://moshahda.online/embed-bh6e4a6h8501-640x360.html"
 server5 = ""
 slug = "Extraction 2020"

@@ -80,6 +80,11 @@ fields:
   label: trailer
   description: trailer | اعلان الفيلم
   default: https://www.youtube.com/embed/
+- name: server1
+  type: text
+  config:
+    required: false
+  label: server 1 source
 - name: server2
   type: text
   config:

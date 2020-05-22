@@ -1,3 +1,4 @@
+
 {{ define "head" }}
 {{end}}
 
@@ -60,9 +61,25 @@
         </ul>
 
     </section>
-    <!--/end main movies code for the movies at the end -->
-    {{ partial "main-title.html" (dict "Text" "FlexNet Movies Categories"  "Icon" "file-tray-full" ) }}
-    {{ partial "categories.html" . }}
+
+    <section class="forms">
+        <ul class="container">
+            <li>
+                {{ partial "main-title.html" (dict "Text" "Request your favorite movie"  "Icon" "heart-half" ) }}
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfUT4ZR3xV7ipf0Nbekv0h-FEPMn_Ka4cjheErarO_-0jS4sA/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            </li>
+            <li>
+                {{ partial "main-title.html" (dict "Text" "Tell us how we could improve"  "Icon" "heart-half" ) }}
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScyEJBKhXApqD8k30cTfxGYxpSh4yfCBhnoh0mKYuk3M0_MEw/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <!--/end main movies code for the movies at the end -->
+        {{ partial "main-title.html" (dict "Text" "FlexNet Movies Categories"  "Icon" "file-tray-full" ) }}
+        {{ partial "categories.html" . }}
+    </section>
 </main>
 
 {{end}}

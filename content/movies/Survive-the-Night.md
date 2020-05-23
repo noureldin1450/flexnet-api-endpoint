@@ -1,21 +1,20 @@
 +++
-date = 2020-05-23T15:21:33Z
-draft = true
-duration = "1h 46min"
-imdbid = "tt5797184"
-moviecover = "https://m.media-amazon.com/images/M/MV5BOWRhYWFkMDEtNTFjZC00OWJkLWJmMWQtNzI2OWRjZjVjOGYyXkEyXkFqcGdeQXVyMzQwMTY2Nzk@._V1_UY268_CR2,0,182,268_AL_.jpg"
-rating = "6.5"
-server1 = "https://w.dardarkom.online/mv/533715"
-server2 = "https://moshahda.online/embed-xbudtwn9hr5r-640x360.html"
-server3 = "https://uqload.com/embed-nzi9y3nq6rxi.html"
-server4 = "https://gounlimited.to/embed-5zvvwa2sd98q.html"
-server5 = "https://embed.mystream.to/m5fo3p4m4qkc"
-slug = "Escape from Pretoria 2020"
-stars = ["Ian Hart", "Daniel Webber", "Daniel Radcliffe"]
-story = "Based on the real-life prison break of two political captives, Escape From Pretoria is a race-against-time thriller set in the tumultuous apartheid days of South Africa."
-tags = ["Thriller"]
-title = "Escape from Pretoria "
-trailer = "https://www.youtube.com/embed/R_GFMbq4JPo"
+date = 2020-05-23T08:21:33Z
+duration = "1h 30min"
+imdbid = "tt10303324"
+moviecover = "https://m.media-amazon.com/images/M/MV5BM2FkYmZiZjItY2Q5NC00MWVkLWI3NDItMzhiOTRkNDhhZDEyXkEyXkFqcGdeQXVyOTg4MDYyNw@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+rating = "5.0"
+server1 = "https://e.dardarkom.online/mv/884962"
+server2 = ""
+server3 = ""
+server4 = ""
+server5 = ""
+slug = "Survive the Night 2020"
+stars = [" Bruce Willis", "Chad Michael Murray", "Lydia Hull "]
+story = " A disgraced doctor and his family are held hostage at their home by criminals on the run, when a robbery-gone-awry requires them to seek immediate medical attention. "
+tags = ["Thriller", "Action"]
+title = "Survive the Night"
+trailer = "https://www.youtube.com/embed/TfTNGqXBwHY"
 year = "2020"
 
 +++

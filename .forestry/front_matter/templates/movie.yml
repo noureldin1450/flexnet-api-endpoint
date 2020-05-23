@@ -107,6 +107,7 @@ fields:
   label: server 5 source
 pages:
 - content/movies/Survive-the-Night.md
+- content/movies/Welcome-to-Marwen.md
 - content/movies/Working-Man.md
 - content/movies/after.md
 - content/movies/always-be-my-maybe.md
@@ -132,6 +133,5 @@ pages:
 - content/movies/spider-man-homecoming.md
 - content/movies/the-sun-is-also-a-star.md
 - content/movies/what-men-want.md
-- content/movies/working-man.md
 - content/movies/world-war-z.md
 - content/movies/zombieland-double-tap.md

@@ -1,21 +1,20 @@
 +++
-date = 2020-05-23T08:24:33Z
-draft = true
-duration = "1h 49min"
-imdbid = "tt8391044"
-moviecover = "https://m.media-amazon.com/images/M/MV5BMzU0YzZiNTEtOWE0NS00ODZkLTkxZDktYTQxNWVhM2I2NjI0XkEyXkFqcGdeQXVyNjM0NzMyMDY@._V1_UY268_CR1,0,182,268_AL_.jpg"
-rating = "6.0"
-server1 = "https://e.dardarkom.online/mv/483238"
+date = 2020-05-23T08:35:33Z
+duration = "1h 56min"
+imdbid = "tt3289724"
+moviecover = "https://m.media-amazon.com/images/M/MV5BMjIxMjUwMjItMGIxYS00NTlmLTgxZTQtMzg2Yjc1ZWQ3YTYxXkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_UX182_CR0,0,182,268_AL_.jpg"
+rating = "6.2"
+server1 = "https://e.dardarkom.online/mv/367522"
 server2 = ""
 server3 = ""
 server4 = ""
 server5 = ""
-slug = "Working Man 2020"
-stars = [" Peter Gerety", "Billy Brown", "Talia Shire"]
-story = "When a factory closure threatens a small Rust Belt town, one older factory worker continues going to his former job every day, despite the shutdown. His peculiar decision has a profound ..."
-tags = ["Drama "]
-title = "Working Man"
-trailer = "https://www.youtube.com/embed/6Ygmuf1nyfk"
-year = "2020"
+slug = "Welcome to Marwen 2018"
+stars = ["Steve Carell", "Falk Hentschel", "Matt O'Leary"]
+story = " A victim of a brutal attack finds a unique and beautiful therapeutic outlet to help him through his recovery process. "
+tags = ["Drama ", " Biography", "Comedy"]
+title = "Welcome to Marwen"
+trailer = "https://www.youtube.com/embed/W6dy7xQ8NeE"
+year = "2018"
 
 +++

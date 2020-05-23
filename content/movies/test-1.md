@@ -1,6 +1,5 @@
 +++
 date = 2020-05-23T19:51:41Z
-draft = true
 duration = "test"
 imdbid = "test"
 moviecover = "test"

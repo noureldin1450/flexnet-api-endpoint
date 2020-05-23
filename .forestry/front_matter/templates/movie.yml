@@ -8,6 +8,19 @@ fields:
     required: true
   label: Title
   description: 'Movie Name | اسم الفيلم '
+- name: draft
+  type: select
+  default: 'true'
+  config:
+    required: false
+    options:
+    - 'true'
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: draft
 - name: slug
   type: text
   config:

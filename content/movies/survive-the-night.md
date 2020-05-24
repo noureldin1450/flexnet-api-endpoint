@@ -10,11 +10,11 @@ server2 = "https://embed.mystream.to/6qys7h3mlt40"
 server3 = ""
 server4 = ""
 server5 = ""
-slug = "Survive the Night 2020"
+slug = "The Invisible Man"
 stars = ["Lydia Hull", "Chad Michael Murray", "Bruce Willis"]
 story = "A disgraced doctor and his family are held hostage at their home by criminals on the run, when a robbery-gone-awry requires them to seek immediate medical attention."
 tags = ["Action", "Thriller"]
-title = "Survive the Night"
+title = "The Invisible Man"
 trailer = "https://www.youtube.com/embed/4xPd90R-IHk"
 year = "2020"
 

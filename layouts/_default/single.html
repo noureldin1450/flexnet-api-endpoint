@@ -101,12 +101,8 @@
                 <!--site i freams-->
                 <div>
                     {{ if .Params.server1 }}
-                    <iframe class="animated fadeIn" x-show="server == 1 " width="560" height="500" src="{{.Params.server1}}"
-                        frameborder=”0″ scrolling=”no” allowfullscreen=”allowfullscreen”
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
-                        </iframe>
-                    {{else}}
+                        {{ partial "movie/ifram-code.html" (dict "src" .Params.server1 "Server" "server == 1"  ) }}
+                        {{else}}
                         <iframe class=" animated fadeIn" x-show="server == 1 " width="560" height="500"
                         src="https://1movietv.com/playstream/{{ .Params.imdbid }}" frameborder=”0″ scrolling=”no”
                         allowfullscreen=”allowfullscreen”
@@ -115,31 +111,19 @@
                     {{end}}
 
                     {{ if .Params.server2 }}
-                    <iframe class="animated fadeIn" x-show="server == 2 " width="560" height="500"
-                        src="{{.Params.server2}}" frameborder=”0″ scrolling=”no” allowfullscreen=”allowfullscreen”
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                    </iframe>
-                    {{end}}
-
+                        {{ partial "movie/ifram-code.html" (dict "src" .Params.server2 "Server" "server == 2"  ) }}
+                        {{end}}
+                        
                     {{ if .Params.server3 }}
-                    <iframe class="animated fadeIn" x-show="server == 3 " width="560" height="500"
-                        src="{{.Params.server3}}" frameborder=”0″ scrolling=”no” allowfullscreen=”allowfullscreen”
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                    </iframe>
+                        {{ partial "movie/ifram-code.html" (dict "src" .Params.server3 "Server" "server == 3"  ) }}
                     {{end}}
 
                     {{ if .Params.server4 }}
-                    <iframe class="animated fadeIn" x-show="server == 4 " width="560" height="500"
-                        src="{{.Params.server4}}" frameborder=”0″ scrolling=”no” allowfullscreen=”allowfullscreen”
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                    </iframe>
+                        {{ partial "movie/ifram-code.html" (dict "src" .Params.server4 "Server" "server == 4"  ) }}
                     {{end}}
 
                     {{ if .Params.server5 }}
-                    <iframe class="animated fadeIn" x-show="server == 5 " width="560" height="500"
-                        src="{{.Params.server5}}" frameborder=”0″ scrolling=”no” allowfullscreen=”allowfullscreen”
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                    </iframe>
+                        {{ partial "movie/ifram-code.html" (dict "src" .Params.server5 "Server" "server == 5"  ) }}
                     {{end}}
 
                 </div>

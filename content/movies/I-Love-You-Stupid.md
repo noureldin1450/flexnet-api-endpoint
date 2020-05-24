@@ -13,7 +13,7 @@ slug = "I Love You Stupid 2020"
 stars = ["Alfonso Bassave", "Natalia Tena", "Quim Gutiérrez"]
 story = "Marcos' life turns upside down after he loses the same day his girlfriend and his job. Marcos' life turns wild after to meet Raquel."
 tags = ["Comedy"]
-title = "I Love You, Stupid"
+title = "I Love You, Stupid "
 trailer = "https://www.youtube.com/embed/EQKaZzCJDvw"
 year = "2020"
 

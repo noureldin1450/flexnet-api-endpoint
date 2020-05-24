@@ -106,6 +106,10 @@ fields:
     required: false
   label: server 5 source
 pages:
+- content/movies/My Spy.md
+- content/movies/Survive-the-Night.md
+- content/movies/Welcome-to-Marwen.md
+- content/movies/Working-Man.md
 - content/movies/after.md
 - content/movies/always-be-my-maybe.md
 - content/movies/bad-boys-for-life-1.md
@@ -128,7 +132,6 @@ pages:
 - content/movies/second-act.md
 - content/movies/sonic-the-hedgehog.md
 - content/movies/spider-man-homecoming.md
-- content/movies/test.md
 - content/movies/the-sun-is-also-a-star.md
 - content/movies/what-men-want.md
 - content/movies/world-war-z.md

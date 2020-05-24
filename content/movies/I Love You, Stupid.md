@@ -1,21 +1,20 @@
 +++
-date = 2020-05-24T03:12:00Z
-draft = true
-duration = "2h 4min"
-imdbid = "tt1051906"
-moviecover = "https://m.media-amazon.com/images/M/MV5BZjFhM2I4ZDYtZWMwNC00NTYzLWE3MDgtNjgxYmM3ZWMxYmVmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg"
-rating = "7.1"
-server1 = "https://e.dardarkom.online/mv/265332"
-server2 = "https://moshahda.online/embed-jn4u5tdz82br-640x360.html"
-server3 = "https://embed.mystream.to/l5gq5rhiej12"
+date = 2020-05-24T03:21:00Z
+duration = "1h 27min"
+imdbid = "tt9359344"
+moviecover = "https://m.media-amazon.com/images/M/MV5BZjUwNDNiZmItZDgyYS00MTY2LTkxMzUtMThhZmMyODkwMTJiXkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_UY268_CR3,0,182,268_AL_.jpg"
+rating = "5.8"
+server1 = "https://e.dardarkom.online/mv/503771"
+server2 = ""
+server3 = ""
 server4 = ""
 server5 = ""
-slug = "The Invisible Man 2020"
-stars = ["Harriet Dyer", "Oliver Jackson-Cohen", "Elisabeth Moss"]
-story = "When Cecilia's abusive ex takes his own life and leaves her his fortune, she suspects his death was a hoax. As a series of coincidences turn lethal, Cecilia works to prove that she is being hunted by someone nobody can see."
-tags = ["Horror", "Mystery", "Sci-Fi"]
-title = "The Invisible Man"
-trailer = "https://www.youtube.com/embed/dSBsNeYqh-k"
+slug = "I Love You Stupid 2020"
+stars = ["Alfonso Bassave", "Natalia Tena", "Quim Gutiérrez"]
+story = "Marcos' life turns upside down after he loses the same day his girlfriend and his job. Marcos' life turns wild after to meet Raquel."
+tags = ["Comedy"]
+title = "I Love You, Stupid"
+trailer = "https://www.youtube.com/embed/EQKaZzCJDvw"
 year = "2020"
 
 +++

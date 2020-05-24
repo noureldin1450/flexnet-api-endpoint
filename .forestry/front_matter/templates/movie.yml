@@ -106,6 +106,7 @@ fields:
     required: false
   label: server 5 source
 pages:
+- content/movies/I Love You, Stupid.md
 - content/movies/My Spy.md
 - content/movies/Survive-the-Night.md
 - content/movies/The Invisible Man.md
@@ -133,7 +134,6 @@ pages:
 - content/movies/second-act.md
 - content/movies/sonic-the-hedgehog.md
 - content/movies/spider-man-homecoming.md
-- content/movies/the-invisible-man.md
 - content/movies/the-sun-is-also-a-star.md
 - content/movies/what-men-want.md
 - content/movies/world-war-z.md

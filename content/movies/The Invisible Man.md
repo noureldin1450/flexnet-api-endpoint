@@ -1,5 +1,5 @@
 +++
-date = 2020-05-24T03:12:00Z
+date = 2020-05-25T03:12:00Z
 duration = "2h 4min"
 imdbid = "tt1051906"
 moviecover = "https://m.media-amazon.com/images/M/MV5BZjFhM2I4ZDYtZWMwNC00NTYzLWE3MDgtNjgxYmM3ZWMxYmVmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg"

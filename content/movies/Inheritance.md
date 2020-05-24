@@ -1,6 +1,5 @@
 +++
 date = 2020-05-25T03:51:00Z
-draft = true
 duration = "1h 51min"
 imdbid = "tt7923220"
 moviecover = "https://m.media-amazon.com/images/M/MV5BYTYzZjE4NmEtZjQ2NC00NjNjLTlhNTItNjM3YTA3YTQyODk1XkEyXkFqcGdeQXVyMzQwMTY2Nzk@._V1_UX182_CR0,0,182,268_AL_.jpg"

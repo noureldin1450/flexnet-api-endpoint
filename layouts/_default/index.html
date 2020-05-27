@@ -19,7 +19,7 @@
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 {{ with .Site.GetPage "/movies" }}
-                {{ range first 7 .Pages.ByPublishDate.Reverse }}
+                {{ range first 20 .Pages.ByPublishDate.Reverse }}
                 {{ partial "list.html" . }}
                 {{end}}
                 {{end}}
@@ -32,7 +32,7 @@
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 {{ with .Site.GetPage "/movies" }}
-                {{ range first 7 (.Pages.ByParam "rating").Reverse }}
+                {{ range first 20 (.Pages.ByParam "rating").Reverse }}
                 <!--adding the movies slider-->
                 {{ partial "list.html" . }}
                 {{end}}
@@ -45,9 +45,8 @@
     <!--/end slider movies code for the movies at the top -->
 
     <!-- start main movies code for the movies at the end -->
-
+<!-- 
     <section id="movies" class="movies" style="padding: 0 !important;">
-
         {{ partial "main-title.html" (dict "Text" "FlexNet Latest Movies" "Icon" "film" "Route" "movies" ) }}
 
         <ul class="movie-list home-list">
@@ -59,8 +58,7 @@
                 {{end}}
             </div>
         </ul>
-
-    </section>
+    </section> -->
 
     <section class="forms">
         <ul class="container">

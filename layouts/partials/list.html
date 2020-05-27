@@ -2,6 +2,7 @@
 
         <div class="swiper-slide">
             <div class="item">
+<!--                 
                 <div class="poster" style="
                     background: url({{.Params.moviecover}}) center no-repeat;
                     background-size: cover;
@@ -50,7 +51,54 @@
 
                     </div>
 
-                </div>
+                </div> -->
+
+
+
+
+                <img class="poster img" data-src="{{.Params.moviecover}}" alt="{{.Title}} movie - Flexnet" />
+
+                    <div class="content slider-content">
+
+                        <a href="{{.URL}}">
+
+                            <h3 class="title"> {{.Title}} </h3>
+
+                            <div class="movie-hover-info">
+
+                                <div class="container">
+
+                                    <h2 class="movie-name">
+                                        {{.Title}}
+
+                                        <span class="year">
+                                            ({{.Params.year}})
+                                        </span>
+                                    </h2>
+
+                                    <div class="rating">
+                                        {{.Params.rating}}<span>/10</span>
+                                    </div>
+
+                                    <div class="duration">
+                                        {{.Params.duration}}
+                                    </div>
+
+
+                                    <div class="tags">
+                                        {{ range .Params.tags}}
+                                        <span href="">{{.}}</span>
+                                        {{end}}
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                        </a>
+
+                    </div>
 
                 <div class="movie-Rating">
                     <div class="rating">

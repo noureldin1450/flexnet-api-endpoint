@@ -142,5 +142,27 @@ $("#minu").click(function (e) {
     {{ partial "footer/ad.html" . }}
 {{end}}
 
+<!-- ADDING LAZY LOADING FOR THE IMAGES -->
+<script>
+    var images = document.querySelectorAll('.img');
+    
+    var observer = new IntersectionObserver(function(entries, observer){
+        entries.forEach(entry => {
+            if(entry.isIntersecting){
+                var img = entry.target;
+                img.setAttribute('src', img.getAttribute('data-src'));
+                observer.unobserve(img)
+            }
+        })
+    },{
+        rootMargin: '0px 10px -20px 0px'
+    })
+
+    images.forEach(img => {
+        observer.observe(img)
+    })
+
+</script>
+
 <!-- main js -->
 <script src="{{.Site.BaseURL}}js/main.js"></script>

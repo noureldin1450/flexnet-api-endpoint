@@ -1,0 +1,29 @@
+<div class="movie-header" style="background-image: url({{.bg}});">
+    <div class="overlay">
+
+        <div class="content container">
+            <div class="trailer">
+                <iframe src="{{.trailer}}" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+            <div class="info">
+                <h1 class="info__title">
+                    {{ truncate 25 .title }}
+                </h1>
+                <h2 class="info__duration">{{.duration}}</h2>
+                <h2 class="info__rating">{{.rating}}/10</h2>
+                <div class="btns">
+                    <a href="{{.link1}}">Watch now <ion-icon name="play"></ion-icon></a>
+                    <a href="{{.link2}}">more info <ion-icon name="information-circle"></ion-icon></a>
+                </div>
+                <div style="clear: both;"></div>
+                <p class="info__story">
+                    {{ truncate 170 .story }}
+                </p>
+            </div>
+        </div>
+
+    </div>
+</div>

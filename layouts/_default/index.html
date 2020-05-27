@@ -29,6 +29,12 @@
         <!--start slider for top rated movies -->
         {{ partial "main-title.html" (dict "Text" "FlexNet Top Rated Movies" "Icon" "star" "Route" "movies" ) }}
 
+
+
+
+
+
+
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 {{ with .Site.GetPage "/movies" }}
@@ -40,6 +46,15 @@
             </div>
         </div>
 
+    </section>
+
+
+    <section>
+        {{ with .Site.GetPage "/movies" }}
+            {{ range .Pages | first 1 }}
+                {{ partial "movie/header.html" (dict "bg" .Params.moviebg "trailer" .Params.trailer "title" .Params.title "duration" .Params.duration "rating" .Params.rating "link1" .URL "link2" .URL  "year" .Params.year "story" .Params.story ) }}
+            {{end}}
+        {{end}}
     </section>
 
     <!--/end slider movies code for the movies at the top -->

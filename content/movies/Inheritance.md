@@ -16,5 +16,5 @@ tags = ["Thriller", "Drama", "Mystery"]
 title = "Inheritance"
 trailer = "https://www.youtube.com/embed/bkaWQ5HlE5U"
 year = "2020"
-
+moviebg = "https://m.media-amazon.com/images/M/MV5BODc2ZjU0MjItYzFhMC00OWYzLTgwMWQtOGRiNmUzOTg2OTNhXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX1777_CR0,0,1777,999_AL_.jpg"
 +++

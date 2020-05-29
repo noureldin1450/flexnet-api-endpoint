@@ -16,5 +16,5 @@ tags = ["Animation", "Adventure", "Comedy"]
 title = "Scoob!"
 trailer = "https://www.youtube.com/embed/vf1aW1z437I"
 year = "2020"
-
+moviebg = "https://m.media-amazon.com/images/M/MV5BYzRmYjlmYjgtODdjYy00MTJlLTg2YzYtNDNiNjFkZGRlMDdjXkEyXkFqcGdeQXVyNTY3MDQzNTk@._V1_.jpg"
 +++

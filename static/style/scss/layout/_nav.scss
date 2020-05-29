@@ -29,7 +29,7 @@ nav{
     .ham{
         float: right;
         display: none;
-        padding: .7rem;
+        padding:  .7rem .7rem 0px 0px;
         cursor: pointer;
         color: $white-color;
         @include tap{
@@ -49,7 +49,7 @@ nav{
             padding: 1rem 0px;
             width: 100%;
             background: $main-color;
-            margin-bottom: 1rem;
+            margin: 2rem 0px;
         }
 
         li{

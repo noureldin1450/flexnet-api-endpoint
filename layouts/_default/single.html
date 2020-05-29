@@ -9,13 +9,20 @@
     </div> -->
 
 <main class="animated fadeIn">
+    <div style="clear: both;"></div>
+    <section>
+        {{ partial "movie/header.html" (dict "bg" .Params.moviebg "trailer" .Params.trailer "title" .Params.title "duration" .Params.duration "rating" .Params.rating "link1" "#movie-player" "link2" "#more-info"  "year" .Params.year "story" .Params.story ) }}
+    </section>
 
-    <section class="info">
+
+
+
+    <section class="more-info" id="more-info"> 
 
         <div class="container">
 
-            <div class="trailer">
-                {{ partial "youtubeplayer.html" . }}
+            <div class="movie-cover">
+                <img class="img" data-src="{{.Params.moviecover}}">
             </div>
 
             <div class="movie-info">
@@ -59,8 +66,11 @@
         </div>
     </section>
 
+    <div style="clear: both;"></div>
+
     <!-- this is the code for sharing the movie url -->
-    {{ partial "sharing.html" . }}
+    <!-- {{ partial "sharing.html" . }} -->
+
     <!-- this is movie player -->
     <section class="movie">
         <div class="container">
@@ -99,7 +109,7 @@
                     </ul>
                 </div>
                 <!--site i freams-->
-                <div>
+                <div id="movie-player">
                     {{ if .Params.server1 }}
                         {{ partial "movie/ifram-code.html" (dict "src" .Params.server1 "Server" "server == 1"  ) }}
                         {{else}}

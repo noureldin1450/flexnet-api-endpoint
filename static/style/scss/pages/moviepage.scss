@@ -19,11 +19,20 @@
 @import '../comp/movieslist';
 //movieinfo
 @import '../comp/movieinfo';
-//report
-@import '../comp/report';
-//share banner
-@import '../comp/share';
+// //report
+// @import '../comp/report';
+// //share banner
+// @import '../comp/share';
 //movie player
 @import '../comp/movieplayer';
+//movie header 
+@import '../comp/movie-header';
 //Footer
 @import '../layout/footer';
+
+//making the headser heigh more bigger
+.movie-header{
+    .overlay{
+        padding: 5rem 0px !important;
+    }
+}

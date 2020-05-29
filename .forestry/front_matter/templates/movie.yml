@@ -73,6 +73,11 @@ fields:
     required: false
   label: Moviecover
   description: Movie Cover | بوستر الفيلم
+- name: moviebg
+  type: text
+  config:
+    required: false
+  label: Movie background
 - name: trailer
   type: text
   config:

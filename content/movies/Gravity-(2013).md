@@ -23,5 +23,3 @@ story: "Two astronauts work together to survive after an accident leaves them st
 
 imdbId: "tt1454468"
 ---
-
-{{< movie url= "https://vidstream.to/embed/ICgUZcfrDM/?vclid=784ee63d47ac9af117321c32f4a25291ef0480a0b7975923f94c8bbdQzzzVcfRUVzXzVRzlpufRbsNxvdamQqzkbzzVXVzVGegzVzXzVLeTGFRbzRObIVXVzVLGFzVzXzVHQfBiHPRRVRvupYztsxzVzs">}}

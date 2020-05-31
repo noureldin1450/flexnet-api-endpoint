@@ -1,13 +1,13 @@
 
 .more-info {
-    margin: 4rem 0px;
+    padding: 4rem 0px;
     clear: both;
     display: flex;
     align-items: center;
     justify-content: center;
 
     @include small-mobile {
-        margin: 3rem 0px;
+        padding: 3rem 0px;
     }
 
     .movie-cover{
@@ -52,7 +52,11 @@
             clear: both;
             height: 100%;
         }
-
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
         .container {
             @include tap {
                 width: 95%;

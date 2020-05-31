@@ -1,4 +1,9 @@
-<div class="movie-header animated background" style="background-image: url({{.bg}});">
+
+{{ if .bg }}
+    <div class="movie-header" style="background-image: url({{.bg}});">
+    {{else}}
+    <div class="movie-header" style="background-image: url({{.Site.BaseURL}}/images/background.jpg);">
+{{end}}
     <div class="overlay">
 
         <div class="content container">

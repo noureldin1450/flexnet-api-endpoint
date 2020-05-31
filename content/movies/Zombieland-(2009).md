@@ -24,4 +24,3 @@ moviebg: https://m.media-amazon.com/images/M/MV5BYWE5NDc3MTYtOGZjOS00MjQxLWIzZWI
 
 
 ---
-{{< movie url= "https://vidstream.to/embed/LAsJoxDvnC/?vclid=32678436729fe90512f5eecc6f80fa35a5d23f2c2b3ac50ae8b5887enAAAUcSPaUAlAUEMPrNfhBPNlPwOZMPNNANBUlUAUMbOAUAlAUERSLfEtPPUPDsgzAGdvAUAd">}}

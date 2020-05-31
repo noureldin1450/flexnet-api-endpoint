@@ -2,6 +2,7 @@
 date = 2020-05-23T15:21:33Z
 duration = "1h 46min"
 imdbid = "tt5797184"
+moviebg = "https://m.media-amazon.com/images/M/MV5BNTM2ZWJmOTUtMWQ5MC00YmE1LWFlYjItNzlmYWNkOWI2N2JkXkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_SX1777_CR0,0,1777,999_AL_.jpg"
 moviecover = "https://m.media-amazon.com/images/M/MV5BOWRhYWFkMDEtNTFjZC00OWJkLWJmMWQtNzI2OWRjZjVjOGYyXkEyXkFqcGdeQXVyMzQwMTY2Nzk@._V1_UY268_CR2,0,182,268_AL_.jpg"
 rating = "6.5"
 server1 = "https://w.dardarkom.online/mv/533715"

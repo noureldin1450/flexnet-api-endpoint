@@ -20,5 +20,8 @@ story: 'A shy student trying to reach his family in Ohio, a gun-toting tough guy
   join forces to travel across a zombie-filled America. '
 imdbId: tt1156398
 
+moviebg: https://m.media-amazon.com/images/M/MV5BYWE5NDc3MTYtOGZjOS00MjQxLWIzZWItYzkzZjFiNmVjMjhkXkEyXkFqcGdeQXVyNzgxMzc3OTc@._V1_SX1777_CR0,0,1777,740_AL_.jpg
+
+
 ---
 {{< movie url= "https://vidstream.to/embed/LAsJoxDvnC/?vclid=32678436729fe90512f5eecc6f80fa35a5d23f2c2b3ac50ae8b5887enAAAUcSPaUAlAUEMPrNfhBPNlPwOZMPNNANBUlUAUMbOAUAlAUERSLfEtPPUPDsgzAGdvAUAd">}}

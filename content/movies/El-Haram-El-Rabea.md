@@ -21,6 +21,7 @@ story: " تدور أحداث الفيلم في إطار تشويقي مثير، 
   بما ارتبط به من عمليات عديدة ومتباينة، سواء في مواقع التواصل الاجتماعي أو المنتديات
   الفنية المختلفة وغيرها، وذلك من خلال يوسف طالب الهندسة الماهر الذي يقوم بعمليات
   قرصنة تثير الكثير من اللغط"
+draft: true
 
 ---
 {{< movie url= "https://vidstream.to/embed/lD1iVUvDd9/?vclid=fa0a3cc10589e5921c606df7f6343a634970eef130df3db4aefadf04gaaaQIDTmQapaQruTaBGbdImdbblcvrMbvQpQaQfigaQapaQBKBmBszcTTQTNFUlaGMnpaQaH">}}

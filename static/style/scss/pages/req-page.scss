@@ -16,21 +16,6 @@
 @import "../layout/nav";
 //Footer
 @import "../layout/footer";
+//forms
+@import '../comp/forms';
 
-
-.req{
-    text-align: center;
-
-    h1{
-        color: $main-color;
-        padding: 1rem 0px;
-    }
-    iframe{
-        padding-bottom: 1rem;
-        width: 700px;
-
-        @include tap{
-            width: 100%;
-        }
-    }
-}

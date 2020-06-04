@@ -17,98 +17,123 @@
 
 <!-- movies slider -->
 <script>
-    var swiper = new Swiper('.swiper-container', {
-        slidesPerView: 6,
-        spaceBetween: 10,
-        freeMode: true,
-        // autoplay: {
-        //     delay: 2500,
-        //     disableOnInteraction: false,
-        // },
-        breakpoints: {
-            1400: {
-                slidesPerView: 7,
-                spaceBetween: 20,
+
+    $(document).ready(function () {
+        // the code for the sliders to work
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 7,
+            spaceBetween: 10,
+            freeMode: true,
+            // autoplay: {
+            //     delay: 2500,
+            //     disableOnInteraction: false,
+            // },
+            breakpoints: {
+                1400: {
+                    slidesPerView: 7,
+                    spaceBetween: 20,
+                },
+                1000: {
+                    slidesPerView: 5.3,
+                },
+                900: {
+                    slidesPerView: 4.4,
+                },
+                600: {
+                    slidesPerView: 3.3,
+                },
+                400: {
+                    slidesPerView: 2.3,
+                },
+                200: {
+                    slidesPerView: 1.7,
+                    spaceBetween: 3,
+                }
             },
-            1000:{
-                slidesPerView: 5.3,
-            },
-            900:{
-                slidesPerView: 4.4,
-            },
-            600:{
-                slidesPerView: 3.3,
-            },
-            400:{
-                slidesPerView: 2.3,
-            },
-            200:{
-                slidesPerView: 1.7,
-                spaceBetween: 3,
-            }
-        },
             // pagination: {
             //     el: '.swiper-pagination',
             //     clickable: true,
             // },
         });
-</script>
 
-<script>
+        // the search code for the input to search
+        function search() {
 
-    function search() {
+            var path = "{{.Site.BaseURL}}movies/";
 
-        var path = "{{.Site.BaseURL}}movies/";
+            var moveName = document.getElementById("moviename").value;
 
-        var moveName = document.getElementById("moviename").value;
+            var moveName = moveName.replace(/\s/g, '-');
 
-        var moveName = moveName.replace(/\s/g, '-');
+            var moveName = moveName.toLowerCase();
 
-        var moveName = moveName.toLowerCase();
+            var url = path + moveName;
 
-        var url = path + moveName;
+            //window.open(path+moveName);
 
-        //window.open(path+moveName);
+            window.location = url;
 
-        window.location = url;
-
-    }
-
-    function keyCode(event) {
-
-        const enter = event.keyCode;
-
-        if (enter == 13) {
-            search();
         }
-    }
+        //for the search to work on pressing enter
+        function keyCode(event) {
+
+            const enter = event.keyCode;
+
+            if (enter == 13) {
+                search();
+            }
+        }
 
 
-    $(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
+        // Add smooth scrolling to all links
+        $("a").on('click', function (event) {
 
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
 
-      // Store hash
-      var hash = this.hash;
+                // Store hash
+                var hash = this.hash;
 
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 1000, function(){
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 1000, function () {
 
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-});
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
+        });
 
+        //adding animation on clicking on the ham icon in nav
+        $("#minu").click(function (e) {
+            e.preventDefault();
+            $("#navigation").slideToggle(900);
+        });
+
+        //adding lazy loading for the images
+        var images = document.querySelectorAll('.img');
+
+        var observer = new IntersectionObserver(function (entries, observer) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    var img = entry.target;
+                    img.setAttribute('src', img.getAttribute('data-src'));
+                    observer.unobserve(img)
+                }
+            })
+        }, {
+            rootMargin: '0px 50px 200px 0px'
+        })
+
+        images.forEach(img => {
+            observer.observe(img)
+        })
+
+    });
 </script>
 
 {{if not ( in (.Site.BaseURL | string) "localhost" )}}
@@ -134,38 +159,9 @@ if('serviceWorker' in navigator){
 </script> -->
 
 
-<script>
-$("#minu").click(function (e) { 
-    e.preventDefault();
-    $("#navigation").slideToggle(900);
-});
-</script>
 {{if not ( in (.Site.BaseURL | string) "localhost" )}}
-    {{ partial "footer/ad.html" . }}
+{{ partial "footer/ad.html" . }}
 {{end}}
-
-<!-- ADDING LAZY LOADING FOR THE IMAGES -->
-<script>
-    var images = document.querySelectorAll('.img');
-    
-    var observer = new IntersectionObserver(function(entries, observer){
-        entries.forEach(entry => {
-            if(entry.isIntersecting){
-                var img = entry.target;
-                img.setAttribute('src', img.getAttribute('data-src'));
-                observer.unobserve(img)
-            }
-        })
-    },{
-        rootMargin: '0px 50px 200px 0px'
-    })
-
-    images.forEach(img => {
-        observer.observe(img)
-    })
-
-</script>
-
 
 <!-- main js -->
 <script src="{{.Site.BaseURL}}js/main.js"></script>

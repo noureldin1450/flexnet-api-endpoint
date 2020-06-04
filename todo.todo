@@ -21,11 +21,11 @@
 
 [x] add more sliders on the site
     - add a slider based on the tags Ex: actions movies
-    [ ] fix its BUG
+    [x] fix its BUG
     [ ] test it and push it
 
-[ ] make the forms on the site a normal form
-    [ ] use netlify to get resonses 
+[-] make the forms on the site a normal form
+    [-] use netlify to get resonses 
 
 [ ] making the header better (website speed optimization)
     [ ] Design a better header without youtube player embid cuz it take a lot of the website speed

@@ -5,13 +5,19 @@
 {{end}}
 
 {{ define "main" }}
-<div class="req">
-    <div class="container">
-        <h1>Movies Request</h1>
+    <section class="forms">
+        <ul class="container">
+            <li>
+                {{ partial "main-title.html" (dict "Text" "Request your favorite movie"  "Icon" "heart-half" ) }}
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfUT4ZR3xV7ipf0Nbekv0h-FEPMn_Ka4cjheErarO_-0jS4sA/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            </li>
+            <li>
+                {{ partial "main-title.html" (dict "Text" "Tell us how we could improve"  "Icon" "heart-half" ) }}
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScyEJBKhXApqD8k30cTfxGYxpSh4yfCBhnoh0mKYuk3M0_MEw/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            </li>
+        </ul>
+    </section>
 
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfUT4ZR3xV7ipf0Nbekv0h-FEPMn_Ka4cjheErarO_-0jS4sA/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-    </div>
-</div>
 {{end}}
 {{ define "scripts" }}
     {{ partial "footer/moviescripts.html" .}}

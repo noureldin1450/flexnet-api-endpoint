@@ -5,10 +5,23 @@
 
 # BackLog (things to todo )
 
-[ ] add a smothe scrolling to make the site more flude
+# GROW TREES
 
-[ ] add more sliders on the site
+[ ] remove the {{.Title}} in the head for the SEO 
+
+[ ] add the title attribite to the site links for better SEO 
+    [ ] navigation 
+    [ ] header
+    [ ] home cards
+    [ ] recomndation cards
+    [ ] categories links 
+    [ ] footer
+
+[ ] try to lazy load the src of the youtube banner in the middel of the page and also the google forms
+
+[x] add more sliders on the site
     - add a slider based on the tags Ex: actions movies
+    [ ] test it and push it
 
 [ ] make the forms on the site a normal form
     [ ] use netlify to get resonses 

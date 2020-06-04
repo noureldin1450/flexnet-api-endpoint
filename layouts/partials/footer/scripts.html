@@ -124,14 +124,16 @@
 </script>
 {{end}}
 
-<script>
+<!-- <script>
 if('serviceWorker' in navigator){
     navigator.serviceWorker.register("/sw.js")
     .then(function(){
         console.log("sw reg");
     });
 }
-</script>
+</script> -->
+
+
 <script>
 $("#minu").click(function (e) { 
     e.preventDefault();
@@ -155,7 +157,7 @@ $("#minu").click(function (e) {
             }
         })
     },{
-        rootMargin: '0px 20px -50px 0px'
+        rootMargin: '0px 50px 200px 0px'
     })
 
     images.forEach(img => {
@@ -163,6 +165,7 @@ $("#minu").click(function (e) {
     })
 
 </script>
+
 
 <!-- main js -->
 <script src="{{.Site.BaseURL}}js/main.js"></script>

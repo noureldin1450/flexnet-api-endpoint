@@ -9,15 +9,15 @@
 
 [x] remove the {{.Title}} in the head for the SEO 
 
-[ ] add the title attribite to the site links for better SEO 
+[x] add the title attribite to the site links for better SEO 
     [x] navigation 
     [x] header
     [x] recomnded movie 
     [x] home cards
-    [ ] Movie info
-    [ ] recomndation cards
-    [ ] categories links 
-    [ ] footer
+    [X] Movie info
+    [x] recomndation cards
+    [x] categories links 
+    [x] footer
 
 [ ] try to lazy load the src of the youtube banner in the middel of the page and also the google forms
 

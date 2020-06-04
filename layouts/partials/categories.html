@@ -3,7 +3,7 @@
         <li>
             {{ with .Site.GetPage "/tags" }}
                 {{ range .Pages | shuffle }}
-                    <a href="{{.URL}}">{{.Title}}</a>
+                    <a href="{{.URL}}" title="{{.Title}} Movies">{{.Title}}</a>
                 {{end}}
             {{end}}
         </li>

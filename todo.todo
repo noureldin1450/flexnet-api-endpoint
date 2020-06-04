@@ -7,12 +7,14 @@
 
 # GROW TREES
 
-[ ] remove the {{.Title}} in the head for the SEO 
+[x] remove the {{.Title}} in the head for the SEO 
 
 [ ] add the title attribite to the site links for better SEO 
-    [ ] navigation 
-    [ ] header
-    [ ] home cards
+    [x] navigation 
+    [x] header
+    [x] recomnded movie 
+    [x] home cards
+    [ ] Movie info
     [ ] recomndation cards
     [ ] categories links 
     [ ] footer

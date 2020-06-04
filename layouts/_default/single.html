@@ -42,14 +42,14 @@
 
                     <div class="tags">
                         {{ range .Params.tags}}
-                        <a href="/tags/{{. | urlize}}/">{{.}}</a>
+                        <a href="/tags/{{. | urlize}}/" title="{{.}} Movies">{{.}}</a>
                         {{end}}
                     </div>
 
                     <div class="stars">
                         <span class="stars__headline">Stars: </span>
                         {{ range .Params.stars}}
-                        <a href="/stars/{{. | urlize}}/">{{.}}<span>, </span></a>
+                        <a href="/stars/{{. | urlize}}/" title="{{.}} Movies">{{.}}<span>, </span></a>
                         {{end}}
                     </div>
 

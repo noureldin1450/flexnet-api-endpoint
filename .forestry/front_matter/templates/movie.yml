@@ -58,10 +58,35 @@ fields:
   label: duration
   description: 1h 40min | مده الفيلم
 - name: tags
-  type: tag_list
-  default: []
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: simple
+    options:
+    - Music
+    - Crime
+    - Biography
+    - Reality-TV
+    - " Sport"
+    - Romance
+    - " Sci-Fi"
+    - " Action"
+    - Horror
+    - History
+    - Animation
+    - Mystery
+    - Family
+    - Fantasy
+    - War
+    - Drama
+    - Thriller
+    - Comedy
+    - Adventure
   label: tags
-  description: 'Ex: Comedy, Drama, War|  نوع الفيلم'
+  description: 'Ex: Comedy, Drama, War| نوع الفيلم'
 - name: stars
   type: list
   config:

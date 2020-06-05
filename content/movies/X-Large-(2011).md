@@ -21,7 +21,15 @@ story: |-
   (مجدي) شاب بدين للغاية، يعمل رسام كاريكاتير، لكنه يعاني كثيرًا من الوحدة، على
   الرغم من تعدد صديقاته اللاتي يفضفضن معه دائمًا بمشاكلهن الخاصة، لكن بدانته الغير
   طبيعية تجعلهن لا يفكرن فيه كزوج، حتى تأتي الفرصة عندما يتواصل مع (دينا) صديقته
+groups: movie
 draft: true
+imdbid: ''
+moviebg: ''
+server1: ''
+server2: ''
+server3: ''
+server4: ''
+server5: ''
 
 ---
 {{< movie url= "https://vidstream.to/embed/qBYP33gpkz/?vclid=42528e9ad0519ed7f37fc8cbb191807f0dbfce41f2d7b04b27e8f2bcXccctzgactcRctssscWeBGWeBDkGtBiktRtctxGejtcRctMpRHetXxgaptdknpnLPpcctch">}}

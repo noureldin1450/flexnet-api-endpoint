@@ -17,6 +17,11 @@ fields:
       path: 
   label: what is the type of content is this?
   hidden: false
+- name: draft
+  type: boolean
+  label: draft
+  description: 'If True this content will not show to the user '
+  default: false
 - name: title
   type: text
   config:

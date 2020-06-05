@@ -17,14 +17,6 @@ fields:
       path: 
   label: what is the type of content is this?
   hidden: false
-- name: draft
-  type: text
-  config:
-    required: true
-  label: draft
-  description: fuck this shit if it is true this shit will not show to the fucken
-    user
-  default: 'False'
 - name: title
   type: text
   config:

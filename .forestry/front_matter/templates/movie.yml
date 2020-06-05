@@ -29,6 +29,12 @@ fields:
     required: true
   label: Slug
   description: Movie-Name Movie-Year | اسم الفيلم و تاريخ اصداره
+- name: year
+  type: text
+  config:
+    required: false
+  label: year
+  description: 'Ex: 2009 | تاريخ اصدار الفيلم'
 - name: rating
   type: text
   config:
@@ -45,12 +51,6 @@ fields:
     display_utc: false
   default: now
   hidden: false
-- name: year
-  type: text
-  config:
-    required: false
-  label: year
-  description: 'Ex: 2009 | تاريخ اصدار الفيلم'
 - name: duration
   type: text
   config:

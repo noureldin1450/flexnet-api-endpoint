@@ -9,6 +9,7 @@ fields:
     required: true
     options:
     - movie
+    - tv-show
     source:
       type: simple
       section: 

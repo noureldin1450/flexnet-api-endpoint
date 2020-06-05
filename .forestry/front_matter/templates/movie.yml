@@ -16,6 +16,7 @@ fields:
       file: 
       path: 
   label: what is the type of content is this?
+  hidden: true
 - name: title
   type: text
   config:

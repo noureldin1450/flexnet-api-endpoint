@@ -15,7 +15,7 @@ slug = "tvshow"
 stars = []
 story = ""
 tags = []
-title = "tvshow"
+title = "tvshows"
 trailer = "https://www.youtube.com/embed/"
 year = ""
 

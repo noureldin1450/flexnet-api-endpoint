@@ -100,27 +100,27 @@ fields:
   label: trailer
   description: trailer | اعلان الفيلم
   default: https://www.youtube.com/embed/
-- name: server1
+- name: s1
   type: text
   config:
     required: false
   label: server 1 source
-- name: server2
+- name: s2
   type: text
   config:
     required: false
   label: server 2 source
-- name: server3
+- name: s3
   type: text
   config:
     required: false
   label: server 3 source
-- name: server4
+- name: s4
   type: text
   config:
     required: false
   label: server 4 source
-- name: server5
+- name: s5
   type: text
   config:
     required: false

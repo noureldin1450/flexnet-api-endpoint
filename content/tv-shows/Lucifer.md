@@ -11,11 +11,11 @@ server2 = ""
 server3 = ""
 server4 = ""
 server5 = ""
-slug = "Welcome to Marwen 2018"
+slug = "Lucifer 2016"
 stars = ["Steve Carell", "Falk Hentschel", "Matt O'Leary"]
 story = " A victim of a brutal attack finds a unique and beautiful therapeutic outlet to help him through his recovery process. "
 tags = ["Drama ", " Biography", "Comedy"]
-title = "Welcome to Marwen"
+title = "Lucifer "
 trailer = "https://www.youtube.com/embed/W6dy7xQ8NeE"
 year = "2018"
 

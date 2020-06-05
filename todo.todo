@@ -7,39 +7,32 @@
 
 # GROW TREES
 
-[x] remove the {{.Title}} in the head for the SEO 
+[ ] add tv-shows
+    [x] make a stratgy for it
+    [ ] make a sup file with the name of tv-shows (for the url to be domain/tv-shows/tv-show-name)
+    [x] add a type field with a drope down that contain movie or tv-show (make it by default on movie)
+    [ ] make a deffreant looking card for the tv-shows 
+    [ ] make a slider with the latest tv-shows
+    [ ] make the content server1 ~ server6 is S1 ~ S6 
+    [ ] make the player for the tv-shows say seasson not server
+    
+    [ ] coding
+        [ ] UI
+        [ ] DATA 
+        [ ] CMS
+        [ ] slider
 
-[x] add the title attribite to the site links for better SEO 
-    [x] navigation 
-    [x] header
-    [x] recomnded movie 
-    [x] home cards
-    [X] Movie info
-    [x] recomndation cards
-    [x] categories links 
-    [x] footer
-
-[ ] try to lazy load the src of the youtube banner in the middel of the page and also the google forms
-
-[x] add more sliders on the site
-    - add a slider based on the tags Ex: actions movies
-    [x] fix its BUG
-    [ ] test it and push it
-
-[-] make the forms on the site a normal form
-    [-] use netlify to get resonses 
 
 [ ] making the header better (website speed optimization)
     [ ] Design a better header without youtube player embid cuz it take a lot of the website speed
     [ ] Code it 
 
 
-[ ] add tv-shows
 
 [ ] make the user more uncage with the site to come more 
-    [ ] adding a react on top of the movie
+    [x] adding a react on top of the movie
     [ ] adding a comment systeam under the movie
-    [ ] adding a live chat inside the site so users can chat with each other and also chat with us live /!\ this contain higher encagment more that the others
+    [x] adding a live chat inside the site so users can chat with each other and also chat with us live /!\ this contain higher encagment more that the others
 
 
 # Ideas 

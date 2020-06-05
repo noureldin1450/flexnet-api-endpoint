@@ -8,5 +8,6 @@ title = "FlexNet- Watch FREE Movies and TV Shows Online"
   star = "stars" 
   year = "years"
   lang = "langs"
+  group = "groups"
 
 Paginate = 20

@@ -1,6 +1,5 @@
 +++
 date = 2020-06-05T23:35:03Z
-draft = true
 duration = ""
 groups = "movie"
 imdbid = ""

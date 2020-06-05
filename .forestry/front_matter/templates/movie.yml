@@ -18,10 +18,13 @@ fields:
   label: what is the type of content is this?
   hidden: false
 - name: draft
-  type: boolean
+  type: text
+  config:
+    required: true
   label: draft
-  description: 'If True this content will not show to the user '
-  default: false
+  description: fuck this shit if it is true this shit will not show to the fucken
+    user
+  default: 'False'
 - name: title
   type: text
   config:

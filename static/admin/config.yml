@@ -21,6 +21,13 @@ collections:
     fields: # The fields for each document, usually in front matter
 
       - {
+          label: "Date you added this content",
+          name: "date",
+          widget: "date",
+          hint: "date motherfucken date"
+        }
+
+      - {
           label: "Movie Title",
           name: "title",
           widget: "string",
@@ -41,11 +48,29 @@ collections:
         }
 
       - {
+          label: "Movie duration",
+          name: "duration",
+          widget: "string"
+        }
+
+
+      - {
           label: "Movie Story",
           name: "story",
           widget: "text"
         }
       
+      - {
+          label: "Movie Rating",
+          name: "rating",
+          widget: "number",
+          valueType: "float",
+          min: 1,
+          max: 10,
+          step: .1,
+          default: 6.8,
+        }
+
       - {
           label: "IMDB ID",
           name: "imdbid",
@@ -54,19 +79,22 @@ collections:
         }
 
       - {
-          label: "Movie Rating",
-          name: "rating",
-          widget: "number",
-          valueType: "float",
-          min: 1,
-          max: 10,
-          step: .5,
-          default: 6.8,
+          label: "Movie Poster",
+          hint: "the small poster on the imdb",
+          name: "moviecover",
+          widget: "string"
+        }
+
+      - {
+          label: "Movie Wide Background",
+          name: "moviebg",
+          widget: "string"
         }
 
       - {
           label: "Movie Trailer",
           name: "trailer",
           widget: "string",
-          default: "https://www.youtube.com/embed/"
+          default: "https://www.youtube.com/embed/",
+          hint: "get any youtube trailer for that movie and copy the video Id and added it after the /embed/ in the cms"
         }

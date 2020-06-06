@@ -28,6 +28,16 @@ collections:
         }
 
       - {
+          label: "content Type",
+          name: "groups",
+          widget: "select",
+          multiple: false,
+          options: [
+            "movie",
+            "tv-show"
+          ]
+      }
+      - {
           label: "Movie Title",
           name: "title",
           widget: "string",

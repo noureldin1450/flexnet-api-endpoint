@@ -143,8 +143,6 @@ collections:
           widget: "string"
         }
 
-
-
       - {
           label: "tv-show Trailer",
           name: "trailer",
@@ -153,48 +151,54 @@ collections:
           hint: "get any youtube trailer for that tv-show and copy the video Id and added it after the /embed/ in the cms"
         }
 
-
-
       - {
           label: "S1",
           name: "server1",
           widget: "string",
-          hint: "if dardarkom dont have the movie just leave this empty"
+          hint: "if dardarkom dont have the movie just leave this empty",
+          required: false
         }
       - {
           label: "S2",
           name: "server2",
           widget: "string",
+          required: false
         }
       - {
           label: "S3",
           name: "server3",
           widget: "string",
+          required: false
         }
       - {
           label: "S4",
           name: "server4",
           widget: "string",
+          required: false
         }
       - {
           label: "S5",
           name: "server5",
           widget: "string",
+          required: false
         }
       - {
           label: "S6",
           name: "server6",
           widget: "string",
+          required: false
         }
       - {
           label: "S7",
           name: "server7",
           widget: "string",
+          required: false
         }
       - {
           label: "S8",
           name: "server8",
           widget: "string",
+          required: false
         }
 
   - name: "movies" # Used in routes, e.g., /admin/collections/blog
@@ -343,25 +347,30 @@ collections:
           label: "DarDarkom server",
           name: "server1",
           widget: "string",
-          hint: "if dardarkom dont have the movie just leave this empty"
+          hint: "if dardarkom dont have the movie just leave this empty",
+          required: false
         }
       - {
           label: "server 2",
           name: "server2",
           widget: "string",
+          required: false
         }
       - {
           label: "server 3",
           name: "server3",
           widget: "string",
+          required: false
         }
       - {
           label: "server 4",
           name: "server4",
           widget: "string",
+          required: false
         }
       - {
           label: "server 5",
           name: "server5",
           widget: "string",
+          required: false
         }

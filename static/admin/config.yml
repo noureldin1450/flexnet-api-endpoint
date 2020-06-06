@@ -32,6 +32,7 @@ collections:
           name: "groups",
           widget: "select",
           multiple: false,
+          default: "movie",
           options: [
             "movie",
             "tv-show"

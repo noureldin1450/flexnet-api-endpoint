@@ -24,10 +24,28 @@ collections:
 
       - {label: "Movie Title + Movie Year", name: "slug", widget: "string", hint: "add the motherfu*** slug you fucken slut"}
 
-      - {label: "Movie Year", name: "year", widget: "string"}
+      - {
+          label: "Movie Year",
+          name: "year",
+          widget: "string"
+        }
 
-      - {label: "Movie Story", name: "story", widget: "text"}
+      - {
+          label: "Movie Story",
+          name: "story",
+          widget: "text"
+        }
       
-      - {label: "IMDB ID", name: "imdbid", widget: "string", hint: "The IMDB Id From the link"}
+      - {
+          label: "IMDB ID",
+          name: "imdbid",
+          widget: "string",
+          hint: "The IMDB Id From the link"
+        }
 
-      - {label: "Movie Trailer", name: "trailer", widget: "string", default: "https://www.youtube.com/embed/"}
+      - {
+          label: "Movie Trailer",
+          name: "trailer",
+          widget: "string",
+          default: "https://www.youtube.com/embed/"
+        }

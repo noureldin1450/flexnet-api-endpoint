@@ -38,6 +38,14 @@ collections:
             "tv-show"
           ]
       }
+
+      - {
+          label: "Draft: If yes this will not show to the user",
+          name: "draft",
+          widget: "boolean",
+          default: false 
+      }
+
       - {
           label: "Movie Title",
           name: "title",

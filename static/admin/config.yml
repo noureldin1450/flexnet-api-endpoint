@@ -53,13 +53,6 @@ collections:
           widget: "string"
         }
 
-
-      - {
-          label: "Movie Story",
-          name: "story",
-          widget: "text"
-        }
-      
       - {
           label: "Movie Rating",
           name: "rating",
@@ -70,6 +63,41 @@ collections:
           step: .1,
           default: 6.8,
         }
+
+      - {
+          label: "Movie Tags",
+          name: "tags",
+          widget: "select",
+          multiple: true,
+          options: [
+            "Action",
+            "Family",
+            "Thriller",
+            "Sport",
+            "Horror",
+            "Biography",
+            "Drama",
+            "History",
+            "Adventure",
+            "Animation",
+            "Romance",
+            "Comedy",
+            "Sci-Fi",
+            "Fantasy",
+            "Music",
+            "Reality-TV",
+            "Crime",
+            "Mystery",
+            "War"
+          ]
+        }
+
+      - {
+          label: "Movie Story",
+          name: "story",
+          widget: "text"
+        }
+      
 
       - {
           label: "IMDB ID",

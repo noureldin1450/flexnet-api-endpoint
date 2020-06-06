@@ -20,9 +20,19 @@ collections:
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
 
-      - {label: "Movie Title", name: "title", widget: "string", hint: "Movie motherfucken Name"}
+      - {
+          label: "Movie Title",
+          name: "title",
+          widget: "string",
+          hint: "Movie motherfucken Name"
+        }
 
-      - {label: "Movie Title + Movie Year", name: "slug", widget: "string", hint: "add the motherfu*** slug you fucken slut"}
+      - {
+          label: "Movie Title + Movie Year",
+          name: "slug",
+          widget: "string",
+          hint: "add the motherfu*** slug you fucken slut"
+        }
 
       - {
           label: "Movie Year",
@@ -41,6 +51,17 @@ collections:
           name: "imdbid",
           widget: "string",
           hint: "The IMDB Id From the link"
+        }
+
+      - {
+          label: "Movie Rating",
+          name: "rating",
+          widget: "number",
+          valueType: "float",
+          min: 1,
+          max: 10,
+          step: .5,
+          default: 6.8,
         }
 
       - {

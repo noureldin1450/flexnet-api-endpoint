@@ -98,6 +98,11 @@ collections:
           widget: "text"
         }
       
+      - {
+          label: "Movie Stars",
+          name: "stars",
+          widget: "list"
+        }
 
       - {
           label: "IMDB ID",

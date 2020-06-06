@@ -260,6 +260,7 @@ collections:
           widget: "string"
         }
 
+        
       - {
           label: "Movie Rating",
           name: "rating",

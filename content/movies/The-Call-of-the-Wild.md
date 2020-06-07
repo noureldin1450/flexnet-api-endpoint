@@ -1,23 +1,22 @@
 +++
-date = 2020-03-20T14:11:48Z
-draft = true
-duration = "1h 39min"
+date = 2020-06-08T14:11:48Z
+duration = "1h 40min"
 groups = "movie"
-imdbid = "tt1560220"
-moviebg = "https://m.media-amazon.com/images/M/MV5BYTAyZGFjMDUtMjI5OS00NjEyLWE0NGQtODE2NTUyNWY4Y2FmXkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_SY1000_SX1500_AL_.jpg"
-moviecover = "https://m.media-amazon.com/images/M/MV5BYjcwNjZhNGYtOGNlNy00NGI3LTlmODMtMGZlMjA3YjA0Njg0XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SY1000_SX675_AL_.jpg"
+imdbid = "tt7504726"
+moviebg = "https://m.media-amazon.com/images/M/MV5BMzE0OWMyOTQtYTczNC00MDhhLTg0YmMtOTdhOTBlOTg1Nzc5XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX1777_CR0,0,1777,744_AL_.jpg"
+moviecover = "https://m.media-amazon.com/images/M/MV5BZDA1ZmQ2OGMtZDhkMC00ZjRkLWE3ZTMtMzA5ZTk0YjM1OGRmXkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_SY1000_SX675_AL_.jpg"
 rating = 6.8
-server1 = "https://w.dardarkom.online/mv/428097"
+server1 = "https://e.dardarkom.online/mv/692308"
 server2 = ""
 server3 = ""
 server4 = ""
 server5 = ""
-slug = "Zombieland Double Tap 2019"
-stars = ["Emma Stone", "Jesse Eisenberg", "Woody Harrelson"]
-story = "Columbus, Tallahassee, Wichita, and Little Rock move to the American heartland as they face off against evolved zombies, fellow survivors, and the growing pains of the snarky makeshift family."
-tags = ["Action", "Comedy", "Horror"]
-title = "Zombieland: Double Tap"
-trailer = "https://www.youtube.com/embed/ZlW9yhUKlkQ"
-year = "2019"
+slug = "The Call of the Wild 2020"
+stars = ["Cara Gee", "Omar Sy", " Harrison Ford"]
+story = "A sled dog struggles for survival in the wilds of the Yukon."
+tags = ["Family", "Drama", " Action"]
+title = "The Call of the Wild"
+trailer = "https://www.youtube.com/embed/5P8R2zAhEwg"
+year = "2020"
 
 +++

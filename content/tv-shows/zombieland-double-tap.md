@@ -2,25 +2,26 @@
 date: 2020-03-20T14:11:48.000Z
 groups: tv-show
 draft: false
-title: "Zombieland: Double Tap"
-slug: Zombieland Double Tap 2019
-year: "2019"
-duration: 1h 39min
-rating: "6.8"
+title: "Lucifer "
+slug: Lucifer 2015
+year: "2015"
+duration: 42min
+rating: 8.2
 tags:
-  - Action
-  - Comedy
-  - Horror
-story: Columbus, Tallahassee, Wichita, and Little Rock move to the American
-  heartland as they face off against evolved zombies, fellow survivors, and the
-  growing pains of the snarky makeshift family.
+  - Crime
+  - Drama
+  - Fantasy
+story: >
+  Lucifer Morningstar has decided he's had enough of being the dutiful servant
+  in Hell and decides to spend some time on Earth to better understand humanity.
+  He settles in Los Angeles - the City of Angels.
 stars:
-  - Emma Stone
-  - Jesse Eisenberg
-  - Woody Harrelson
-imdbid: tt1560220
-moviecover: https://m.media-amazon.com/images/M/MV5BYjcwNjZhNGYtOGNlNy00NGI3LTlmODMtMGZlMjA3YjA0Njg0XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SY1000_SX675_AL_.jpg
-moviebg: https://m.media-amazon.com/images/M/MV5BYTAyZGFjMDUtMjI5OS00NjEyLWE0NGQtODE2NTUyNWY4Y2FmXkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_SY1000_SX1500_AL_.jpg
+  - Tom Ellis
+  - Lauren German
+  - Kevin Alejandro
+imdbid: tt4052886
+moviecover: https://m.media-amazon.com/images/M/MV5BZTA2NTBkYWUtMzM4Zi00YzhlLTk4NWItY2U1ODczNDMyNDAzXkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_SY1000_CR0,0,675,1000_AL_.jpg
+moviebg: https://m.media-amazon.com/images/M/MV5BNDE4MTQ5ZGUtNjhmMC00ZTU5LTkwODEtYTRhMDUyNGRkYmEzXkEyXkFqcGdeQXVyNjc1MTExNA@@._V1_SX1777_CR0,0,1777,999_AL_.jpg
 trailer: https://www.youtube.com/embed/ZlW9yhUKlkQ
 server1: https://w.dardarkom.online/mv/428097
 server2: ""

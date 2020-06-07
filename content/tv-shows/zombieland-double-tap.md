@@ -1,6 +1,6 @@
 ---
 date: 2020-03-20T14:11:48.000Z
-groups: movie
+groups: tv-show
 draft: false
 title: "Zombieland: Double Tap"
 slug: Zombieland Double Tap 2019

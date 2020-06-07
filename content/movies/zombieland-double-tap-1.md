@@ -11,11 +11,11 @@ server2 = ""
 server3 = ""
 server4 = ""
 server5 = ""
-slug = "Zombieland Double Tap 2019"
+slug = "zsdasdasdas 2019"
 stars = ["Emma Stone", "Jesse Eisenberg", "Woody Harrelson"]
 story = "Columbus, Tallahassee, Wichita, and Little Rock move to the American heartland as they face off against evolved zombies, fellow survivors, and the growing pains of the snarky makeshift family."
 tags = ["Action", "Comedy", "Horror"]
-title = "Zombieland: Double Tap"
+title = "sdasdasdas"
 trailer = "https://www.youtube.com/embed/ZlW9yhUKlkQ"
 year = "2019"
 

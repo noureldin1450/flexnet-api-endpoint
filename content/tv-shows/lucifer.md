@@ -1,6 +1,5 @@
 +++
 date = 2020-03-20T14:11:48Z
-draft = true
 duration = "42min"
 groups = "tv-show"
 imdbid = "tt4052886"

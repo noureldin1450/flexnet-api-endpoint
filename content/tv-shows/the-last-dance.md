@@ -1,7 +1,7 @@
 ---
 date: 2020-06-08T04:33:09.837Z
 groups: tv-show
-draft: true
+draft: false
 title: "The Last Dance "
 slug: "The Last Dance "
 year: "2015"

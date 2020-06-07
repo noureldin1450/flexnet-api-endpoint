@@ -155,6 +155,7 @@ fields:
     required: false
   label: server 5 source
 pages:
+- content/movies/Dannys-Game.md
 - content/movies/I-Love-You-Stupid.md
 - content/movies/Inheritance.md
 - content/movies/My-Spy.md
@@ -188,5 +189,4 @@ pages:
 - content/movies/the-sun-is-also-a-star.md
 - content/movies/what-men-want.md
 - content/movies/world-war-z.md
-- content/movies/zombieland-double-tap-1.md
 - content/movies/zombieland-double-tap.md

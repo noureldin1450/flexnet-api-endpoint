@@ -17,6 +17,16 @@ fields:
       path: 
   label: what is the type of content is this?
   hidden: false
+- name: rating
+  type: number
+  label: rating
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 0.1
 - name: title
   type: text
   config:
@@ -35,12 +45,6 @@ fields:
     required: false
   label: year
   description: 'Ex: 2009 | تاريخ اصدار الفيلم'
-- name: rating
-  type: text
-  config:
-    required: true
-  label: Rating
-  description: 'Ex: 9.9 | تقيم الفيلم'
 - name: date
   type: datetime
   label: date

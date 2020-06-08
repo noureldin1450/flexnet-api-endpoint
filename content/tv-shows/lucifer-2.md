@@ -1,7 +1,6 @@
 ---
 date: 2020-06-08T07:29:08.506Z
 groups: tv-show
-draft: false
 title: Lucifer 2
 slug: Lucifer 2015
 year: "2015"

@@ -11,13 +11,14 @@ tags:
   - Crime
   - Drama
   - Fantasy
-story: Columbus, Tallahassee, Wichita, and Little Rock move to the American
-  heartland as they face off against evolved zombies, fellow survivors, and the
-  growing pains of the snarky makeshift family.
+story: >
+  Lucifer Morningstar has decided he's had enough of being the dutiful servant
+  in Hell and decides to spend some time on Earth to better understand humanity.
+  He settles in Los Angeles - the City of Angels.
 stars:
-  - Emma Stone
-  - Jesse Eisenberg
-  - Woody Harrelson
+  - Tom Ellis
+  - Lauren German
+  - Kevin Alejandro
 imdbid: tt1560220
 moviecover: https://m.media-amazon.com/images/M/MV5BYjcwNjZhNGYtOGNlNy00NGI3LTlmODMtMGZlMjA3YjA0Njg0XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SY1000_SX675_AL_.jpg
 moviebg: https://m.media-amazon.com/images/M/MV5BYTAyZGFjMDUtMjI5OS00NjEyLWE0NGQtODE2NTUyNWY4Y2FmXkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_SY1000_SX1500_AL_.jpg

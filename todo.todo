@@ -8,6 +8,8 @@
 
 # GROW TREES
 
+[ ] make the range of the lazy loading is much more
+
 [ ] add tv-shows
     [x] make a stratgy for it
     [x] make a sup file with the name of tv-shows (for the url to be domain/tv-shows/tv-show-name)

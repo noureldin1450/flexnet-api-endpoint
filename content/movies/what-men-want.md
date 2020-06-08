@@ -1,0 +1,21 @@
++++
+date = 2020-03-20T13:07:17Z
+duration = "1h 57min"
+imdbid = "tt7634968"
+moviebg = "https://m.media-amazon.com/images/M/MV5BNDYwMjk0OTU2OF5BMl5BanBnXkFtZTgwMzg2MzgxNzM@._V1_SX1500_CR0,0,1500,999_AL_.jpg"
+moviecover = "https://m.media-amazon.com/images/M/MV5BMTYxNjE2NjIwOF5BMl5BanBnXkFtZTgwMjE0MzkxNzM@._V1_SY1000_CR0,0,674,1000_AL_.jpg"
+rating = "5.2"
+server1 = "https://e.dardarkom.online/mv/447543"
+server2 = ""
+server3 = ""
+server4 = ""
+server5 = ""
+slug = "What Men Want 2019"
+stars = ["Josh Brener", "Kristen Ledlow", "Taraji P. Henson"]
+story = "A woman is boxed out by the male sports agents in her profession, but gains an unexpected edge over them when she develops the ability to hear men's thoughts."
+tags = ["Comedy", "Fantasy", "Romance"]
+title = "What Men Want"
+trailer = "https://www.youtube.com/embed/HeoLiTirRp4"
+year = "2019"
+
++++

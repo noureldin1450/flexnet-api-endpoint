@@ -6,11 +6,11 @@ title: "Lucifer "
 slug: Lucifer 2015
 year: "2015"
 duration: 42min
-rating: "6.8"
+rating: 8.2
 tags:
-  - Action
-  - Comedy
-  - Horror
+  - Crime
+  - Drama
+  - Fantasy
 story: Columbus, Tallahassee, Wichita, and Little Rock move to the American
   heartland as they face off against evolved zombies, fellow survivors, and the
   growing pains of the snarky makeshift family.

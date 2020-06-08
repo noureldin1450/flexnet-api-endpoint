@@ -10,12 +10,12 @@
 
 [ ] add tv-shows
     [x] make a stratgy for it
-    [ ] make a sup file with the name of tv-shows (for the url to be domain/tv-shows/tv-show-name)
+    [x] make a sup file with the name of tv-shows (for the url to be domain/tv-shows/tv-show-name)
     [x] add a type field with a drope down that contain movie or tv-show (make it by default on movie)
     [ ] make a deffreant looking card for the tv-shows 
     [ ] make a slider with the latest tv-shows
-    [ ] make the content server1 ~ server6 is S1 ~ S6 
-    [ ] make the player for the tv-shows say seasson not server
+    [x] make the content server1 ~ server6 is S1 ~ S6 
+    [X] make the player for the tv-shows say seasson not server
     
     [ ] coding
         [ ] UI

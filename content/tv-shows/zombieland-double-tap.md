@@ -2,7 +2,7 @@
 date: 2020-03-20T14:11:48.000Z
 groups: tv-show
 draft: false
-title: "Zombieland: Double Tap"
+title: "Lucifer "
 slug: Zombieland Double Tap 2019
 year: "2019"
 duration: 1h 39min

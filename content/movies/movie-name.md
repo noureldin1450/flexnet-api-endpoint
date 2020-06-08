@@ -1,7 +1,7 @@
 ---
 date: 2020-06-08T07:15:37.596Z
 groups: movie
-draft: false
+draft: true
 title: movie Name
 slug: movie Name
 year: movie Name

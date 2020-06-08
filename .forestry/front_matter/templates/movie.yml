@@ -1,0 +1,188 @@
+---
+label: Movie
+hide_body: true
+fields:
+- name: groups
+  type: select
+  default: movie
+  config:
+    required: true
+    options:
+    - movie
+    - tv-show
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: what is the type of content is this?
+  hidden: false
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+  description: 'Movie Name | اسم الفيلم '
+- name: slug
+  type: text
+  config:
+    required: true
+  label: Slug
+  description: Movie-Name Movie-Year | اسم الفيلم و تاريخ اصداره
+- name: year
+  type: text
+  config:
+    required: false
+  label: year
+  description: 'Ex: 2009 | تاريخ اصدار الفيلم'
+- name: rating
+  type: text
+  config:
+    required: true
+  label: Rating
+  description: 'Ex: 9.9 | تقيم الفيلم'
+- name: date
+  type: datetime
+  label: date
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
+  hidden: false
+- name: duration
+  type: text
+  config:
+    required: false
+  label: duration
+  description: 1h 40min | مده الفيلم
+- name: tags
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: simple
+    options:
+    - Music
+    - Crime
+    - Biography
+    - Reality-TV
+    - " Sport"
+    - Romance
+    - " Sci-Fi"
+    - " Action"
+    - Horror
+    - History
+    - Animation
+    - Mystery
+    - Family
+    - Fantasy
+    - War
+    - Drama
+    - Thriller
+    - Comedy
+    - Adventure
+  label: tags
+  description: 'Ex: Comedy, Drama, War| نوع الفيلم'
+- name: stars
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: stars
+  description: stars | ابطال الفيلم
+- name: story
+  type: text
+  config:
+    required: false
+  label: story
+  description: story | قصه الفيلم
+- name: imdbid
+  type: text
+  config:
+    required: false
+  label: imdbid
+  description: 'Ex: tt2584384'
+- name: moviecover
+  type: text
+  config:
+    required: false
+  label: Moviecover
+  description: Movie Cover | بوستر الفيلم
+- name: moviebg
+  type: text
+  config:
+    required: false
+  label: Movie background
+- name: trailer
+  type: text
+  config:
+    required: false
+  label: trailer
+  description: trailer | اعلان الفيلم
+  default: https://www.youtube.com/embed/
+- name: server1
+  type: text
+  config:
+    required: false
+  label: server 1 source
+- name: server2
+  type: text
+  config:
+    required: false
+  label: server 2 source
+- name: server3
+  type: text
+  config:
+    required: false
+  label: server 3 source
+- name: server4
+  type: text
+  config:
+    required: false
+  label: server 4 source
+- name: server5
+  type: text
+  config:
+    required: false
+  label: server 5 source
+pages:
+- content/movies/I-Love-You-Stupid.md
+- content/movies/Inheritance.md
+- content/movies/My-Spy.md
+- content/movies/Survive-the-Night.md
+- content/movies/The-Invisible-Man.md
+- content/movies/Welcome-to-Marwen.md
+- content/movies/Working-Man.md
+- content/movies/X-Large-(2011).md
+- content/movies/after.md
+- content/movies/always-be-my-maybe.md
+- content/movies/bad-boys-for-life-1.md
+- content/movies/bad-boys-for-life.md
+- content/movies/birds-of-prey-and-the-fantabulous-emancipation-of-one-harley-quinn-2020.md
+- content/movies/bloodshot.md
+- content/movies/booksmart.md
+- content/movies/capone.md
+- content/movies/downton-abbey.md
+- content/movies/escape-from-pretoria.md
+- content/movies/extraction.md
+- content/movies/frozen-ii.md
+- content/movies/if-beale-street-could-talk.md
+- content/movies/isn-t-it-romantic.md
+- content/movies/jojo-rabbit.md
+- content/movies/jumanji-the-next-level.md
+- content/movies/last-christmas.md
+- content/movies/midsommar.md
+- content/movies/playing-with-fire.md
+- content/movies/second-act.md
+- content/movies/sonic-the-hedgehog.md
+- content/movies/spider-man-homecoming.md
+- content/movies/the-sun-is-also-a-star.md
+- content/movies/what-men-want.md
+- content/movies/world-war-z.md
+- content/movies/zombieland-double-tap.md
+- content/tv-shows/Lucifer2.md

@@ -1,7 +1,7 @@
 ---
 date: 2020-06-01T20:20:48.000Z
 groups: movie
-draft: true
+draft: false
 title: "The Hunt "
 slug: The Hunt 2020
 year: "2020"

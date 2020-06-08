@@ -4,7 +4,7 @@ groups: tv-show
 draft: false
 title: "Lucifer "
 slug: Lucifer 2015
-year: "2019"
+year: "2015"
 duration: 1h 39min
 rating: "6.8"
 tags:

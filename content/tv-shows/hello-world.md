@@ -1,9 +1,9 @@
 ---
+title: hello world
+draft: false
+slug: hello world
 date: 2020-06-08T04:55:12.089Z
 groups: tv-show
-draft: false
-title: hello world
-slug: hello world
 year: "2015"
 duration: 42min
 rating: 8.2

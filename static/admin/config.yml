@@ -425,99 +425,99 @@ collections:
           hint: "add the motherfu*** slug you fucken slut"
         }
 
-      # - {
-      #     label: "Movie Year",
-      #     name: "year",
-      #     widget: "string"
-      #   }
+      - {
+          label: "Movie Year",
+          name: "year",
+          widget: "string"
+        }
 
-      # - {
-      #     label: "Movie duration",
-      #     name: "duration",
-      #     widget: "string"
-      #   }
+      - {
+          label: "Movie duration",
+          name: "duration",
+          widget: "string"
+        }
 
         
-      # - {
-      #     label: "Movie Rating",
-      #     name: "rating",
-      #     widget: "number",
-      #     valueType: "float",
-      #     min: 1,
-      #     max: 10,
-      #     step: .1,
-      #     default: 6.8,
-      #   }
+      - {
+          label: "Movie Rating",
+          name: "rating",
+          widget: "number",
+          valueType: "float",
+          min: 1,
+          max: 10,
+          step: .1,
+          default: 6.8,
+        }
 
-      # - {
-      #     label: "Movie Tags",
-      #     name: "tags",
-      #     widget: "select",
-      #     multiple: true,
-      #     options: [
-      #       "Action",
-      #       "Family",
-      #       "Thriller",
-      #       "Sport",
-      #       "Horror",
-      #       "Biography",
-      #       "Drama",
-      #       "History",
-      #       "Adventure",
-      #       "Animation",
-      #       "Romance",
-      #       "Comedy",
-      #       "Sci-Fi",
-      #       "Fantasy",
-      #       "Music",
-      #       "Reality-TV",
-      #       "Crime",
-      #       "Mystery",
-      #       "War"
-      #     ]
-      #   }
+      - {
+          label: "Movie Tags",
+          name: "tags",
+          widget: "select",
+          multiple: true,
+          options: [
+            "Action",
+            "Family",
+            "Thriller",
+            "Sport",
+            "Horror",
+            "Biography",
+            "Drama",
+            "History",
+            "Adventure",
+            "Animation",
+            "Romance",
+            "Comedy",
+            "Sci-Fi",
+            "Fantasy",
+            "Music",
+            "Reality-TV",
+            "Crime",
+            "Mystery",
+            "War"
+          ]
+        }
 
-      # - {
-      #     label: "Movie Story",
-      #     name: "story",
-      #     widget: "text"
-      #   }
+      - {
+          label: "Movie Story",
+          name: "story",
+          widget: "text"
+        }
       
-      # - {
-      #     label: "Movie Stars",
-      #     name: "stars",
-      #     widget: "list"
-      #   }
+      - {
+          label: "Movie Stars",
+          name: "stars",
+          widget: "list"
+        }
 
-      # - {
-      #     label: "IMDB ID",
-      #     name: "imdbid",
-      #     widget: "string",
-      #     hint: "The IMDB Id From the link"
-      #   }
+      - {
+          label: "IMDB ID",
+          name: "imdbid",
+          widget: "string",
+          hint: "The IMDB Id From the link"
+        }
 
-      # - {
-      #     label: "Movie Poster",
-      #     hint: "the small poster on the imdb",
-      #     name: "moviecover",
-      #     widget: "string"
-      #   }
+      - {
+          label: "Movie Poster",
+          hint: "the small poster on the imdb",
+          name: "moviecover",
+          widget: "string"
+        }
 
-      # - {
-      #     label: "Movie Wide Background",
-      #     name: "moviebg",
-      #     widget: "string"
-      #   }
+      - {
+          label: "Movie Wide Background",
+          name: "moviebg",
+          widget: "string"
+        }
 
 
 
-      # - {
-      #     label: "Movie Trailer",
-      #     name: "trailer",
-      #     widget: "string",
-      #     default: "https://www.youtube.com/embed/",
-      #     hint: "get any youtube trailer for that movie and copy the video Id and added it after the /embed/ in the cms"
-      #   }
+      - {
+          label: "Movie Trailer",
+          name: "trailer",
+          widget: "string",
+          default: "https://www.youtube.com/embed/",
+          hint: "get any youtube trailer for that movie and copy the video Id and added it after the /embed/ in the cms"
+        }
 
 
 

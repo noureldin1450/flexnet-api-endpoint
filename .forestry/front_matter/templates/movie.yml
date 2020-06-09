@@ -17,6 +17,16 @@ fields:
       path: 
   label: what is the type of content is this?
   hidden: false
+- name: rating
+  type: number
+  label: rating
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 0.1
 - name: title
   type: text
   config:
@@ -35,12 +45,6 @@ fields:
     required: false
   label: year
   description: 'Ex: 2009 | تاريخ اصدار الفيلم'
-- name: rating
-  type: text
-  config:
-    required: true
-  label: Rating
-  description: 'Ex: 9.9 | تقيم الفيلم'
 - name: date
   type: datetime
   label: date
@@ -155,6 +159,7 @@ pages:
 - content/movies/Inheritance.md
 - content/movies/My-Spy.md
 - content/movies/Survive-the-Night.md
+- content/movies/The-Call-of-the-Wild.md
 - content/movies/The-Invisible-Man.md
 - content/movies/Welcome-to-Marwen.md
 - content/movies/Working-Man.md
@@ -184,5 +189,5 @@ pages:
 - content/movies/the-sun-is-also-a-star.md
 - content/movies/what-men-want.md
 - content/movies/world-war-z.md
+- content/movies/zombieland-double-tap-1.md
 - content/movies/zombieland-double-tap.md
-- content/tv-shows/Lucifer2.md

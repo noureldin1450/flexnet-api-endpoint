@@ -375,3 +375,42 @@ collections:
           widget: "string",
           required: false
         }
+        
+
+
+  - name: "test" # Used in routes, e.g., /admin/collections/blog
+    label: "test" # Used in the UI
+    folder: "content/movies" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+
+      - {
+          label: "Draft: If yes this will not show to the user",
+          name: "draft",
+          widget: "boolean",
+          default: false 
+      }
+
+      - {
+          label: "Movie Title",
+          name: "title",
+          widget: "string",
+          hint: "Movie motherfucken Name"
+        }
+
+      - {
+          label: "Movie Title + Movie Year",
+          name: "slug",
+          widget: "string",
+          hint: "add the motherfu*** slug you fucken slut"
+        }
+        
+
+      - {
+          label: "DarDarkom server",
+          name: "server1",
+          widget: "string",
+          hint: "if dardarkom dont have the movie just leave this empty",
+          required: false
+        }

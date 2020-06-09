@@ -8,23 +8,20 @@
 
 # GROW TREES
 
+[ ] what could get wrong in Flexnet
+    [ ] the data is fucked uo
+        - how we could solve it  " try to use a small data just for testing to see if it will work  "
+    [ ] the cms is fucked uo
+        - how we could solve it  " idk am not fucken magican fuck off my face "
+    [ ] the Site is fucked uo
+        - how we could solve it  " make a small demo site with all the data and the cms code but not the site code and test if you could creat new movie normally "
+
 [ ] make the range of the lazy loading is much more
 
 [ ] add tv-shows
-    [x] make a stratgy for it
-    [x] make a sup file with the name of tv-shows (for the url to be domain/tv-shows/tv-show-name)
-    [x] add a type field with a drope down that contain movie or tv-show (make it by default on movie)
     [ ] make a deffreant looking card for the tv-shows 
     [ ] make a slider with the latest tv-shows
-    [x] make the content server1 ~ server6 is S1 ~ S6 
-    [X] make the player for the tv-shows say seasson not server
     
-    [ ] coding
-        [ ] UI
-        [ ] DATA 
-        [ ] CMS
-        [ ] slider
-
 
 [ ] making the header better (website speed optimization)
     [ ] Design a better header without youtube player embid cuz it take a lot of the website speed

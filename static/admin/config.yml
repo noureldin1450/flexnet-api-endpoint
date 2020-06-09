@@ -377,13 +377,31 @@ collections:
         }
         
 
-
   - name: "test" # Used in routes, e.g., /admin/collections/blog
     label: "test" # Used in the UI
     folder: "content/movies" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
+
+      - {
+          label: "Date you added this content",
+          name: "date",
+          widget: "date",
+          hint: "The motherfucken date"
+        }
+
+      - {
+          label: "content Type",
+          name: "groups",
+          widget: "select",
+          multiple: false,
+          default: "movie",
+          options: [
+            "movie",
+            "tv-show"
+          ]
+      }
 
       - {
           label: "Draft: If yes this will not show to the user",
@@ -405,7 +423,102 @@ collections:
           widget: "string",
           hint: "add the motherfu*** slug you fucken slut"
         }
+
+      # - {
+      #     label: "Movie Year",
+      #     name: "year",
+      #     widget: "string"
+      #   }
+
+      # - {
+      #     label: "Movie duration",
+      #     name: "duration",
+      #     widget: "string"
+      #   }
+
         
+      # - {
+      #     label: "Movie Rating",
+      #     name: "rating",
+      #     widget: "number",
+      #     valueType: "float",
+      #     min: 1,
+      #     max: 10,
+      #     step: .1,
+      #     default: 6.8,
+      #   }
+
+      # - {
+      #     label: "Movie Tags",
+      #     name: "tags",
+      #     widget: "select",
+      #     multiple: true,
+      #     options: [
+      #       "Action",
+      #       "Family",
+      #       "Thriller",
+      #       "Sport",
+      #       "Horror",
+      #       "Biography",
+      #       "Drama",
+      #       "History",
+      #       "Adventure",
+      #       "Animation",
+      #       "Romance",
+      #       "Comedy",
+      #       "Sci-Fi",
+      #       "Fantasy",
+      #       "Music",
+      #       "Reality-TV",
+      #       "Crime",
+      #       "Mystery",
+      #       "War"
+      #     ]
+      #   }
+
+      # - {
+      #     label: "Movie Story",
+      #     name: "story",
+      #     widget: "text"
+      #   }
+      
+      # - {
+      #     label: "Movie Stars",
+      #     name: "stars",
+      #     widget: "list"
+      #   }
+
+      # - {
+      #     label: "IMDB ID",
+      #     name: "imdbid",
+      #     widget: "string",
+      #     hint: "The IMDB Id From the link"
+      #   }
+
+      # - {
+      #     label: "Movie Poster",
+      #     hint: "the small poster on the imdb",
+      #     name: "moviecover",
+      #     widget: "string"
+      #   }
+
+      # - {
+      #     label: "Movie Wide Background",
+      #     name: "moviebg",
+      #     widget: "string"
+      #   }
+
+
+
+      # - {
+      #     label: "Movie Trailer",
+      #     name: "trailer",
+      #     widget: "string",
+      #     default: "https://www.youtube.com/embed/",
+      #     hint: "get any youtube trailer for that movie and copy the video Id and added it after the /embed/ in the cms"
+      #   }
+
+
 
       - {
           label: "DarDarkom server",
@@ -414,3 +527,29 @@ collections:
           hint: "if dardarkom dont have the movie just leave this empty",
           required: false
         }
+      - {
+          label: "server 2",
+          name: "server2",
+          widget: "string",
+          required: false
+        }
+      - {
+          label: "server 3",
+          name: "server3",
+          widget: "string",
+          required: false
+        }
+      - {
+          label: "server 4",
+          name: "server4",
+          widget: "string",
+          required: false
+        }
+      - {
+          label: "server 5",
+          name: "server5",
+          widget: "string",
+          required: false
+        }
+        
+

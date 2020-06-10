@@ -390,7 +390,7 @@ collections:
           name: "date",
           widget: "date",
           hint: "The motherfucken date",
-          format: 'YYYY-MM-DD'
+          format: "YYYY-MM-DD"
         }
 
       - {

@@ -1,5 +1,4 @@
 ---
-date: 2020-06-10
 groups: movie
 draft: false
 title: test
@@ -19,4 +18,5 @@ trailer: https://www.youtube.com/embed/test
 server1: test
 server2: test
 server3: test
+date: 2020-06-10
 ---

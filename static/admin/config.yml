@@ -389,8 +389,8 @@ collections:
           label: "Date you added this content",
           name: "date",
           widget: "date",
-          hint: "The motherfucken date",
-          format: "YYYY-MM-DD"
+          format: "YYYY-MM-DD",
+          hint: "The motherfucken date"
         }
 
       - {

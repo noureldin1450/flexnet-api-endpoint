@@ -8,13 +8,7 @@
 
 # GROW TREES
 
-[ ] what could get wrong in Flexnet
-    [ ] the data is fucked up
-        - how we could solve it  " try to use a small data just for testing to see if it will work  "
-    [ ] the cms is fucked uo
-        - how we could solve it  " idk am not fucken magican fuck off my face "
-    [ ] the Site is fucked uo
-        - how we could solve it  " make a small demo site with all the data and the cms code but not the site code and test if you could creat new movie normally "
+[ ] fix the date shit in the data
 
 [ ] make the range of the lazy loading is much more
 

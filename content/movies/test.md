@@ -1,5 +1,5 @@
 ---
-date: 2020-06-10T06:35:36.872Z
+# date: 2020-06-10T06:35:36.872Z
 groups: movie
 draft: false
 title: test

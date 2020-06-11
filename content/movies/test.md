@@ -1,7 +1,7 @@
 ---
 date: 2020-06-10
 groups: movie
-draft: false
+draft: true
 title: test
 slug: test
 year: test

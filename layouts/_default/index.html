@@ -39,13 +39,13 @@
             </div>
         </div>
 
-        <section style="margin-bottom: 3rem;">
+        <!-- <section style="margin-bottom: 3rem;">
             {{ with .Site.GetPage "/movies" }}
                 {{ range .Pages | first 1 }}
                     {{ partial "movie/header.html" (dict "bg" .Params.moviebg "trailer" .Params.trailer "title" .Params.title "duration" .Params.duration "rating" .Params.rating "link1" .URL "link2" .URL  "year" .Params.year "story" .Params.story ) }}
                 {{end}}
             {{end}}
-        </section>
+        </section> -->
 
 
         {{ with .Site.GetPage "/tags" }}

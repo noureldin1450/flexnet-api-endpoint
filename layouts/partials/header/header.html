@@ -5,18 +5,53 @@
       <div class="live-stream">
         <h1 class="main-title">FlexNet New Movies</h1>
 
-
         <ul>
           {{ with .Site.GetPage "/movies" }}
           {{ range .Pages | first 2 | shuffle }}
           <li>
-            <iframe src="{{ .Params.trailer }}" frameborder="0"
-              allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-            </iframe>
+
+            <div class="player" style="
+                  background-image: url({{.Params.moviebg}});
+                  background-position: center;
+                  background-size: cover;
+                  background-repeat: no-repeat;
+                ">
+              <div class="player__overlay">
+                <div class="container">
+
+                  <a href="{{.URL}}">
+                    <div class="play-btn">
+                      <ion-icon name="play"></ion-icon>
+                    </div>
+                  </a>
+
+                  <div class="info">
+                    <h1>{{ truncate 25 .Params.title }}</h1>
+
+                    <div class="more-info">
+                      <ul>
+                        <li class="star">
+                          <ion-icon class="animated rotat" name="star"></ion-icon>
+                          <span>6.8</span>
+                        </li>
+                        <li>
+                          <ion-icon name="time"></ion-icon>
+                          <span>1h 39min</span>
+                        </li>
+                      </ul>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
 
             <div class="btn">
-              <a href="{{.URL}}" title="Watch {{.Title}} ({{.Params.year}}) Movie Now">Watch It Now <ion-icon name="videocam"></ion-icon></a>
+              <a href="{{.URL}}" title="Watch {{.Title}} ({{.Params.year}}) Movie Now">Watch It Now <ion-icon
+                  name="videocam"></ion-icon></a>
             </div>
+
           </li>
           {{end}}
           {{end}}

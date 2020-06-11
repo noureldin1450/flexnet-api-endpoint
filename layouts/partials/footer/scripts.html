@@ -18,123 +18,113 @@
 
 <!-- movies slider -->
 <script>
-
-    $(document).ready(function () {
-        // the code for the sliders to work
-        var swiper = new Swiper('.swiper-container', {
-            slidesPerView: 7,
-            spaceBetween: 10,
-            freeMode: true,
-            // autoplay: {
-            //     delay: 2500,
-            //     disableOnInteraction: false,
-            // },
-            breakpoints: {
-                1400: {
-                    slidesPerView: 7,
-                    spaceBetween: 20,
-                },
-                1000: {
-                    slidesPerView: 5.3,
-                },
-                900: {
-                    slidesPerView: 4.4,
-                },
-                600: {
-                    slidesPerView: 3.3,
-                },
-                400: {
-                    slidesPerView: 2.3,
-                },
-                200: {
-                    slidesPerView: 1.7,
-                    spaceBetween: 3,
-                }
+    // the code for the sliders to work
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 7,
+        spaceBetween: 10,
+        freeMode: true,
+        // autoplay: {
+        //     delay: 2500,
+        //     disableOnInteraction: false,
+        // },
+        breakpoints: {
+            1400: {
+                slidesPerView: 7,
+                spaceBetween: 20,
             },
-            // pagination: {
-            //     el: '.swiper-pagination',
-            //     clickable: true,
-            // },
-        });
-
-        // the search code for the input to search
-        function search() {
-
-            var path = "{{.Site.BaseURL}}movies/";
-
-            var moveName = document.getElementById("moviename").value;
-
-            var moveName = moveName.replace(/\s/g, '-');
-
-            var moveName = moveName.toLowerCase();
-
-            var url = path + moveName;
-
-            //window.open(path+moveName);
-
-            window.location = url;
-
-        }
-        //for the search to work on pressing enter
-        function keyCode(event) {
-
-            const enter = event.keyCode;
-
-            if (enter == 13) {
-                search();
+            1000: {
+                slidesPerView: 5.3,
+            },
+            900: {
+                slidesPerView: 4.4,
+            },
+            600: {
+                slidesPerView: 3.3,
+            },
+            400: {
+                slidesPerView: 2.3,
+            },
+            200: {
+                slidesPerView: 1.7,
+                spaceBetween: 3,
             }
-        }
-
-
-        // Add smooth scrolling to all links
-        $("a").on('click', function (event) {
-
-            // Make sure this.hash has a value before overriding default behavior
-            if (this.hash !== "") {
-                // Prevent default anchor click behavior
-                event.preventDefault();
-
-                // Store hash
-                var hash = this.hash;
-
-                // Using jQuery's animate() method to add smooth page scroll
-                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-                $('html, body').animate({
-                    scrollTop: $(hash).offset().top
-                }, 1000, function () {
-
-                    // Add hash (#) to URL when done scrolling (default click behavior)
-                    window.location.hash = hash;
-                });
-            } // End if
-        });
-
-        //adding animation on clicking on the ham icon in nav
-        $("#minu").click(function (e) {
-            e.preventDefault();
-            $("#navigation").slideToggle(900);
-        });
-
-        //adding lazy loading for the images
-        var images = document.querySelectorAll('.img');
-
-        var observer = new IntersectionObserver(function (entries, observer) {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    var img = entry.target;
-                    img.setAttribute('src', img.getAttribute('data-src'));
-                    observer.unobserve(img)
-                }
-            })
-        }, {
-            rootMargin: '0px 50px 200px 0px'
-        })
-
-        images.forEach(img => {
-            observer.observe(img)
-        })
-
+        },
+        // pagination: {
+        //     el: '.swiper-pagination',
+        //     clickable: true,
+        // },
     });
+
+    // the search code for the input to search
+    function search() {
+        var path = "{{.Site.BaseURL}}movies/";
+        var moveName = document.getElementById("moviename").value;
+        var moveName = moveName.replace(/\s/g, '-');
+        var moveName = moveName.toLowerCase();
+        var url = path + moveName;
+        //window.open(path+moveName);
+        window.location = url;
+    }
+
+    //for the search to work on pressing enter
+    function keyCode(event) {
+
+        const enter = event.keyCode;
+
+        if (enter == 13) {
+            search();
+        }
+    }
+
+
+    // Add smooth scrolling to all links
+    $("a").on('click', function (event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 1000, function () {
+
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+            });
+        } // End if
+    });
+
+    //adding animation on clicking on the ham icon in nav
+    $("#minu").click(function (e) {
+        e.preventDefault();
+        $("#navigation").slideToggle(900);
+    });
+
+    //adding lazy loading for the images
+    var images = document.querySelectorAll('.img');
+
+    var observer = new IntersectionObserver(function (entries, observer) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                var img = entry.target;
+                img.setAttribute('src', img.getAttribute('data-src'));
+                observer.unobserve(img)
+            }
+        })
+    }, {
+        rootMargin: '0px 50px 200px 0px'
+    })
+
+    images.forEach(img => {
+        observer.observe(img)
+    })
+
 </script>
 
 {{if not ( in (.Site.BaseURL | string) "localhost" )}}
@@ -151,10 +141,13 @@
 {{end}}
 
 <!-- the reactions verfier -->
-<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5ed86f8ee9c615001202775d&product=inline-reaction-buttons&cms=sop' async='async'></script>
+<script type='text/javascript'
+    src='https://platform-api.sharethis.com/js/sharethis.js#property=5ed86f8ee9c615001202775d&product=inline-reaction-buttons&cms=sop'
+    async='async'></script>
 
 <!-- live chat for users to talk -->
-<script id="chatBroEmbedCode">/* Chatbro Widget Embed Code Start */function ChatbroLoader(chats,async){async=!1!==async;var params={embedChatsParameters:chats instanceof Array?chats:[chats],lang:navigator.language||navigator.userLanguage,needLoadCode:'undefined'==typeof Chatbro,embedParamsVersion:localStorage.embedParamsVersion,chatbroScriptVersion:localStorage.chatbroScriptVersion},xhr=new XMLHttpRequest;xhr.withCredentials=!0,xhr.onload=function(){eval(xhr.responseText)},xhr.onerror=function(){console.error('Chatbro loading error')},xhr.open('GET','//www.chatbro.com/embed.js?'+btoa(unescape(encodeURIComponent(JSON.stringify(params)))),async),xhr.send()}/* Chatbro Widget Embed Code End */ChatbroLoader({encodedChatId: '05pNH'});</script>
+<script
+    id="chatBroEmbedCode">/* Chatbro Widget Embed Code Start */function ChatbroLoader(chats, async) { async = !1 !== async; var params = { embedChatsParameters: chats instanceof Array ? chats : [chats], lang: navigator.language || navigator.userLanguage, needLoadCode: 'undefined' == typeof Chatbro, embedParamsVersion: localStorage.embedParamsVersion, chatbroScriptVersion: localStorage.chatbroScriptVersion }, xhr = new XMLHttpRequest; xhr.withCredentials = !0, xhr.onload = function () { eval(xhr.responseText) }, xhr.onerror = function () { console.error('Chatbro loading error') }, xhr.open('GET', '//www.chatbro.com/embed.js?' + btoa(unescape(encodeURIComponent(JSON.stringify(params)))), async), xhr.send() }/* Chatbro Widget Embed Code End */ChatbroLoader({ encodedChatId: '05pNH' });</script>
 <!-- <script>
 if('serviceWorker' in navigator){
     navigator.serviceWorker.register("/sw.js")

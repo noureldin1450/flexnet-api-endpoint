@@ -1,5 +1,5 @@
 ---
-date: 2020-06-11
+date: 2020-06-11T00:00:00.000Z
 groups: movie
 draft: false
 title: "Legacy "
@@ -25,6 +25,6 @@ trailer: https://www.youtube.com/embed/Z3EXVgYLbdU
 server1: https://e.dardarkom.online/mv/644141
 server2: https://moshahda.online/embed-u50pbfwr4aim-640x360.html
 server3: https://www.vidbm.com/embed-mqcuxv5qpxdm.html
-server4: https://vidfast.co/embed-lttu94tc7e2n.html
-server5: https://vidshare.tv/embed-ltezkdtk8v2z.html
+server4: https://vidshare.tv/embed-ltezkdtk8v2z.html
+server5: ""
 ---

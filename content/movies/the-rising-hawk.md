@@ -1,5 +1,5 @@
 ---
-date: 2020-06-11
+date: 2020-06-11T00:00:00.000Z
 groups: movie
 draft: false
 title: The Rising Hawk
@@ -24,6 +24,6 @@ moviebg: https://m.media-amazon.com/images/M/MV5BYzJhMTQyYWEtYmRiMS00MzkzLWEwYjI
 trailer: https://www.youtube.com/embed/qfuTBc6oHtM
 server1: https://e.dardarkom.online/mv/181153
 server2: https://www.vidbm.com/embed-zf1zi3auh1hx.html
-server3: https://vidfast.co/embed-30y5rygfe677.html
-server4: https://vidshare.tv/embed-a0za537g3emr.html
+server3: https://vidshare.tv/embed-a0za537g3emr.html
+server4: ""
 ---

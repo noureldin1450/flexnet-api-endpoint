@@ -1,17 +1,26 @@
 {
-    "tags":{
-
-        "tag":[
-            {
-                "name": "egy",
-                "url": "egy"
-            },
-            {
-                "name": "egy2",
-                "url": "egy2"
-            }
-        ]
-
-    }
-
+  "tags": {
+    "tag": [
+      {
+        "name": "egy.best",
+        "url": "#"
+      },
+      {
+        "name": "egybest",
+        "url": "#"
+      },
+      {
+        "name": "ايجي بست",
+        "url": "#"
+      },
+      {
+        "name": "افلام 2020",
+        "url": "#"
+      },
+      {
+        "name": "2020 movies",
+        "url": "#"
+      }
+    ]
+  }
 }

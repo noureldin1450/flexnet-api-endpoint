@@ -1,0 +1,15 @@
+{{ with .Site.GetPage "/tags" }}
+<div class="container" style="overflow-x: scroll; overflow-y: hidden;">
+    <ul class="tags">
+        <li><a href="/movies" title="Flexnet Latest Movies">Flexnet Latest Movies</a></li>
+        {{ range .Pages | first 15 | shuffle }}
+            <li><a href="{{.URL}}" title="Flexnet {{.Title}} Movies">{{.Title}} Movies</a></li>
+        {{end}}
+        {{ range $.Site.Data.tags }}
+            {{ range .tag }}
+                <li><a href="{{.url}}" title="Flexnet {{.name}} Movies">{{ .name }}</a></li>
+            {{end}}
+        {{end}}
+    </ul>
+</div>
+{{end}}

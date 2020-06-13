@@ -8,17 +8,6 @@
 
 # GROW TREES
 
-[x] fix the date shit in the data
-[x] see what ake the website slower
-
-# Coding the new Design
-[x] header
-    [x] remove the youtube player but use the css that was in the iframe 
-    [X] get the data
-    [x] style the new header
-    [X] make the title have a limit for letters
-
-[ ] make the search work
 
 [ ] make the range of the lazy loading is much more
 

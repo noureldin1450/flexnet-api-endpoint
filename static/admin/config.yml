@@ -11,24 +11,27 @@ media_folder: "static/images/uploads" # Media files will be stored in the repo u
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 
 collections:
-  - name: "tags" # Used in routes, e.g., /admin/collections/blog
-    label: "tags" # Used in the UI
-    files: "data/tags.json" # The path to the folder where the documents are stored
-    fields: # The fields for each document, usually in front matter
-        - label: tag
-          name: tag
-          widget: list
-          fields: # The fields for each document, usually in front matter
-            - {
-              label: "Name",
-              name: "name",
-              widget: "string",
-            }
-            - {
-              label: "Link",
-              name: "url",
-              widget: "string",
-            }
+  - name: "tags" 
+    label: "tags" 
+    files: 
+      - label: "tag"
+        name: "tag"
+        file: "data/tags.json"
+        fields: 
+            - label: "tag"
+              name: "tag"
+              widget: list
+              fields: # The fields for each document, usually in front matter
+                - {
+                  label: "Name",
+                  name: "name",
+                  widget: "string",
+                }
+                - {
+                  label: "Link",
+                  name: "url",
+                  widget: "string",
+                }
 
 
   - name: "tv-shows" # Used in routes, e.g., /admin/collections/blog

@@ -50,6 +50,7 @@ collections:
           name: "date",
           widget: "date",
           format: "YYYY-MM-DD",
+          default: "2020-06-13",
           hint: "The motherfucken date"
         }
 

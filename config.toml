@@ -1,4 +1,4 @@
-baseURL = $DOMAIN_NAME
+baseURL = {process.env.URL}
 languageCode = "en-us"
 title = "FlexNet- Watch FREE Movies and TV Shows Online"
 

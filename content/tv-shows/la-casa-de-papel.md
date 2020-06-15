@@ -1,5 +1,5 @@
 ---
-date: 2020-06-13
+date: 2020-06-15
 groups: tv-show
 draft: false
 title: La Casa de Papel

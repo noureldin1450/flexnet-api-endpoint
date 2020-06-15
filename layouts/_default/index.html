@@ -14,18 +14,6 @@
     <!--start slider movies code for the movies at the top -->
     <section id="movies" class="movies">
 
-        {{ partial "main-title.html" (dict "Text" "FlexNet Latest Movies" "Icon" "film" "Route" "movies" ) }}
-
-        <div class="swiper-container">
-            <div class="swiper-wrapper">
-                {{ with .Site.GetPage "/tv-show" }}
-                {{ range first 20 .Pages.ByPublishDate.Reverse }}
-                {{ partial "list.html" . }}
-                {{end}}
-                {{end}}
-            </div>
-        </div>
-
 
         {{ partial "main-title.html" (dict "Text" "FlexNet Latest Movies" "Icon" "film" "Route" "movies" ) }}
 
@@ -52,6 +40,20 @@
                 {{end}}
             </div>
         </div>
+
+        <!-- tv-shows slider  -->
+        {{ partial "main-title.html" (dict "Text" "FlexNet Latest Tv-shows" "Icon" "film" "Route" "/tv-shows" ) }}
+
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                {{ with .Site.GetPage "/tv-show" }}
+                {{ range first 20 .Pages.ByPublishDate.Reverse }}
+                {{ partial "list.html" . }}
+                {{end}}
+                {{end}}
+            </div>
+        </div>
+
 
         <!-- <section style="margin-bottom: 3rem;">
             {{ with .Site.GetPage "/movies" }}

@@ -1,4 +1,4 @@
-baseURL = "https://flexnet.ga/"
+baseURL = "${DOMAIN_NAME}/"
 languageCode = "en-us"
 title = "FlexNet- Watch FREE Movies and TV Shows Online"
 

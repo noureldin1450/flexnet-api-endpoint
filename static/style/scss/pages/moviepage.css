@@ -910,10 +910,8 @@ nav .navigation li a {
 }
 
 .more-info .movie-info .content .stars a {
-  text-decoration: underline;
-  -webkit-text-decoration-color: #f95959;
-          text-decoration-color: #f95959;
   color: #f95959;
+  cursor: auto;
 }
 
 .more-info .movie-info .content .stars a span {

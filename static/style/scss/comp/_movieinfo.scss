@@ -144,10 +144,9 @@
                 }
 
                 a {
-                    text-decoration: underline;
-                    text-decoration-color: $main-color;
                     color: $main-color;
-                    
+                    cursor: auto;
+
                     span{
                         color: $black-color;
                     }

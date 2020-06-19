@@ -5,7 +5,6 @@ title = "FlexNet- Watch FREE Movies and TV Shows Online"
 [taxonomies]
   tag = "tags"
   category = "categories" 
-  star = "stars" 
   year = "years"
   lang = "langs"
   group = "groups"

@@ -107,7 +107,7 @@ collections:
           min: 1,
           max: 10,
           step: .1,
-          default: 6.8,
+          default: 6.8
         }
 
       - {
@@ -297,7 +297,7 @@ collections:
           min: 1,
           max: 10,
           step: .1,
-          default: 6.8,
+          default: 6.8
         }
 
       - {

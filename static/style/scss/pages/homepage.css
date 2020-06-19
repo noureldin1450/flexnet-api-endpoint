@@ -449,6 +449,41 @@ nav .navigation li a {
 }
 
 /* end navbar code */
+.adsfree {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+@media (max-width: 800px) {
+  .adsfree {
+    background-color: #f95959;
+  }
+}
+
+@media (max-width: 708px) {
+  .adsfree {
+    margin-top: 3rem;
+  }
+  .adsfree h1 {
+    font-size: 1.6rem;
+  }
+  .adsfree p {
+    font-size: .9rem;
+  }
+}
+
+.adsfree p {
+  padding: 0px 1rem;
+  max-width: 700px;
+  margin: 0px auto;
+}
+
+.adsfree .container {
+  background-color: #f95959;
+  border-radius: 5px;
+  padding: 1rem 0px;
+}
+
 .keywords {
   margin-top: 2.5rem;
   width: -webkit-max-content;

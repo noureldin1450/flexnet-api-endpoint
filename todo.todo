@@ -9,23 +9,16 @@
 # GROW TREES
 
 
-[ ] make the range of the lazy loading is much more
 
 [ ] add tv-shows
     [ ] make a deffreant looking card for the tv-shows 
-    [ ] make a slider with the latest tv-shows
+    [x] make a slider with the latest tv-shows
     
 
-[ ] making the header better (website speed optimization)
-    [ ] Design a better header without youtube player embid cuz it take a lot of the website speed
-    [ ] Code it 
+[x] making the header better (website speed optimization)
+    [x ] Design a better header without youtube player embid cuz it take a lot of the website speed
+    [x] Code it 
 
-
-
-[ ] make the user more uncage with the site to come more 
-    [x] adding a react on top of the movie
-    [ ] adding a comment systeam under the movie
-    [x] adding a live chat inside the site so users can chat with each other and also chat with us live /!\ this contain higher encagment more that the others
 
 
 # Ideas 

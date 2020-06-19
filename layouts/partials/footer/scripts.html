@@ -127,6 +127,19 @@
 
 </script>
 
+{{if not ( in (.Site.BaseURL | string) "localhost" )}}
+<!--google tracker-->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146859399-3"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-146859399-3');
+</script> -->
+{{end}}
+
 <!-- the reactions verfier -->
 <script type='text/javascript'
     src='https://platform-api.sharethis.com/js/sharethis.js#property=5ed86f8ee9c615001202775d&product=inline-reaction-buttons&cms=sop'

@@ -106,7 +106,6 @@ collections:
           valueType: "float",
           min: 1,
           max: 10,
-          step: .1,
           default: 6.8
         }
 
@@ -296,7 +295,6 @@ collections:
           valueType: "float",
           min: 1,
           max: 10,
-          step: .1,
           default: 6.8
         }
 

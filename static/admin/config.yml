@@ -55,6 +55,11 @@ collections:
                 name: "dis",
                 widget: "string",
               }
+              - {
+                label: "enabled",
+                name: "enabled",
+                widget: "boolean",
+              }
 
   - name: "tv-shows" # Used in routes, e.g., /admin/collections/blog
     label: "Tv-Shows" # Used in the UI

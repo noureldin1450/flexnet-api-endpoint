@@ -1,7 +1,7 @@
 ---
-date: 2020-04-28
+date: 2020-04-28T00:00:00.000Z
 groups: movie
-draft: false
+draft: true
 title: "It: Chapter Two"
 slug: It Chapter Two 2019
 year: "2019"

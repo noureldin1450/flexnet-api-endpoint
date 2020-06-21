@@ -1,0 +1,11 @@
+<!-- free of ads section -->
+<div class="announcement">
+    <div class="container">
+    {{ range $.Site.Data.announcement}}
+        <h1>{{ .title }}</h1>
+        <p>
+            {{ .dis }}
+        </p>
+    {{end}}
+    </div>
+</div>

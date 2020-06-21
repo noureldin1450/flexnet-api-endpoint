@@ -11,32 +11,50 @@ media_folder: "static/images/uploads" # Media files will be stored in the repo u
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 
 collections:
-  - name: "tags" 
-    label: "tags" 
+  - name: "settings" 
+    label: "settings" 
     files: 
-      - label: "tag"
-        name: "tag"
+      - label: "tags"
+        name: "tags"
         file: "data/tags.json"
         fields: 
-            - label: "tags"
-              name: "tags"
-              widget: object
-              fields: 
-                - label: "tag"
-                  name: "tag"
-                  widget: list
-                  fields: # The fields for each document, usually in front matter
-                    - {
-                      label: "Name",
-                      name: "name",
-                      widget: "string",
-                    }
-                    - {
-                      label: "Link",
-                      name: "url",
-                      widget: "string",
-                    }
-
+          - label: "tags"
+            name: "tags"
+            widget: object
+            fields: 
+              - label: "tag"
+                name: "tag"
+                widget: list
+                fields: # The fields for each document, usually in front matter
+                  - {
+                    label: "Name",
+                    name: "name",
+                    widget: "string",
+                  }
+                  - {
+                    label: "Link",
+                    name: "url",
+                    widget: "string",
+                  }
+                  
+      - label: "annoncements"
+        name: "announcement"
+        file: "data/announcement.json"
+        fields: 
+          - label: "announcement"
+            name: "announcement"
+            widget: object
+            fields:
+              - {
+                label: "title",
+                name: "title",
+                widget: "string",
+              }
+              - {
+                label: "dis",
+                name: "dis",
+                widget: "string",
+              }
 
   - name: "tv-shows" # Used in routes, e.g., /admin/collections/blog
     label: "Tv-Shows" # Used in the UI

@@ -43,18 +43,17 @@
         </div>
 
         <!--start slider for top rated movies -->
-        {{ partial "main-title.html" (dict "Text" "FlexNet Top Rated Movies" "Icon" "star" "Route" "movies" ) }}
+        <!-- {{ partial "main-title.html" (dict "Text" "FlexNet Top Rated Movies" "Icon" "star" "Route" "movies" ) }}
 
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 {{ with .Site.GetPage "/movies" }}
                 {{ range first 20 (.Pages.ByParam "rating").Reverse }}
-                <!--adding the movies slider-->
                 {{ partial "list.html" . }}
                 {{end}}
                 {{end}}
             </div>
-        </div>
+        </div> -->
 
         <!-- <section style="margin-bottom: 3rem;">
             {{ with .Site.GetPage "/movies" }}
@@ -64,7 +63,7 @@
             {{end}}
         </section> -->
 
-
+<!-- 
         {{ with .Site.GetPage "/tags" }}
             {{ range .Pages | first 5 | shuffle }}
 
@@ -85,7 +84,6 @@
                         {{ $movietag := .Title }}
                         {{ with .Site.GetPage "/tags/(printf $movietag)" (printf "/tags/%s" $movietag) }}
                             {{ range .Pages | first 20 | shuffle }}
-                                <!--adding the movies slider-->
                                 {{ partial "list.html" . }}
                             {{end}}
                         {{end}}
@@ -93,7 +91,7 @@
                 </div>
 
             {{end}}
-        {{end}}
+        {{end}} -->
 
     </section>
 

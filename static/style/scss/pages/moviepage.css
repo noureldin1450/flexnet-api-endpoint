@@ -225,6 +225,11 @@ ion-icon {
   text-transform: capitalize !important;
 }
 
+.chatbro_container .chatbro_minimized_chat.chatbro_movable_chat {
+  border: 3px solid white !important;
+  border-radius: 5px !important;
+}
+
 @-webkit-keyframes fadeIn {
   from {
     opacity: 0;
@@ -1277,57 +1282,153 @@ nav .navigation li a {
 }
 
 /* footer code */
-footer {
+.footer {
   background: #f95959;
   width: 100%;
   padding: 2rem 0px;
-  text-align: center;
+  margin-top: 2rem;
+}
+
+@media (max-width: 708px) {
+  .footer {
+    text-align: center;
+  }
+}
+
+.footer__content {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.footer__content li {
+  width: 40%;
+  margin-left: 4rem;
+  float: left;
+}
+
+@media (max-width: 1100px) {
+  .footer__content li {
+    width: 45%;
+  }
+}
+
+@media (max-width: 800px) {
+  .footer__content li {
+    width: 100%;
+    float: none;
+    margin: 1rem 0px;
+  }
+}
+
+.footer__content li:first-of-type {
+  margin: 0px;
+}
+
+.footer__content li p {
+  opacity: 0.9;
+  font-size: 1rem;
+  text-transform: capitalize;
+  margin: 0.4rem 0px 1rem 0px;
+}
+
+.footer__content li h2,
+.footer__content li h3 {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.footer__content .newsletter .email h3 {
+  font-size: 1.1rem;
+  padding: 1rem 0px 0.5rem 0px;
+}
+
+.footer__content .newsletter .email input {
+  border: none;
+  border: 2px solid #fdfdfd;
+  padding: 0.3rem 4.5rem 0.3rem 0.5rem;
+  background: #f95959;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+}
+
+.footer__content .newsletter .email input::-webkit-input-placeholder {
+  color: #fdfdfd;
+  opacity: 0.7;
+}
+
+.footer__content .newsletter .email input:-ms-input-placeholder {
+  color: #fdfdfd;
+  opacity: 0.7;
+}
+
+.footer__content .newsletter .email input::-ms-input-placeholder {
+  color: #fdfdfd;
+  opacity: 0.7;
+}
+
+.footer__content .newsletter .email input::placeholder {
+  color: #fdfdfd;
+  opacity: 0.7;
+}
+
+.footer__content .newsletter .email button a {
+  padding: 0.2rem 1.2rem;
+}
+
+@media (max-width: 1100px) {
+  .footer__content .button {
+    display: block;
+    margin-top: 0.7rem;
+  }
+}
+
+.footer__content .button button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.footer__content .button button a {
+  background-color: #fdfdfd;
+  color: #f95959;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 0.2rem 1.5rem;
+  text-transform: uppercase;
+  font-size: 1.1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 2rem;
 }
 
-footer .whoami h1 {
-  font-size: 3rem;
-}
-
-footer .whoami h1 img {
-  width: 170px;
-}
-
-footer .whoami h2 {
-  font-size: 1rem;
-  font-weight: 100;
-  opacity: .7;
-  width: 60%;
-  margin: auto;
-  color: #fdfdfd !important;
-}
-
-@media (max-width: 708px) {
-  footer .whoami h2 {
-    width: 100%;
-  }
-}
-
-footer p {
-  padding-top: 3rem;
-  text-transform: capitalize;
-  font-weight: 800;
+.footer__content .button button a ion-icon {
+  color: #f95959;
+  font-size: 1.6rem;
+  margin-right: 0.5rem;
 }
 
 /* end footer code */
+@media (max-width: 708px) {
+  footer nav {
+    text-align: center;
+  }
+  footer nav .ham,
+  footer nav .navigation {
+    display: none;
+  }
+  footer nav .logo {
+    display: inline-block;
+    float: none;
+  }
+}
+
 .movie-header .overlay {
   padding: 5rem 0px !important;
 }

@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css?family=Chakra+Petch:500,600,700&display=swap");
+/*responsive*/
+* {
+  padding: 0;
+  margin: 0;
+  line-height: 1.5em;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+  font-family: "Chakra Petch", sans-serif;
+  background: #eee;
+  color: #233142;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+  color: #fdfdfd;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+/*
+    GLOBAL STYLES
+*/
+.container {
+  width: 90% !important;
+  margin: auto;
+}
+
+.related .movies {
+  padding: 0px !important;
+}
+
+.main-title {
+  color: #233142;
+  padding: 0 0 4rem 0px;
+  text-transform: capitalize;
+}
+
+@media (max-width: 708px) {
+  .main-title {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0px;
+  }
+}
+
+@media (max-width: 550px) {
+  .main-title {
+    padding: 2rem 0px;
+  }
+}
+
+.main-title__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  clear: both;
+}
+
+@media (max-width: 708px) {
+  .main-title__text {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+}
+
+.main-title__text ion-icon {
+  padding-left: 0.5rem;
+}
+
+@media (max-width: 365px) {
+  .main-title__text ion-icon {
+    display: none;
+  }
+}
+
+.main-title .file-tray-full,
+.main-title .star,
+.main-title .heart-half,
+.main-title .film,
+.main-title .more {
+  color: #f95959;
+  font-size: 1.8rem;
+}
+
+.main-title .more {
+  font-size: 1.4rem;
+  padding-left: 0.5rem;
+}
+
+.main-title a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #f95959;
+  font-size: 1.2rem;
+  float: right;
+  text-decoration: underline;
+  -webkit-text-decoration-style: double;
+          text-decoration-style: double;
+}
+
+@media (max-width: 708px) {
+  .main-title a {
+    float: none;
+  }
+}
+
+ion-icon {
+  color: #fdfdfd;
+}
+
+.bmc-button img {
+  width: 1.7rem;
+  margin-bottom: 1px !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: none !important;
+  vertical-align: middle !important;
+}
+
+.bmc-button {
+  line-height: 36px !important;
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+  color: #233142;
+  background-color: #fdfdfd;
+  border-radius: 3px !important;
+  padding: 0.5rem 1rem;
+  font-size: 1rem !important;
+  margin: 1rem auto 0px auto !important;
+}
+
+.swiper-wrapper {
+  padding: 2rem 0px;
+}
+
+.swiper-container {
+  margin-bottom: 2rem;
+  clear: both;
+}
+
+.alltags li {
+  width: 85%;
+}
+
+@media (max-width: 708px) {
+  .alltags li {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+  }
+}
+
+.alltags li a {
+  color: #f95959;
+  text-decoration: underline;
+  display: block;
+  font-weight: 900;
+  padding-bottom: 0.5rem;
+  font-size: 1.2rem;
+  display: inline-block;
+  margin: .4rem .8rem .4rem 0px;
+}
+
+@media (max-width: 708px) {
+  .alltags li a {
+    text-align: center;
+    margin: .2rem .5rem .2rem 0px;
+  }
+}
+
+.list-title {
+  padding: 1rem 0px;
+}
+
+.list-page-title {
+  padding: 2rem 0px;
+  text-transform: capitalize !important;
+}
+
+.chatbro_container .chatbro_minimized_chat.chatbro_movable_chat {
+  border: 3px solid white !important;
+  border-radius: 5px !important;
+}
+
+.content {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.content h1,
+.content p {
+  color: #233142;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+@media (max-width: 550px) {
+  .content h1,
+  .content p {
+    font-size: 1.3rem;
+  }
+}
+
+.content h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.3rem;
+  text-transform: uppercase;
+}
+
+@media (max-width: 550px) {
+  .content h1 {
+    font-size: 1.7rem;
+  }
+}
+
+.content a {
+  background-color: #f95959;
+  color: #fdfdfd;
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: .6rem 2.5rem;
+  border-radius: 5px;
+  margin-top: 2rem;
+  text-transform: capitalize;
+}

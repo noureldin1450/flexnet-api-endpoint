@@ -16,15 +16,19 @@
 </head>
 
 <body>
-    <!--NAV-->
-    {{partial "header/nav.html" .}}
+    {{ block "nav" . }}
+        <!--NAV-->
+        {{partial "header/nav.html" .}}
+    {{end}}
 
     {{ block "main" . }}
     {{end}}
 
 
-    <!--Site footer code-->
-    {{ partial "footer/footer.html" .}}
+    {{ block "footer" . }}
+        <!--Site footer code-->
+        {{ partial "footer/footer.html" .}}
+    {{end}}
     
     {{ block "scripts" . }}
     {{end}}

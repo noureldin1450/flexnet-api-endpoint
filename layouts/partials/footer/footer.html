@@ -1,16 +1,55 @@
-<footer>
+<footer class="footer">
+
+    {{ partial "header/nav.html" . }}
 
     <div class="container">
+        <ul class="footer__content">
 
-        <div class="whoami">
-            <h1><a href="{{.Site.BaseURL}}" title="FLexNet logo"><img src="{{.Site.BaseURL}}images/logo/flexnet.png" alt="flexnet"></a></h1>
-            <h2>Disclaimer: FlexNet does not store any files on its server. All contents are provided by non-affiliated
-                third parties. watch free cinema movies online streaming flexnet.ga free new movies </h2>
-            <style>
-            </style>
-            <style></style><a class="bmc-button" target="_blank" title="buy me a coffee link" href="https://www.buymeacoffee.com/yuvNMQfC7"><img
-                    src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/BMC-btn-logo.svg"
-                    alt="Buy me a coffee"><span style="margin-left:5px">Buy me a coffee</span></a>
-        </div>
+            <li class="newsletter">
+                <h2>Join Our Newsletter For Free</h2>
+                <p>
+                    we will tell you when we add new movies or have
+                    a special updates for you
+                </p>
+
+                <div class="email">
+                    <h3>what is your email?</h3>
+                    <form  name="Email" method="POST" data-netlify="true" action="/thank-you">
+                        <input type="text" placeholder="Email" name="email">
+
+                        <span class="button">
+                            <button type="submit">
+                                <a>SUBSCRIBE</a>
+                            </button>
+                        </span>
+                        <div data-netlify-recaptcha="true" style="
+                            display: none;
+                        "></div>
+
+                    </form>
+                </div>
+            </li>
+
+            <li>
+                <h2>Support Us To Grow More</h2>
+                <p>
+                    I really appreciate the time you spent inside Flexnet.ga you
+                    motivate us to do
+                    more. Thank you. will you make a small $3
+                    Gift today?
+                </p>
+                <span class="button">
+                    <button>
+                        <a href="https://www.buymeacoffee.com/yuvNMQfC7">
+                            <ion-icon name="heart"></ion-icon>
+                            Support US
+                        </a>
+                    </button>
+                </span>
+            </li>
+            <div style="
+                clear: both;
+            "></div>
+        </ul>
     </div>
 </footer>

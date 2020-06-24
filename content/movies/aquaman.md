@@ -1,7 +1,7 @@
 ---
 date: 2020-06-21T00:00:00.000Z
 groups: movie
-draft: true
+draft: false
 title: "Aquaman "
 slug: Aquaman 2018
 year: "2018"

@@ -9,7 +9,11 @@
             <script src="js/html5shiv.min.js"></script>
         <![endif]-->
 
+<!-- adding icons from ion-icon -->
 <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+<!---- jquery Code ---->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 
 <!-- adding swiper from the cdn -->
@@ -139,27 +143,11 @@
 </script>
 {{end}}
 
-<!-- the reactions verfier -->
-<script type='text/javascript'
-    src='https://platform-api.sharethis.com/js/sharethis.js#property=5ed86f8ee9c615001202775d&product=inline-reaction-buttons&cms=sop'
-    async='async'></script>
 
 <!-- live chat for users to talk -->
 <script
     id="chatBroEmbedCode">/* Chatbro Widget Embed Code Start */function ChatbroLoader(chats, async) { async = !1 !== async; var params = { embedChatsParameters: chats instanceof Array ? chats : [chats], lang: navigator.language || navigator.userLanguage, needLoadCode: 'undefined' == typeof Chatbro, embedParamsVersion: localStorage.embedParamsVersion, chatbroScriptVersion: localStorage.chatbroScriptVersion }, xhr = new XMLHttpRequest; xhr.withCredentials = !0, xhr.onload = function () { eval(xhr.responseText) }, xhr.onerror = function () { console.error('Chatbro loading error') }, xhr.open('GET', '//www.chatbro.com/embed.js?' + btoa(unescape(encodeURIComponent(JSON.stringify(params)))), async), xhr.send() }/* Chatbro Widget Embed Code End */ChatbroLoader({ encodedChatId: '05pNH' });</script>
-<!-- <script>
-if('serviceWorker' in navigator){
-    navigator.serviceWorker.register("/sw.js")
-    .then(function(){
-        console.log("sw reg");
-    });
-}
-</script> -->
-
 <!-- 
 {{if not ( in (.Site.BaseURL | string) "localhost" )}}
 {{ partial "footer/ad.html" . }}
 {{end}} -->
-
-<!-- main js -->
-<script src="{{.Site.BaseURL}}js/main.js"></script>

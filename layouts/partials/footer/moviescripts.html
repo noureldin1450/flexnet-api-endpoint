@@ -1,25 +1,8 @@
 <!---- jquery Code ---->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
        
-
-<script>
-    //feedback link for report
-    const userfeedback = document.getElementById("userfeedback");
-    document.getElementById("userfeedback").value= "somthing is wrong in {{.URL}} movie name is {{.Params.Title}}";
-
-    //copy btn
-    const url = document.URL;
-    document.getElementById("share").value= url;
-    const btncopy = document.getElementById("copy-btn");
-
-    function copy(){
-        const input = document.getElementById("share");
-        input.select();
-        document.execCommand("Copy");
-    }
-
-</script>
-
-<!-- main js -->
-<script src="{{.Site.BaseURL}}js/main.js"></script>
+<!-- the reactions verfier -->
+<script type='text/javascript'
+    src='https://platform-api.sharethis.com/js/sharethis.js#property=5ed86f8ee9c615001202775d&product=inline-reaction-buttons&cms=sop'
+    async='async'></script>
 

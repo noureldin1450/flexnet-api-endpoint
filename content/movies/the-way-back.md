@@ -1,5 +1,5 @@
 ---
-date: 2020-06-25
+date: 2020-06-25T00:00:00.000Z
 groups: movie
 draft: false
 title: The Way Back
@@ -25,5 +25,5 @@ trailer: https://www.youtube.com/embed/_wvBJg1JH9Y
 server1: https://e.dardarkom.online/mv/453997
 server2: https://moshahda.online/embed-x7xbjurvh0zl-640x360.html
 server3: https://www.vidbm.com/embed-e9n0kan9khrt.html
-server4: https://uptostream.com/iframe/076sg9bokj2c
+server4: ""
 ---

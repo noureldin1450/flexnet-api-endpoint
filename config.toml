@@ -10,3 +10,9 @@ title = "FlexNet- Watch FREE Movies and TV Shows Online"
   group = "groups"
 
 Paginate = 20
+
+
+[outputs]
+    page = ["json","HTML"] # A player
+    section = ["json","HTML"] # All players
+    # home = ["json","HTML"] # Everything

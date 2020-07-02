@@ -1,0 +1,5 @@
+{
+    "title": "{{ .Params.title }}",
+    "trailer": "{{ .Params.trailer }}",
+    "year": "{{ .Params.year }}"
+}

@@ -125,7 +125,10 @@
 
 {{ define "scripts" }}
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
 <script>
+
+ // identity netlify
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", user => {
       if (!user) {
@@ -135,6 +138,10 @@
       }
     });
   }
+
+
+
+
 </script>
 
 {{end}}

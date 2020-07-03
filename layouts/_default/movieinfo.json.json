@@ -1,5 +1,48 @@
 {
     "title": "{{ .Params.title }}",
     "trailer": "{{ .Params.trailer }}",
-    "year": "{{ .Params.year }}"
+    "year": "{{ .Params.year }}",
+    "date": {{ .Params.date }},
+    "slug": "{{ .Params.slug }}",
+    "duration": "{{ .Params.duration }}",
+    "imdbid": "{{ .Params.imdbid }}",
+    "moviebg": "{{ .Params.moviebg }}",
+    "moviecover": "{{ .Params.moviecover }}",
+    "rating": {{ .Params.rating }},
+    "stars":[
+        {{ range .Params.stars }}
+        "{{ . }}",
+        {{end}}
+    ],
+    "tags":[
+        {{ range .Params.tags }}
+        "{{ . }}",
+        {{end}}
+    ],
+    "story": "{{ .Params.story }}",
+
+    {{ if .Params.server1 }}
+    "server1": "{{ .Params.server1 }}",
+    {{end}}
+
+    {{ if .Params.server2 }}
+    "server2": "{{ .Params.server2 }}",
+    {{end}}
+
+    {{ if .Params.server3 }}
+    "server3": "{{ .Params.server3 }}",
+    {{end}}
+
+    {{ if .Params.server4 }}
+    "server4": "{{ .Params.server4 }}",
+    {{end}}
+
+    {{ if .Params.server5 }}
+    "server5": "{{ .Params.server5 }}",
+    {{end}}
+
+    {{ if .Params.server6 }}
+    "server6": "{{ .Params.server6 }}",
+    {{end}}
+    
 }

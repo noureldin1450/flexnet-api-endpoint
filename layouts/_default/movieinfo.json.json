@@ -2,13 +2,13 @@
     "title": "{{ .Params.title }}",
     "trailer": "{{ .Params.trailer }}",
     "year": "{{ .Params.year }}",
-    "date": {{ .Params.date }},
+    "date": "{{ .Params.date }}",
     "slug": "{{ .Params.slug }}",
     "duration": "{{ .Params.duration }}",
     "imdbid": "{{ .Params.imdbid }}",
     "moviebg": "{{ .Params.moviebg }}",
     "moviecover": "{{ .Params.moviecover }}",
-    "rating": {{ .Params.rating }},
+    "rating": "{{ .Params.rating }}",
     "stars":[
         {{ range .Params.stars }}
         "{{ . }}",

@@ -1,5 +1,0 @@
-{{ define "response" }}
-    {{ range .Pages }}
-        {{ .Render "listinfo" }}
-    {{end}}
-{{end}}

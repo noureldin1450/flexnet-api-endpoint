@@ -1,0 +1,12 @@
+{
+    "url": "{{ .Site.BaseURL }}",
+
+    "tags":[
+        {{ range $.Site.Data.tags }}
+        {{ range .tag }}
+        { "name": "{{.name}}" },
+        {{end}}
+        {{end}}
+    ]
+        
+}

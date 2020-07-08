@@ -11,8 +11,14 @@ title = "FlexNet- Watch FREE Movies and TV Shows Online"
 
 Paginate = 20
 
+[outputFormats]
+  [outputFormats.announcements]
+    baseName = "announcements"
+    isPlainText = true
+    mediaType = "application/json"
+    notAlternative = true
 
 [outputs]
     page = ["json","HTML"] # A player
-    section = ["json","HTML"] # All players
-    # home = ["json","HTML"] # Everything
+    # section = ["json","HTML"] # All players
+    home = ["json","HTML", "announcements"] # Everything

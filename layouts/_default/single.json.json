@@ -6,7 +6,9 @@
     "slug": "{{ .Params.slug }}",
     "duration": "{{ .Params.duration }}",
     "imdbid": "{{ .Params.imdbid }}",
+    {{ if .Params.moviebg }}
     "moviebg": "{{ .Params.moviebg }}",
+    {{end}}
     "moviecover": "{{ .Params.moviecover }}",
     "rating": "{{ .Params.rating }}",
     "stars":[

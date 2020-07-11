@@ -1,54 +1,54 @@
 {
-    "title": "{{ .Params.title }}",
-    "trailer": "{{ .Params.trailer }}",
-    "year": "{{ .Params.year }}",
-    "date": "{{ .Params.date }}",
-    "slug": "{{ .Params.slug }}",
-    "duration": "{{ .Params.duration }}",
-    "imdbid": "{{ .Params.imdbid }}",
+    "title": {{ .Params.title | jsonify }},
+    "trailer": {{ .Params.trailer | jsonify }},
+    "year": {{ .Params.year | jsonify }},
+    "date": {{ .Params.date | jsonify }},
+    "slug": {{ .Params.slug | jsonify }},
+    "duration": {{ .Params.duration | jsonify }},
+    "imdbid": {{ .Params.imdbid | jsonify }},
     {{ if .Params.moviebg }}
-    "moviebg": "{{ .Params.moviebg }}",
+    "moviebg": {{ .Params.moviebg | jsonify }},
     {{end}}
-    "moviecover": "{{ .Params.moviecover }}",
-    "rating": "{{ .Params.rating }}",
+    "moviecover": {{ .Params.moviecover | jsonify }},
+    "rating": {{ .Params.rating | jsonify }},
     "stars":[
         {{- range  $index, $e := .Params.stars -}}
         {{- if $index -}}, {{- end -}}
-         "{{ . }}"
+         {{ . | jsonify }}
         {{- end -}}
     ],
     "tags":[
         {{- range $index, $e := .Params.tags -}}
         {{- if $index -}}, {{- end -}}
-        "{{ . }}"
+        {{ . | jsonify }}
         {{- end -}}
     ],
 
     {{if .Params.server1 }}
-    "server1": "{{ .Params.server1 }}",
+    "server1": {{ .Params.server1 | jsonify }},
     {{ end }}
 
     {{ if .Params.server2 }}
-    "server2": "{{ .Params.server2 }}",
+    "server2": {{ .Params.server2 | jsonify }},
     {{ end }}
 
     {{ if .Params.server3 }}
-    "server3": "{{ .Params.server3 }}",
+    "server3": {{ .Params.server3 | jsonify }},
     {{ end }}
 
     {{ if .Params.server4 }}
-    "server4": "{{ .Params.server4 }}",
+    "server4": {{ .Params.server4 | jsonify }},
     {{ end }}
 
     {{ if .Params.server5 }}
-    "server5": "{{ .Params.server5 }}",
+    "server5": {{ .Params.server5 | jsonify }},
     {{ end }}
 
     {{ if .Params.server6 }}
-    "server6": "{{ .Params.server6 }}",
+    "server6": {{ .Params.server6 | jsonify }},
     {{ end }}
 
     {{- if .Params.story -}}
-    "story": "{{- .Params.story -}}"
+    "story": {{- .Params.story | jsonify -}}
     {{- end -}}
 }   

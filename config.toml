@@ -24,4 +24,4 @@ Paginate = 20
     home = ["json","HTML", "announcements"] # Everything
 
 [minify]
-  disableJSON = true
+  disableJSON = false

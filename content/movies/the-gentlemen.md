@@ -23,7 +23,7 @@ imdbid: tt8367814
 moviecover: https://m.media-amazon.com/images/M/MV5BMzU0YjQwZDMtYmUzZi00ODFjLTllZjgtMGZjNTZlZDQ1NDlkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SY1000_SX675_AL_.jpg
 moviebg: https://m.media-amazon.com/images/M/MV5BMGUzM2U0OTAtOTk1Ni00NWRkLThmOGUtODRkNWNjMmEyMjMzXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_SY1000_SX1500_AL_.jpg
 trailer: https://www.youtube.com/embed/vaN8BtA8OJk
-server1: ""
+server1: https://e.dardarkom.online/mv/534895
 server2: https://moshahda.online/embed-34n6m9rrv41j-640x360.html
 server3: https://www.vidbm.com/embed-xlez2cqee6xs.html
 server4: https://www.vidbm.com/embed-xlez2cqee6xs.html

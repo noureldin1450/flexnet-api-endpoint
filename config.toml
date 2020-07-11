@@ -22,3 +22,6 @@ Paginate = 20
     page = ["json","HTML"] # A player
     # section = ["json","HTML"] # All players
     home = ["json","HTML", "announcements"] # Everything
+
+[minify]
+  disableJSON = true

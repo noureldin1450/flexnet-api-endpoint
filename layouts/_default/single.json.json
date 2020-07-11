@@ -46,6 +46,4 @@
     {{ if .Params.server6 }}
     "server6": "{{ .Params.server6 }}",
     {{end}}
-    
 }
-

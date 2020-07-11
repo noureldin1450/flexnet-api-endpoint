@@ -12,38 +12,43 @@
     "moviecover": "{{ .Params.moviecover }}",
     "rating": "{{ .Params.rating }}",
     "stars":[
-        {{ range .Params.stars }}
-        "{{ . }}",
-        {{end}}
+        {{- range  $index, $e := .Params.stars -}}
+        {{- if $index -}}, {{- end -}}
+         "{{ . }}"
+        {{- end -}}
     ],
     "tags":[
-        {{ range .Params.tags }}
-        "{{ . }}",
-        {{end}}
+        {{- range $index, $e := .Params.tags -}}
+        {{- if $index -}}, {{- end -}}
+        "{{ . }}"
+        {{- end -}}
     ],
-    "story": "{{ .Params.story }}",
 
-    {{ if .Params.server1 }}
+    {{if .Params.server1 }}
     "server1": "{{ .Params.server1 }}",
-    {{end}}
+    {{ end }}
 
     {{ if .Params.server2 }}
     "server2": "{{ .Params.server2 }}",
-    {{end}}
+    {{ end }}
 
     {{ if .Params.server3 }}
     "server3": "{{ .Params.server3 }}",
-    {{end}}
+    {{ end }}
 
     {{ if .Params.server4 }}
     "server4": "{{ .Params.server4 }}",
-    {{end}}
+    {{ end }}
 
     {{ if .Params.server5 }}
     "server5": "{{ .Params.server5 }}",
-    {{end}}
+    {{ end }}
 
     {{ if .Params.server6 }}
     "server6": "{{ .Params.server6 }}",
-    {{end}}
-}
+    {{ end }}
+
+    {{- if .Params.story -}}
+    "story": "{{- .Params.story -}}"
+    {{- end -}}
+}   

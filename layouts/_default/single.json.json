@@ -49,6 +49,22 @@
     {{ end }}
 
     {{- if .Params.story -}}
-    "story": {{- .Params.story | jsonify -}}
+    "story": {{- .Params.story | jsonify -}},
     {{- end -}}
+
+{{ $related := .Site.RegularPages.Related . | first 5 }}
+
+{{ with $related }}
+    "related":[
+        {{ range $index, $e := .}}
+        {{- if $index -}},{{- end -}}
+        {
+            "title": {{ .Params.title | jsonify}},
+            "rating": {{ .Params.rating | jsonify}},
+            "link": {{ .Permalink | jsonify}}
+        }
+        {{end}}
+    ]    
+{{end}}
+    
 }   

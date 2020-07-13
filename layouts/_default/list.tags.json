@@ -1,0 +1,26 @@
+{
+    "tags":[
+        
+        {{ with .Site.GetPage "/tags"}}
+            {{ range $index, $e:= .Pages | shuffle }}
+            {{ if $index }},{{end}}
+            {
+                "name":{{ .Params.title | jsonify }},
+                "link": "/tags/{{ .Params.title }}"
+            }
+            {{end}}
+        {{end}}
+
+    ]
+    "seo":[
+        {{ range $.Site.Data.tags }}
+        {{ range $index, $e := .tag }}
+        {{ if $index }},{{end}}
+        {
+            "name":{{ .name | jsonify }},
+            "link":{{ .url | jsonify }}
+        }    
+        {{end}}
+        {{end}}
+    ]
+}

@@ -59,9 +59,10 @@
         {{ range $index, $e := .}}
         {{- if $index -}},{{- end -}}
         {
-            "title": {{ .Params.title | jsonify}},
-            "rating": {{ .Params.rating | jsonify}},
-            "link": {{ .Permalink | jsonify}}
+            "title": {{ .Params.title | jsonify }},
+            "rating": {{ .Params.moviecover | jsonify }},
+            "rating": {{ .Params.rating | jsonify }},
+            "link": {{ .Params.slug | jsonify}}
         }
         {{end}}
     ]    

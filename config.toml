@@ -17,11 +17,16 @@ Paginate = 20
     isPlainText = true
     mediaType = "application/json"
     notAlternative = true
+  [outputFormats.tags]
+    baseName = "tags"
+    isPlainText = true
+    mediaType = "application/json"
+    notAlternative = true
 
 [outputs]
     page = ["json","HTML"] # A player
     # section = ["json","HTML"] # All players
-    home = ["json","HTML", "announcements"] # Everything
+    home = ["json","HTML", "announcements","tags"] # Everything
 
 [minify]
   disableJSON = false

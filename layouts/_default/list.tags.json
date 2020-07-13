@@ -11,7 +11,7 @@
             {{end}}
         {{end}}
 
-    ]
+    ],
     "seo":[
         {{ range $.Site.Data.tags }}
         {{ range $index, $e := .tag }}

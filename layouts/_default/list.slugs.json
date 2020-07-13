@@ -1,0 +1,13 @@
+{
+    "slugs":[
+         {{ with .Site.GetPage "/movies" }}
+             {{- range $index, $e := .Pages -}}
+             {{ if $index }},{{end}}
+                 {{ $url:= replace .URL "-" " " }}
+                 {{ $url = replace $url "/index.json" "" }}
+                 {{ $url = replace $url "/movies/" "" }}
+                 {{ $url | jsonify }}
+             {{- end -}}
+         {{end}}
+     ]
+}

@@ -22,11 +22,21 @@ Paginate = 20
     isPlainText = true
     mediaType = "application/json"
     notAlternative = true
+  [outputFormats.movies]
+    baseName = "movies"
+    isPlainText = true
+    mediaType = "application/json"
+    notAlternative = true
+  [outputFormats.slugs]
+    baseName = "slugs"
+    isPlainText = true
+    mediaType = "application/json"
+    notAlternative = true
 
 [outputs]
     page = ["json","HTML"] # A player
     # section = ["json","HTML"] # All players
-    home = ["json","HTML", "announcements","tags"] # Everything
+    home = ["json","HTML", "announcements","tags","movies","slugs"] # Everything
 
 [minify]
   disableJSON = false

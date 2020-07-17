@@ -379,6 +379,13 @@ collections:
         }
 
       - {
+          label: "Parents Guide Certification",
+          hint: "Parents Guide Certification",
+          name: "parentsguide",
+          widget: "string"
+        }
+
+      - {
           label: "Movie Poster",
           hint: "the small poster on the imdb",
           name: "moviecover",

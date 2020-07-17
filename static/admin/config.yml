@@ -251,7 +251,7 @@ collections:
         }
        
   - name: "Movie" # Used in routes, e.g., /admin/collections/blog
-    label: "Fuck this shit*** Movies" # Used in the UI
+    label: "Movies DB" # Used in the UI
     folder: "content/movies" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -286,6 +286,12 @@ collections:
       - {
           label: "Movie Title",
           name: "title",
+          widget: "string",
+          hint: "Movie motherfucken Name"
+        }
+      - {
+          label: "Arabic Movie Title",
+          name: "artitle",
           widget: "string",
           hint: "Movie motherfucken Name"
         }
@@ -351,6 +357,11 @@ collections:
       - {
           label: "Movie Story",
           name: "story",
+          widget: "text"
+        }
+      - {
+          label: "Arabic Movie Story",
+          name: "arstory",
           widget: "text"
         }
       

@@ -373,7 +373,7 @@ collections:
 
       - {
           label: "IMDB ID",
-          name: "imdbid",
+          name: "imdbId",
           widget: "string",
           hint: "The IMDB Id From the link"
         }

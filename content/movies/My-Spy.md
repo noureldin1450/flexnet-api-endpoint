@@ -23,9 +23,9 @@ moviebg: https://m.media-amazon.com/images/M/MV5BNTcyNDY0YTAtYTQ4YS00ZTY4LWIzZTY
 trailer: https://www.youtube.com/embed/dFGYK-iRMgw
 server1: https://w.dardarkom.online/mv/770422
 fushaarserver:
-  240p: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/30161/30161-240p.mp4
-  480p: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/30161/30161-480p.mp4
-  1080p: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/30161/30161.mp4
+  q240: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/30161/30161-240p.mp4
+  q480: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/30161/30161-480p.mp4
+  q1080: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/30161/30161.mp4
 server2: https://moshahda.online/embed-0qx1cxl7s4he-640x360.html
 server3: https://uqload.com/embed-189wnmzevaiq.html
 server4: ""

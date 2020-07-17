@@ -255,8 +255,7 @@ collections:
     folder: "content/movies" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-
+    fields: # The fields for each document, usually in front matter          
       - {
           label: "Date you added this content",
           name: "date",
@@ -396,10 +395,20 @@ collections:
       - {
           label: "DarDarkom server",
           name: "server1",
-          widget: "string",
+          widget: "hidden",
           hint: "if dardarkom dont have the movie just leave this empty",
           required: false
         }
+        
+      - label: "Fushaar Server"
+        name: "fushaarserver"
+        widget: "object"
+        hint: "if Fushaar Server dont have the movie just leave this empty"
+        required: false
+        fields:
+          - {label: "240p",name: "240p",widget: "string",required: false}
+          - {label: "480p",name: "480p",widget: "string",required: false}
+          - {label: "1080p",name: "1080p",widget: "string",required: false}
       - {
           label: "server 2",
           name: "server2",

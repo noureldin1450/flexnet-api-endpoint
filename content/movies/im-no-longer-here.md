@@ -1,7 +1,7 @@
 ---
 date: 2020-07-11
 groups: movie
-draft: false
+draft: true
 title: "I'm No Longer Here "
 slug: I'm No Longer Here 2019
 year: "2019"
@@ -18,9 +18,9 @@ stars:
   - Juan Daniel Garcia Treviño
   - Xueming Angelina Chen
   - Sophia Metcalf
-imdbid: tt4323594
 moviecover: https://m.media-amazon.com/images/M/MV5BZWY3ZGQyZmUtZjRiOC00ODFmLWI3YmMtOTQwN2RiYWI2NmQ3XkEyXkFqcGdeQXVyMjUxMTY3ODM@._V1_SY1000_CR0,0,713,1000_AL_.jpg
 moviebg: https://m.media-amazon.com/images/M/MV5BYmY4OTI4MDQtODAyNC00ZTU4LWE3OWYtMGI3NjVlMjgzODZhXkEyXkFqcGdeQXVyMTg0ODExNDQ@._V1_SY1000_CR0,0,1509,1000_AL_.jpg
 trailer: https://www.youtube.com/embed/ieeZ0mviFKc
 server1: https://e.dardarkom.online/mv/456501
+imdbid: tt4323594
 ---

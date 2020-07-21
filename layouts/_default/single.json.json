@@ -20,7 +20,8 @@
     "tags":[
         {{- range $index, $e := .Params.tags -}}
         {{- if $index -}}, {{- end -}}
-        {{ . | jsonify }}
+        {{ $tag:= replace . " " "" }}
+        {{ $tag | jsonify }}
         {{- end -}}
     ],
     {{ if .Params.fushaarserver }}

@@ -273,46 +273,53 @@ collections:
           options: [
             "movie",
             "tv-show"
-          ]
+          ],
+          required: false
       }
 
       - {
           label: "Draft: If yes this will not show to the user",
           name: "draft",
           widget: "boolean",
-          default: false 
+          default: false ,
+          required: false
       }
 
       - {
           label: "Movie Title",
           name: "title",
           widget: "string",
-          hint: "Movie motherfucken Name"
+          hint: "Movie motherfucken Name",
+          required: false
         }
       - {
           label: "Arabic Movie Title",
           name: "artitle",
           widget: "string",
-          hint: "Movie motherfucken Name"
+          hint: "Movie motherfucken Name",
+          required: false
         }
 
       - {
           label: "Movie Title + Movie Year",
           name: "slug",
           widget: "string",
-          hint: "add the motherfu*** slug you fucken slut"
+          hint: "add the motherfu*** slug you fucken slut",
+          required: false
         }
 
       - {
           label: "Movie Year",
           name: "year",
-          widget: "string"
+          widget: "string",
+          required: false
         }
 
       - {
           label: "Movie duration",
           name: "duration",
-          widget: "string"
+          widget: "string",
+          required: false
         }
 
         
@@ -323,7 +330,8 @@ collections:
           valueType: "float",
           min: 1,
           max: 10,
-          default: 6.8
+          default: 6.8,
+          required: false
         }
 
       - {
@@ -351,61 +359,70 @@ collections:
             "Crime",
             "Mystery",
             "War"
-          ]
+          ],
+          required: false
         }
 
       - {
           label: "Movie Story",
           name: "story",
-          widget: "text"
+          widget: "text",
+          required: false
         }
       - {
           label: "Arabic Movie Story",
           name: "arstory",
-          widget: "text"
+          widget: "text",
+          required: false
         }
       
       - {
           label: "Movie Stars",
           name: "stars",
-          widget: "list"
+          widget: "list",
+          required: false
         }
 
       - {
           label: "IMDB ID",
           name: "imdbId",
           widget: "string",
-          hint: "The IMDB Id From the link"
+          hint: "The IMDB Id From the link",
+          required: false
         }
 
       - {
           label: "Parents Guide Certification",
           hint: "Parents Guide Certification",
           name: "parentsguide",
-          widget: "string"
+          widget: "number",
+          valueType: "int",
+          default: 15,
+          required: false
         }
 
       - {
           label: "Movie Poster",
           hint: "the small poster on the imdb",
           name: "moviecover",
-          widget: "string"
+          widget: "string",
+          required: false
         }
 
       - {
           label: "Movie Wide Background",
           name: "moviebg",
-          widget: "string"
+          widget: "string",
+          required: false
         }
-
-
 
       - {
           label: "Movie Trailer",
           name: "trailer",
           widget: "string",
           default: "https://www.youtube.com/embed/",
-          hint: "get any youtube trailer for that movie and copy the video Id and added it after the /embed/ in the cms"
+          hint: "get any youtube trailer for that movie and copy the video Id and added it after the /embed/ in the cms",
+          required: false
         }
 
 

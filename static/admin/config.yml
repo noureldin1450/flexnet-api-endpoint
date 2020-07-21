@@ -385,7 +385,7 @@ collections:
 
       - {
           label: "IMDB ID",
-          name: "imdbId",
+          name: "imdbid",
           widget: "string",
           hint: "The IMDB Id From the link",
           required: false

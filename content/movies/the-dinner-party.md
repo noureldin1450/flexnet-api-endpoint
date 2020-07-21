@@ -1,7 +1,7 @@
 ---
 date: 2020-06-15
 groups: movie
-draft: false
+draft: true
 title: The Dinner Party
 slug: The Dinner Party 2020
 year: "2020"
@@ -18,9 +18,9 @@ stars:
   - Jeremy London
   - Bill Sage
   - Alli Hart
-imdbid: tt10358198
 moviecover: https://m.media-amazon.com/images/M/MV5BNDhjM2E3MGYtNWQ4Zi00MDU5LWJjNjYtNDM4NmFlMDA3ZDRjXkEyXkFqcGdeQXVyNDQwNDk4NzI@._V1_SY1000_CR0,0,677,1000_AL_.jpg
 moviebg: https://m.media-amazon.com/images/M/MV5BM2ZiMmU5MDQtZmM2NC00NTM1LThiZTgtMGQzYTgzZjlkYzZjXkEyXkFqcGdeQXVyNDQwNDk4NzI@._V1_SX1777_CR0,0,1777,744_AL_.jpg
 trailer: https://www.youtube.com/embed/uo-RpuTehX4
 server1: https://e.dardarkom.online/mv/257304
+imdbid: tt10358198
 ---

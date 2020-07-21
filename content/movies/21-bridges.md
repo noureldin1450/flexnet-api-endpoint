@@ -37,5 +37,5 @@ fushaarserver:
   q1080: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/28674/28674.mp4
 server2: https://vidlox.me/embed-3tel3emd3sux.html
 server3: https://uqload.com/embed-kn53iuzz392v.html
-server4: https://embed.mystream.to/5rb2ekbpd2rw
+server4: ""
 ---

@@ -1,7 +1,7 @@
 ---
 date: 2020-06-21T00:00:00.000Z
 groups: movie
-draft: false
+draft: true
 title: "Aquaman "
 slug: Aquaman 2018
 year: "2018"
@@ -19,9 +19,9 @@ stars:
   - Jason Momoa
   - Amber Heard
   - Willem Dafoe
-imdbid: tt1477834
 moviecover: https://m.media-amazon.com/images/M/MV5BOTk5ODg0OTU5M15BMl5BanBnXkFtZTgwMDQ3MDY3NjM@._V1_SY1000_CR0,0,674,1000_AL_.jpg
 moviebg: https://m.media-amazon.com/images/M/MV5BMTc2OTE0Njc2NF5BMl5BanBnXkFtZTgwOTI0MTU4NjM@._V1_.jpg
 trailer: https://www.youtube.com/embed/WDkg3h8PCVU
 server1: https://w.dardarkom.online/mv/828711
+imdbid: tt1477834
 ---

@@ -30,7 +30,7 @@ moviecover: https://m.media-amazon.com/images/M/MV5BMTYzMDM4NzkxOV5BMl5BanBnXkFt
 moviebg: https://m.media-amazon.com/images/M/MV5BMzk2ZmY4MjUtMjgwMi00NjYzLWE1OTMtNzM3MDllNTFhYmJhXkEyXkFqcGdeQXVyNjQ4ODE4MzQ@._V1_.jpg
 trailer: https://www.youtube.com/embed/wmiIUN-7qhE
 fushaarserver:
-  q240: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/26586/26586-240.mp4
+  q240: ""
   q480: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/26586/26586-480p.mp4
   q1080: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/26586/26586.mp4
 server2: https://vidlox.me/embed-glkfkf6h3xyh.html

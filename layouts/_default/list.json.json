@@ -8,7 +8,11 @@
             "title": {{ .Params.title | jsonify }},
             "year": {{ .Params.year | jsonify }},
             "date": {{ .Params.date | jsonify }},
-            "slug": {{ .Params.slug | jsonify }},
+
+            {{ $url = replace .URL "/index.json" "" }}
+            {{ $url:= replace $url " " "-" }}
+
+            "slug": {{ $url | jsonify }},
             "duration": {{ .Params.duration | jsonify }},
             {{ if .Params.moviebg }}
             "moviebg": {{ .Params.moviebg | jsonify }},

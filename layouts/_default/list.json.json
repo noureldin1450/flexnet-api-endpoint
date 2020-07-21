@@ -1,0 +1,21 @@
+[
+    
+    {{ $url:= replace "/tags/here" "here" $.Data.Term }}
+    {{ with  .GetPage $url }}
+    {{ range $index, $e:= .Pages | shuffle}}
+    {{ if $index }},{{end}}
+        {
+            "title": {{ .Params.title | jsonify }},
+            "year": {{ .Params.year | jsonify }},
+            "date": {{ .Params.date | jsonify }},
+            "slug": {{ .Params.slug | jsonify }},
+            "duration": {{ .Params.duration | jsonify }},
+            {{ if .Params.moviebg }}
+            "moviebg": {{ .Params.moviebg | jsonify }},
+            {{end}}
+            "moviecover": {{ .Params.moviecover | jsonify }},
+            "rating": {{ .Params.rating | jsonify }}
+        }
+        {{end}}
+    {{end}}
+]

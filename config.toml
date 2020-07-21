@@ -35,8 +35,9 @@ Paginate = 20
 
 [outputs]
     page = ["json","HTML"] # A player
-    # section = ["json","HTML"] # All players
+    section = ["json","HTML"] # All players
     home = ["json","HTML", "announcements","tags","movies","slugs"] # Everything
+    taxonomy = ["json"] # All items from a sport
 
 [minify]
   disableJSON = false

@@ -1,0 +1,47 @@
+/* pagination code */
+
+#extra-btns{
+    display: flex;
+    @include super-small-mobile{
+        display: none;
+    }
+}
+
+.pagination {
+    display: flex;
+    list-style: none;
+    border-radius: .25rem;
+    padding: 0;
+    justify-content: center;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: .75rem 1.3rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: $main-color;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+
+.homepage .page-link,
+.listing .page-link {
+    background-color: #fff;
+}
+
+.page-item.disabled .page-link {
+    color: #6c757d;
+    pointer-events: none;
+    cursor: auto;
+    background-color: #fff;
+    border-color: #dee2e6;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: $white-color;
+    background-color: $main-color;
+    border-color: $main-color;
+}

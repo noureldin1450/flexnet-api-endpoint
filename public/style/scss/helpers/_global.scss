@@ -1,0 +1,154 @@
+/*
+    GLOBAL STYLES
+*/
+
+.container {
+    width: 90% !important;
+    margin: auto;
+}
+
+.related {
+    .movies {
+        padding: 0px !important;
+    }
+}
+
+.main-title {
+    color: $black-color;
+    padding: 0 0 4rem 0px;
+    text-transform: capitalize;
+
+    @include tap {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        padding: 2rem 0px;
+    }
+    @include mobile {
+        padding: 2rem 0px;
+    }
+    
+    &__text {
+        display: flex;
+        align-items: center;
+        clear: both;
+
+        @include tap {
+            justify-content: center;
+            text-align: center;
+        }
+
+        ion-icon {
+            padding-left: 0.5rem;
+
+            @include super-small-mobile{
+                display: none;
+            }
+        }
+    }
+
+    .file-tray-full,
+    .star,
+    .heart-half,
+    .film,
+    .more {
+        color: $main-color;
+        font-size: 1.8rem;
+    }
+    .more {
+        font-size: 1.4rem;
+        padding-left: 0.5rem;
+    }
+
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $main-color;
+        font-size: 1.2rem;
+        float: right;
+        text-decoration: underline;
+        text-decoration-style: double;
+
+        @include tap {
+            float: none;
+        }
+    }
+
+}
+
+//the default of all icons color
+ion-icon {
+    color: $white-color;
+}
+
+// the buy me a coffe link styles
+.bmc-button img {
+    width: 1.7rem;
+    margin-bottom: 1px !important;
+    box-shadow: none !important;
+    border: none !important;
+    vertical-align: middle !important;
+}
+
+.bmc-button {
+    line-height: 36px !important;
+    display: inline-flex !important;
+    color: $black-color;
+    background-color: $white-color;
+    border-radius: 3px !important;
+    padding: 0.5rem 1rem;
+    font-size: 1rem !important;
+    margin: 1rem auto 0px auto !important;
+}
+//adding some speaces for the card shadow
+.swiper-wrapper {
+    padding: 2rem 0px;
+}
+.swiper-container {
+    margin-bottom: 2rem;
+    clear: both;
+}
+.alltags {
+    li {
+        width: 85%;
+        @include tap {
+            text-align: center;
+            width: 100%;
+            margin: auto;
+        }
+        
+        a {
+            color: $main-color;
+            text-decoration: underline;
+            display: block;
+            font-weight: 900;
+            padding-bottom: 0.5rem;
+            font-size: 1.2rem;
+            display: inline-block;
+            margin: .4rem .8rem .4rem 0px;
+
+            @include tap{
+                text-align: center;
+                margin: .2rem .5rem .2rem 0px;
+            }
+        }
+    }
+}
+.list-title {
+    padding: 1rem 0px;
+}
+.list-page-title {
+    padding: 2rem 0px;
+    text-transform: capitalize !important;
+}
+
+//chat plugin style
+.chatbro_container .chatbro_minimized_chat.chatbro_movable_chat{
+    border: 3px solid white !important;
+    border-radius: 5px !important;
+}

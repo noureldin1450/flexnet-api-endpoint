@@ -1,0 +1,481 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+logo_url: https://flexnet.ga/images/logo/flexnet.png
+
+# This line should *not* be indented
+# publish_mode: editorial_workflow
+# These lines should *not* be indented
+media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+
+collections:
+  - name: "settings" 
+    label: "settings" 
+    files: 
+      - label: "tags"
+        name: "tags"
+        file: "data/tags.json"
+        fields: 
+          - label: "tags"
+            name: "tags"
+            widget: object
+            fields: 
+              - label: "tag"
+                name: "tag"
+                widget: list
+                fields: # The fields for each document, usually in front matter
+                  - {
+                    label: "Name",
+                    name: "name",
+                    widget: "string",
+                  }
+                  - {
+                    label: "Link",
+                    name: "url",
+                    widget: "string",
+                  }
+                  
+      - label: "annoncements"
+        name: "announcement"
+        file: "data/announcement.json"
+        fields: 
+          - label: "announcement"
+            name: "announcement"
+            widget: object
+            fields:
+              - {
+                label: "title",
+                name: "title",
+                widget: "string",
+              }
+              - {
+                label: "dis",
+                name: "dis",
+                widget: "string",
+              }
+              - {
+                label: "enabled",
+                name: "enabled",
+                widget: "boolean",
+              }
+
+  - name: "tv-shows" # Used in routes, e.g., /admin/collections/blog
+    label: "Tv-Shows" # Used in the UI
+    folder: "content/tv-shows" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+
+      - {
+          label: "Date you added this content",
+          name: "date",
+          widget: "date",
+          format: "YYYY-MM-DD",
+          default: "2020-06-13",
+          hint: "The motherfucken date"
+        }
+
+      - {
+          label: "content Type",
+          name: "groups",
+          widget: "select",
+          multiple: false,
+          default: "tv-show",
+          options: [
+            "movie",
+            "tv-show"
+          ]
+      }
+
+      - {
+          label: "Draft: If yes this will not show to the user",
+          name: "draft",
+          widget: "boolean",
+          default: false 
+      }
+
+      - {
+          label: "tv-show Title",
+          name: "title",
+          widget: "string",
+          hint: "tv-show motherfucken Name"
+        }
+
+      - {
+          label: "tv-show Title + tv-show Year",
+          name: "slug",
+          widget: "string",
+          hint: "add the motherfu*** slug you fucken slut"
+        }
+
+      - {
+          label: "tv-show Year",
+          name: "year",
+          widget: "string"
+        }
+
+      - {
+          label: "tv-show duration",
+          name: "duration",
+          widget: "string"
+        }
+
+      - {
+          label: "tv-show Rating",
+          name: "rating",
+          widget: "number",
+          valueType: "float",
+          min: 1,
+          max: 10,
+          default: 6.8
+        }
+
+      - {
+          label: "tv-show Tags",
+          name: "tags",
+          widget: "select",
+          multiple: true,
+          options: [
+            "Action",
+            "Family",
+            "Thriller",
+            "Sport",
+            "Horror",
+            "Biography",
+            "Drama",
+            "History",
+            "Adventure",
+            "Animation",
+            "Romance",
+            "Comedy",
+            "Sci-Fi",
+            "Fantasy",
+            "Music",
+            "Reality-TV",
+            "Crime",
+            "Mystery",
+            "War"
+          ]
+        }
+
+      - {
+          label: "tv-show Story",
+          name: "story",
+          widget: "text"
+        }
+      
+      - {
+          label: "tv-show Stars",
+          name: "stars",
+          widget: "list"
+        }
+
+      - {
+          label: "IMDB ID",
+          name: "imdbid",
+          widget: "string",
+          hint: "The IMDB Id From the link"
+        }
+
+      - {
+          label: "tv-show Poster",
+          hint: "the small poster on the imdb",
+          name: "moviecover",
+          widget: "string"
+        }
+
+      - {
+          label: "tv-show Wide Background",
+          name: "moviebg",
+          widget: "string"
+        }
+
+      - {
+          label: "tv-show Trailer",
+          name: "trailer",
+          widget: "string",
+          default: "https://www.youtube.com/embed/",
+          hint: "get any youtube trailer for that tv-show and copy the video Id and added it after the /embed/ in the cms"
+        }
+
+      - {
+          label: "S1",
+          name: "server1",
+          widget: "string",
+          hint: "if dardarkom dont have the movie just leave this empty",
+          required: false
+        }
+      - {
+          label: "S2",
+          name: "server2",
+          widget: "string",
+          required: false
+        }
+      - {
+          label: "S3",
+          name: "server3",
+          widget: "string",
+          required: false
+        }
+      - {
+          label: "S4",
+          name: "server4",
+          widget: "string",
+          required: false
+        }
+      - {
+          label: "S5",
+          name: "server5",
+          widget: "string",
+          required: false
+        }
+      - {
+          label: "S6",
+          name: "server6",
+          widget: "string",
+          required: false
+        }
+      - {
+          label: "S7",
+          name: "server7",
+          widget: "string",
+          required: false
+        }
+      - {
+          label: "S8",
+          name: "server8",
+          widget: "string",
+          required: false
+        }
+       
+  - name: "Movie" # Used in routes, e.g., /admin/collections/blog
+    label: "Movies DB" # Used in the UI
+    folder: "content/movies" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter          
+      - {
+          label: "Date you added this content",
+          name: "date",
+          widget: "date",
+          format: "YYYY-MM-DD",
+          hint: "The motherfucken date"
+        }
+
+      - {
+          label: "content Type",
+          name: "groups",
+          widget: "select",
+          multiple: false,
+          default: "movie",
+          options: [
+            "movie",
+            "tv-show"
+          ],
+          required: false
+      }
+
+      - {
+          label: "Draft: If yes this will not show to the user",
+          name: "draft",
+          widget: "boolean",
+          default: false ,
+          required: false
+      }
+
+      - {
+          label: "Movie Title",
+          name: "title",
+          widget: "string",
+          hint: "Movie motherfucken Name",
+          required: false
+        }
+      - {
+          label: "Arabic Movie Title",
+          name: "artitle",
+          widget: "string",
+          hint: "Movie motherfucken Name",
+          required: false
+        }
+
+      - {
+          label: "Movie Title + Movie Year",
+          name: "slug",
+          widget: "string",
+          hint: "add the motherfu*** slug you fucken slut",
+          required: false
+        }
+
+      - {
+          label: "Movie Year",
+          name: "year",
+          widget: "string",
+          required: false
+        }
+
+      - {
+          label: "Movie duration",
+          name: "duration",
+          widget: "string",
+          required: false
+        }
+
+        
+      - {
+          label: "Movie Rating",
+          name: "rating",
+          widget: "number",
+          valueType: "float",
+          min: 1,
+          max: 10,
+          default: 6.8,
+          required: false
+        }
+
+      - {
+          label: "Movie Tags",
+          name: "tags",
+          widget: "select",
+          multiple: true,
+          options: [
+            "Action",
+            "Family",
+            "Thriller",
+            "Sport",
+            "Horror",
+            "Biography",
+            "Drama",
+            "History",
+            "Adventure",
+            "Animation",
+            "Romance",
+            "Comedy",
+            "Sci-Fi",
+            "Fantasy",
+            "Music",
+            "Reality-TV",
+            "Crime",
+            "Mystery",
+            "War"
+          ],
+          required: false
+        }
+
+      - {
+          label: "Movie Story",
+          name: "story",
+          widget: "text",
+          required: false
+        }
+      - {
+          label: "Arabic Movie Story",
+          name: "arstory",
+          widget: "text",
+          required: false
+        }
+      
+      - {
+          label: "Movie Stars",
+          name: "stars",
+          widget: "list",
+          required: false
+        }
+
+      - {
+          label: "IMDB ID",
+          name: "imdbid",
+          widget: "string",
+          hint: "The IMDB Id From the link",
+          required: false
+        }
+
+      - {
+          label: "Parents Guide Certification",
+          hint: "Parents Guide Certification",
+          name: "parentsguide",
+          widget: "number",
+          valueType: "int",
+          default: 15,
+          required: false
+        }
+
+      - {
+          label: "Movie Poster",
+          hint: "the small poster on the imdb",
+          name: "moviecover",
+          widget: "string",
+          required: false
+        }
+
+      - {
+          label: "Movie Wide Background",
+          name: "moviebg",
+          widget: "string",
+          required: false
+        }
+
+      - {
+          label: "Movie Trailer",
+          name: "trailer",
+          widget: "string",
+          default: "https://www.youtube.com/embed/",
+          hint: "get any youtube trailer for that movie and copy the video Id and added it after the /embed/ in the cms",
+          required: false
+        }
+
+
+
+      - {
+          label: "DarDarkom server",
+          name: "server1",
+          widget: "hidden",
+          hint: "if dardarkom dont have the movie just leave this empty",
+          required: false
+        }
+
+        
+      - {
+          label: "fushaarid",
+          name: "fushaarid",
+          widget: "string",
+          required: false
+        }
+
+      - label: "Fushaar Server"
+        name: "fushaarserver"
+        widget: "object"
+        hint: "if Fushaar Server dont have the movie just leave this empty"
+        required: false
+        fields:
+          - {label: "240p",name: "q240",widget: "string",required: false}
+          - {label: "480p",name: "q480",widget: "string",required: false}
+          - {label: "1080p",name: "q1080",widget: "string",required: false}
+
+      - {
+          label: "server 2",
+          name: "server2",
+          widget: "string",
+          required: false
+        }
+      - {
+          label: "server 3",
+          name: "server3",
+          widget: "string",
+          required: false
+        }
+      - {
+          label: "server 4",
+          name: "server4",
+          widget: "string",
+          required: false
+        }
+      - {
+          label: "server 5",
+          name: "server5",
+          widget: "string",
+          required: false
+        }
+        
+

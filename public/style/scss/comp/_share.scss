@@ -1,0 +1,88 @@
+/* share page code */
+.share{
+    background: $main-color;
+    clear: both;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+
+    @include laptop{
+        height: 100%;
+        padding: 1.4rem 0px;
+    }
+    h1{
+        font-size: 1.5rem;
+
+        @include mobile{
+            font-size: 1rem;
+            padding-bottom: .5rem;
+        }
+        @include small-mobile{
+            font-size: .9rem;
+        }
+    }
+
+    input,button{
+        border-radius: 2px;
+        padding: .3rem 1rem;
+    }
+    input{
+        padding: .3rem 1rem;
+        margin-top: 1rem;
+        color: $main-color;
+        font-size: 1.2rem;
+        border: none;
+        margin-right: .5rem;
+        width: 40%;
+
+        @include laptop{
+            font-size: 1rem;
+            padding: .2rem 1rem;
+        }
+        @include mobile{
+            padding: .1rem .5rem;
+            width: 90%;
+            margin: auto;
+            font-size: .9rem;
+        }
+    }
+    .share-icons{
+        height: 36px;
+
+        ion-icon{
+           font-size: 30px; 
+           padding: 1rem 1rem 0px 0px;
+           color: $white-color;
+           display: inline-block;
+        }
+        
+        #twitter{
+            ion-icon{
+                padding-right: 0px;
+            }
+        }
+    }
+    button{
+        border: none;
+        background: none;
+        background: $white-color;
+        padding: .3rem 2rem;
+        font-size: 1.2rem;
+        color: $main-color;
+        font-weight: 700;
+        cursor: pointer;
+        font-family: $mainfont;
+
+        @include laptop{
+            font-size: .9rem;
+            padding: .2rem 1rem;
+        }
+        @include mobile{
+            display: block;
+            margin:.5rem auto 0px auto;
+        }
+    }
+}

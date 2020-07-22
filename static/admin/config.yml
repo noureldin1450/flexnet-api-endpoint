@@ -427,13 +427,13 @@ collections:
 
 
 
-      # - {
-      #     label: "DarDarkom server",
-      #     name: "server1",
-      #     widget: "hidden",
-      #     hint: "if dardarkom dont have the movie just leave this empty",
-      #     required: false
-      #   }
+      - {
+          label: "DarDarkom server",
+          name: "server1",
+          widget: "hidden",
+          hint: "if dardarkom dont have the movie just leave this empty",
+          required: false
+        }
 
         
       - {

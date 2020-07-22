@@ -30,7 +30,7 @@ moviebg: https://m.media-amazon.com/images/M/MV5BZjNmZjM3ZmQtMDczMC00NDk3LWI2OGE
 trailer: https://www.youtube.com/embed/zPXqwAGmX04
 fushaarid: "28276"
 server2: https://vidlox.me/embed-lccan83vlthn.html
-server3: https://embed.mystream.to/hf8kxvuf9lbo
+server3: ""
 imdbId: tt7343762
 ---
 

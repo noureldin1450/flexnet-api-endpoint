@@ -26,6 +26,7 @@ moviecover: https://m.media-amazon.com/images/M/MV5BZTVmMDU3MjctMmUxNi00NzI3LWI1
 moviebg: https://m.media-amazon.com/images/M/MV5BYTI2NjBiMzgtYmViYi00MGI1LWJiMmMtZWZmZmI4OGVkZjU3XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_.jpg
 trailer: https://www.youtube.com/embed/2J5OE16C_zY
 server1: https://e.dardarkom.online/mv/510141
+fushaarid: "31370"
 fushaarserver:
   q240: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/31370/31370-240p.mp4
   q480: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/31370/31370-480p.mp4

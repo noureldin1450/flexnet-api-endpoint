@@ -7,6 +7,7 @@ artitle: ذات مرة في هوليوود
 slug: Once Upon a Time in Hollywood 2019
 year: "2019"
 duration: 2h 41min
+rating: "8.0"
 tags:
   - Comedy
   - Drama
@@ -21,17 +22,17 @@ stars:
   - Leonardo DiCaprio
   - Brad Pitt
   - Margot Robbie
+imdbid: tt7131622
 parentsguide: "18"
 moviecover: https://m.media-amazon.com/images/M/MV5BOTg4ZTNkZmUtMzNlZi00YmFjLTk1MmUtNWQwNTM0YjcyNTNkXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_UX182_CR0,0,182,268_AL_.jpg
 moviebg: https://m.media-amazon.com/images/M/MV5BZTI5YmJiZDgtNDZhOS00MDM3LThjZTUtODMzNWFiZDAxYjY3XkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_.jpg
 trailer: https://www.youtube.com/embed/ELeMaP8EPAA
+fushaarid: "26739"
 fushaarserver:
   q240: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/26739/26739-240p.mp4
   q480: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/26739/26739-480p.mp4
   q1080: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/26739/26739.mp4
 server2: https://uqload.com/embed-55cpkg3q4os0.html
-imdbid: tt7131622
-rating: "8.0"
 imdbId: tt7131622
 ---
 

@@ -427,11 +427,19 @@ collections:
 
 
 
+      # - {
+      #     label: "DarDarkom server",
+      #     name: "server1",
+      #     widget: "hidden",
+      #     hint: "if dardarkom dont have the movie just leave this empty",
+      #     required: false
+      #   }
+
+        
       - {
-          label: "DarDarkom server",
-          name: "server1",
-          widget: "hidden",
-          hint: "if dardarkom dont have the movie just leave this empty",
+          label: "fushaarid",
+          name: "fushaarid",
+          widget: "string",
           required: false
         }
 
@@ -444,6 +452,7 @@ collections:
           - {label: "240p",name: "q240",widget: "string",required: false}
           - {label: "480p",name: "q480",widget: "string",required: false}
           - {label: "1080p",name: "q1080",widget: "string",required: false}
+
       - {
           label: "server 2",
           name: "server2",

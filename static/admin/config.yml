@@ -443,16 +443,6 @@ collections:
           required: false
         }
 
-      - label: "Fushaar Server"
-        name: "fushaarserver"
-        widget: "object"
-        hint: "if Fushaar Server dont have the movie just leave this empty"
-        required: false
-        fields:
-          - {label: "240p",name: "q240",widget: "string",required: false}
-          - {label: "480p",name: "q480",widget: "string",required: false}
-          - {label: "1080p",name: "q1080",widget: "string",required: false}
-
       - {
           label: "server 2",
           name: "server2",

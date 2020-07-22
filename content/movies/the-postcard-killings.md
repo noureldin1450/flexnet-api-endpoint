@@ -7,6 +7,7 @@ artitle: "قتل بالبطاقات البريدية "
 slug: The Postcard Killings 2020
 year: "2020"
 duration: 1h 44min
+rating: 5.7
 tags:
   - Crime
   - Drama
@@ -24,11 +25,13 @@ stars:
   - Jeffrey Dean Morgan
   - Famke Janssen
   - Cush Jumbo
+imdbid: tt4106514
 parentsguide: "15"
 moviecover: https://m.media-amazon.com/images/M/MV5BMjMxMmVjMjMtNzA4OS00ZDAxLTk3YjUtYzQ5MmExZjQwOTk1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SY1000_CR0,0,674,1000_AL_.jpg
 moviebg: https://m.media-amazon.com/images/M/MV5BODFjMWM4ZjUtZDczMy00Y2YwLWE2NDUtMDEwYjJkYzU4ZDA1XkEyXkFqcGdeQXVyMTk5MjkzMjU@._V1_SX1777_CR0,0,1777,740_AL_.jpg
 trailer: https://www.youtube.com/embed/4I6TC1beVnY
 server1: https://e.dardarkom.online/mv/229844
+fushaarid: "31161"
 fushaarserver:
   q1080: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/31161/31161.mp4
   q480: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/31161/31161-480p.mp4
@@ -36,6 +39,4 @@ fushaarserver:
 server2: https://aflamstream.com/jwplayer/?source=https%3A%2F%2Fstorage.googleapis.com%2Fneon-reporter-274200.appspot.com%2Ffushaar%2Fmedia%2F31161%2F31161-480p.mp4&id=7019&type=mp4
 server3: https://www.vidbem.com/embed-7nhvzvpx1u9o.html
 server4: https://embed.mystream.to/bq2ubsjx5556
-imdbid: tt4106514
-rating: 5.7
 ---

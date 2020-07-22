@@ -24,16 +24,17 @@ stars:
   - Tom Hanks
   - Tim Allen
   - Annie Potts
-imdbId: tt1979376
 parentsguide: "8"
 moviecover: https://m.media-amazon.com/images/M/MV5BMTYzMDM4NzkxOV5BMl5BanBnXkFtZTgwNzM1Mzg2NzM@._V1_SY1000_CR0,0,674,1000_AL_.jpg
 moviebg: https://m.media-amazon.com/images/M/MV5BMzk2ZmY4MjUtMjgwMi00NjYzLWE1OTMtNzM3MDllNTFhYmJhXkEyXkFqcGdeQXVyNjQ4ODE4MzQ@._V1_.jpg
 trailer: https://www.youtube.com/embed/wmiIUN-7qhE
+fushaarid: "26586"
 fushaarserver:
   q240: ""
   q480: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/26586/26586-480p.mp4
   q1080: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/26586/26586.mp4
 server2: https://vidlox.me/embed-glkfkf6h3xyh.html
+imdbId: tt1979376
 ---
 
 {{< movie url= "https://vidstream.to/embed/MWt2xYXPb7/?vclid=b2cb6a9061ca9d64c851c7b020de65dda6621474966270bf733527a1fqqqLeuAILqvqLOAAoVAnIoiKEmukyLeAAooqLvLqLHiWqLqvqLfffqEAmuEAmYSuLmMSLvLqLiPpqLqvqLziPsuHqAjoSLqT">}}

@@ -23,15 +23,16 @@ stars:
   - Matthew McConaughey
   - Anne Hathaway
   - Jessica Chastain
-imdbId: tt0816692
 parentsguide: "13"
 moviecover: https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX182_CR0,0,182,268_AL_.jpg
 moviebg: https://m.media-amazon.com/images/M/MV5BMTAyOTI5MTg5MDFeQTJeQWpwZ15BbWU4MDYyMjg4MTMx._V1_.jpg
 trailer: https://www.youtube.com/embed/zSWdZVtXT7E
+fushaarid: "5298"
 fushaarserver:
   q240: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/5298/5298-240p.mp4
   q480: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/5298/5298-480p.mp4
   q1080: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/5298/5298.mp4
+imdbId: tt0816692
 ---
 
 {{< movie url= "https://vidstream.to/embed/eAO75EVNTr/?vclid=0c8eb4a9c60037207ef5ec6dc00517c92f888f5537290290bcda8eefNaaapjwmPpaqapwKnxfHtuVpunVUVUmqzMVpapqpapBxMapaqaphDwvNhQmmpminKzaLUsapqpapxgIapaqapzxghwBamdVaapaU">}}

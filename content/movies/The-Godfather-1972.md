@@ -24,15 +24,16 @@ stars:
   - Marlon Brando
   - Al Pacino
   - James Caan
-imdbId: tt0068646
 parentsguide: "16"
 moviecover: https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY268_CR3,0,182,268_AL_.jpg
 moviebg: https://m.media-amazon.com/images/M/MV5BODA5NDAyMDktNzQ3Zi00YWQ3LWI4N2MtNmE3MmVlNDE0NGRiXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_.jpg
 trailer: https://www.youtube.com/embed/sY1S34973zA
+fushaarid: "513"
 fushaarserver:
   q240: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/513/513-240p.mp4
   q480: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/513/513-480p.mp4
   q1080: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/513/513.mp4
+imdbId: tt0068646
 ---
 
 {{< movie url= "https://vidstream.to/embed/e1hSCq1jLz/?vclid=2b60377e71ecbb315fbe9da48196ff377ab6abc6237510722d07091frfffigODfifMfipgOWVnfPjFKfiMifingmfifMfiWqVlHWzPPiPtbQpfTKrfiMifiYVPaifMfiVQbgAhkGFiGbFKFKPMpmFifiK">}}

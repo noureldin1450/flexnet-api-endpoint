@@ -23,15 +23,16 @@ stars:
   - Ryan Gosling
   - Emma Stone
   - Rosemarie DeWitt
-imdbId: tt3783958
 parentsguide: "13"
 moviecover: https://m.media-amazon.com/images/M/MV5BMzUzNDM2NzM2MV5BMl5BanBnXkFtZTgwNTM3NTg4OTE@._V1_SY1000_SX675_AL_.jpg
 moviebg: https://m.media-amazon.com/images/M/MV5BMjI5NjQ0Nzk4MV5BMl5BanBnXkFtZTgwODA3NzU3OTE@._V1_.jpg
 trailer: https://www.youtube.com/embed/0pdqf4P9MB8
+fushaarid: "14772"
 fushaarserver:
   q240: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/14772/14772-240p.mp4
   q480: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/14772/14772-480p.mp4
   q1080: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/14772/14772.mp4
+imdbId: tt3783958
 ---
 
 {{< movie url= "https://vidstream.to/embed/2EGFRQ4REZ/?vclid=a6719379d5ad102520aeeee4618352a7937394c3b53291f9a5d7b4d7BeeezsaEezeSezBBBeHiUAHiULTAzUyTzSzezwAiFzeSezNimiydVYKMiziVYitxiziciezem">}}

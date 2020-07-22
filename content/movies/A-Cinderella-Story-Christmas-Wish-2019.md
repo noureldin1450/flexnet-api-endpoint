@@ -32,6 +32,7 @@ parentsguide: 12
 moviecover: https://m.media-amazon.com/images/M/MV5BNTE0OTY2NWQtOWU2MC00ODUwLWE5YmYtZDVjNTdjOWY2ODViXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY268_CR4,0,182,268_AL_.jpg
 moviebg: https://m.media-amazon.com/images/M/MV5BNTE0OTY2NWQtOWU2MC00ODUwLWE5YmYtZDVjNTdjOWY2ODViXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY268_CR4,0,182,268_AL_.jpg
 trailer: https://www.youtube.com/embed/smUhoKhozPw
+fushaarid: "28951"
 fushaarserver:
   q240: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/28951/28951-240p.mp4
   q480: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/28951/28951-480p.mp4

@@ -24,6 +24,9 @@
         {{ $tag | jsonify }}
         {{- end -}}
     ],
+    {{ if .Params.fushaarid }}
+    "fushaarid": {{ .Params.fushaarid | jsonify }},
+    {{end}}
     {{ if .Params.fushaarserver }}
     "fushaarserver":{
         {{ if  .Params.fushaarserver.q240 }}

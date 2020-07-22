@@ -27,20 +27,6 @@
     {{ if .Params.fushaarid }}
     "fushaarid": {{ .Params.fushaarid | jsonify }},
     {{end}}
-    {{ if .Params.fushaarserver }}
-    "fushaarserver":{
-        {{ if  .Params.fushaarserver.q240 }}
-            "q240": {{ .Params.fushaarserver.q240 |jsonify }},
-        {{end}}
-        {{ if  .Params.fushaarserver.q480 }}
-            "q480": {{ .Params.fushaarserver.q480 |jsonify }},
-        {{end}}
-        {{ if  .Params.fushaarserver.q1080 }}
-            "q1080": {{ .Params.fushaarserver.q1080 |jsonify }}
-        {{end}}
-    },
-    {{end}}
-
     {{ if .Params.server2 }}
     "server2": {{ .Params.server2 | jsonify }},
     {{ end }}

@@ -24,16 +24,17 @@ stars:
   - Daniel Craig
   - Chris Evans
   - Ana de Armas
-imdbId: tt8946378
+imdbid: tt8946378
 parentsguide: 12
 moviecover: https://m.media-amazon.com/images/M/MV5BMGUwZjliMTAtNzAxZi00MWNiLWE2NzgtZGUxMGQxZjhhNDRiXkEyXkFqcGdeQXVyNjU1NzU3MzE@._V1_SY1000_SX675_AL_.jpg
 moviebg: https://m.media-amazon.com/images/M/MV5BZjYyZTAyOTYtYTUxYS00NmZhLWFjZTUtYTA0OThiNjk1NTA0XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SY1000_SX1500_AL_.jpg
 trailer: https://www.youtube.com/embed/xi-1NchUqMA
 server1: https://w.dardarkom.online/mv/563771
+fushaarid: "28765"
 fushaarserver:
   q240: ""
   q480: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/28765/28765-480p.mp4
   q1080: ""
 server2: https://uqload.com/embed-p5znnfct31af.html
-imdbid: tt8946378
+imdbId: tt8946378
 ---

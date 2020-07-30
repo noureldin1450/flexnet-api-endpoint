@@ -1,0 +1,370 @@
+{
+    "homepagetags":{
+
+
+
+
+
+        {{ with .Site.GetPage "/tags/Crime" }}
+        {{ .Title |jsonify }}:[
+            {{ range $index, $e:= .Pages | first 20 | shuffle }}
+            {{ if $index }},{{end}}
+                {
+                    "title": {{ .Params.title | jsonify }},
+                    "date": {{ .Params.date.Format "2006-01-02" | jsonify }},
+                    "rating": {{ .Params.rating | jsonify }},
+                    "duration": {{ .Params.duration | jsonify }},
+                    "slug": {{ replace .Permalink "index.json" "" | relURL | jsonify }},
+                    "year": {{ .Params.year | jsonify }},
+                    "moviecover": {{ .Params.moviecover | jsonify }},
+                    "moviebg": {{ .Params.moviebg | jsonify }}
+                }
+            {{end}}
+        ],
+        {{end}}
+
+
+        {{ with .Site.GetPage "/tags/Drama" }}
+        {{ .Title |jsonify }}:[
+            {{ range $index, $e:= .Pages | first 20 | shuffle }}
+            {{ if $index }},{{end}}
+                {
+                    "title": {{ .Params.title | jsonify }},
+                    "date": {{ .Params.date.Format "2006-01-02" | jsonify }},
+                    "rating": {{ .Params.rating | jsonify }},
+                    "duration": {{ .Params.duration | jsonify }},
+                    "slug": {{ replace .Permalink "index.json" "" | relURL | jsonify }},
+                    "year": {{ .Params.year | jsonify }},
+                    "moviecover": {{ .Params.moviecover | jsonify }},
+                    "moviebg": {{ .Params.moviebg | jsonify }}
+                }
+            {{end}}
+        ],
+        {{end}}
+
+
+        {{ with .Site.GetPage "/tags/Mystery" }}
+        {{ .Title |jsonify }}:[
+            {{ range $index, $e:= .Pages | first 20 | shuffle }}
+            {{ if $index }},{{end}}
+                {
+                    "title": {{ .Params.title | jsonify }},
+                    "date": {{ .Params.date.Format "2006-01-02" | jsonify }},
+                    "rating": {{ .Params.rating | jsonify }},
+                    "duration": {{ .Params.duration | jsonify }},
+                    "slug": {{ replace .Permalink "index.json" "" | relURL | jsonify }},
+                    "year": {{ .Params.year | jsonify }},
+                    "moviecover": {{ .Params.moviecover | jsonify }},
+                    "moviebg": {{ .Params.moviebg | jsonify }}
+                }
+            {{end}}
+        ],
+        {{end}}
+
+
+        {{ with .Site.GetPage "/tags/Sport" }}
+        {{ .Title |jsonify }}:[
+            {{ range $index, $e:= .Pages | first 20 | shuffle }}
+            {{ if $index }},{{end}}
+                {
+                    "title": {{ .Params.title | jsonify }},
+                    "date": {{ .Params.date.Format "2006-01-02" | jsonify }},
+                    "rating": {{ .Params.rating | jsonify }},
+                    "duration": {{ .Params.duration | jsonify }},
+                    "slug": {{ replace .Permalink "index.json" "" | relURL | jsonify }},
+                    "year": {{ .Params.year | jsonify }},
+                    "moviecover": {{ .Params.moviecover | jsonify }},
+                    "moviebg": {{ .Params.moviebg | jsonify }}
+                }
+            {{end}}
+        ],
+        {{end}}
+
+        {{ with .Site.GetPage "/tags/Comedy" }}
+        {{ .Title |jsonify }}:[
+            {{ range $index, $e:= .Pages | first 20 | shuffle }}
+            {{ if $index }},{{end}}
+                {
+                    "title": {{ .Params.title | jsonify }},
+                    "date": {{ .Params.date.Format "2006-01-02" | jsonify }},
+                    "rating": {{ .Params.rating | jsonify }},
+                    "duration": {{ .Params.duration | jsonify }},
+                    "slug": {{ replace .Permalink "index.json" "" | relURL | jsonify }},
+                    "year": {{ .Params.year | jsonify }},
+                    "moviecover": {{ .Params.moviecover | jsonify }},
+                    "moviebg": {{ .Params.moviebg | jsonify }}
+                }
+            {{end}}
+        ],
+        {{end}}
+
+
+        {{ with .Site.GetPage "/tags/Thriller" }}
+        {{ .Title |jsonify }}:[
+            {{ range $index, $e:= .Pages | first 20 | shuffle }}
+            {{ if $index }},{{end}}
+                {
+                    "title": {{ .Params.title | jsonify }},
+                    "date": {{ .Params.date.Format "2006-01-02" | jsonify }},
+                    "rating": {{ .Params.rating | jsonify }},
+                    "duration": {{ .Params.duration | jsonify }},
+                    "slug": {{ replace .Permalink "index.json" "" | relURL | jsonify }},
+                    "year": {{ .Params.year | jsonify }},
+                    "moviecover": {{ .Params.moviecover | jsonify }},
+                    "moviebg": {{ .Params.moviebg | jsonify }}
+                }
+            {{end}}
+        ],
+        {{end}}
+
+        {{ with .Site.GetPage "/tags/Action" }}
+        {{ .Title |jsonify }}:[
+            {{ range $index, $e:= .Pages | first 20 | shuffle }}
+            {{ if $index }},{{end}}
+                {
+                    "title": {{ .Params.title | jsonify }},
+                    "date": {{ .Params.date.Format "2006-01-02" | jsonify }},
+                    "rating": {{ .Params.rating | jsonify }},
+                    "duration": {{ .Params.duration | jsonify }},
+                    "slug": {{ replace .Permalink "index.json" "" | relURL | jsonify }},
+                    "year": {{ .Params.year | jsonify }},
+                    "moviecover": {{ .Params.moviecover | jsonify }},
+                    "moviebg": {{ .Params.moviebg | jsonify }}
+                }
+            {{end}}
+        ],
+        {{end}}
+            
+
+        {{ with .Site.GetPage "/tags/History" }}
+        {{ .Title |jsonify }}:[
+            {{ range $index, $e:= .Pages | first 20 | shuffle }}
+            {{ if $index }},{{end}}
+                {
+                    "title": {{ .Params.title | jsonify }},
+                    "date": {{ .Params.date.Format "2006-01-02" | jsonify }},
+                    "rating": {{ .Params.rating | jsonify }},
+                    "duration": {{ .Params.duration | jsonify }},
+                    "slug": {{ replace .Permalink "index.json" "" | relURL | jsonify }},
+                    "year": {{ .Params.year | jsonify }},
+                    "moviecover": {{ .Params.moviecover | jsonify }},
+                    "moviebg": {{ .Params.moviebg | jsonify }}
+                }
+            {{end}}
+        ],
+        {{end}}
+
+
+
+        {{ with .Site.GetPage "/tags/Adventure" }}
+        {{ .Title |jsonify }}:[
+            {{ range $index, $e:= .Pages | first 20 | shuffle }}
+            {{ if $index }},{{end}}
+                {
+                    "title": {{ .Params.title | jsonify }},
+                    "date": {{ .Params.date.Format "2006-01-02" | jsonify }},
+                    "rating": {{ .Params.rating | jsonify }},
+                    "duration": {{ .Params.duration | jsonify }},
+                    "slug": {{ replace .Permalink "index.json" "" | relURL | jsonify }},
+                    "year": {{ .Params.year | jsonify }},
+                    "moviecover": {{ .Params.moviecover | jsonify }},
+                    "moviebg": {{ .Params.moviebg | jsonify }}
+                }
+            {{end}}
+        ],
+        {{end}}
+
+        {{ with .Site.GetPage "/tags/Animation" }}
+        {{ .Title |jsonify }}:[
+            {{ range $index, $e:= .Pages | first 20 | shuffle }}
+            {{ if $index }},{{end}}
+                {
+                    "title": {{ .Params.title | jsonify }},
+                    "date": {{ .Params.date.Format "2006-01-02" | jsonify }},
+                    "rating": {{ .Params.rating | jsonify }},
+                    "duration": {{ .Params.duration | jsonify }},
+                    "slug": {{ replace .Permalink "index.json" "" | relURL | jsonify }},
+                    "year": {{ .Params.year | jsonify }},
+                    "moviecover": {{ .Params.moviecover | jsonify }},
+                    "moviebg": {{ .Params.moviebg | jsonify }}
+                }
+            {{end}}
+        ],
+        {{end}}
+
+        {{ with .Site.GetPage "/tags/Fantasy" }}
+        {{ .Title |jsonify }}:[
+            {{ range $index, $e:= .Pages | first 20 | shuffle }}
+            {{ if $index }},{{end}}
+                {
+                    "title": {{ .Params.title | jsonify }},
+                    "date": {{ .Params.date.Format "2006-01-02" | jsonify }},
+                    "rating": {{ .Params.rating | jsonify }},
+                    "duration": {{ .Params.duration | jsonify }},
+                    "slug": {{ replace .Permalink "index.json" "" | relURL | jsonify }},
+                    "year": {{ .Params.year | jsonify }},
+                    "moviecover": {{ .Params.moviecover | jsonify }},
+                    "moviebg": {{ .Params.moviebg | jsonify }}
+                }
+            {{end}}
+        ],
+        {{end}}
+
+        {{ with .Site.GetPage "/tags/Family" }}
+        {{ .Title |jsonify }}:[
+            {{ range $index, $e:= .Pages | first 20 | shuffle }}
+            {{ if $index }},{{end}}
+                {
+                    "title": {{ .Params.title | jsonify }},
+                    "date": {{ .Params.date.Format "2006-01-02" | jsonify }},
+                    "rating": {{ .Params.rating | jsonify }},
+                    "duration": {{ .Params.duration | jsonify }},
+                    "slug": {{ replace .Permalink "index.json" "" | relURL | jsonify }},
+                    "year": {{ .Params.year | jsonify }},
+                    "moviecover": {{ .Params.moviecover | jsonify }},
+                    "moviebg": {{ .Params.moviebg | jsonify }}
+                }
+            {{end}}
+        ],
+        {{end}}
+            
+            
+
+        {{ with .Site.GetPage "/tags/Horror" }}
+        {{ .Title |jsonify }}:[
+            {{ range $index, $e:= .Pages | first 20 | shuffle }}
+            {{ if $index }},{{end}}
+                {
+                    "title": {{ .Params.title | jsonify }},
+                    "date": {{ .Params.date.Format "2006-01-02" | jsonify }},
+                    "rating": {{ .Params.rating | jsonify }},
+                    "duration": {{ .Params.duration | jsonify }},
+                    "slug": {{ replace .Permalink "index.json" "" | relURL | jsonify }},
+                    "year": {{ .Params.year | jsonify }},
+                    "moviecover": {{ .Params.moviecover | jsonify }},
+                    "moviebg": {{ .Params.moviebg | jsonify }}
+                }
+            {{end}}
+        ],
+        {{end}}
+            
+            
+
+        {{ with .Site.GetPage "/tags/Sci-Fi" }}
+        {{ .Title |jsonify }}:[
+            {{ range $index, $e:= .Pages | first 20 | shuffle }}
+            {{ if $index }},{{end}}
+                {
+                    "title": {{ .Params.title | jsonify }},
+                    "date": {{ .Params.date.Format "2006-01-02" | jsonify }},
+                    "rating": {{ .Params.rating | jsonify }},
+                    "duration": {{ .Params.duration | jsonify }},
+                    "slug": {{ replace .Permalink "index.json" "" | relURL | jsonify }},
+                    "year": {{ .Params.year | jsonify }},
+                    "moviecover": {{ .Params.moviecover | jsonify }},
+                    "moviebg": {{ .Params.moviebg | jsonify }}
+                }
+            {{end}}
+        ],
+        {{end}}
+            
+            
+
+        {{ with .Site.GetPage "/tags/Biography" }}
+        {{ .Title |jsonify }}:[
+            {{ range $index, $e:= .Pages | first 20 | shuffle }}
+            {{ if $index }},{{end}}
+                {
+                    "title": {{ .Params.title | jsonify }},
+                    "date": {{ .Params.date.Format "2006-01-02" | jsonify }},
+                    "rating": {{ .Params.rating | jsonify }},
+                    "duration": {{ .Params.duration | jsonify }},
+                    "slug": {{ replace .Permalink "index.json" "" | relURL | jsonify }},
+                    "year": {{ .Params.year | jsonify }},
+                    "moviecover": {{ .Params.moviecover | jsonify }},
+                    "moviebg": {{ .Params.moviebg | jsonify }}
+                }
+            {{end}}
+        ],
+        {{end}}
+            
+                
+
+        {{ with .Site.GetPage "/tags/Reality-TV" }}
+        {{ .Title |jsonify }}:[
+            {{ range $index, $e:= .Pages | first 20 | shuffle }}
+            {{ if $index }},{{end}}
+                {
+                    "title": {{ .Params.title | jsonify }},
+                    "date": {{ .Params.date.Format "2006-01-02" | jsonify }},
+                    "rating": {{ .Params.rating | jsonify }},
+                    "duration": {{ .Params.duration | jsonify }},
+                    "slug": {{ replace .Permalink "index.json" "" | relURL | jsonify }},
+                    "year": {{ .Params.year | jsonify }},
+                    "moviecover": {{ .Params.moviecover | jsonify }},
+                    "moviebg": {{ .Params.moviebg | jsonify }}
+                }
+            {{end}}
+        ],
+        {{end}}
+            
+        {{ with .Site.GetPage "/tags/Romance" }}
+        {{ .Title |jsonify }}:[
+            {{ range $index, $e:= .Pages | first 20 | shuffle }}
+            {{ if $index }},{{end}}
+                {
+                    "title": {{ .Params.title | jsonify }},
+                    "date": {{ .Params.date.Format "2006-01-02" | jsonify }},
+                    "rating": {{ .Params.rating | jsonify }},
+                    "duration": {{ .Params.duration | jsonify }},
+                    "slug": {{ replace .Permalink "index.json" "" | relURL | jsonify }},
+                    "year": {{ .Params.year | jsonify }},
+                    "moviecover": {{ .Params.moviecover | jsonify }},
+                    "moviebg": {{ .Params.moviebg | jsonify }}
+                }
+            {{end}}
+        ],
+        {{end}}
+            
+                
+        {{ with .Site.GetPage "/tags/Music" }}
+        {{ .Title |jsonify }}:[
+            {{ range $index, $e:= .Pages | first 20 | shuffle }}
+            {{ if $index }},{{end}}
+                {
+                    "title": {{ .Params.title | jsonify }},
+                    "date": {{ .Params.date.Format "2006-01-02" | jsonify }},
+                    "rating": {{ .Params.rating | jsonify }},
+                    "duration": {{ .Params.duration | jsonify }},
+                    "slug": {{ replace .Permalink "index.json" "" | relURL | jsonify }},
+                    "year": {{ .Params.year | jsonify }},
+                    "moviecover": {{ .Params.moviecover | jsonify }},
+                    "moviebg": {{ .Params.moviebg | jsonify }}
+                }
+            {{end}}
+        ],
+        {{end}}
+            
+                
+        {{ with .Site.GetPage "/tags/War" }}
+        {{ .Title |jsonify }}:[
+            {{ range $index, $e:= .Pages | first 20 | shuffle }}
+            {{ if $index }},{{end}}
+                {
+                    "title": {{ .Params.title | jsonify }},
+                    "date": {{ .Params.date.Format "2006-01-02" | jsonify }},
+                    "rating": {{ .Params.rating | jsonify }},
+                    "duration": {{ .Params.duration | jsonify }},
+                    "slug": {{ replace .Permalink "index.json" "" | relURL | jsonify }},
+                    "year": {{ .Params.year | jsonify }},
+                    "moviecover": {{ .Params.moviecover | jsonify }},
+                    "moviebg": {{ .Params.moviebg | jsonify }}
+                }
+            {{end}}
+        ]
+        {{end}}
+
+    }
+}
+
+

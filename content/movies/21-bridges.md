@@ -2,7 +2,7 @@
 date: 2020-06-10
 groups: movie
 draft: false
-title: "21 Bridges "
+title: 21 Bridges mohamed
 artitle: 21 جسر
 slug: 21 Bridges 2019
 year: "2019"
@@ -32,11 +32,11 @@ moviebg: https://m.media-amazon.com/images/M/MV5BMTU2NjcyNTIwMl5BMl5BanBnXkFtZTg
 trailer: https://www.youtube.com/embed/ygOEMsh_Qjs
 server1: https://w.dardarkom.online/mv/499394
 fushaarid: "28674"
+server2: https://vidlox.me/embed-3tel3emd3sux.html
+server3: https://uqload.com/embed-kn53iuzz392v.html
+server4: ""
 fushaarserver:
   q240: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/28674/28674-240p.mp4
   q480: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/28674/28674-480p.mp4
   q1080: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/28674/28674.mp4
-server2: https://vidlox.me/embed-3tel3emd3sux.html
-server3: https://uqload.com/embed-kn53iuzz392v.html
-server4: ""
 ---

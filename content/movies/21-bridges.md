@@ -2,7 +2,7 @@
 date: 2020-06-10
 groups: movie
 draft: false
-title: 21 Bridges mohamed
+title: 21 Bridges mohamed ok
 artitle: 21 جسر
 slug: 21 Bridges 2019
 year: "2019"

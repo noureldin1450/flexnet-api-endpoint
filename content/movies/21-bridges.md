@@ -2,11 +2,11 @@
 date: 2020-06-10
 groups: movie
 draft: false
-title: 21 Bridges mohamed ok
+title: 21 Bridges
 artitle: 21 جسر
 slug: 21 Bridges 2019
 year: "2019"
-duration: "1h 39min "
+duration: 1h 39min nope
 rating: 6.6
 tags:
   - Action

@@ -6,7 +6,7 @@ title: 21 Bridges
 artitle: 21 جسر
 slug: 21 Bridges 2019
 year: "2019"
-duration: 1h 39min nope
+duration: "1h 39min "
 rating: 6.6
 tags:
   - Action

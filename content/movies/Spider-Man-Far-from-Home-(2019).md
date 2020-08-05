@@ -3,7 +3,7 @@ date: 2019-07-02
 groups: movie
 draft: false
 title: "Spider-Man: Far from Home"
-artitle: "Spider-Man: Far from Home"
+artitle: ""
 slug: Spider-Man Far from Home 2019
 year: "2019"
 duration: 2h 9min

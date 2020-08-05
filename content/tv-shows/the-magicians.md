@@ -1,7 +1,7 @@
 ---
 date: 2020-06-13
 groups: tv-show
-draft: false
+draft: true
 title: The Magicians
 slug: The Magicians 2015
 year: "2015"

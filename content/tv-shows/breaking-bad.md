@@ -1,7 +1,7 @@
 ---
 date: 2020-06-16
 groups: tv-show
-draft: false
+draft: true
 title: "Breaking Bad "
 slug: Breaking Bad 2008
 year: "2008"

@@ -1,7 +1,7 @@
 ---
 date: 2020-06-15
 groups: tv-show
-draft: false
+draft: true
 title: La Casa de Papel
 slug: La Casa de Papel 2017
 year: "2017"

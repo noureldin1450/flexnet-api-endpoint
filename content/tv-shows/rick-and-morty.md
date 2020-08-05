@@ -1,7 +1,7 @@
 ---
 date: 2020-06-13
 groups: tv-show
-draft: false
+draft: true
 title: "Rick and Morty "
 slug: Rick and Morty 2013
 year: "2013"

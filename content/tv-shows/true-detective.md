@@ -1,7 +1,7 @@
 ---
 date: 2020-06-21
 groups: tv-show
-draft: false
+draft: true
 title: "True Detective "
 slug: True Detective 2014
 year: "2014"

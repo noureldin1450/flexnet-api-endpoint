@@ -1,7 +1,7 @@
 ---
 date: 2020-08-06
 groups: movie
-draft: false
+draft: true
 title: Blood and Money
 artitle: الدم والمال
 slug: Blood and Money 2020

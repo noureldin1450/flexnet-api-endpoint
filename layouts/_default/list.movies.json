@@ -1,7 +1,7 @@
 {
     "latestmovies":[
         {{ with .Site.GetPage "/movies" }}
-            {{- range $index, $e := .Pages | first 20 -}}
+            {{- range $index, $e := .Pages | first 40 -}}
             {{ if $index }},{{end}}
             {
                 "date": {{ .Params.date.Format "2006-01-02" | jsonify }},

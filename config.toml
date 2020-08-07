@@ -29,6 +29,11 @@ ignoreErrors = ["error-output-taxonomy"]
     isPlainText = true
     mediaType = "application/json"
     notAlternative = true
+  [outputFormats.moviespage]
+    baseName = "moviespage"
+    isPlainText = true
+    mediaType = "application/json"
+    notAlternative = true
   [outputFormats.slugs]
     baseName = "slugs"
     isPlainText = true
@@ -43,7 +48,7 @@ ignoreErrors = ["error-output-taxonomy"]
 [outputs]
     page = ["json","HTML"] # A player
     section = ["json","HTML"] # All players
-    home = ["json","HTML", "announcements","tags","movies","slugs","homepagetags"] # Everything
+    home = ["json","HTML", "announcements","tags","movies","slugs","homepagetags", "moviespage"] # Everything
     term = ["json"] # All items from a sport
 
 [minify]

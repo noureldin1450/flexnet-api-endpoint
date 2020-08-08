@@ -7,7 +7,7 @@ artitle: خداع إبنة
 slug: "A Daughters Deception 2019 "
 year: "2019 "
 duration: 1h 25min
-rating: 6.8
+rating: 5.7
 tags:
   - Thriller
 story: Forced to give up her daughter for adoption when she's underage, Laura is

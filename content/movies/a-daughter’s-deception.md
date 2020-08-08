@@ -4,7 +4,7 @@ groups: movie
 draft: false
 title: A Daughter’s Deception
 artitle: خداع إبنة
-slug: "A Daughters Deception 2019 "
+slug: A Daughters Deception 2019
 year: "2019 "
 duration: 1h 25min
 rating: 5.7

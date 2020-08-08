@@ -2,7 +2,7 @@
     
     {{ $url:= replace "/tags/here" "here" $.Data.Term }}
     {{ with  .GetPage $url }}
-    {{ range $index, $e:= .Pages | shuffle}}
+    {{ range $index, $e:= .Pages | shuffle | first 200}}
     {{ if $index }},{{end}}
         {
             "title": {{ .Params.title | jsonify }},

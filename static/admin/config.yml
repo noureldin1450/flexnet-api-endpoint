@@ -222,6 +222,11 @@ collections:
                     name: "EpisodeNumber",
                     widget: "number"
                   }
+                  - {
+                    label: "episode link",
+                    name: "EpisodeLink",
+                    widget: "string"
+                  }
        
   - name: "Movie" # Used in routes, e.g., /admin/collections/blog
     label: "Movies DB" # Used in the UI

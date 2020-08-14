@@ -2,7 +2,7 @@
 date: 2020-08-12
 groups: movie
 draft: false
-title: "Doom: Annihilation"
+title: "Doom: Annihilation test"
 artitle: "نهاية الحياة: الإبادة"
 slug: Doom Annihilation 2019
 year: "2019"

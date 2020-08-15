@@ -25,38 +25,54 @@
         {{ $tag | jsonify }}
         {{- end -}}
     ],
-    {{ if .Params.fushaarid }}
-    "fushaarid": {{ .Params.fushaarid | jsonify }},
+
+    {{if in (.Params.groups | string) "tv-show" }}
+    
+    "seasons":[
+        {{ range $index, $e:= .Params.seasons }}
+            {{ if $index }},{{end}}
+            {
+            {{.}} 
+            }        
+        {{end}}
+    
+    ]
+
+    {{else}}
+        {{ if .Params.fushaarid }}
+        "fushaarid": {{ .Params.fushaarid | jsonify }},
+        {{end}}
+        {{ if .Params.server2 }}
+        "server2": {{ .Params.server2 | jsonify }},
+        {{ end }}
+
+        {{ if .Params.server3 }}
+        "server3": {{ .Params.server3 | jsonify }},
+        {{ end }}
+
+        {{ if .Params.server4 }}
+        "server4": {{ .Params.server4 | jsonify }},
+        {{ end }}
+
+        {{ if .Params.server5 }}
+        "server5": {{ .Params.server5 | jsonify }},
+        {{ end }}
+
+        {{ if .Params.server6 }}
+        "server6": {{ .Params.server6 | jsonify }},
+        {{ end }}
     {{end}}
-    {{ if .Params.server2 }}
-    "server2": {{ .Params.server2 | jsonify }},
-    {{ end }}
-
-    {{ if .Params.server3 }}
-    "server3": {{ .Params.server3 | jsonify }},
-    {{ end }}
-
-    {{ if .Params.server4 }}
-    "server4": {{ .Params.server4 | jsonify }},
-    {{ end }}
-
-    {{ if .Params.server5 }}
-    "server5": {{ .Params.server5 | jsonify }},
-    {{ end }}
-
-    {{ if .Params.server6 }}
-    "server6": {{ .Params.server6 | jsonify }},
-    {{ end }}
-
-    {{- if .Params.story -}}
+        
+        
+{{- if .Params.story -}}
     "story": {{- .Params.story | jsonify -}},
-    {{- end -}}
+{{- end -}}
 
 {{ $related := .Site.RegularPages.Related . | first 5 }}
 
 {{ with $related }}
     "related":[
-        {{ range $index, $e := .}}
+        {{ range $index, $e := . }}
         {{- if $index -}},{{- end -}}
         {
             "title": {{ .Params.title | jsonify }},

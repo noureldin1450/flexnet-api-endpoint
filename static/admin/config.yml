@@ -202,7 +202,7 @@ collections:
 
       - label: "seasons"
         name: "seasons"
-        widget: list
+        widget: object
         fields: 
           - {
             label: "season number",

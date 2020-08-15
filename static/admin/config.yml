@@ -67,7 +67,6 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-
       - {
           label: "Date you added this content",
           name: "date",
@@ -202,28 +201,27 @@ collections:
 
       - label: "seasons"
         name: "seasons"
-        widget: object
-        fields: 
-          - {
-            label: "season number",
-            name: "SeasonNumber",
-            widget: "number"
-          }
-
-          - label: "episodes"
-            name: "episodes"
-            widget: "list"
-            fields:
-              - {
-                label: "episode number",
-                name: "EpisodeNumber",
-                widget: "number"
-              }
-              - {
-                label: "episode name",
-                name: "EpisodeName",
-                widget: "string"
-              }
+        widget: list
+        fields:
+        - {
+          label: "season number",
+          name: "SeasonNumber",
+          widget: "number"
+        }
+        - label: "episodes"
+          name: "episodes"
+          widget: "list"
+          fields:
+            - {
+              label: "episode number",
+              name: "EpisodeNumber",
+              widget: "number"
+            }
+            - {
+              label: "episode name",
+              name: "EpisodeName",
+              widget: "string"
+            }
        
   - name: "Movie" # Used in routes, e.g., /admin/collections/blog
     label: "Movies DB" # Used in the UI

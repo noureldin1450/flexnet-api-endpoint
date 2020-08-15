@@ -198,9 +198,9 @@ collections:
           default: "https://www.youtube.com/embed/",
           hint: "get any youtube trailer for that tv-show and copy the video Id and added it after the /embed/ in the cms"
         }
-        
+
       - label: "season 1"
-        name: "season 1"
+        name: "season1"
         widget: object
         fields:
         - label: "episodes"
@@ -218,7 +218,7 @@ collections:
               widget: "string"
             }
       - label: "season 2"
-        name: "season 2"
+        name: "season2"
         widget: object
         fields:
         - label: "episodes"
@@ -236,7 +236,7 @@ collections:
               widget: "string"
             }
       - label: "season 3"
-        name: "season 3"
+        name: "season3"
         widget: object
         fields:
         - label: "episodes"
@@ -254,7 +254,7 @@ collections:
               widget: "string"
             }
       - label: "season 4"
-        name: "season 4"
+        name: "season4"
         widget: object
         fields:
         - label: "episodes"
@@ -272,7 +272,7 @@ collections:
               widget: "string"
             }
       - label: "season 5"
-        name: "season 5"
+        name: "season5"
         widget: object
         fields:
         - label: "episodes"
@@ -290,7 +290,7 @@ collections:
               widget: "string"
             }
       - label: "season 6"
-        name: "season 6"
+        name: "season6"
         widget: object
         fields:
         - label: "episodes"

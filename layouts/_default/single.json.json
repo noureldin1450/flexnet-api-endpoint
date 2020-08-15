@@ -27,7 +27,7 @@
     ],
 
     {{if in (.Params.groups | string) "tv-show" }}
-    
+
 
     {{else}}
         {{ if .Params.fushaarid }}

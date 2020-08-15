@@ -23,11 +23,5 @@ trailer: https://www.youtube.com/embed/99h3O3HVukY
 seasons:
   season:
     - SeasonNumber: 1
-      episodes:
-        - EpisodeNumber: 1
-          EpisodeLink: link.mp4
-    - SeasonNumber: 2
-      episodes:
-        - EpisodeNumber: 1
-          EpisodeLink: link.mp4
+      episodes: []
 ---

@@ -198,115 +198,34 @@ collections:
           default: "https://www.youtube.com/embed/",
           hint: "get any youtube trailer for that tv-show and copy the video Id and added it after the /embed/ in the cms"
         }
-
-      - label: "season 1"
-        name: "season1"
+      
+      - label: "content"
+        name: "content"
         widget: object
         fields:
-        - label: "episodes"
-          name: "episodes"
-          widget: "list"
+        - label: "seasons"
+          name: "seasons"
+          widget: list
           fields:
-            - {
-              label: "episode number",
-              name: "EpisodeNumber",
-              widget: "number"
-            }
-            - {
-              label: "episode name",
-              name: "EpisodeName",
-              widget: "string"
-            }
-      - label: "season 2"
-        name: "season2"
-        widget: object
-        fields:
-        - label: "episodes"
-          name: "episodes"
-          widget: "list"
-          fields:
-            - {
-              label: "episode number",
-              name: "EpisodeNumber",
-              widget: "number"
-            }
-            - {
-              label: "episode name",
-              name: "EpisodeName",
-              widget: "string"
-            }
-      - label: "season 3"
-        name: "season3"
-        widget: object
-        fields:
-        - label: "episodes"
-          name: "episodes"
-          widget: "list"
-          fields:
-            - {
-              label: "episode number",
-              name: "EpisodeNumber",
-              widget: "number"
-            }
-            - {
-              label: "episode name",
-              name: "EpisodeName",
-              widget: "string"
-            }
-      - label: "season 4"
-        name: "season4"
-        widget: object
-        fields:
-        - label: "episodes"
-          name: "episodes"
-          widget: "list"
-          fields:
-            - {
-              label: "episode number",
-              name: "EpisodeNumber",
-              widget: "number"
-            }
-            - {
-              label: "episode name",
-              name: "EpisodeName",
-              widget: "string"
-            }
-      - label: "season 5"
-        name: "season5"
-        widget: object
-        fields:
-        - label: "episodes"
-          name: "episodes"
-          widget: "list"
-          fields:
-            - {
-              label: "episode number",
-              name: "EpisodeNumber",
-              widget: "number"
-            }
-            - {
-              label: "episode name",
-              name: "EpisodeName",
-              widget: "string"
-            }
-      - label: "season 6"
-        name: "season6"
-        widget: object
-        fields:
-        - label: "episodes"
-          name: "episodes"
-          widget: "list"
-          fields:
-            - {
-              label: "episode number",
-              name: "EpisodeNumber",
-              widget: "number"
-            }
-            - {
-              label: "episode name",
-              name: "EpisodeName",
-              widget: "string"
-            }
+          - {
+            label: "season number",
+            name: "SeasonNumber",
+            widget: "number"
+          }
+          - label: "episodes"
+            name: "episodes"
+            widget: "list"
+            fields:
+              - {
+                label: "episode number",
+                name: "EpisodeNumber",
+                widget: "number"
+              }
+              - {
+                label: "episode name",
+                name: "EpisodeName",
+                widget: "string"
+              }
         
   - name: "Movie" # Used in routes, e.g., /admin/collections/blog
     label: "Movies DB" # Used in the UI

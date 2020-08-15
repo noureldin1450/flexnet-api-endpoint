@@ -27,7 +27,26 @@
     ],
 
     {{if in (.Params.groups | string) "tv-show" }}
-    
+
+    "seasons":[
+        {{ range $index, $e:= .Params.content.seasons }}
+        {{ if $index }},{{end}}
+        {
+            "SeasonNumber": {{ .SeasonNumber | jsonify}},
+            "episodes":[
+                {{ range $index, $e:= .episodes }}
+                {{ if $index }},{{end}}
+                {
+                    "EpisodeNumber": {{ .EpisodeNumber | jsonify }},
+                    "EpisodeName": {{ .EpisodeName | jsonify }}
+                }
+                {{end}}
+            ]
+        }   
+        {{end}}
+    ],
+
+
     {{else}}
         {{ if .Params.fushaarid }}
         "fushaarid": {{ .Params.fushaarid | jsonify }},
@@ -66,7 +85,7 @@
         {{- if $index -}},{{- end -}}
         {
             "title": {{ .Params.title | jsonify }},
-            "rating": {{ .Params.moviecover | jsonify }},
+            "moviecover": {{ .Params.moviecover | jsonify }},
             "rating": {{ .Params.rating | jsonify }},
             "link": {{ .Params.slug | jsonify}}
         }

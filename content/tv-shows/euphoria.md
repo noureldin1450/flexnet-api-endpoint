@@ -23,5 +23,21 @@ trailer: https://www.youtube.com/embed/99h3O3HVukY
 seasons:
   season:
     - SeasonNumber: 1
-      episodes: []
+      episodes:
+        - EpisodeNumber: 1
+          EpisodeName: Pilot
+        - EpisodeNumber: 2
+          EpisodeName: Stuntin' Like My Daddy
+        - EpisodeNumber: 3
+          EpisodeName: Made You Look
+        - EpisodeNumber: 4
+          EpisodeName: "Shook One: Pt II"
+        - EpisodeNumber: 5
+          EpisodeName: "'03 Bonnie and Clyde"
+        - EpisodeNumber: 6
+          EpisodeName: The Next Episode
+        - EpisodeNumber: 7
+          EpisodeName: The Trials and Tribulations of Trying to Pee While Depressed
+        - EpisodeNumber: 8
+          EpisodeName: And Salt the Earth Behind You
 ---

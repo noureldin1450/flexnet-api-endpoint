@@ -204,29 +204,25 @@ collections:
         name: "seasons"
         widget: list
         fields: 
-          - label: "season"
-            name: "season"
-            widget: object
-            fields: # The fields for each document, usually in front matter
+          - {
+            label: "season number",
+            name: "SeasonNumber",
+            widget: "number",
+          }
+          - label: "episodes"
+            name: "episodes"
+            widget: "list"
+            fields:
               - {
-                label: "season number",
-                name: "SeasonNumber",
-                widget: "number",
+                label: "episode number",
+                name: "EpisodeNumber",
+                widget: "number"
               }
-              - label: "episodes"
-                name: "episodes"
-                widget: "list"
-                fields:
-                  - {
-                    label: "episode number",
-                    name: "EpisodeNumber",
-                    widget: "number"
-                  }
-                  - {
-                    label: "episode name",
-                    name: "EpisodeName",
-                    widget: "string"
-                  }
+              - {
+                label: "episode name",
+                name: "EpisodeName",
+                widget: "string"
+              }
        
   - name: "Movie" # Used in routes, e.g., /admin/collections/blog
     label: "Movies DB" # Used in the UI

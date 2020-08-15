@@ -223,8 +223,8 @@ collections:
                     widget: "number"
                   }
                   - {
-                    label: "episode link",
-                    name: "EpisodeLink",
+                    label: "episode name",
+                    name: "EpisodeName",
                     widget: "string"
                   }
        

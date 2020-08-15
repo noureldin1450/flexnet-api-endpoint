@@ -28,15 +28,6 @@
 
     {{if in (.Params.groups | string) "tv-show" }}
     
-    "seasons":[
-        {{ range $index, $e:= .Params.seasons }}
-            {{ if $index }},{{end}}
-            {
-            {{.}} 
-            }        
-        {{end}}
-    
-    ]
 
     {{else}}
         {{ if .Params.fushaarid }}

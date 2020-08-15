@@ -200,29 +200,29 @@ collections:
           hint: "get any youtube trailer for that tv-show and copy the video Id and added it after the /embed/ in the cms"
         }
 
-      - label: "seasons"
-        name: "seasons"
-        widget: list
-        fields: 
-          - {
-            label: "season number",
-            name: "SeasonNumber",
-            widget: "number",
-          }
-          - label: "episodes"
-            name: "episodes"
-            widget: "list"
-            fields:
-              - {
-                label: "episode number",
-                name: "EpisodeNumber",
-                widget: "number"
-              }
-              - {
-                label: "episode name",
-                name: "EpisodeName",
-                widget: "string"
-              }
+    - label: "seasons"
+          name: "seasons"
+          widget: list
+          fields: 
+            - {
+              label: "season number",
+              name: "SeasonNumber",
+              widget: "number",
+            }
+            - label: "episodes"
+              name: "episodes"
+              widget: "list"
+              fields:
+                - {
+                  label: "episode number",
+                  name: "EpisodeNumber",
+                  widget: "number"
+                }
+                - {
+                  label: "episode name",
+                  name: "EpisodeName",
+                  widget: "string"
+                }
        
   - name: "Movie" # Used in routes, e.g., /admin/collections/blog
     label: "Movies DB" # Used in the UI

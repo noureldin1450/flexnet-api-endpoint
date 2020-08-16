@@ -40,16 +40,4 @@ content:
           EpisodeName: The Trials and Tribulations of Trying to Pee While Depressed
         - EpisodeNumber: 8
           EpisodeName: And Salt the Earth Behind You
-    - SeasonNumber: 2
-      episodes:
-        - EpisodeNumber: 1
-          EpisodeName: asdasd
-    - SeasonNumber: 3
-      episodes:
-        - EpisodeNumber: 1
-          EpisodeName: asd
-        - EpisodeNumber: 2
-          EpisodeName: asd
-        - EpisodeNumber: 3
-          EpisodeName: asd
 ---

@@ -9,5 +9,15 @@
                  {{ $url | jsonify }}
              {{- end -}}
          {{end}}
+         ,
+         {{ with .Site.GetPage "/tv-shows" }}
+             {{- range $index, $e := .Pages -}}
+             {{ if $index }},{{end}}
+                 {{ $url:= replace .URL "-" " " }}
+                 {{ $url = replace $url "/index.json" "" }}
+                 {{ $url = replace $url "/tv shows/" "" }}
+                 {{ $url | jsonify }}
+             {{- end -}}
+         {{end}}
      ]
 }

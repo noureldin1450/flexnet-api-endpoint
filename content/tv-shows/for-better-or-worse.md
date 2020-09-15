@@ -320,4 +320,42 @@ content:
       episodes:
         - EpisodeNumber: 1
           EpisodeName: The Big Secret
+        - EpisodeName: Bodacious
+          EpisodeNumber: 2
+        - EpisodeNumber: 3
+          EpisodeName: All Over the Place
+        - EpisodeNumber: 4
+          EpisodeName: And It Starts
+        - EpisodeNumber: 5
+          EpisodeName: Faking It
+        - EpisodeNumber: 6
+          EpisodeName: I Got Her Card
+        - EpisodeNumber: 7
+          EpisodeName: I Have Lived
+        - EpisodeNumber: 8
+          EpisodeName: All the Voices
+        - EpisodeNumber: 9
+          EpisodeName: When the Lights Go Out
+        - EpisodeNumber: 10
+          EpisodeName: The Misty Vine Hotel
+        - EpisodeNumber: 11
+          EpisodeName: To Tell or Not to Tell
+        - EpisodeNumber: 12
+          EpisodeName: The Alarm
+        - EpisodeNumber: 13
+          EpisodeName: Just Happened
+        - EpisodeNumber: 14
+          EpisodeName: The Way He Look's at Me
+        - EpisodeNumber: 15
+          EpisodeName: Just a Kiss
+        - EpisodeNumber: 16
+          EpisodeName: The Silverback
+        - EpisodeNumber: 17
+          EpisodeName: Make Him Call Your Name
+        - EpisodeNumber: 18
+          EpisodeName: He's at the Door
+        - EpisodeNumber: 19
+          EpisodeName: A Dangerous Game
+        - EpisodeNumber: 20
+          EpisodeName: Two Can Play That Game
 ---

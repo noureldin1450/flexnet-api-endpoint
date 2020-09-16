@@ -228,4 +228,96 @@ content:
           EpisodeName: Fear of the Unknown
         - EpisodeNumber: 55
           EpisodeName: I Want Half
+    - SeasonNumber: 4
+      episodes:
+        - EpisodeNumber: 1
+          EpisodeName: Told You So
+        - EpisodeNumber: 2
+          EpisodeName: Who Got the Keys?
+        - EpisodeNumber: 3
+          EpisodeName: Healing Hands
+        - EpisodeNumber: 4
+          EpisodeName: A Few Days
+        - EpisodeNumber: 5
+          EpisodeName: Keisha's Corner
+        - EpisodeNumber: 6
+          EpisodeName: Choke Her to Sleep
+        - EpisodeNumber: 7
+          EpisodeName: Him or Me
+        - EpisodeNumber: 8
+          EpisodeName: 2015Victemetrea
+        - EpisodeNumber: 9
+          EpisodeName: Angela Maintains Control
+        - EpisodeNumber: 10
+          EpisodeName: A Certified Letter
+        - EpisodeNumber: 11
+          EpisodeName: Pam's Father
+        - EpisodeNumber: 12
+          EpisodeName: Seventeen
+        - EpisodeNumber: 13
+          EpisodeName: Maury Settles It
+        - EpisodeNumber: 14
+          EpisodeName: Curtis
+        - EpisodeNumber: 15
+          EpisodeName: Lock the Door
+        - EpisodeNumber: 16
+          EpisodeName: It's Bedtime
+        - EpisodeNumber: 17
+          EpisodeName: Don't Ignore the Signs
+        - EpisodeNumber: 18
+          EpisodeName: The Way We Were
+        - EpisodeNumber: 19
+          EpisodeName: Trouble with the Feds
+        - EpisodeNumber: 20
+          EpisodeName: The Results
+        - EpisodeNumber: 21
+          EpisodeName: Richards Break
+        - EpisodeNumber: 22
+          EpisodeName: Making Him Suffer
+    - SeasonNumber: 5
+      episodes:
+        - EpisodeNumber: 1
+          EpisodeName: Getting Help
+        - EpisodeNumber: 2
+          EpisodeName: Evil Is Knocking
+        - EpisodeNumber: 3
+          EpisodeName: Tomorrow Is Not Promised
+        - EpisodeNumber: 4
+          EpisodeName: Marsha, Marsha, Marsha
+        - EpisodeNumber: 5
+          EpisodeName: Addicted
+        - EpisodeNumber: 6
+          EpisodeName: It's a Woman's World
+        - EpisodeNumber: 7
+          EpisodeName: Fit for a Fling
+        - EpisodeNumber: 8
+          EpisodeName: Two Turtlenecks
+        - EpisodeNumber: 9
+          EpisodeName: Against the Wall
+        - EpisodeNumber: 10
+          EpisodeName: True Intentions
+        - EpisodeNumber: 11
+          EpisodeName: Three Times
+        - EpisodeNumber: 12
+          EpisodeName: The Flower Delivery
+        - EpisodeNumber: 13
+          EpisodeName: Set Her Straight
+        - EpisodeNumber: 14
+          EpisodeName: The Magic Trick
+        - EpisodeNumber: 15
+          EpisodeName: Jack
+        - EpisodeNumber: 16
+          EpisodeName: Do What You Gotta Do
+        - EpisodeNumber: 17
+          EpisodeName: Mating Calls
+        - EpisodeNumber: 18
+          EpisodeName: Mother to Mother
+        - EpisodeNumber: 19
+          EpisodeName: A Letter from the Attorney
+        - EpisodeNumber: 20
+          EpisodeName: Passing the Test
+    - SeasonNumber: 6
+      episodes:
+        - EpisodeNumber: 1
+          EpisodeName: The Big Secret
 ---

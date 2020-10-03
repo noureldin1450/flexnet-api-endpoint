@@ -1,6 +1,7 @@
 ---
 date: 2020-06-08T14:11:48.000Z
 groups: movie
+draft: true
 title: The Call of the Wild
 artitle: نداء البرية
 slug: The Call of the Wild 2020
@@ -26,12 +27,12 @@ moviebg: https://m.media-amazon.com/images/M/MV5BMzE0OWMyOTQtYTczNC00MDhhLTg0YmM
 trailer: https://www.youtube.com/embed/5P8R2zAhEwg
 server1: https://e.dardarkom.online/mv/692308
 fushaarid: "29867"
+server2: https://vidlox.me/embed-3wxcxnsf8nb0.html
+server3: https://uqload.com/embed-x34zuskberut.html
+server4: https://embed.mystream.to/tymdl2pi7j9p
 fushaarserver:
   q240: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/29867/29867-240p.mp4
   q480: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/29867/29867-480p.mp4
   q1080: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/29867/29867.mp4
-server2: https://vidlox.me/embed-3wxcxnsf8nb0.html
-server3: https://uqload.com/embed-x34zuskberut.html
-server4: https://embed.mystream.to/tymdl2pi7j9p
 server5: ""
 ---

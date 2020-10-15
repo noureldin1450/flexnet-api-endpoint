@@ -26,7 +26,7 @@ parentsguide: 15
 moviecover: https://m.media-amazon.com/images/M/MV5BZWI3NjQ1MTMtNDYzYi00ZGFjLWI1M2UtZGEwNzAxMmY4MmFkXkEyXkFqcGdeQXVyNjUxMjc1OTM@._V1_UY864_.jpg
 moviebg: https://m.media-amazon.com/images/M/MV5BYmE5ODQ5OTYtOTk1Zi00NTBkLTk1YWQtOTAyMzFhZmJhZGE2XkEyXkFqcGdeQXVyOTkwMzEzNTQ@._V1_UX1280_.jpg
 trailer: https://www.youtube.com/embed/z-BT3HcR-XU
-fushaarid: "32507 "
+fushaarid: "32507"
 server2: https://vidlox.me/embed-o32d848loe2d.html
 server3: https://uqload.com/embed-txvyc68qyhws.html
 server4: https://embed.mystream.to/xd3q3iwkt6a0

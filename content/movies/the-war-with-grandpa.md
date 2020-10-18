@@ -12,6 +12,7 @@ tags:
   - Comedy
   - Drama
   - Family
+boxoffices: "2020"
 story: Upset that he has to share the room he loves with his grandfather, Peter
   decides to declare war in an attempt to get it back.
 arstory: بيتر وجدُّه يقعان في خلاف معًا عندما ينتقل الجد إلى منزل العائلة، حيث

@@ -12,6 +12,7 @@ tags:
   - Adventure
   - Comedy
   - Music
+boxoffices: "2020"
 story: >
   Once told they'd save the universe during a time-traveling adventure, 2
   would-be rockers from San Dimas, California find themselves as middle-aged

@@ -11,7 +11,7 @@ rating: 6.8
 tags:
   - Drama
   - Sport
-boxoffices: "2020"
+boxoffices: null
 story: >
   Jack Cunningham was an HS basketball phenom who walked away from the game,
   forfeiting his future. Years later, when he reluctantly accepts a coaching job

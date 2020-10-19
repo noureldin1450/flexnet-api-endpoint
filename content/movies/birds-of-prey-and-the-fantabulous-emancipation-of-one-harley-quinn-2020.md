@@ -11,6 +11,7 @@ tags:
   - Action
   - Adventure
   - Crime
+boxoffices: "2020"
 story: After splitting with the Joker, Harley Quinn joins superheroes Black
   Canary, Huntress and Renee Montoya to save a young girl from an evil crime
   lord.
@@ -22,18 +23,18 @@ stars:
   - Rosie Perez
   - Margot Robbie
 imdbid: tt7713068
-parentsguide: 16
 moviecover: https://m.media-amazon.com/images/M/MV5BMzQ3NTQxMjItODBjYi00YzUzLWE1NzQtZTBlY2Y2NjZlNzkyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg
 moviebg: https://m.media-amazon.com/images/M/MV5BNGQ2ZWY2MTItOTE0OC00OTRjLWE3ZjktYjQ3NWY2YTliOGIyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX1777_CR0,0,1777,744_AL_.jpg
-trailer: https://www.youtube.com/embed/D0MapbII0Bk
 server1: https://e.dardarkom.online/mv/228306
 fushaarid: "29663"
+server2: https://vidlox.me/embed-0opdaehyb89q.html
+server3: https://uqload.com/embed-tzes7x1kri5p.html
+server4: https://embed.mystream.to/vad6mpaxk4wh
 fushaarserver:
   q240: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/29663/29663-240p.mp4
   q480: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/29663/29663-480p.mp4
   q1080: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/29663/29663.mp4
-server2: https://vidlox.me/embed-0opdaehyb89q.html
-server3: https://uqload.com/embed-tzes7x1kri5p.html
-server4: https://embed.mystream.to/vad6mpaxk4wh
+parentsguide: 16
+trailer: https://www.youtube.com/embed/D0MapbII0Bk
 server5: ""
 ---

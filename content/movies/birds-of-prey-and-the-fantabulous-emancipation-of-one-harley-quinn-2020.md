@@ -23,7 +23,7 @@ stars:
   - Rosie Perez
   - Margot Robbie
 imdbid: tt7713068
-moviecover: https://m.media-amazon.com/images/M/MV5BMzQ3NTQxMjItODBjYi00YzUzLWE1NzQtZTBlY2Y2NjZlNzkyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg
+moviecover: https://m.media-amazon.com/images/M/MV5BMzQ3NTQxMjItODBjYi00YzUzLWE1NzQtZTBlY2Y2NjZlNzkyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX500_.jpg
 moviebg: https://m.media-amazon.com/images/M/MV5BNGQ2ZWY2MTItOTE0OC00OTRjLWE3ZjktYjQ3NWY2YTliOGIyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX1777_CR0,0,1777,744_AL_.jpg
 server1: https://e.dardarkom.online/mv/228306
 fushaarid: "29663"

@@ -11,6 +11,7 @@ rating: 6.8
 tags:
   - Drama
   - Sport
+boxoffices: "2020"
 story: >
   Jack Cunningham was an HS basketball phenom who walked away from the game,
   forfeiting his future. Years later, when he reluctantly accepts a coaching job
@@ -25,17 +26,17 @@ stars:
   - Al Madrigal
   - Janina Gavankar
 imdbid: tt8544498
-parentsguide: 16
 moviecover: https://m.media-amazon.com/images/M/MV5BYjJmOWE3ZTAtOTEzMC00OTEzLWJlMWUtYjA3ZDQwYTE5YmUyXkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_SY1000_CR0,0,674,1000_AL_.jpg
 moviebg: https://m.media-amazon.com/images/M/MV5BNzMwYjJiMWMtZWFjMi00YTI5LTg1NzctNWRiNjg5NmQ4ZTgzXkEyXkFqcGdeQXVyNTQ3NzA4NzY@._V1_SX1777_CR0,0,1777,741_AL_.jpg
-trailer: https://www.youtube.com/embed/_wvBJg1JH9Y
 server1: https://e.dardarkom.online/mv/453997
 fushaarid: "30593"
+server2: https://moshahda.online/embed-x7xbjurvh0zl-640x360.html
+server3: https://www.vidbm.com/embed-e9n0kan9khrt.html
+server4: https://vidlox.me/embed-7l1vdwx1irci.html
 fushaarserver:
   q240: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/30593/30593-240p.mp4
   q480: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/30593/30593-480p.mp4
   q1080: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/30593/30593.mp4
-server2: https://moshahda.online/embed-x7xbjurvh0zl-640x360.html
-server3: https://www.vidbm.com/embed-e9n0kan9khrt.html
-server4: https://vidlox.me/embed-7l1vdwx1irci.html
+parentsguide: 16
+trailer: https://www.youtube.com/embed/_wvBJg1JH9Y
 ---

@@ -1,6 +1,6 @@
+{{if in (.URL | string) "tags" }}
 [
-    
-    {{ $url:= replace "/tags/here" "here" $.Data.Term }}
+{{ $url:= replace "/tags/here" "here" $.Data.Term }}
     {{ with  .GetPage $url }}
     {{ range $index, $e:= .Pages | shuffle | first 200}}
     {{ if $index }},{{end}}
@@ -23,3 +23,31 @@
         {{end}}
     {{end}}
 ]
+{{ end }}
+
+{{if in (.URL | string) "boxoffices" }}
+[
+    {{ $url:= replace "/boxoffices/here" "here" $.Data.Term }}
+    {{ with  .GetPage $url }}
+    {{ range $index, $e:= .Pages | shuffle | first 200}}
+    {{ if $index }},{{end}}
+        {
+            "title": {{ .Params.title | jsonify }},
+            "year": {{ .Params.year | jsonify }},
+            "date": {{ .Params.date | jsonify }},
+
+            {{ $url = replace .URL "/index.json" "" }}
+            {{ $url:= replace $url " " "-" }}
+
+            "slug": {{ $url | jsonify }},
+            "duration": {{ .Params.duration | jsonify }},
+            {{ if .Params.moviebg }}
+            "moviebg": {{ .Params.moviebg | jsonify }},
+            {{end}}
+            "moviecover": {{ .Params.moviecover | jsonify }},
+            "rating": {{ .Params.rating | jsonify }}
+        }
+        {{end}}
+    {{end}}
+]
+{{ end }}

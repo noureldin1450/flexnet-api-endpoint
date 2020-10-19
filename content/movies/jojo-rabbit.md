@@ -22,7 +22,7 @@ stars:
   - Scarlett Johansson
   - Roman Griffin Davis
 imdbid: tt2584384
-moviecover: https://m.media-amazon.com/images/M/MV5BZjU0Yzk2MzEtMjAzYy00MzY0LTg2YmItM2RkNzdkY2ZhN2JkXkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_UX182_CR0,0,182,268_AL_.jpg
+moviecover: https://m.media-amazon.com/images/M/MV5BZjU0Yzk2MzEtMjAzYy00MzY0LTg2YmItM2RkNzdkY2ZhN2JkXkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_FMjpg_UY853_.jpg
 moviebg: https://m.media-amazon.com/images/M/MV5BOTM2Zjk2YTYtOGEzMi00Nzk2LTk0YzAtMTdlMWMyODkwODczXkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_.jpg
 server1: https://e.dardarkom.online/mv/175072
 fushaarid: "28053"

@@ -23,8 +23,8 @@ stars:
   - Oliver Jackson-Cohen
   - Harriet Dyer
 imdbid: tt1051906
-moviecover: https://m.media-amazon.com/images/M/MV5BZjFhM2I4ZDYtZWMwNC00NTYzLWE3MDgtNjgxYmM3ZWMxYmVmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg
-moviebg: https://m.media-amazon.com/images/M/MV5BOTE2Njc1ODctYWM3Mi00YTFiLTkyNzMtNWRhZjFiNTZlZTk1XkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_SY1000_CR0,0,1436,1000_AL_.jpg
+moviecover: https://m.media-amazon.com/images/M/MV5BMDIyNmVkNzItMTdjMy00ODhiLWJmY2EtYjdhZjNlMzUwZWM3XkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_FMjpg_UY905_.jpg
+moviebg: https://m.media-amazon.com/images/M/MV5BOTM1NTFjYTItYjZjNS00MDRlLThhOTgtNmQ3NDMyZmNlMzlhXkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_FMjpg_UX1280_.jpg
 server1: https://e.dardarkom.online/mv/265332
 fushaarid: "29918"
 server2: https://moshahda.online/embed-jn4u5tdz82br-640x360.html

@@ -11,6 +11,7 @@ tags:
   - Action
   - Comedy
   - Crime
+boxoffices: "2020"
 story: " Miami detectives Mike Lowrey and Marcus Burnett must face off against a
   mother-and-son pair of drug lords who wreak vengeful havoc on their city. "
 arstory: فتية أشرار للأبد Bad Boys for Life يعود (بيرنت) – الذى أصبح مفتشا-

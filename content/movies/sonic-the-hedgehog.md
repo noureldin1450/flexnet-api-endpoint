@@ -23,7 +23,7 @@ stars:
   - Ben Schwartz
 imdbid: tt3794354
 parentsguide: 8
-moviecover: https://m.media-amazon.com/images/M/MV5BNDc1ZTlmOWUtNDY2YS00OGU5LTg2MTYtYTk2MmQzMGE2NzUwXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_UX182_CR0,0,182,268_AL_.jpg
+moviecover: https://m.media-amazon.com/images/M/MV5BMDk5Yzc4NzMtODUwOS00NTdhLTg2MjEtZTkzZjc0ZWE2MzAwXkEyXkFqcGdeQXVyMTA3MTA4Mzgw._V1_FMjpg_UX800_.jpg
 moviebg: https://m.media-amazon.com/images/M/MV5BOGI1MDg1MmEtNTUwMC00Y2UzLTg3ZjYtMGFhYjZmNGQ5MTI4XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX1777_CR0,0,1777,744_AL_.jpg
 trailer: https://www.youtube.com/embed/4mW9FE5ILJs
 server1: https://w.dardarkom.online/mv/776849

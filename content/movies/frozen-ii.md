@@ -11,7 +11,7 @@ tags:
   - Comedy
   - " Animation"
   - Adventure
-boxoffices: "2020"
+boxoffices: null
 story: Anna, Elsa, Kristoff, Olaf and Sven leave Arendelle to travel to an
   ancient, autumn-bound forest of an enchanted land. They set out to find the
   origin of Elsa's powers in order to save their kingdom.

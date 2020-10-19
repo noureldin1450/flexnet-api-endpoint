@@ -11,6 +11,7 @@ tags:
   - Comedy
   - " Animation"
   - Adventure
+boxoffices: "2020"
 story: Anna, Elsa, Kristoff, Olaf and Sven leave Arendelle to travel to an
   ancient, autumn-bound forest of an enchanted land. They set out to find the
   origin of Elsa's powers in order to save their kingdom.
@@ -21,18 +22,18 @@ stars:
   - Idina Menzel
   - Kristen Bell
 imdbid: tt4520988
-parentsguide: 8
 moviecover: https://m.media-amazon.com/images/M/MV5BMjA0YjYyZGMtN2U0Ni00YmY4LWJkZTItYTMyMjY3NGYyMTJkXkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_SY1000_SX675_AL_.jpg
 moviebg: https://m.media-amazon.com/images/M/MV5BMjUwNDczOTkxNF5BMl5BanBnXkFtZTgwNTgxOTE0NzM@._V1_SX1777_CR0,0,1777,998_AL_.jpg
-trailer: https://www.youtube.com/embed/bwzLiQZDw2I
 server1: https://w.dardarkom.online/mv/550682
 fushaarid: "28651"
+server2: https://vidlox.me/embed-cjlwby3bo2lb.html
+server3: https://uqload.com/embed-dmzojxusmjhs.html
+server4: https://embed.mystream.to/u0l0fsjh60wm
 fushaarserver:
   q240: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/28651/28651-240p.mp4
   q480: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/28651/28651-480p.mp4
   q1080: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/28651/28651.mp4
-server2: https://vidlox.me/embed-cjlwby3bo2lb.html
-server3: https://uqload.com/embed-dmzojxusmjhs.html
-server4: https://embed.mystream.to/u0l0fsjh60wm
+parentsguide: 8
+trailer: https://www.youtube.com/embed/bwzLiQZDw2I
 server5: ""
 ---

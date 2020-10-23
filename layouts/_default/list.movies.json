@@ -12,7 +12,15 @@
                 "year": {{ .Params.year | jsonify }},
                 "moviecover": {{ .Params.moviecover | jsonify }},
                 "moviebg": {{ .Params.moviebg | jsonify }},
-                "pg": {{ .Params.parentsguide | jsonify }}
+                "pg": {{ .Params.parentsguide | jsonify }},
+                "story": {{- .Params.story | jsonify -}},
+                "tags":[
+                    {{- range $index, $e := .Params.tags -}}
+                    {{- if $index -}}, {{- end -}}
+                    {{ $tag:= replace . " " "" }}
+                    {{ $tag | jsonify }}
+                    {{- end -}}
+                ]
             }
             {{- end -}}
         {{end}}

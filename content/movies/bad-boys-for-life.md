@@ -11,6 +11,7 @@ tags:
   - Action
   - Comedy
   - Crime
+boxoffices: "2020"
 story: " Miami detectives Mike Lowrey and Marcus Burnett must face off against a
   mother-and-son pair of drug lords who wreak vengeful havoc on their city. "
 arstory: فتية أشرار للأبد Bad Boys for Life يعود (بيرنت) – الذى أصبح مفتشا-
@@ -23,7 +24,7 @@ stars:
   - Will Smith
 imdbid: tt1502397
 parentsguide: 16
-moviecover: https://m.media-amazon.com/images/M/MV5BMWU0MGYwZWQtMzcwYS00NWVhLTlkZTAtYWVjOTYwZTBhZTBiXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg
+moviecover: https://m.media-amazon.com/images/M/MV5BMWU0MGYwZWQtMzcwYS00NWVhLTlkZTAtYWVjOTYwZTBhZTBiXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1012_.jpg
 moviebg: https://m.media-amazon.com/images/M/MV5BMjI3MTg0NGEtNTA0ZS00NThjLTlhYjItNzQxNzAxYjA4Yjk3XkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_SX1777_CR0,0,1777,999_AL_.jpg
 trailer: https://www.youtube.com/embed/jKCj3XuPG8M
 server1: https://e.dardarkom.online/mv/927356

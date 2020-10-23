@@ -11,6 +11,7 @@ rating: 4.8
 tags:
   - Comedy
   - Drama
+boxoffices: null
 story: Barely escaping an avalanche during a family ski vacation in the Alps, a
   married couple is thrown into disarray as they are forced to reevaluate their
   lives and how they feel about each other.

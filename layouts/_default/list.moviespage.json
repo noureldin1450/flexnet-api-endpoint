@@ -8,7 +8,8 @@
                 "rating": {{ .Params.rating | jsonify }},
                 "duration": {{ .Params.duration | jsonify }},
                 "slug": {{ replace .Permalink "index.json" "" | relURL | jsonify }},
-                "moviecover": {{ .Params.moviecover | jsonify }}
+                "moviecover": {{ .Params.moviecover | jsonify }},
+                "pg": {{ .Params.parentsguide | jsonify }}
             }
             {{- end -}}
         {{end}}

@@ -1,7 +1,7 @@
 {
     "latestmovies":[
         {{ with .Site.GetPage "/movies" }}
-            {{- range $index, $e := .Pages | first 40 -}}
+            {{- range $index, $e := .Pages | first 50 -}}
             {{ if $index }},{{end}}
             {
                 "date": {{ .Params.date.Format "2006-01-02" | jsonify }},
@@ -11,7 +11,8 @@
                 "slug": {{ replace .Permalink "index.json" "" | relURL | jsonify }},
                 "year": {{ .Params.year | jsonify }},
                 "moviecover": {{ .Params.moviecover | jsonify }},
-                "moviebg": {{ .Params.moviebg | jsonify }}
+                "moviebg": {{ .Params.moviebg | jsonify }},
+                "pg": {{ .Params.parentsguide | jsonify }}
             }
             {{- end -}}
         {{end}}
@@ -19,7 +20,7 @@
 
     "topmovies":[
         {{ with .Site.GetPage "/movies" }}
-            {{- range $index, $e := (.Pages.ByParam "rating").Reverse | first 20 | shuffle -}}
+            {{- range $index, $e := (.Pages.ByParam "rating").Reverse | first 1 | shuffle -}}
             {{ if $index }},{{end}}
             {
                 "date": {{ .Params.date.Format "2006-01-02" | jsonify }},

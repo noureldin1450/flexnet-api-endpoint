@@ -71,12 +71,15 @@
         "server6": {{ .Params.server6 | jsonify }},
         {{ end }}
     {{end}}
-        
-        
-{{- if .Params.story -}}
+    
+    {{- if .Params.story -}}
     "story": {{- .Params.story | jsonify -}},
-{{- end -}}
+    {{- end -}}
 
+    {{- if .Params.parentsguide -}}
+        "pg": {{ .Params.parentsguide | jsonify }},
+    {{- end -}}
+    
 {{ $related := .Site.RegularPages.Related . | first 5 }}
 
 {{ with $related }}

@@ -11,7 +11,7 @@ tags:
   - Action
   - Adventure
   - Comedy
-boxoffices: "2020"
+boxoffices: null
 story: After discovering a small, blue, fast hedgehog, a small-town police
   officer must help it defeat an evil genius who wants to do experiments on it.
 arstory: سونيك القنفذ Sonic the Hedgehog يقوم شرطي في بلدة جرين هيلز الريفية

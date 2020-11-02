@@ -11,7 +11,7 @@ rating: 6.3
 tags:
   - Action
   - Comedy
-boxoffices: "2020"
+boxoffices: null
 story: " While heavily drunk, an unsuccessful comic book writer draws a comic
   about his life as a former NIS hitman, and runs into trouble when it gets
   posted online. "

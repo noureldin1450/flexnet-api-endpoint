@@ -31,8 +31,8 @@ fushaarid: "32245"
 server2: https://vidlox.me/embed-5z6rbr1qhyes.html
 server3: https://uqload.com/embed-a3f4pon8p6y3.html
 servers:
-  - server: https://vidhd.net/embed-q8b3jyx05r7f .html
-  - server: https://vidbem.com/embed-g95x8768jqgy .html
+  - server: https://vidhd.net/embed-q8b3jyx05r7f.html
+  - server: https://vidbem.com/embed-g95x8768jqgy.html
   - server: https://mixdrop.co/e/gnj6kd77bd1we9
 server4: https://embed.mystream.to/faadajcnzckc
 duration: 1h 31min

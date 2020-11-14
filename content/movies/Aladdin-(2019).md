@@ -7,7 +7,6 @@ artitle: علاء الدين
 slug: Aladdin 2019
 year: "2019"
 duration: 2h 8min
-rating: "7.2"
 tags:
   - Fantasy
   - Adventure
@@ -26,10 +25,11 @@ imdbid: tt6139732
 parentsguide: 8
 moviecover: https://m.media-amazon.com/images/M/MV5BMjQ2ODIyMjY4MF5BMl5BanBnXkFtZTgwNzY4ODI2NzM@._V1_SY1000_CR0,0,674,1000_AL_.jpg
 moviebg: https://m.media-amazon.com/images/M/MV5BMjA0NDk4Mzc1Ml5BMl5BanBnXkFtZTgwNzQzMDA0NzM@._V1_SX1777_CR0,0,1777,999_AL_.jpg
-trailer: https://www.youtube.com/embed/-KmVvmL0ePc
+trailer: https://www.youtube.com/embed/UuOsl3u46H8
 fushaarid: "26033"
 server2: https://vidlox.me/embed-aoc36ygle4yb.html
 imdbId: tt6139732
+rating: "7.2"
 ---
 
 {{< movie url= "https://vidstream.to/embed/nQ8svoz77W/?vclid=93e312fb3c7feb55179c53482dbd53f06d72cfe7c17eec15d6dd1ea9gaaaQIDTmQapaQeNUzKbVGWTQhkgmTTbpbQaQpQaQfigaQapaQzBDPuzcTTQTNFUlaYHWaQaH">}}

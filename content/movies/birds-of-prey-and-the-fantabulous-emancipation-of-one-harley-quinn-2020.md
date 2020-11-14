@@ -11,7 +11,7 @@ tags:
   - Action
   - Adventure
   - Crime
-boxoffices: "2020"
+boxoffices: null
 story: After splitting with the Joker, Harley Quinn joins superheroes Black
   Canary, Huntress and Renee Montoya to save a young girl from an evil crime
   lord.
@@ -23,8 +23,10 @@ stars:
   - Rosie Perez
   - Margot Robbie
 imdbid: tt7713068
+parentsguide: 16
 moviecover: https://m.media-amazon.com/images/M/MV5BMzQ3NTQxMjItODBjYi00YzUzLWE1NzQtZTBlY2Y2NjZlNzkyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX500_.jpg
 moviebg: https://m.media-amazon.com/images/M/MV5BODdkYmZlMDYtZTZiYy00ZmRiLTg3YjQtYjBiZmQzMTMwMzgzXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1280_.jpg
+trailer: https://www.youtube.com/embed/D0MapbII0Bk
 server1: https://e.dardarkom.online/mv/228306
 fushaarid: "29663"
 server2: https://vidlox.me/embed-0opdaehyb89q.html
@@ -34,7 +36,5 @@ fushaarserver:
   q240: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/29663/29663-240p.mp4
   q480: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/29663/29663-480p.mp4
   q1080: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/29663/29663.mp4
-parentsguide: 16
-trailer: https://www.youtube.com/embed/D0MapbII0Bk
 server5: ""
 ---

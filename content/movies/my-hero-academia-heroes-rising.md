@@ -12,7 +12,7 @@ tags:
   - Animation
   - Action
   - Adventure
-boxoffices: "2020"
+boxoffices: null
 story: A superhero-loving boy without any powers is determined to enroll in a
   prestigious hero academy and learn what it really means to be a hero.
 arstory: "في قالب من اﻹثارة، يوافق كل من أول مايت وديكو على دعوة، موجهة إليهما

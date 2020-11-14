@@ -71,6 +71,39 @@
         "server6": {{ .Params.server6 | jsonify }},
         {{ end }}
     {{end}}
+
+    "servers":[
+        {{ if .Params.servers }}
+            {{ range $index, $e:= .Params.servers }}
+                {{ if $index }},{{ end }}
+                    {{ .server | jsonify }}
+                {{ end }}{{ if .Params.server2 }},{{end}}
+
+                {{ if .Params.server2 }}
+                    {{ .Params.server2 | jsonify }}
+                    {{ if .Params.server3 }},{{end}}
+                {{ end }}
+
+                {{ if .Params.server3 }}
+                    {{ .Params.server3 | jsonify }}
+                    {{ if .Params.server4 }},{{end}}
+                {{ end }}
+
+                {{ if .Params.server4 }}
+                    {{ .Params.server4 | jsonify }}
+                    {{ if .Params.server5 }},{{end}}
+                {{ end }}
+
+                {{ if .Params.server5 }}
+                    {{ .Params.server5 | jsonify }}
+                    {{ if .Params.server6 }},{{end}}
+                {{ end }}
+
+                {{ if  .Params.server6 }}
+                    {{ .Params.server6 | jsonify }}
+                {{ end }}
+        {{ end }}
+    ],
     
     {{- if .Params.story -}}
     "story": {{- .Params.story | jsonify -}},

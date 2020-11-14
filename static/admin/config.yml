@@ -263,12 +263,32 @@ collections:
       }
 
       - {
+          label: "Movie box office year",
+          name: "boxoffices",
+          widget: "select",
+          multiple: false,
+          options: [
+            "2020",
+            "2019",
+            "2018",
+            "2017",
+            "2016",
+            "2015",
+            "2014",
+            "2013",
+            "2012"
+          ],
+          required: false
+        }
+
+      - {
           label: "Movie Title",
           name: "title",
           widget: "string",
           hint: "Movie motherfucken Name",
           required: false
         }
+        
       - {
           label: "Arabic Movie Title",
           name: "artitle",
@@ -336,24 +356,6 @@ collections:
             "Crime",
             "Mystery",
             "War"
-          ],
-          required: false
-        }
-      - {
-          label: "Movie box office year",
-          name: "boxoffices",
-          widget: "select",
-          multiple: false,
-          options: [
-            "2020",
-            "2019",
-            "2018",
-            "2017",
-            "2016",
-            "2015",
-            "2014",
-            "2013",
-            "2012"
           ],
           required: false
         }
@@ -438,29 +440,36 @@ collections:
           required: false
         }
 
-      - {
-          label: "server 2",
-          name: "server2",
-          widget: "string",
-          required: false
-        }
-      - {
-          label: "server 3",
-          name: "server3",
-          widget: "string",
-          required: false
-        }
-      - {
-          label: "server 4",
-          name: "server4",
-          widget: "string",
-          required: false
-        }
-      - {
-          label: "server 5",
-          name: "server5",
-          widget: "string",
-          required: false
-        }
+      - label: "servers"
+        name: "servers"
+        required: false
+        widget: "list"
+        fields:
+          - { label: "server", name: "server", widget: string }
+
+      # - {
+      #     label: "server 2",
+      #     name: "server2",
+      #     widget: "string",
+      #     required: false
+      #   }
+      # - {
+      #     label: "server 3",
+      #     name: "server3",
+      #     widget: "string",
+      #     required: false
+      #   }
+      # - {
+      #     label: "server 4",
+      #     name: "server4",
+      #     widget: "string",
+      #     required: false
+      #   }
+      # - {
+      #     label: "server 5",
+      #     name: "server5",
+      #     widget: "string",
+      #     required: false
+      #   }
         
 

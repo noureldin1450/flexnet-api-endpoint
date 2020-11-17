@@ -7,7 +7,6 @@ artitle: ديدبول 2
 slug: Deadpool 2 2018
 year: "2018"
 duration: 1h 59min
-rating: "7.7"
 tags:
   - Action
   - Adventure
@@ -32,6 +31,8 @@ moviebg: https://m.media-amazon.com/images/M/MV5BNzNkNzA0OGYtYTIyMC00MzhjLWIwOTM
 trailer: https://www.youtube.com/embed/D86RtevtfrA
 fushaarid: "21126"
 imdbId: tt5463162
+rating: "7.7"
+vikv: true
 ---
 
 {{< movie url= "https://vidstream.to/embed/lQVKn2yW9l/?vclid=9e6027b6992c0f4232b084e4d02e2e212bb608025986ff242fec7a2cqeeeArRceAeOeAzhwMnzfKKAKjEiLeCbyeAOAeAYwKqAeOeAOvbPxgNUhBiuKYjfVAiLOeAeb">}}

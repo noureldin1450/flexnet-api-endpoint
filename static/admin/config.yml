@@ -434,9 +434,17 @@ collections:
 
         
       - {
-          label: "fushaarid",
+          label: "fushaar ID",
           name: "fushaarid",
           widget: "string",
+          required: false
+        }
+
+      - {
+          label: "vikv source",
+          name: "vikv",
+          widget: "boolean",
+          default: false,
           required: false
         }
 

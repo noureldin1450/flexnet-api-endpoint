@@ -1,20 +1,36 @@
-+++
-date = 2020-05-23T07:00:00Z
-duration = "1h 33min"
-imdbid = "tt3152592"
-moviecover = "https://m.media-amazon.com/images/M/MV5BNTM5YWZiMzQtNDQxZS00ODI0LWJjNTQtZmQ3OWU3Njg4NWYyXkEyXkFqcGdeQXVyNzc4NTU3Njg@._V1_UX182_CR0,0,182,268_AL_.jpg"
-rating = "5.9"
-server1 = "https://e.dardarkom.online/mv/143993"
-server2 = ""
-server3 = ""
-server4 = ""
-server5 = ""
-slug = "Scoob 2020"
-stars = ["Jason Isaacs ", "Mark Wahlberg", "Will Forte"]
-story = " Scooby and the gang face their most challenging mystery ever: a plot to unleash the ghost dog Cerberus upon the world. As they race to stop this dogpocalypse, the gang discovers that Scooby has an epic destiny greater than anyone imagined. "
-tags = ["Animation", "Adventure", "Comedy"]
-title = "Scoob!"
-trailer = "https://www.youtube.com/embed/vf1aW1z437I"
-year = "2020"
-moviebg = "https://m.media-amazon.com/images/M/MV5BYzRmYjlmYjgtODdjYy00MTJlLTg2YzYtNDNiNjFkZGRlMDdjXkEyXkFqcGdeQXVyNTY3MDQzNTk@._V1_.jpg"
-+++
+---
+date: 2020-05-23T07:00:00.000Z
+artitle: سكوب
+slug: Scoob 2020
+arstory: يحاول سكوبي وزملائه حل اللغز الأصعب على الإطلاق، حينما يتعين عليهم
+  إيقاف شبح الكلب سيربرس من غزو العالم، ولكن في هذه المغامرة سيكتشف الفريق أن
+  سكوبي لديه مستقبل مشرق عن ما كانوا يتوقعوا في سكوب !Scoob
+stars:
+  - "Jason Isaacs "
+  - Mark Wahlberg
+  - Will Forte
+moviecover: https://m.media-amazon.com/images/M/MV5BNTM5YWZiMzQtNDQxZS00ODI0LWJjNTQtZmQ3OWU3Njg4NWYyXkEyXkFqcGdeQXVyNzc4NTU3Njg@._V1_UX182_CR0,0,182,268_AL_.jpg
+server1: https://e.dardarkom.online/mv/143993
+fushaarid: "31214"
+server2: ""
+server3: ""
+server4: ""
+server5: ""
+groups: movie
+title: Scoob!
+year: "2020"
+duration: 1h 33min
+rating: "5.9"
+tags:
+  - Animation
+  - Adventure
+  - Comedy
+story: " Scooby and the gang face their most challenging mystery ever: a plot to
+  unleash the ghost dog Cerberus upon the world. As they race to stop this
+  dogpocalypse, the gang discovers that Scooby has an epic destiny greater than
+  anyone imagined. "
+imdbid: tt3152592
+parentsguide: 8
+moviebg: https://m.media-amazon.com/images/M/MV5BYzRmYjlmYjgtODdjYy00MTJlLTg2YzYtNDNiNjFkZGRlMDdjXkEyXkFqcGdeQXVyNTY3MDQzNTk@._V1_.jpg
+trailer: https://www.youtube.com/embed/vf1aW1z437I
+---

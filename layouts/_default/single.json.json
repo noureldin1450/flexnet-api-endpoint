@@ -51,25 +51,6 @@
         {{ if .Params.fushaarid }}
         "fushaarid": {{ .Params.fushaarid | jsonify }},
         {{end}}
-        {{ if .Params.server2 }}
-        "server2": {{ .Params.server2 | jsonify }},
-        {{ end }}
-
-        {{ if .Params.server3 }}
-        "server3": {{ .Params.server3 | jsonify }},
-        {{ end }}
-
-        {{ if .Params.server4 }}
-        "server4": {{ .Params.server4 | jsonify }},
-        {{ end }}
-
-        {{ if .Params.server5 }}
-        "server5": {{ .Params.server5 | jsonify }},
-        {{ end }}
-
-        {{ if .Params.server6 }}
-        "server6": {{ .Params.server6 | jsonify }},
-        {{ end }}
     {{end}}
 
     "servers":[

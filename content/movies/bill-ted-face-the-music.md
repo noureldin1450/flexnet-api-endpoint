@@ -30,6 +30,7 @@ moviebg: https://m.media-amazon.com/images/M/MV5BMjBkN2M4MTItYThkNC00MWMxLTgyNjQ
 fushaarid: "32245"
 server2: https://vidlox.me/embed-5z6rbr1qhyes.html
 server3: https://uqload.com/embed-a3f4pon8p6y3.html
+vikv: true
 servers:
   - server: https://vidhd.net/embed-q8b3jyx05r7f.html
   - server: https://vidbem.com/embed-g95x8768jqgy.html

@@ -440,14 +440,6 @@ collections:
           required: false
         }
 
-      - {
-          label: "vikv source",
-          name: "vikv",
-          widget: "boolean",
-          default: false,
-          required: false
-        }
-
       - label: "servers"
         name: "servers"
         required: false

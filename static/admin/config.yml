@@ -355,6 +355,7 @@ collections:
             "Reality-TV",
             "Crime",
             "Mystery",
+            "Documentary",
             "War"
           ],
           required: false

@@ -36,6 +36,7 @@
                 "rating": {{ .Params.rating | jsonify }},
                 "duration": {{ .Params.duration | jsonify }},
                 "slug": {{ replace .Permalink "index.json" "" | relURL | jsonify }},
+                "year": {{ .Params.parentsguide | jsonify }},
                 "year": {{ .Params.year | jsonify }},
                 "moviecover": {{ .Params.moviecover | jsonify }},
                 "moviebg": {{ .Params.moviebg | jsonify }},

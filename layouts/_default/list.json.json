@@ -40,6 +40,7 @@
             {{ $url:= replace $url " " "-" }}
 
             "slug": {{ $url | jsonify }},
+            "pg": {{ .Params.parentsguide | jsonify }},
             "duration": {{ .Params.duration | jsonify }},
             {{ if .Params.moviebg }}
             "moviebg": {{ .Params.moviebg | jsonify }},

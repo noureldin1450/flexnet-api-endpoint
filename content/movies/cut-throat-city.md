@@ -29,8 +29,5 @@ moviebg: https://m.media-amazon.com/images/M/MV5BYzc1YTYxMjYtNmVjMS00MTBhLTg2OGU
 trailer: https://www.youtube.com/embed/87r31Z_d4LQ
 fushaarid: "24785"
 servers:
-  - server: https://go.vidfast.co/embed-qpolymebm4pa.html
-  - server: https://vidlox.me/embed-w9fjds74gjyc.html
   - server: https://uqload.com/embed-dox6fidc4bmh.html
-  - server: https://embed.mystream.to/lhn2x1kxwo0v
 ---

@@ -7,7 +7,6 @@ artitle: "جودزيلا: ملك الوحوش"
 slug: Godzilla King of the Monsters 2019
 year: "2019"
 duration: 2h 12min
-rating: "6.2"
 tags:
   - Action
   - Adventure
@@ -25,11 +24,12 @@ stars:
   - Millie Bobby Brown
 imdbid: tt3741700
 parentsguide: 13
-moviecover: https://m.media-amazon.com/images/M/MV5BOGFjYWNkMTMtMTg1ZC00Y2I4LTg0ZTYtN2ZlMzI4MGQwNzg4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg
+moviecover: https://m.media-amazon.com/images/M/MV5BOGFjYWNkMTMtMTg1ZC00Y2I4LTg0ZTYtN2ZlMzI4MGQwNzg4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UY863_.jpg
 moviebg: https://m.media-amazon.com/images/M/MV5BMTAyODU5NjA0MTJeQTJeQWpwZ15BbWU4MDA2OTM2OTUz._V1_SX1777_CR0,0,1777,803_AL_.jpg
 trailer: https://www.youtube.com/embed/6prr2MIHE0Q
 fushaarid: "26082"
 imdbId: tt3741700
+rating: "6.2"
 ---
 
 {{< movie url= "https://vidstream.to/embed/5b1EzFBTdQ/?vclid=6ca2a17cf6723542f09af873d188a27bb41af94f877a4a5b2b7ee75dcFFFoztjCoFmFonUjIpAVqjpmjKgbUjppFpqomoFoUdgFoFmFonMtxAnQjjojSNuRFeHiFomoFodOTFoFmFoRdOntUFjZppFoFH">}}

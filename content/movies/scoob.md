@@ -9,7 +9,7 @@ stars:
   - "Jason Isaacs "
   - Mark Wahlberg
   - Will Forte
-moviecover: https://m.media-amazon.com/images/M/MV5BNTM5YWZiMzQtNDQxZS00ODI0LWJjNTQtZmQ3OWU3Njg4NWYyXkEyXkFqcGdeQXVyNzc4NTU3Njg@._V1_UX182_CR0,0,182,268_AL_.jpg
+moviecover: https://m.media-amazon.com/images/M/MV5BZDNmMzA0OTAtOWVlNy00MTMzLTgxYzctNDgzMmU2OTlhNmQ5XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1013_.jpg
 server1: https://e.dardarkom.online/mv/143993
 fushaarid: "31214"
 server2: ""

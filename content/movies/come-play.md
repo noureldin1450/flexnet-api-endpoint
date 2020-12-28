@@ -2,7 +2,7 @@
 date: 2020-11-20
 groups: movie
 draft: false
-boxoffices: "2020"
+boxoffices: null
 title: Come Play
 artitle: تعال نلعب
 slug: Come Play 2020

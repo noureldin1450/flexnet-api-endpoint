@@ -26,7 +26,7 @@ stars:
   - Morena Baccarin
 imdbid: tt5463162
 parentsguide: 16
-moviecover: https://m.media-amazon.com/images/M/MV5BNjk1Njk3YjctMmMyYS00Y2I4LThhMzktN2U0MTMyZTFlYWQ5XkEyXkFqcGdeQXVyODM2ODEzMDA@._V1_UY268_CR43,0,182,268_AL_.jpg
+moviecover: https://m.media-amazon.com/images/M/MV5BNjk1Njk3YjctMmMyYS00Y2I4LThhMzktN2U0MTMyZTFlYWQ5XkEyXkFqcGdeQXVyODM2ODEzMDA@._V1_FMjpg_UX800_.jpg
 moviebg: https://m.media-amazon.com/images/M/MV5BNzNkNzA0OGYtYTIyMC00MzhjLWIwOTMtMmYyNDk1YjYzZmI5XkEyXkFqcGdeQXVyNjQ5ODc5MjY@._V1_.jpg
 trailer: https://www.youtube.com/embed/D86RtevtfrA
 fushaarid: "21126"

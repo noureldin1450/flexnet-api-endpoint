@@ -5,7 +5,6 @@ title: "World War Z "
 artitle: الحرب العالمية Z
 slug: World War Z 2013
 year: "2013"
-duration: 1h 56min
 rating: "7.0"
 tags:
   - Action
@@ -21,18 +20,19 @@ stars:
   - Mireille Enos
   - Brad Pitt
 imdbid: tt0816711
-parentsguide: 13
-moviecover: https://m.media-amazon.com/images/M/MV5BNDQ4YzFmNzktMmM5ZC00MDZjLTk1OTktNDE2ODE4YjM2MjJjXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UX182_CR0,0,182,268_AL_.jpg
+moviecover: https://m.media-amazon.com/images/M/MV5BNDQ4YzFmNzktMmM5ZC00MDZjLTk1OTktNDE2ODE4YjM2MjJjXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX832_.jpg
 moviebg: https://m.media-amazon.com/images/M/MV5BNzg5OWNiNjMtNzE0YS00YmRkLWI2M2MtYTlhZjZlMTU2NjI4XkEyXkFqcGdeQXVyOTc5MDI5NjE@._V1_SX1777_CR0,0,1777,618_AL_.jpg
-trailer: https://www.youtube.com/embed/Md6Dvxdr0AQ
 server1: https://w.dardarkom.online/mv/544837
 fushaarid: "2003"
+server2: ""
+server3: ""
+server4: ""
 fushaarserver:
   q240: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/2003/2003-240p.mp4
   q480: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/2003/2003-480p.mp4
   q1080: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/2003/2003.mp4
-server2: ""
-server3: ""
-server4: ""
 server5: ""
+duration: 1h 56min
+parentsguide: 13
+trailer: https://www.youtube.com/embed/Md6Dvxdr0AQ
 ---

@@ -2,6 +2,7 @@
 date: 2020-11-01
 groups: movie
 draft: false
+boxoffices: null
 title: American Ultra
 artitle: المتطرف الأمريكي
 slug: American Ultra 2015
@@ -11,7 +12,6 @@ rating: 6.1
 tags:
   - Action
   - Comedy
-boxoffices: "2020"
 story: A stoner - who is in fact a government agent - is marked as a liability
   and targeted for extermination. But he's too well-trained and too high for
   them to handle.

@@ -2,7 +2,7 @@
 date: 2020-12-08
 groups: movie
 draft: false
-boxoffices: "2020"
+boxoffices: null
 title: Lingering
 artitle: فندق البحيرة
 slug: Lingering 2020

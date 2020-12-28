@@ -7,7 +7,6 @@ artitle: حياة والتر ميتي السرية
 slug: The Secret Life of Walter Mitty 2013
 year: "2013"
 duration: 1h 54min
-rating: "7.3"
 tags:
   - Comedy
   - Drama
@@ -24,11 +23,12 @@ stars:
   - Kristen Wiig
   - Jon Daly
 imdbid: tt0359950
-moviecover: https://m.media-amazon.com/images/M/MV5BODYwNDYxNDk1Nl5BMl5BanBnXkFtZTgwOTAwMTk2MDE@._V1_UX182_CR0,0,182,268_AL_.jpg
+moviecover: https://m.media-amazon.com/images/M/MV5BODYwNDYxNDk1Nl5BMl5BanBnXkFtZTgwOTAwMTk2MDE@._V1_FMjpg_UY863_.jpg
 moviebg: https://m.media-amazon.com/images/M/MV5BZDM1ZDI5NmUtMDJmZi00NzE1LTg4NjMtMDE2ZjExMzA1MmFmXkEyXkFqcGdeQXVyOTc5MDI5NjE@._V1_.jpg
 trailer: https://www.youtube.com/embed/QD6cy4PBQPI
 fushaarid: "2931"
 imdbId: tt0359950
+rating: "7.3"
 ---
 
 {{< movie url= "https://vidstream.to/embed/ooWtsjxL3v/?vclid=1043701acac1d6456b4b56fea5b9c18d8bf94529ee57b6c5209bbdbdKRRRzUlmRzRVRzQEscXQbMMzMehYCRKiaRzVzRzqsMTzRVRzMVMNaPcbFEplyySsqaPPRzVzRzlxBRzRVRzZmCEsPRzRi">}}

@@ -12,7 +12,7 @@ stars:
   - Kaya Scodelario
   - Barry Pepper
   - Morfydd Clark
-moviecover: https://m.media-amazon.com/images/M/MV5BZGE4N2YzNzEtNTdmYy00ZjhkLTgyYWQtOGM4OTQ0ZGEzZGU5XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UX182_CR0,0,182,268_AL_.jpg
+moviecover: https://m.media-amazon.com/images/M/MV5BNTk4MTliYzgtOGI2Ni00N2I5LTg4MjktZTkzZTE0MWVjNGEyXkEyXkFqcGdeQXVyMTA3MTA4Mzgw._V1_FMjpg_UX800_.jpg
 fushaarid: "26545"
 server2: https://vidlox.me/embed-a47a48vqg52y.html
 groups: movie

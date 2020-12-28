@@ -21,7 +21,7 @@ stars:
   - Ruby Modine
 imdbid: tt5308322
 parentsguide: 13
-moviecover: https://m.media-amazon.com/images/M/MV5BYzZhY2E5NzQtMWVmNC00YmEzLTgxZDMtNjE2YmQ4ZTZiZGZjXkEyXkFqcGdeQXVyODQxMTI4MjM@._V1_FMjpg_UY808_.jpg
+moviecover: https://m.media-amazon.com/images/M/MV5BMjI0MDMzNTQ0M15BMl5BanBnXkFtZTgwMTM5NzM3NDM@._V1_FMjpg_UY863_.jpg
 moviebg: https://m.media-amazon.com/images/M/MV5BNWJhZTJmZTctODZmZC00ZDY5LWIzNWItN2YwMDk0OGE1ZTYxXkEyXkFqcGdeQXVyMjI3NzE4MTM@._V1_SX1777_CR0,0,1777,888_AL_.jpg
 trailer: https://www.youtube.com/embed/wiPD9X43knU
 fushaarid: "18034"

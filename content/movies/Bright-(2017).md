@@ -7,7 +7,6 @@ artitle: ساطع
 slug: Bright 2017
 year: "2017"
 duration: 1h 57min
-rating: "6.4"
 tags:
   - Action
   - Crime
@@ -27,11 +26,12 @@ stars:
   - Noomi Rapace
 imdbid: tt5519340
 parentsguide: 16
-moviecover: https://m.media-amazon.com/images/M/MV5BMTcyNzk5NDg1Nl5BMl5BanBnXkFtZTgwNTM5MDQxNDM@._V1_UX182_CR0,0,182,268_AL_.jpg
+moviecover: https://m.media-amazon.com/images/M/MV5BMTcyNzk5NDg1Nl5BMl5BanBnXkFtZTgwNTM5MDQxNDM@._V1_FMjpg_UY863_.jpg
 moviebg: https://m.media-amazon.com/images/M/MV5BOTI0ZTY1ODAtNmQxMC00ODZmLThmNGMtYTgyYzYwNDMyZWNkXkEyXkFqcGdeQXVyMzgzMjU4NjM@._V1_SY1000_CR0,0,1500,1000_AL_.jpg
 trailer: https://www.youtube.com/embed/6EZCBSsBxko
 fushaarid: "18860"
 imdbId: tt5519340
+rating: "6.4"
 ---
 
 {{< movie url= "https://vidstream.to/embed/0FAINW3MPJ/?vclid=5434309e5b36b4cda95ca0bfd9181beccdad010ba83def5b5f49074diyyyeUauyeyoyeQljqDQiRReRYhTPyWXVyeoeyeafNyeyoyeUfBauRvyRgvFeoeyedjRreyoyeRySThjRvXEVYbswlIyMvyyeyX">}}

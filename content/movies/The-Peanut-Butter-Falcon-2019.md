@@ -7,7 +7,6 @@ artitle: زبدة الفول السوداني المخففة
 slug: The Peanut Butter Falcon 2019
 year: "2019"
 duration: 1h 37min
-rating: "7.9"
 tags:
   - Comedy
   - Adventure
@@ -27,11 +26,12 @@ stars:
   - Zack Gottsagen
 imdbid: tt4364194
 parentsguide: 12
-moviecover: https://m.media-amazon.com/images/M/MV5BOWVmZGQ0MGYtMDI1Yy00MDkxLWJiYjQtMmZjZmQ0NDFmMDRhXkEyXkFqcGdeQXVyNjg3MDMxNzU@._V1_UX182_CR0,0,182,268_AL_.jpg
+moviecover: https://m.media-amazon.com/images/M/MV5BOWVmZGQ0MGYtMDI1Yy00MDkxLWJiYjQtMmZjZmQ0NDFmMDRhXkEyXkFqcGdeQXVyNjg3MDMxNzU@._V1_FMjpg_UY864_.jpg
 moviebg: https://m.media-amazon.com/images/M/MV5BMDllOGFiYTAtZWVkNy00YzgwLWIwMmEtYWUyYzUyZjk4ODkwXkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_.jpg
 trailer: https://www.youtube.com/embed/ACze83fG4wM
 fushaarid: "28434"
 imdbId: tt4364194
+rating: "7.9"
 ---
 
 {{< movie url= "https://vidstream.to/embed/d0SrSnkO0d/?vclid=fd8869b47d8a23b5f0ac53053fe5c4325f1bbb78417918d346fb278acFFFoztjCoFmFopHiqQEztSnuRmjFpmrGpComoFoUdgFoFmFonMtxAnQjjojSNuRFeHiFomoFodOTFoFmFoearjUNAjZpGoFH">}}

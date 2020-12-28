@@ -1,6 +1,7 @@
 ---
 date: 2020-03-17T15:21:00.000Z
 groups: movie
+boxoffices: null
 title: "Jojo Rabbit "
 artitle: جوجو اﻷرنب
 slug: Jojo Rabbit 2019
@@ -11,7 +12,6 @@ tags:
   - Comedy
   - Drama
   - War
-boxoffices: "2020"
 story: " A young boy in Hitler's army finds out his mother is hiding a Jewish
   girl in their home. "
 arstory: جوجو اﻷرنب Jojo Rabbit تدور أحداث الفيلم حول الحرب العالمية الثانية،
@@ -33,7 +33,7 @@ fushaarserver:
   q240: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/28053/28053-240p.mp4
   q480: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/28053/28053-480p.mp4
   q1080: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/28053/28053.mp4
+server5: ""
 parentsguide: 12
 trailer: https://www.youtube.com/embed/TxJt02r91L4
-server5: ""
 ---

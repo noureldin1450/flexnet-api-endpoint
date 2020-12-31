@@ -1,7 +1,7 @@
 ---
-date: 2020-06-08T14:11:48.000Z
+date: 2020-12-30
 groups: movie
-draft: true
+draft: false
 title: The Call of the Wild
 artitle: نداء البرية
 slug: The Call of the Wild 2020
@@ -21,10 +21,8 @@ stars:
   - Omar Sy
   - " Harrison Ford"
 imdbid: tt7504726
-parentsguide: 12
 moviecover: https://m.media-amazon.com/images/M/MV5BZDA1ZmQ2OGMtZDhkMC00ZjRkLWE3ZTMtMzA5ZTk0YjM1OGRmXkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_SY1000_SX675_AL_.jpg
 moviebg: https://m.media-amazon.com/images/M/MV5BMzE0OWMyOTQtYTczNC00MDhhLTg0YmMtOTdhOTBlOTg1Nzc5XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX1777_CR0,0,1777,744_AL_.jpg
-trailer: https://www.youtube.com/embed/5P8R2zAhEwg
 server1: https://e.dardarkom.online/mv/692308
 fushaarid: "29867"
 server2: https://vidlox.me/embed-3wxcxnsf8nb0.html
@@ -35,4 +33,6 @@ fushaarserver:
   q480: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/29867/29867-480p.mp4
   q1080: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/29867/29867.mp4
 server5: ""
+parentsguide: 12
+trailer: https://www.youtube.com/embed/5P8R2zAhEwg
 ---

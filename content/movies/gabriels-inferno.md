@@ -1,7 +1,7 @@
 ---
-date: 2020-06-21
+date: 2020-12-30
 groups: movie
-draft: true
+draft: false
 title: "Gabriel's Inferno "
 slug: Gabriels Inferno 2020
 year: "2020"
@@ -17,9 +17,10 @@ stars:
   - Melanie Zanetti
   - Giulio Berruti
   - James Andrew Fraser
-moviecover: https://m.media-amazon.com/images/M/MV5BZTEwZDYwZDgtOWFiNi00YThhLTk4MjMtNDg4ZmJjYTU0M2RiXkEyXkFqcGdeQXVyMTA4ODQyNDYx._V1_SY1000_CR0,0,665,1000_AL_.jpg
+imdbid: tt11316854
+parentsguide: 18
+moviecover: https://m.media-amazon.com/images/M/MV5BZTEwZDYwZDgtOWFiNi00YThhLTk4MjMtNDg4ZmJjYTU0M2RiXkEyXkFqcGdeQXVyMTA4ODQyNDYx._V1_FMjpg_UY852_.jpg
 moviebg: https://m.media-amazon.com/images/M/MV5BZGVhZGUyM2EtZjU5ZS00MjIwLWI4MWQtMzM5NjRjMzcyYTcwXkEyXkFqcGdeQXVyMTA4ODQyNDYx._V1_.jpg
 trailer: https://www.youtube.com/embed/x-BDyQuBO3I
 server1: https://e.dardarkom.online/mv/645690
-imdbid: tt11316854
 ---

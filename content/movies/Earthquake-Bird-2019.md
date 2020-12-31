@@ -1,11 +1,11 @@
 ---
-date: 2019-11-15
-draft: true
+date: 2020-12-30
+groups: movie
+draft: false
 title: Earthquake Bird
 slug: Earthquake Bird 2019
 year: "2019"
 duration: 1h 47min
-rating: "6.0"
 tags:
   - Mystery
   - Drama
@@ -17,9 +17,13 @@ stars:
   - Alicia Vikander
   - Riley Keough
   - Kiki Sukezane
-moviecover: https://m.media-amazon.com/images/M/MV5BZDA2NjRkNTktMDg3YS00OTVhLTlmOGMtYWZkMGQyYjVhZjJhXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UX182_CR0,0,182,268_AL_.jpg
+imdbid: tt8178486
+parentsguide: 18
+moviecover: https://m.media-amazon.com/images/M/MV5BZDA2NjRkNTktMDg3YS00OTVhLTlmOGMtYWZkMGQyYjVhZjJhXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UY864_.jpg
+moviebg: https://m.media-amazon.com/images/M/MV5BMjg0MDcxNDktODM1Ny00OTc3LTk4NmQtYmU4MmVlZWQ4OGM3XkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_FMjpg_UX830_.jpg
 trailer: https://www.youtube.com/embed/Xspm2JLi7Hk
 imdbId: tt8178486
+rating: "6.0"
 ---
 
 {{< movie url= "https://vidstream.to/embed/q1UdzU0Pjw/?vclid=81ed069b38fae309b99fba9f3a21586ada866a44500d096b3de85f6cbBBBTIzLBTBwBTYtxMfkYnzEBTwTBTKIdBTBwBTnxgMvnZYYTYlGoeBmpEBTwTBTUgYWTBwBTloIpqvYxEYBFEoMYUYptewBTBp">}}

@@ -2,7 +2,7 @@
 date: 2020-11-20
 groups: movie
 draft: false
-boxoffices: "2020"
+boxoffices: null
 title: "The SpongeBob Movie: Sponge on the Run"
 artitle: "سبونج بوب: الهروب"
 slug: The SpongeBob Movie Sponge on the Run 2020

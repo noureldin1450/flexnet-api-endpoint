@@ -1,12 +1,11 @@
 ---
-date: 2019-04-05
+date: 2020-12-30
 groups: movie
-draft: true
+draft: false
 title: Shazam!
 slug: Shazam 2019
 year: "2019"
 duration: 2h 12min
-rating: "7.1"
 tags:
   - Action
   - Adventure
@@ -19,9 +18,13 @@ stars:
   - Zachary Levi
   - Mark Strong
   - Asher Angel
-moviecover: https://m.media-amazon.com/images/M/MV5BYTE0Yjc1NzUtMjFjMC00Y2I3LTg3NGYtNGRlMGJhYThjMTJmXkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_UX182_CR0,0,182,268_AL_.jpg
+imdbid: tt0448115
+parentsguide: 13
+moviecover: https://m.media-amazon.com/images/M/MV5BOWZhZjE4NGQtODg5Ni00MjQ1LWJmMzAtNzQ2N2M1NzYzMDJkXkEyXkFqcGdeQXVyMjMwNDgzNjc@._V1_FMjpg_UX970_.jpg
+moviebg: https://m.media-amazon.com/images/M/MV5BMTdiZjUwZjAtMDRlNi00N2E1LWFkMDQtNTkyMDQ2YjA2MGMyXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_FMjpg_UX1280_.jpg
 trailer: https://www.youtube.com/embed/go6GEIrcvFY
 imdbId: tt0448115
+rating: "7.1"
 ---
 
 {{< movie url= "https://vidstream.to/embed/oFfQqKHY04/?vclid=a151d1a3dd33f4d7de9b85e0aba8661cd8c92a5af42fc25ff5fac559UiiiIDYTLIihiIhAbGFkSuzqdyTDCnVIdRhiIhIiIMZQiIihiIWzYrBWnTTITCKdRiXbjiIib">}}

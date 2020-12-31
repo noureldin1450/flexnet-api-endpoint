@@ -2,7 +2,7 @@
 date: 2020-12-30
 groups: movie
 draft: false
-title: "Gabriel's Inferno "
+title: Gabriel's Inferno
 slug: Gabriels Inferno 2020
 year: "2020"
 duration: 2h 2min

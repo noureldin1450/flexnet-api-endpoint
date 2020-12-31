@@ -1,13 +1,12 @@
 ---
 date: 2000-05-05
 groups: movie
-draft: true
+draft: false
 title: Gladiator
 artitle: مجالد
 slug: Gladiator 2000
 year: "2000"
 duration: 2h 35min
-rating: "8.5"
 tags:
   - Action
   - Adventure
@@ -20,11 +19,13 @@ stars:
   - Russell Crowe
   - Joaquin Phoenix
   - Connie Nielsen
-imdbId: tt0172495
-parentsguide: R
-moviecover: https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,675,1000_AL_.jpg
-moviebg: https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,675,1000_AL_.jpg
+imdbid: tt0172495
+parentsguide: 18
+moviecover: https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UY864_.jpg
+moviebg: https://m.media-amazon.com/images/M/MV5BMjExOTEyNDgxOV5BMl5BanBnXkFtZTcwMDU0NjcxNA@@._V1_FMjpg_UX1280_.jpg
 trailer: https://www.youtube.com/embed/uvbavW31adA
+imdbId: tt0172495
+rating: "8.5"
 ---
 
 {{< movie url= "https://vidstream.to/embed/lrFTWYiF1o/?vclid=a8dc82e55032dc386e5aa703fec8bffdd4f073b261919cc6c25da0d8YhhheCKduehQhemrdhSRDLCuLDDfMWmODWeQeheGlEhehQheSTSuSNxMddedkiZfhROFQhehY">}}

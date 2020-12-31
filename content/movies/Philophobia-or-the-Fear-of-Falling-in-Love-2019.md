@@ -20,7 +20,7 @@ imdbid: tt7003976
 parentsguide: 18
 moviecover: https://m.media-amazon.com/images/M/MV5BOTg3YTMyOGUtNzI4Yi00YTY2LWJmZTAtNzQzMGZlMzYxODBhXkEyXkFqcGdeQXVyMzQxODUyODI@._V1_FMjpg_UX1013_.jpg
 moviebg: https://m.media-amazon.com/images/M/MV5BZTlhNDI1YWUtMDRjYy00MjEwLWFkZjQtYzczM2Q1MGM0NGU0XkEyXkFqcGdeQXVyMzQxODUyODI@._V1_FMjpg_UX1280_.jpg
-trailer: https://www.youtube.com/embed/z9Gdfu8wO4U
+trailer: https://www.youtube.com/embed/JXME8kraBFg
 imdbId: tt7003976
 rating: "6.2"
 ---

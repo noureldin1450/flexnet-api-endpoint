@@ -2,7 +2,7 @@
 date: 2020-11-20
 groups: movie
 draft: false
-boxoffices: "2020"
+boxoffices: null
 title: Love and Monsters
 artitle: الحب والوحوش
 slug: Love and Monsters 2020

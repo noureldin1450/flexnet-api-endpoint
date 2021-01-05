@@ -5,7 +5,6 @@ title: Zombieland
 slug: Zombieland 2009
 year: "2009"
 duration: "1h 28min "
-rating: "7.6"
 tags:
   - Horror
   - Adventure
@@ -22,9 +21,10 @@ stars:
   - Woody Harrelson
 imdbid: tt1156398
 parentsguide: 16
-moviecover: https://m.media-amazon.com/images/M/MV5BMTU5MDg0NTQ1N15BMl5BanBnXkFtZTcwMjA4Mjg3Mg@@._V1_UY268_CR5,0,182,268_AL_.jpg
+moviecover: https://m.media-amazon.com/images/M/MV5BMTU5MDg0NTQ1N15BMl5BanBnXkFtZTcwMjA4Mjg3Mg@@._V1_FMjpg_UX1045_.jpg
 moviebg: https://m.media-amazon.com/images/M/MV5BYWE5NDc3MTYtOGZjOS00MjQxLWIzZWItYzkzZjFiNmVjMjhkXkEyXkFqcGdeQXVyNzgxMzc3OTc@._V1_SX1777_CR0,0,1777,740_AL_.jpg
 trailer: https://www.youtube.com/embed/Fjq4uVvSw1g
 fushaarid: "2864"
 imdbId: tt1156398
+rating: "7.6"
 ---

@@ -1,11 +1,11 @@
 ---
 date: 2019-08-30
-draft: true
+groups: movie
+draft: false
 title: Don't Let Go
 slug: Dont Let Go 2019
 year: "2019"
 duration: 1h 43min
-rating: "5.8"
 tags:
   - Mystery
   - Horror
@@ -17,9 +17,13 @@ stars:
   - Alfred Molina
   - Storm Reid
   - David Oyelowo
-moviecover: https://m.media-amazon.com/images/M/MV5BZjI5N2FkMDQtYjk4Ni00N2U5LTlkZGQtMzY5ZTcwNTdjZWUyXkEyXkFqcGdeQXVyNjg3MDMxNzU@._V1_UX182_CR0,0,182,268_AL_.jpg
+imdbid: tt6803212
+parentsguide: 18
+moviecover: https://m.media-amazon.com/images/M/MV5BZjI5N2FkMDQtYjk4Ni00N2U5LTlkZGQtMzY5ZTcwNTdjZWUyXkEyXkFqcGdeQXVyNjg3MDMxNzU@._V1_FMjpg_UY819_.jpg
+moviebg: https://m.media-amazon.com/images/M/MV5BNTEzYzJlOTAtZWQ4ZC00NDhkLTk5NmItZDI2OWVhMTU0YjczXkEyXkFqcGdeQXVyMTk5MjkzMjU@._V1_FMjpg_UX1280_.jpg
 trailer: https://www.youtube.com/embed/TUrSZLuGfEA
 imdbId: tt6803212
+rating: "5.8"
 ---
 
 {{< movie url= "https://vidstream.to/embed/XBbW68mG7H/?vclid=874fe3dca9f7fe3714116b3f9d5d8616cd144e205e7bdb96abcbfb54HyyybMAKybyuybOWSRCQOOFCuMBObybubybNMhybyuybYSmRVYdOObOfDwzyotrybubybXmOUbyuybOMbizeLBBPqQwmbnqWbybyt">}}

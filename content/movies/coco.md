@@ -2,6 +2,7 @@
 date: 2020-11-01
 groups: movie
 draft: false
+boxoffices: null
 title: Coco
 artitle: كوكو
 slug: Coco 2017
@@ -12,7 +13,6 @@ tags:
   - Animation
   - Adventure
   - Family
-boxoffices: "2020"
 story: "Aspiring musician Miguel, confronted with his family's ancestral ban on
   music, enters the Land of the Dead to find his great-great-grandfather, a
   legendary singer. "

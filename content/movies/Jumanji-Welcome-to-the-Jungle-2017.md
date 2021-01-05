@@ -7,7 +7,6 @@ artitle: "جومانجي: مرحبًا بكم في الأدغال"
 slug: Jumanji Welcome to the Jungle 2017
 year: "2017"
 duration: 1h 59min
-rating: "6.9"
 tags:
   - Action
   - Adventure
@@ -25,11 +24,12 @@ stars:
   - Kevin Hart
 imdbid: tt2283362
 parentsguide: 13
-moviecover: https://m.media-amazon.com/images/M/MV5BODQ0NDhjYWItYTMxZi00NTk2LWIzNDEtOWZiYWYxZjc2MTgxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg
+moviecover: https://m.media-amazon.com/images/M/MV5BODQ0NDhjYWItYTMxZi00NTk2LWIzNDEtOWZiYWYxZjc2MTgxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1012_.jpg
 moviebg: https://m.media-amazon.com/images/M/MV5BYjRjYjlmMTktODQ3NC00NTZjLTk2YjctMmFkZTY5NmFmYjExXkEyXkFqcGdeQXVyODEwMTc2ODQ@._V1_.jpg
 trailer: https://www.youtube.com/embed/2QKg5SZ_35I
 fushaarid: "18722"
 imdbId: tt2283362
+rating: "6.9"
 ---
 
 {{< movie url= "https://vidstream.to/embed/bqzTNz2nA7">}}

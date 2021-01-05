@@ -1,13 +1,10 @@
 ---
 date: 2019-10-15
-groups: movie
 draft: false
 title: "A Cinderella Story: Christmas Wish"
 artitle: قصة سندريلا أمنية الكريسماس
 slug: A Cinderella Story Christmas Wish 2019
 year: "2019"
-duration: 1h 25min
-rating: "5.4"
 tags:
   - Fantasy
 story: Kat Emerson could really use a Christmas miracle! The aspiring
@@ -28,19 +25,22 @@ stars:
   - Gregg Sulkin
   - Isabella Gomez
 imdbid: tt10326928
-parentsguide: 12
-moviecover: https://m.media-amazon.com/images/M/MV5BNTE0OTY2NWQtOWU2MC00ODUwLWE5YmYtZDVjNTdjOWY2ODViXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY268_CR4,0,182,268_AL_.jpg
-moviebg: https://m.media-amazon.com/images/M/MV5BNTE0OTY2NWQtOWU2MC00ODUwLWE5YmYtZDVjNTdjOWY2ODViXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY268_CR4,0,182,268_AL_.jpg
-trailer: https://www.youtube.com/embed/smUhoKhozPw
+moviecover: https://m.media-amazon.com/images/M/MV5BNTE0OTY2NWQtOWU2MC00ODUwLWE5YmYtZDVjNTdjOWY2ODViXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX426_.jpg
+moviebg: https://m.media-amazon.com/images/M/MV5BNTE0OTY2NWQtOWU2MC00ODUwLWE5YmYtZDVjNTdjOWY2ODViXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX426_.jpg
 fushaarid: "28951"
+server2: https://vidlox.me/embed-uop5yx94x5hp.html
+server3: https://uqload.com/embed-lf92faabfuh8.html
+server4: https://embed.mystream.to/qn5hvfzuv9je
 fushaarserver:
   q240: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/28951/28951-240p.mp4
   q480: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/28951/28951-480p.mp4
   q1080: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/28951/28951.mp4
-server2: https://vidlox.me/embed-uop5yx94x5hp.html
-server3: https://uqload.com/embed-lf92faabfuh8.html
-server4: https://embed.mystream.to/qn5hvfzuv9je
+groups: movie
+duration: 1h 25min
+parentsguide: 12
+trailer: https://www.youtube.com/embed/smUhoKhozPw
 imdbId: tt10326928
+rating: "5.4"
 ---
 
 {{< movie url= "https://vidstream.to/embed/DDYGpEkl2C/?vclid=3f95b68d8824d675fd8c7c1211c7c34cd1a955deeaac3d423c3596dbGfffuapCfufBfumMrZxmNPPuPQqKnfisUfuBufupbDfufBfuiovPaqxPLRzuBufuHrPgufBfuCXpvRsZKNnsyKpBQKGpgufs">}}

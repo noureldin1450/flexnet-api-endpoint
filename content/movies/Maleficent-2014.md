@@ -7,7 +7,6 @@ artitle: المؤذ
 slug: Maleficent 2014
 year: "2014"
 duration: 1h 37min
-rating: "7.0"
 tags:
   - Action
   - Adventure
@@ -23,11 +22,12 @@ stars:
   - Sharlto Copley
 imdbid: tt1587310
 parentsguide: 10
-moviecover: https://m.media-amazon.com/images/M/MV5BMjAwMzAzMzExOF5BMl5BanBnXkFtZTgwOTcwMDA5MTE@._V1_UX182_CR0,0,182,268_AL_.jpg
+moviecover: https://m.media-amazon.com/images/M/MV5BMjAwMzAzMzExOF5BMl5BanBnXkFtZTgwOTcwMDA5MTE@._V1_FMjpg_UY863_.jpg
 moviebg: https://m.media-amazon.com/images/M/MV5BMTkwNDI1NzU1Nl5BMl5BanBnXkFtZTgwOTIyMjI2MTE@._V1_.jpg
 trailer: https://www.youtube.com/embed/JIIgXEGAZgE
 fushaarid: "2176"
 imdbId: tt1587310
+rating: "7.0"
 ---
 
 {{< movie url= "https://vidstream.to/embed/LjME3R1XfK/?vclid=e2a1e84708033fc6a7d899b8f254a84534d569604c0604e398a1202eKRRRzqsMTzRVRzmDlSPicYbCiOYlVeYwlTzVzRzlxBRzRVRzClxQsURMAPPRzVzRzUlmRzRVRzQEscXQbMMzMehYCRKiaRzRi">}}

@@ -1,11 +1,11 @@
 ---
-date: 2019-10-25
-draft: true
+date: 2020-12-30
+groups: movie
+draft: false
 title: A Good Woman Is Hard to Find
 slug: " A Good Woman Is Hard to Find 2019"
 year: "2019"
 duration: 1h 37min
-rating: "6.0"
 tags:
   - Thriller
   - Crime
@@ -15,9 +15,13 @@ stars:
   - Sarah Bolger
   - Edward Hogg
   - Andrew Simpson
-moviecover: https://m.media-amazon.com/images/M/MV5BYzE0ODNmOTktNzdlMy00MjUyLWEyMzYtMGU3N2U0YTdkMGJhXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UY268_CR1,0,182,268_AL_.jpg
+imdbid: tt6624144
+parentsguide: 18
+moviecover: https://m.media-amazon.com/images/M/MV5BZjU3Zjg1MjgtOGEyNS00ZmYxLThlYmItZGY2Mjg1NzJkNTgyXkEyXkFqcGdeQXVyMzg4NDU4OQ@@._V1_FMjpg_UY859_.jpg
+moviebg: https://m.media-amazon.com/images/M/MV5BOWJkOTc5OTAtYTg1Yy00ZTFiLWFjYzUtNzBlNGUyYzk5NWQxXkEyXkFqcGdeQXVyMzg4NDU4OQ@@._V1_FMjpg_UX1280_.jpg
 trailer: https://www.youtube.com/embed/d_VpWADV_Cg
 imdbId: tt6624144
+rating: "6.0"
 ---
 
 {{< movie url= "https://vidstream.to/embed/NwW1faUOVk/?vclid=c61fdf753a0f3787e09106f6e4dd1f0541d7883ed88f6a6015c9ac9acFFFoztjCoFmFopHiqQEztSnuRmjFpmrGpComoFodOTFoFmFoRdOntUFjZppFomoFoUdgFoFmFonMtxAnQjjojSNuRFeHiFoFH">}}

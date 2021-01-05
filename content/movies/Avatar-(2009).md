@@ -6,7 +6,6 @@ title: Avatar
 slug: Avatar 2009
 year: "2009"
 duration: 2h 42min
-rating: "7.8"
 tags:
   - Action
   - Adventure
@@ -26,11 +25,12 @@ stars:
   - Sigourney Weaver
 imdbid: tt0499549
 parentsguide: 13
-moviecover: https://m.media-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_UX182_CR0,0,182,268_AL_.jpg
+moviecover: https://m.media-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_FMjpg_UX510_.jpg
 moviebg: https://m.media-amazon.com/images/M/MV5BMjA4MzQ2ODE2M15BMl5BanBnXkFtZTcwNzk0MTUzNA@@._V1_SX1777_CR0,0,1777,999_AL_.jpg
 trailer: https://www.youtube.com/embed/6ziBFh3V1aM
 fushaarid: "3651"
 imdbId: tt0499549
+rating: "7.8"
 ---
 
 {{< movie url= "https://vidstream.to/embed/je10w1ojJU/?vclid=6f5db67be760cf828af525ca036653642c9f04d385b18d46080aee4dRfffgwCdfgfBfguUvxDuOQQgQslTtfoMEfgBgfgCbyfgfBfgwbXCdQSfQzSAgBgfgNvQWgfBfgQfFTlvQSMHEshGZUnfqSffgfM">}}

@@ -1,7 +1,7 @@
 ---
 date: 2020-06-21
 groups: tv-show
-draft: false
+draft: true
 title: "Chernobyl "
 slug: Chernobyl 2019
 year: "2019"

@@ -5,7 +5,6 @@ title: "Spider-Man: Homecoming "
 artitle: "الرجل العنكبوت: العودة للوطن"
 slug: Spider Man Homecoming 2017
 year: "2017"
-duration: "2h 13min "
 rating: "7.4"
 tags:
   - Action
@@ -23,18 +22,19 @@ stars:
   - Michael Keaton
   - Robert Downey Jr
 imdbid: tt2250912
-parentsguide: 13
-moviecover: https://m.media-amazon.com/images/M/MV5BNTk4ODQ1MzgzNl5BMl5BanBnXkFtZTgwMTMyMzM4MTI@._V1_UX182_CR0,0,182,268_AL_.jpg
+moviecover: https://m.media-amazon.com/images/M/MV5BNTk4ODQ1MzgzNl5BMl5BanBnXkFtZTgwMTMyMzM4MTI@._V1_FMjpg_UX674_.jpg
 moviebg: https://m.media-amazon.com/images/M/MV5BMjQyODIzNjIzMF5BMl5BanBnXkFtZTgwODMzNTMzMjI@._V1_SX1777_CR0,0,1777,744_AL_.jpg
-trailer: https://www.youtube.com/embed/n9DwoQ7HWvI
 server1: ""
 fushaarid: "16876"
+server2: ""
+server3: ""
+server4: ""
 fushaarserver:
   q240: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/16876/16876-240p.mp4
   q480: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/16876/16876-480p.mp4
   q1080: https://storage.googleapis.com/neon-reporter-274200.appspot.com/fushaar/media/16876/16876.mp4
-server2: ""
-server3: ""
-server4: ""
 server5: ""
+duration: "2h 13min "
+parentsguide: 13
+trailer: https://www.youtube.com/embed/n9DwoQ7HWvI
 ---

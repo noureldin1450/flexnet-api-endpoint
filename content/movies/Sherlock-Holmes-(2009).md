@@ -1,7 +1,7 @@
 ---
-date: 2009-12-25
+date: 2020-12-30
 groups: movie
-draft: true
+draft: false
 title: Sherlock Holmes
 slug: Sherlock Holmes 2009
 year: "2009"
@@ -17,7 +17,10 @@ stars:
   - Rachel McAdams
   - Jude Law
   - Robert Downey Jr
-moviecover: https://m.media-amazon.com/images/M/MV5BMTg0NjEwNjUxM15BMl5BanBnXkFtZTcwMzk0MjQ5Mg@@._V1_UX182_CR0,0,182,268_AL_.jpg
+imdbid: tt0988045
+parentsguide: 13
+moviecover: https://m.media-amazon.com/images/M/MV5BMTg0NjEwNjUxM15BMl5BanBnXkFtZTcwMzk0MjQ5Mg@@._V1_FMjpg_UX1205_.jpg
+moviebg: https://m.media-amazon.com/images/M/MV5BMTI4MTE4MzA4M15BMl5BanBnXkFtZTcwMTMwMjUwMw@@._V1_FMjpg_UX1280_.jpg
 trailer: https://www.youtube.com/embed/J7nJksXDBWc
 imdbId: tt0988045
 rating: "7.6"

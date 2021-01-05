@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 
-logo_url: https://flexnet.ga/images/logo/flexnet.png
+# logo_url: https://flexnet.ga/images/logo/flexnet.png
 
 # This line should *not* be indented
 # publish_mode: editorial_workflow

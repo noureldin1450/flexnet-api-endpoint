@@ -2,7 +2,7 @@
 date: 2021-01-07
 groups: movie
 draft: false
-boxoffices: "2020"
+boxoffices: null
 title: Inside Out
 artitle: "من الداخل إلى الخارج "
 slug: Inside Out 2015

@@ -50,6 +50,11 @@ ignoreErrors = ["error-output-taxonomy"]
     isPlainText = true
     mediaType = "application/json"
     notAlternative = true
+  [outputFormats.sitemap]
+    baseName = "sitemap"
+    isPlainText = true
+    mediaType = "application/json"
+    notAlternative = true
   [outputFormats.alltvshows]
     baseName = "alltvshows"
     isPlainText = true
@@ -59,7 +64,7 @@ ignoreErrors = ["error-output-taxonomy"]
 [outputs]
     page = ["json","HTML"] # A player
     section = ["json","HTML"] # All players
-    home = ["json","HTML", "announcements","tags","movies","slugs","homepagetags", "moviespage","tvshows","alltvshows"] # Everything
+    home = ["json","HTML", "announcements","tags","movies","slugs","homepagetags", "moviespage","tvshows","alltvshows","sitemap"] # Everything
     term = ["json"] # All items from a sport
 
 [minify]

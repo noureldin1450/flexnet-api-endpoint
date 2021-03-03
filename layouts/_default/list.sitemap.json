@@ -1,0 +1,17 @@
+{
+    {{ with .Site.GetPage "/movies" }}
+       "Moviescount": "{{ len .Pages }}",
+    {{end}}
+    
+    "sitemap":[
+        {{ with .Site.GetPage "/movies" }}
+            {{- range $index, $e:= .Pages -}}
+            {{ if $index }},{{end}}
+            { 
+                "title": {{ .Params.title | jsonify }},
+                "slug": {{ replace .Permalink "index.json" "" | relURL | first 400 | jsonify }}
+            }
+            {{end}}
+        {{end}}
+    ]
+}

@@ -2,7 +2,7 @@
 date: 2020-12-30
 groups: movie
 draft: false
-boxoffices: "2020"
+boxoffices: null
 title: Tenet
 artitle: عقيدة
 slug: Tenet 2020

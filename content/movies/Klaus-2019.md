@@ -1,7 +1,7 @@
 ---
 date: 2019-11-08
 draft: false
-boxoffices: "2020"
+boxoffices: null
 artitle: كلاوس
 slug: Klaus 2019
 arstory: كلاوس Klaus يتناول العمل قصة جاسبر والذي يشعر طيلة الوقت أنه افشل طالب

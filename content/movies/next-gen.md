@@ -2,7 +2,7 @@
 date: 2021-02-21
 groups: movie
 draft: false
-boxoffices: "2020"
+boxoffices: null
 title: Next Gen
 slug: Next Gen 2018
 year: "2018"

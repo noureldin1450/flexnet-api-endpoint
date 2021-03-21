@@ -2,7 +2,7 @@
 date: 2021-02-08
 groups: movie
 draft: false
-boxoffices: "2020"
+boxoffices: null
 title: The Dig
 slug: The Dig 2021
 year: "2021"

@@ -2,7 +2,7 @@
 date: 2021-01-04
 groups: movie
 draft: false
-boxoffices: "2020"
+boxoffices: null
 title: Enola Holmes
 slug: Enola Holmes 2020
 year: "2020"

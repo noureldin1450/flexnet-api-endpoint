@@ -19,7 +19,6 @@ duration: 1h 24min
 rating: "6.4"
 tags:
   - Comedy
-  - Reality-TV
 story: This mix of a scripted buddy comedy road movie and a real hidden camera
   prank show follows the outrageous misadventures of two buds stuck in a rut who
   embark on a cross-country road trip to NYC. The storyline sets up shocking

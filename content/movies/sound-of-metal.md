@@ -2,6 +2,7 @@
 date: 2021-03-31
 groups: movie
 draft: false
+boxoffices: "2020"
 title: Sound of Metal
 slug: Sound of Metal 2019
 year: "2019"

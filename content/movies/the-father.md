@@ -2,6 +2,7 @@
 date: 2021-04-09
 groups: movie
 draft: false
+boxoffices: "2020"
 title: The Father
 slug: The Father 2020
 year: "2020"

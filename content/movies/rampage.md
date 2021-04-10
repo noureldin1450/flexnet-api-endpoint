@@ -2,6 +2,7 @@
 date: 2021-04-10
 groups: movie
 draft: false
+boxoffices: "2020"
 title: Rampage
 slug: Rampage 2018
 year: "2018"

@@ -2,7 +2,7 @@
 date: 2021-02-18
 groups: movie
 draft: false
-boxoffices: "2020"
+boxoffices: null
 title: Willy's Wonderland
 slug: Willys Wonderland 2021
 year: "2021"

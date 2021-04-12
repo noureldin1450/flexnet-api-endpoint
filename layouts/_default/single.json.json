@@ -1,7 +1,11 @@
 {
     "title": {{ .Params.title | jsonify }},
     "type": {{ .Params.groups | jsonify }},
-    "trailer": {{ .Params.trailer | jsonify }},
+
+    {{ $YTID:= replace .Params.trailer "https://www.youtube.com/embed/" "" }}
+
+    "trailer": {{ $YTID | jsonify }},
+
     "year": {{ .Params.year | jsonify }},
     "date": {{ .Params.date | jsonify }},
     "slug": {{ .Params.slug | jsonify }},

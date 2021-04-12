@@ -290,13 +290,13 @@ collections:
           required: false
         }
         
-      - {
-          label: "Arabic Movie Title",
-          name: "artitle",
-          widget: "string",
-          hint: "Movie motherfucken Name",
-          required: false
-        }
+      # - {
+      #     label: "Arabic Movie Title",
+      #     name: "artitle",
+      #     widget: "string",
+      #     hint: "Movie motherfucken Name",
+      #     required: false
+      #   }
 
       - {
           label: "Movie Title + Movie Year",
@@ -368,12 +368,13 @@ collections:
           widget: "text",
           required: false
         }
-      - {
-          label: "Arabic Movie Story",
-          name: "arstory",
-          widget: "text",
-          required: false
-        }
+        
+      # - {
+      #     label: "Arabic Movie Story",
+      #     name: "arstory",
+      #     widget: "text",
+      #     required: false
+      #   }
       
       - {
           label: "Movie Stars",
@@ -419,7 +420,7 @@ collections:
           label: "Movie Trailer",
           name: "trailer",
           widget: "string",
-          default: "https://www.youtube.com/embed/",
+          default: "",
           hint: "get any youtube trailer for that movie and copy the video Id and added it after the /embed/ in the cms",
           required: false
         }

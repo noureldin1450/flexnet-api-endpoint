@@ -1,10 +1,14 @@
 ---
+draft: false
+stars:
+  - Vince Vaughn
+  - Kathryn Newton
+  - Celeste O'Connor
+artitle: ""
 date: 2020-12-08
 groups: movie
-draft: false
-boxoffices: "2020"
+boxoffices: null
 title: " Freaky"
-artitle: ""
 slug: " Freaky 2020"
 year: "2020"
 duration: 1h 42min
@@ -16,10 +20,6 @@ tags:
 story: "After swapping bodies with a deranged serial killer, a young girl in
   high school discovers she has less than 24 hours before the change becomes
   permanent. "
-stars:
-  - Vince Vaughn
-  - Kathryn Newton
-  - Celeste O'Connor
 imdbid: tt10919380
 parentsguide: 18
 moviecover: https://m.media-amazon.com/images/M/MV5BMTRkYmJlY2ItNmFlZi00OWVhLTg1ZTctOGE0MjM5ZGMwMmY4XkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_FMjpg_UX758_.jpg

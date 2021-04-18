@@ -2,7 +2,7 @@
 date: 2021-03-17
 groups: movie
 draft: false
-boxoffices: "2020"
+boxoffices: null
 title: Coming 2 America
 slug: Coming 2 America 2021
 year: "2021"

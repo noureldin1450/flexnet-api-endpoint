@@ -2,7 +2,7 @@
 date: 2021-03-21
 groups: movie
 draft: false
-boxoffices: "2020"
+boxoffices: null
 title: Zack Snyder’s Justice League
 slug: Zack Snyders Justice League 2021
 year: "2021"

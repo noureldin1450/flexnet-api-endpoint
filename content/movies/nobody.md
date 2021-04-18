@@ -1,7 +1,7 @@
 ---
 date: 2021-04-15
 groups: movie
-draft: true
+draft: false
 boxoffices: "2020"
 title: Nobody
 slug: Nobody 2021

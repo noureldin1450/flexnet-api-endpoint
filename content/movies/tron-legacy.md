@@ -2,6 +2,7 @@
 date: 2021-04-01
 groups: movie
 draft: false
+boxoffices: "2020"
 title: "TRON: Legacy"
 slug: TRON Legacy 2010
 year: "2010"

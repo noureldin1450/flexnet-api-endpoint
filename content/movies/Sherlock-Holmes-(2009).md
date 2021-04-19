@@ -2,6 +2,7 @@
 date: 2020-12-30
 groups: movie
 draft: false
+boxoffices: "2020"
 title: Sherlock Holmes
 slug: Sherlock Holmes 2009
 year: "2009"

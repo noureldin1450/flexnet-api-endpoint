@@ -2,7 +2,7 @@
 date: 2021-03-28
 groups: movie
 draft: false
-boxoffices: "2020"
+boxoffices: null
 title: Step Brothers
 slug: Step Brothers 2008
 year: "2008"

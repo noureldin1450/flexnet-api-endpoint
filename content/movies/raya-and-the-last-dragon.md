@@ -2,7 +2,7 @@
 date: 2021-03-17
 groups: movie
 draft: false
-boxoffices: "2020"
+boxoffices: null
 title: Raya and the Last Dragon
 slug: Raya and the Last Dragon 2021
 year: "2021"
@@ -24,5 +24,5 @@ imdbid: tt5109280
 parentsguide: 12
 moviecover: https://m.media-amazon.com/images/M/MV5BZWNiOTc4NGItNGY4YS00ZGNkLThkOWEtMDE2ODcxODEwNjkwXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1085_.jpg
 moviebg: https://m.media-amazon.com/images/M/MV5BYjJkOWJhZWItYTljNi00Y2QyLWEwNDYtZWUxYTg4NDkzZGQ0XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UX1280_.jpg
-trailer: https://www.youtube.com/embed/RxOqHqKdLhw
+trailer: RxOqHqKdLhw
 ---

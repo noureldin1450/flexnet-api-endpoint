@@ -2,7 +2,7 @@
 date: 2020-12-30
 groups: movie
 draft: false
-boxoffices: "2020"
+boxoffices: null
 title: Wonder Woman 1984
 slug: Wonder Woman 1984 2020
 year: "2020"

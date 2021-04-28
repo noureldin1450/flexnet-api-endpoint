@@ -2,7 +2,7 @@
 date: 2021-04-21
 groups: movie
 draft: false
-boxoffices: "2020"
+boxoffices: null
 title: Grand Isle
 slug: Grand Isle 2019
 year: "2019"

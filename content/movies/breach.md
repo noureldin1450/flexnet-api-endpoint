@@ -2,6 +2,7 @@
 date: 2021-04-28
 groups: movie
 draft: false
+boxoffices: "2020"
 title: Breach
 slug: Breach 2020
 year: "2020"

@@ -2,7 +2,7 @@
 date: 2021-01-04
 groups: movie
 draft: false
-boxoffices: "2020"
+boxoffices: null
 title: Pinocchio
 slug: Pinocchio 2019
 year: "2019"

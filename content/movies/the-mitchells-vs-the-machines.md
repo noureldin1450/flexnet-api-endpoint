@@ -2,6 +2,7 @@
 date: 2021-05-11
 groups: movie
 draft: false
+boxoffices: "2020"
 title: The Mitchells vs the Machines
 slug: The Mitchells vs the Machines 2021
 year: "2021"

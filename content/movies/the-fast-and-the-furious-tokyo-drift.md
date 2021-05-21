@@ -22,7 +22,7 @@ stars:
   - Brandon Brendel
 imdbid: tt0463985
 parentsguide: 13
-moviecover: https://m.media-amazon.com/images/M/MV5BMjAyODkwNTIyOV5BMl5BanBnXkFtZTYwMzI5NTU3._V1_FMjpg_UX485_.jpg
-moviebg: https://m.media-amazon.com/images/M/MV5BMTQ2NTMxODEyNV5BMl5BanBnXkFtZTcwMDgxMjA0MQ@@._V1_FMjpg_UY866_.jpg
+moviecover: https://m.media-amazon.com/images/M/MV5BMTQ2NTMxODEyNV5BMl5BanBnXkFtZTcwMDgxMjA0MQ@@._V1_FMjpg_UY866_.jpg
+moviebg: https://m.media-amazon.com/images/M/MV5BMjAyODkwNTIyOV5BMl5BanBnXkFtZTYwMzI5NTU3._V1_FMjpg_UX485_.jpg
 trailer: mgb-T6PvuvY
 ---
